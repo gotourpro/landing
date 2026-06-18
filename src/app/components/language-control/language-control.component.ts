@@ -1,4 +1,4 @@
-import { Component, Input, ViewChild } from '@angular/core';
+import { Component, computed, inject, Input, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Language } from '../../constants/languages.constants';
 import { RippleModule } from 'primeng/ripple';
@@ -7,6 +7,7 @@ import { ListboxModule } from 'primeng/listbox';
 import { PopoverModule } from 'primeng/popover';
 import { CommonModule } from '@angular/common';
 import { LocalizationService } from '../../services/localization.service';
+import { LayoutService } from '../../services/layout.service';
 
 @Component({
     selector: 'app-language-control',
@@ -30,7 +31,8 @@ export class LanguageControlComponent {
 
     public languages: any = Language;
     public selected: any = this.languages[0];
-
+    public layoutService = inject(LayoutService);
+    public isMobile = computed(() => this.layoutService.isMobile());
 
     constructor(
         private localization: LocalizationService,

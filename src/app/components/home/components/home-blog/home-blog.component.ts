@@ -27,12 +27,11 @@ export class HomeBlogComponent {
         public localization: LocalizationService
     ) { }
 
-    layoutService = inject(LayoutService);
     public blogItems: IBlogPost[] = [];
-    isMobile = computed(() => this.layoutService.isMobile());
-    isDarkTheme = computed(() => this.layoutService?.isDarkTheme());
-
-    isWide = computed(() => this.layoutService.isWide());
+    public layoutService = inject(LayoutService);
+    public isMobile = computed(() => this.layoutService.isMobile());
+    public isDarkTheme = computed(() => this.layoutService?.isDarkTheme());
+    public isWide = computed(() => this.layoutService.isWide());
 
     public breakpoints = {
         1200: { size: '50%' },
