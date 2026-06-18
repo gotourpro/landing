@@ -11,22 +11,33 @@ import { LocalizationService } from "../../../../services/localization.service";
 import { TranslateModule } from "@ngx-translate/core";
 import { RouterLink } from "@angular/router";
 import { GalleriaComponent } from "../../../galleria/galleria.component";
+import { UICarouselItem } from "../../../UI/carousel-item";
+import { UICarousel } from "../../../UI/carousel";
 @Component({
     selector: "app-home-featured-tours",
     standalone: true,
     templateUrl: './home-featured-tours.component.html',
     styleUrls: ['./home-featured-tours.component.scss'],
-    imports: [CommonModule, RouterLink, GalleriaComponent, AnimatedContainer, TranslateModule, GridCardComponent, ParallaxDirective],
+    imports: [
+        CommonModule,
+        RouterLink,
+        GalleriaComponent,
+        AnimatedContainer,
+        TranslateModule,
+        GridCardComponent,
+        ParallaxDirective,
+        UICarousel,
+        UICarouselItem
+    ],
 })
 export class HomeFeaturedToursComponent {
     @ViewChild(GalleriaComponent)
 
     public galleria!: GalleriaComponent;
-    layoutService = inject(LayoutService);
+    public layoutService = inject(LayoutService);
     public twMerge = twMerge;
-    isDarkTheme = computed(() => this.layoutService?.isDarkTheme());
-    isMobile = computed(() => this.layoutService.isMobile());
-    isWide = computed(() => this.layoutService.isWide());
+    public isDarkTheme = computed(() => this.layoutService?.isDarkTheme());
+    public isMobile = computed(() => this.layoutService.isMobile());
 
     public getDelay(index: number): number {
         return index * 100;
@@ -38,6 +49,23 @@ export class HomeFeaturedToursComponent {
         private toursService: ToursService,
         public localization: LocalizationService
     ) { }
+
+    public breakpoints = {
+  576: {
+    size: '100%',
+    spacing: '.125rem'
+  },
+
+  992: {
+    size: '50%',
+    spacing: '24px'
+  },
+
+  1200: {
+    size: '33.333%',
+    spacing: '24px'
+  }
+};
 
 
     public ngOnInit(): void {

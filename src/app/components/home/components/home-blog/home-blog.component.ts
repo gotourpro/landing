@@ -31,12 +31,23 @@ export class HomeBlogComponent {
     public layoutService = inject(LayoutService);
     public isMobile = computed(() => this.layoutService.isMobile());
     public isDarkTheme = computed(() => this.layoutService?.isDarkTheme());
-    public isWide = computed(() => this.layoutService.isWide());
 
     public breakpoints = {
-        1200: { size: '50%' },
-        768: { size: '100%' }
-    };
+        576: {
+            size: '100%',
+            spacing: '.125rem'
+        },
+
+        992: {
+            size: '50%',
+            spacing: '24px'
+        },
+
+        1200: {
+            size: '33.333%',
+            spacing: '24px'
+        }
+    }
 
     public ngOnInit(): void {
         this.blogService
