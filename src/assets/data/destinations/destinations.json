@@ -1,0 +1,280 @@
+[
+    {
+        "id": "dali",
+        "slug": "dali",
+        "title": {
+            "en": "Dali",
+            "ru": "Дали",
+            "zh-Hans": "大理"
+        },
+        "titleHeader": {
+            "en": "Dali Ancient Town",
+            "ru": "Старый город Дали",
+            "zh-Hans": "大理古城"
+        },
+        "destinationHeader": {
+            "en": "Discover Dali",
+            "ru": "Откройте для себя Дали",
+            "zh-Hans": "探索大理"
+        },
+        "description": {
+            "en": "A charming ancient town between Erhai Lake and Cangshan Mountains.",
+            "ru": "Очаровательный древний город между озером Эрхай и горами Цаншань.",
+            "zh-Hans": "位于洱海与苍山之间的迷人古城。"
+        },
+        "content": {
+            "en": "Dali is one of Yunnan's most popular destinations, known for its history, Bai culture, and beautiful landscapes.",
+            "ru": "Дали — одно из самых популярных направлений Юньнани, известное своей историей, культурой народа бай и живописными пейзажами.",
+            "zh-Hans": "大理是云南最受欢迎的旅游目的地之一，以其历史、白族文化和自然风光而闻名。"
+        },
+        "country": {
+            "en": "China",
+            "ru": "Китай",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "en": "Dali",
+            "ru": "Дали",
+            "zh-Hans": "大理"
+        },
+        "coordinates": [
+            100.2676,
+            25.6065
+        ],
+        "address": {
+            "en": "Dali, Yunnan, China",
+            "ru": "Дали, Юньнань, Китай",
+            "zh-Hans": "中国云南大理"
+        },
+        "language": {
+            "en": "Chinese",
+            "ru": "Китайский",
+            "zh-Hans": "中文"
+        },
+        "currency": {
+            "en": "Chinese Yuan (CNY)",
+            "ru": "Китайский юань (CNY)",
+            "zh-Hans": "人民币（CNY）"
+        },
+        "image": "assets/images/destination/424x713.svg",
+        "images": [
+            "assets/images/destination/424x713.svg",
+            "assets/images/destination/424x713.svg",
+            "assets/images/destination/424x713.svg"
+        ],
+        "featured": true,
+        "popular": true
+    },
+    {
+        "id": "lijiang",
+        "slug": "lijiang",
+        "title": {
+            "en": "Lijiang",
+            "ru": "Лицзян",
+            "zh-Hans": "丽江"
+        },
+        "titleHeader": {
+            "en": "Lijiang Old Town",
+            "ru": "Старый город Лицзян",
+            "zh-Hans": "丽江古城"
+        },
+        "destinationHeader": {
+            "en": "Explore Lijiang",
+            "ru": "Исследуйте Лицзян",
+            "zh-Hans": "探索丽江"
+        },
+        "description": {
+            "en": "UNESCO World Heritage old town surrounded by stunning mountain scenery.",
+            "ru": "Старый город ЮНЕСКО, окружённый великолепными горными пейзажами.",
+            "zh-Hans": "被壮丽山景环绕的世界文化遗产古城。"
+        },
+        "country": {
+            "en": "China",
+            "ru": "Китай",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "en": "Lijiang",
+            "ru": "Лицзян",
+            "zh-Hans": "丽江"
+        },
+        "coordinates": [
+            100.233,
+            26.8721
+        ],
+        "address": {
+            "en": "Lijiang, Yunnan, China",
+            "ru": "Лицзян, Юньнань, Китай",
+            "zh-Hans": "中国云南丽江"
+        },
+        "language": {
+            "en": "Chinese",
+            "ru": "Китайский",
+            "zh-Hans": "中文"
+        },
+        "currency": {
+            "en": "Chinese Yuan (CNY)",
+            "ru": "Китайский юань (CNY)",
+            "zh-Hans": "人民币（CNY）"
+        },
+        "image": "assets/images/destination/424x713.svg",
+        "images": [
+            "assets/images/destination/424x713.svg",
+            "assets/images/destination/424x713.svg",
+            "assets/images/destination/424x713.svg"
+        ],
+        "featured": true,
+        "popular": true
+    },
+    {
+        "id": "shangri-la",
+        "slug": "shangri-la",
+        "title": {
+            "en": "Shangri-La",
+            "ru": "Шангри-Ла",
+            "zh-Hans": "香格里拉"
+        },
+        "titleHeader": {
+            "en": "Shangri-La",
+            "ru": "Шангри-Ла",
+            "zh-Hans": "香格里拉"
+        },
+        "destinationHeader": {
+            "en": "Journey to Shangri-La",
+            "ru": "Путешествие в Шангри-Ла",
+            "zh-Hans": "前往香格里拉"
+        },
+        "description": {
+            "en": "Gateway to Tibetan culture and breathtaking Himalayan landscapes.",
+            "ru": "Ворота в тибетскую культуру и захватывающие гималайские пейзажи.",
+            "zh-Hans": "通往藏族文化和壮丽高原风光的大门。"
+        },
+        "country": {
+            "en": "China",
+            "ru": "Китай",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "en": "Shangri-La",
+            "ru": "Шангри-Ла",
+            "zh-Hans": "香格里拉"
+        },
+        "coordinates": [
+            99.706,
+            27.8268
+        ],
+        "address": {
+            "en": "Shangri-La, Yunnan, China",
+            "ru": "Шангри-Ла, Юньнань, Китай",
+            "zh-Hans": "中国云南香格里拉"
+        },
+        "language": {
+            "en": "Chinese",
+            "ru": "Китайский",
+            "zh-Hans": "中文"
+        },
+        "currency": {
+            "en": "Chinese Yuan (CNY)",
+            "ru": "Китайский юань (CNY)",
+            "zh-Hans": "人民币（CNY）"
+        },
+        "image": "assets/images/destination/424x713.svg",
+        "images": [
+            "assets/images/destination/424x713.svg",
+            "assets/images/destination/424x713.svg",
+            "assets/images/destination/424x713.svg"
+        ],
+        "featured": true,
+        "popular": true
+    },
+    {
+        "id": "kunming",
+        "slug": "kunming",
+        "title": {
+            "en": "Kunming",
+            "ru": "Куньмин",
+            "zh-Hans": "昆明"
+        },
+        "titleHeader": {
+            "en": "Kunming",
+            "ru": "Куньмин",
+            "zh-Hans": "昆明"
+        },
+        "destinationHeader": {
+            "en": "Discover Kunming",
+            "ru": "Откройте для себя Куньмин",
+            "zh-Hans": "探索昆明"
+        },
+        "description": {
+            "en": "The City of Eternal Spring and the gateway to Yunnan.",
+            "ru": "Город вечной весны и ворота в провинцию Юньнань.",
+            "zh-Hans": "春城昆明，云南之门。"
+        },
+        "content": {
+            "en": "Kunming is famous for its mild climate, vibrant culture, and proximity to some of China's most beautiful natural attractions.",
+            "ru": "Куньмин известен мягким климатом, богатой культурой и близостью к одним из самых красивых природных достопримечательностей Китая.",
+            "zh-Hans": "昆明以宜人的气候、多元文化和丰富的自然景观而闻名。"
+        },
+        "contentSecond": {
+            "en": "Explore the Stone Forest, Dianchi Lake, traditional markets, and experience the unique atmosphere of Yunnan's capital.",
+            "ru": "Посетите Каменный лес, озеро Дяньчи, традиционные рынки и почувствуйте уникальную атмосферу столицы Юньнани.",
+            "zh-Hans": "游览石林、滇池和传统市场，感受云南省会独特的魅力。"
+        },
+        "country": {
+            "en": "China",
+            "ru": "Китай",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "en": "Kunming",
+            "ru": "Куньмин",
+            "zh-Hans": "昆明"
+        },
+        "coordinates": [
+            102.8332,
+            24.8797
+        ],
+        "address": {
+            "en": "Kunming, Yunnan, China",
+            "ru": "Куньмин, Юньнань, Китай",
+            "zh-Hans": "中国云南昆明"
+        },
+        "language": {
+            "en": "Chinese",
+            "ru": "Китайский",
+            "zh-Hans": "中文"
+        },
+        "currency": {
+            "en": "Chinese Yuan (CNY)",
+            "ru": "Китайский юань (CNY)",
+            "zh-Hans": "人民币（CNY）"
+        },
+        "distance": {
+            "en": "0 km",
+            "ru": "0 км",
+            "zh-Hans": "0公里"
+        },
+        "image": "assets/images/destination/424x713.svg",
+        "images": [
+            "assets/images/destination/424x713.svg",
+            "assets/images/destination/424x713.svg",
+            "assets/images/destination/424x713.svg"
+        ],
+        "questions": [
+            {
+                "question": {
+                    "en": "When is the best time to visit Kunming?",
+                    "ru": "Когда лучше всего посещать Куньмин?",
+                    "zh-Hans": "什么时候最适合游览昆明？"
+                },
+                "answer": {
+                    "en": "Kunming enjoys a mild climate year-round, making it an excellent destination in every season.",
+                    "ru": "Благодаря мягкому климату Куньмин подходит для путешествий в любое время года.",
+                    "zh-Hans": "昆明四季如春，一年四季都适合旅游。"
+                }
+            }
+        ],
+        "featured": true,
+        "popular": true
+    }
+]

@@ -1,0 +1,212 @@
+<p-confirmdialog
+  #error
+  key="error"
+  [appendTo]="'body'"
+  maskStyleClass=""
+  [baseZIndex]="40000"
+  [autoZIndex]="true"
+>
+  <ng-template
+    #headless
+    let-message
+  >
+    <div class="flex flex-col items-center p-4 border-round">
+      <div
+        class="rounded-full inline-flex justify-center items-center h-24 w-24"
+        style="background: #f87171;"
+      >
+        <i
+          class="pi pi-times text-5xl"
+          style="color: #fff;"
+        ></i>
+      </div>
+      <span class="font-bold text-2xl block mb-2 mt-4">
+        {{ message.header || 'Произошла ошибка' }}
+      </span>
+      <p class="mb-0">{{ message.message || 'Повторите попытку позднее' }}</p>
+      <div class="flex items-center gap-2 mt-4">
+        <button
+          pButton
+          label="Закрыть"
+          (click)="error.onAccept()"
+          class="w-104 "
+        >
+        </button>
+      </div>
+    </div>
+  </ng-template>
+</p-confirmdialog>
+
+
+<p-confirmdialog
+  #success
+  key="success"
+  [appendTo]="'body'"
+  maskStyleClass=""
+  [baseZIndex]="40000"
+  [autoZIndex]="true"
+>
+  <ng-template
+    #headless
+    let-message
+  >
+    <div class="flex flex-col items-center p-4 border-round">
+      <div
+        class="rounded-full inline-flex justify-center items-center h-24 w-24"
+        style="background: #1ea97c;"
+      >
+        <i
+          class="pi pi-check text-5xl"
+          style="color: #fff;"
+        ></i>
+      </div>
+      <span class="font-bold text-2xl block mb-2 mt-4">
+        {{ message.header || 'Успешно' }}
+      </span>
+      <p class="mb-0">{{ message.message || 'Данные сохранены' }}</p>
+      <div class="flex items-center gap-2 mt-4">
+        <button
+          pButton
+          label="Закрыть"
+          (click)="success.onAccept()"
+          class="w-104 "
+        >
+        </button>
+      </div>
+    </div>
+  </ng-template>
+</p-confirmdialog>
+
+<p-confirmdialog
+  #confirm
+  key="confirm"
+  [appendTo]="'body'"
+  maskStyleClass=""
+  [baseZIndex]="40000"
+  [autoZIndex]="true"
+>
+  <ng-template
+    #headless
+    let-message
+  >
+    <div class="flex flex-col items-center p-4 border-round">
+      <div class="rounded-full  bg-primary inline-flex justify-center items-center h-24 w-24">
+        <i
+          class="pi pi-info text-5xl"
+          style="color: #fff;"
+        ></i>
+      </div>
+      <span class="font-bold text-2xl block mb-2 mt-4">
+        {{ message.header || 'Подтверждение' }}
+      </span>
+      <p class="mb-0">{{ message.message || 'Вы уверены, что хотите продолжить?' }}</p>
+      <div class="flex items-center gap-2 mt-4">
+        <button
+          pButton
+          label="Отменить"
+          (click)="confirm.onReject()"
+          class="p-button-outlined w-52 "
+        >
+        </button>
+
+        <button
+          pButton
+          label="Продолжить"
+          (click)="confirm.onAccept()"
+          class="w-52"
+        >
+        </button>
+      </div>
+    </div>
+  </ng-template>
+</p-confirmdialog>
+
+@if(!(pageLayoutService.isLoading$ | async)) {
+@switch(pageLayoutService.layout$ | async) {
+
+@case(PageLayout.Authorized) {
+<div
+  class="layout-container"
+  [ngClass]="containerClass"
+>
+  <app-authorized-layout>
+    <router-outlet (activate)="onActivateRouterOutlet()"></router-outlet>
+  </app-authorized-layout>
+</div>
+}
+
+@case(PageLayout.Public) {
+
+
+<animated-container [ngClass]="containerClass">
+  <div class="landing relative overflow-hidden flex flex-col justify-center">
+    <div class="landing-wrapper">
+      <app-social-menu />
+      <app-news></app-news>
+      <router-outlet (activate)="onActivateRouterOutlet()"></router-outlet>
+    </div>
+
+  </div>
+</animated-container>
+}
+
+@case(PageLayout.Fullscreen) {
+
+<animated-container [ngClass]="containerClass">
+  <div class="landing absolute w-full h-full overflow-hidden flex flex-col justify-center">
+    <div class="landing-wrapper">
+      <app-news></app-news>
+      <router-outlet (activate)="onActivateRouterOutlet()"></router-outlet>
+
+    </div>
+  </div>
+</animated-container>
+}
+
+@case(PageLayout.Auth) {
+<router-outlet (activate)="onActivateRouterOutlet()"></router-outlet>
+}
+
+@case(PageLayout.Error) {
+<router-outlet (activate)="onActivateRouterOutlet()"></router-outlet>
+}
+
+@case(PageLayout.Admin) {
+<router-outlet (activate)="onActivateRouterOutlet()"></router-outlet>
+}
+
+@case(PageLayout.MapFullscreen) {
+
+<animated-container [ngClass]="containerClass">
+  <div class=" absolute top-0 inset-x-0 h-[45rem] lg:h-[51.5rem]"></div>
+  <div class="container relative">
+    <app-news></app-news>
+
+
+    <router-outlet (activate)="onActivateRouterOutlet()"></router-outlet>
+
+  </div>
+</animated-container>
+
+
+<app-public-layout>
+  <router-outlet (activate)="onActivateRouterOutlet()"></router-outlet>
+</app-public-layout>
+}
+
+@default {
+
+<router-outlet (activate)="onActivateRouterOutlet()"></router-outlet>
+
+}
+}
+} @else {
+<div class="preloader">
+  <ul class="preloader__dots">
+    <li class="dots-item"></li>
+    <li class="dots-item"></li>
+    <li class="dots-item"></li>
+    <li class="dots-item"></li>
+  </ul>
+</div>
+}

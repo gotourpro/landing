@@ -1,0 +1,23 @@
+<div
+    [formGroup]="form"
+    class="gap-6 pt-1 pb-6 flex-wrap flex-1 flex flex-col"
+>
+    <div class="flex flex-wrap justify-between gap-6">
+        <label class="block font-semibold">Stroke Color</label>
+        <p-colorpicker
+            formControlName="strokeColor"
+            appendTo="body"
+            format="hex"
+        />
+    </div>
+
+    <div class="flex flex-wrap justify-between gap-6">
+        <label class="block font-semibold">Fill Color</label>
+        <p-colorpicker
+            formControlName="fillColor"
+            appendTo="body"
+            format="hex"
+        />
+    </div>
+
+</div>

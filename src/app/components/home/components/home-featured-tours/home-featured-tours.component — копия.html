@@ -1,0 +1,85 @@
+<section class="tours-three">
+    <div class="container">
+        <div class="sec-title text-center">
+            <div class="sec-title__tagline bw-split-in-right">Featured Tours</div>
+            <h3 class="sec-title__title bw-split-in-left">Most popular Tour Place</h3>
+            <p class="sec-title__text bw-split-in-up-fast"> content of a page when looking at layout the point<br> of
+                using lorem the is Ipsum less</p>
+        </div>
+        <div class="relative mx-auto mt-14 w-full xl:w-[1152px] xl:h-[900px]">
+
+            <animated-container
+                *ngFor="let tour of tours; let i = index"
+                [delay]="i * 100"
+                enterClass="animate-zoomfadein"
+                [className]="
+        twMerge(
+            'relative overflow-hidden h-[280px] md:h-[350px] xl:h-full mb-6 xl:mb-0',
+            getTourGridClass(i)
+        )
+    "
+            >
+
+                <div class="tours-one__item h-full">
+
+                    <img
+                        [src]="tour.image"
+                        [alt]="tour.title"
+                    >
+
+                    @if (tour.discount) {
+                    <div class="tours-one__item__offer tours-one__item__feature">
+                        Featured
+                    </div>
+                    }
+
+                    <div class="tours-one__item__content">
+
+                        <h3 class="tours-one__item__title">
+                            <a>{{ tour.title }}</a>
+                        </h3>
+
+                        <ul class="tours-one__item__meta">
+                            <li>
+                                <i class="pi pi-calendar-clock"></i>
+                                {{ tour.description }}
+                            </li>
+
+                            <li>
+                                <i class="flaticon-pin-1"></i>
+                                {{ tour.location }}
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="tours-one__item__btn">
+
+                        <a
+                            [href]="tour.image"
+                            target="_blank"
+                        >
+                            <i class="pi pi-camera"></i>
+                        </a>
+
+                        <a
+                            *ngIf="tour.video"
+                            [href]="tour.video"
+                            target="_blank"
+                        >
+                            <i class="pi pi-video"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </animated-container>
+        </div>
+
+    </div>
+    <div
+        class="tours-three__shape"
+        style="background-image: url(assets/images/shapes/bg-shape-feature.png);"
+    ></div>
+</section>

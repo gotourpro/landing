@@ -1,0 +1,90 @@
+<section class="blog-two">
+    <div class="container">
+        <div class="sec-title text-center">
+            <div class="sec-title__tagline bw-split-in-right">
+                {{ 'components.homeBlog.tagline' | translate }}
+            </div>
+
+            <h3 class="sec-title__title bw-split-in-left">
+                {{ 'components.homeBlog.title' | translate }}
+            </h3>
+
+            <p class="sec-title__text inline-block max-w-3xl mx-auto">
+                {{ 'components.homeBlog.description' | translate }}
+            </p>
+        </div>
+        <ui-carousel
+            className="blog-one__carousel"
+            [hideMask]="true"
+            [hideButtons]="true"
+            [options]="{
+        align: 'start',
+        loop: true,
+    }"
+            [size]="'33.333%'"
+            spacing="24px"
+            height="auto"
+            [breakpoints]="breakpoints"
+        >
+
+            <ui-carousel-item *ngFor="let item of blogItems; let index = index">
+
+                <div class="blog-one__item ">
+
+                    <div class="blog-one__item__thumb">
+
+                        <img
+                            [src]="item.image"
+                            [alt]="localization.getText(item.title)"
+                        >
+
+                        <img
+                            [src]="item.image"
+                            [alt]="localization.getText(item.title)"
+                        >
+
+                        <a
+    [routerLink]="['/blog', item.slug]"
+    class="blog-one__item__thumb__link"
+>
+                            <span class="sr-only">
+                               {{ localization.getText(item.title) }}
+                            </span>
+                        </a>
+
+                    </div>
+
+                    <div class="blog-one__item__content">
+
+                       <h3 class="blog-one__item__title">
+
+    <a [routerLink]="['/blog', item.slug]">
+        {{ localization.getText(item.title) }}
+    </a>
+
+</h3>
+
+                        <ul class="blog-one__item__meta">
+
+                            <li>
+                                <i class="icon-calendar"></i>
+                               {{ item.category }}
+                            </li>
+
+                            <li>
+                                <i class="icon-calendar"></i>
+                               {{ item.publishedAt | date:'longDate' }}
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </ui-carousel-item>
+
+        </ui-carousel>
+    </div>
+</section>

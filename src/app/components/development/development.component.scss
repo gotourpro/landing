@@ -1,0 +1,27 @@
+.c-users-import {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.c-users-import_content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.c-users-import_content-picture {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.c-users-import_content-actions {
+    padding: 24px 0;
+    text-align: center;
+
+    >button {
+        margin: 0 12px;
+    }
+}

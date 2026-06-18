@@ -1,0 +1,88 @@
+<section class="gallery-one">
+    <div class="container">
+
+        <div class="sec-title text-center">
+
+            <div class="sec-title__tagline bw-split-in-right">
+                {{ 'components.about.gallery.tagline' | translate }}
+            </div>
+
+            <h3 class="sec-title__title bw-split-in-left">
+                {{ 'components.about.gallery.title' | translate }}
+            </h3>
+
+            <p class="sec-title__text bw-split-in-up-fast">
+                {{ 'components.about.gallery.description' | translate }}
+            </p>
+
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-x-6 gap-y-[30px]">
+
+            <div
+                *ngFor="let column of galleryColumns"
+                class="space-y-[30px]"
+            >
+
+                <ng-container *ngIf="column.type === 'large'; else smallColumn">
+
+                    <div class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)] h-[460px]">
+
+                        <img
+                            [src]="column.items[0].image"
+                            alt="Travhub"
+                            class="w-full h-full object-cover"
+                        >
+
+                        <div class="gallery-one__card__hover">
+                            <a
+                                (click)="openGallery(column.items[0])"
+                                class="img-popup"
+                            >
+                                <i
+                                    class="pi pi-camera"
+                                    style="font-size: 1.5rem"
+                                ></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </ng-container>
+
+                <ng-template #smallColumn>
+
+                    <div
+                        *ngFor="let item of column.items"
+                        class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)] h-[215px]"
+                    >
+
+                        <img
+                            [src]="item.image"
+                            alt="Travhub"
+                            class="w-full h-full object-cover"
+                        >
+
+                        <div class="gallery-one__card__hover">
+                            <a
+                                (click)="openGallery(item)"
+                                class="img-popup"
+                            >
+                                <i
+                                    class="pi pi-camera"
+                                    style="font-size: 1.5rem"
+                                ></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </ng-template>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<app-galleria #gallery></app-galleria>

@@ -1,0 +1,409 @@
+{
+    "common": {},
+    "components": {
+        "topMenu": {
+            "destination": "Destination",
+            "tour": "Tour",
+            "about": "About",
+            "blog": "Blog",
+            "faq": "FAQ",
+            "contact": "Contact"
+        },
+        "homeHero": {
+            "subtitle": "Welcome to GoTour!",
+            "subtitlePrefix": "Welcome to",
+            "title": "The Real China Starts Here!",
+            "description": "Discover handcrafted journeys through the breathtaking landscapes of Yunnan, Sichuan, and the Tibetan Plateau, carefully designed for comfort, authenticity, and unforgettable experiences.",
+            "contactUs": "Contact Us",
+            "highlight": "Erhai Lake"
+        },
+        "homeDestinations": {
+            "tagline": "Destinations",
+            "title": "Popular Destinations",
+            "description": "Discover ancient towns, stunning landscapes, and unforgettable cultural experiences."
+        },
+        "homeWhyChoose": {
+            "tagline": "Why Choose Us",
+            "title": "The Perfect Travel Experience for You and Your Family",
+            "description": "We create authentic journeys across China with personalized service, experienced local experts, and carefully designed itineraries.",
+            "customTours": {
+                "title": "Personalized Tours",
+                "description": "Every journey can be tailored to your interests, schedule, and travel style."
+            },
+            "expertGuides": {
+                "title": "Local Experts",
+                "description": "Travel with experienced guides who know the culture, history, and hidden gems of each destination."
+            },
+            "seamlessPlanning": {
+                "title": "Hassle-Free Travel",
+                "description": "We handle logistics, accommodations, and transportation so you can focus on enjoying the experience."
+            }
+        },
+        "homeHowToWork": {
+            "tagline": "How It Works",
+            "title": "Your Journey Step by Step",
+            "description": "Just a few simple steps separate you from an unforgettable adventure across China's most remarkable destinations.",
+            "steps": {
+                "selectDestination": {
+                    "title": "Choose a Destination",
+                    "text": "Browse our routes and select the region of China you would like to explore."
+                },
+                "makeAppointment": {
+                    "title": "Submit a Request",
+                    "text": "Contact us through your preferred channel and we'll help you plan the perfect trip."
+                },
+                "enjoyTour": {
+                    "title": "Enjoy Your Journey",
+                    "text": "Travel with experienced local guides and enjoy a carefully organized adventure."
+                }
+            }
+        },
+        "homeFeaturedTours": {
+            "tagline": "Featured Tours",
+            "title": "Most Popular Tours",
+            "description": "Discover our most popular journeys across China, carefully selected for unforgettable experiences and authentic adventures.",
+            "featured": "Featured"
+        },
+        "homeOrganizers": {
+            "tagline": "Our Partners",
+            "title": "Creating Unique Tours Together",
+            "description": "We collaborate with trusted local partners to design authentic travel experiences, combining expertise, comfort, and unforgettable adventures across China."
+        },
+        "homeBlog": {
+            "tagline": "Blog Posts",
+            "title": "Our Latest Articles",
+            "description": "Discover travel tips, destination guides, cultural insights, and inspiration for your next adventure in China."
+        },
+        "about": {
+            "title": "Why Choose GoTour",
+            "description": "We specialize in unforgettable journeys across China, helping travelers discover iconic landmarks, rich culture, authentic cuisine, and unique local experiences.",
+            "travellers": "Individual Travellers",
+            "whyChooseUs": {
+                "title": "Why Choose GoTour",
+                "description": "Discover China with confidence. We create carefully planned tours, provide local expertise, and support you every step of your journey."
+            },
+            "gallery": {
+                "tagline": "Our Gallery",
+                "title": "Moments From Our Journeys",
+                "description": "Discover memorable moments, breathtaking destinations, and authentic experiences from our tours across China."
+            },
+            "advantages": {
+                "experiences": {
+                    "title": "Unique Travel Experiences",
+                    "text": "Explore iconic landmarks, hidden gems, and authentic cultural destinations across China."
+                },
+                "guides": {
+                    "title": "Local Expertise",
+                    "text": "Benefit from experienced guides and carefully designed itineraries tailored for travelers."
+                },
+                "booking": {
+                    "title": "Easy Booking Process",
+                    "text": "Book your adventure quickly and securely with transparent pricing and no hidden fees."
+                },
+                "support": {
+                    "title": "Dedicated Support",
+                    "text": "Our team is available before, during, and after your trip to assist whenever needed."
+                }
+            },
+            "team": {
+                "tagline": "Our Team",
+                "title": "Meet Our Travel Experts",
+                "description": "Our experienced team helps travelers plan unforgettable journeys across China, from choosing the perfect tour to providing support every step of the way."
+            },
+            "stats": {
+                "travelers": "Happy Travelers",
+                "destinations": "Popular Destinations",
+                "tours": "Curated Tours",
+                "rating": "Average Rating"
+            }
+        },
+        "blog": {
+            "title": "Travel Blog",
+            "description": "Travel guides, destination tips, cultural insights, and useful information for your journey across China.",
+            "loadMore": "Load More Blogs"
+        },
+        "tour": {
+            "title": "China Tours",
+            "description": "Explore carefully selected tours across China, from iconic landmarks and cultural treasures to unforgettable local experiences.",
+            "loadMore": "Load More Tours"
+        },
+        "destination": {
+            "title": "Destinations in China",
+            "description": "Discover China's most fascinating destinations, from ancient landmarks and vibrant cities to breathtaking natural wonders.",
+            "loadMore": "Load More Destinations"
+        },
+        "contact": {
+            "title": "Get in Touch with Us",
+            "description": "We’re here to assist you with any questions or concerns. Reach out to our team anytime.",
+            "fullName": "Full Name",
+            "enterName": "Enter name",
+            "email": "Email",
+            "enterEmail": "Enter email",
+            "message": "Message",
+            "writeMessage": "Write message",
+            "sendMessage": "Send Message",
+            "successMessage": "Your message has been sent successfully. We will contact you shortly.",
+            "errorMessage": "Failed to send message. Please try again later.",
+            "validation": {
+                "required": "This field is required",
+                "invalidEmail": "Please enter a valid email address",
+                "minlength": "The field value must be at least {{length}} characters long"
+            }
+        },
+        "footer": {
+            "about": "Discover the wonders of China with carefully selected tours, authentic experiences, and unforgettable journeys to the country's most iconic destinations.",
+            "usefulLinks": "Useful Links",
+            "services": "Our Services",
+            "legal": "Legal",
+            "destination": "Destinations",
+            "blog": "Blog",
+            "faq": "FAQ",
+            "contact": "Contact",
+            "aboutUs": "About Us",
+            "partnership": "Partnership",
+            "cookiePolicy": "Cookie Policy",
+            "disclaimer": "Disclaimer",
+            "tourPackages": "Tour Packages",
+            "privacyPolicy": "Privacy Policy",
+            "termsConditions": "Terms & Conditions",
+            "copyright": "Copyright ©",
+            "rightsReserved": "All rights reserved."
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "description": "We’re here to assist you with any questions or concerns. Find answers to the most common questions about our tours and travel services in China."
+        },
+        "news": {
+            "underDevelopment": "The site is under development."
+        },
+        "home-hero": {
+            "contactUs": "Contact Us"
+        },
+        "maps": {},
+        "toast": {
+            "notfound": {
+                "nodata": {
+                    "summary": "No data available for display",
+                    "detail": "Please select a different time period."
+                }
+            }
+        }
+    },
+    "page": {
+        "policy": {
+            "meta": {
+                "title": "Privacy Policy",
+                "description": "This Privacy Policy describes how AVİTO TURİZM TİCARET LİMİTED ŞİRKETİ (hereinafter referred to as the “Company” or “We”) collects, uses, processes, and protects the personal data of users who book transfer services via the website, messengers, phone, or other channels."
+            },
+            "sections": [
+                {
+                    "title": "General Provisions",
+                    "clauses": [
+                        "This Policy applies to all data received from individuals (hereinafter referred to as “Users”) when booking transfer services.",
+                        "Data is processed in accordance with the Turkish Personal Data Protection Law (KVKK) and other applicable regulations.",
+                        "By placing a booking, the User confirms agreement with this Privacy Policy."
+                    ]
+                },
+                {
+                    "title": "Data Controller",
+                    "clauses": [
+                        "The data controller is:",
+                        "AVİTO TURİZM TİCARET LİMİTED ŞİRKETİ",
+                        "Reg. No: 208525-5",
+                        "License No: 12520",
+                        "Address: YENİŞEHİR MAH. ANKARA CAD. NO:405 İÇ KAPI NO:60, PENDİK, ISTANBUL",
+                        "Phone: +90 532 428 00 20",
+                        "Email: info@avitovip.com"
+                    ]
+                },
+                {
+                    "title": "Personal Data We Collect",
+                    "description": "We may collect the following categories of data:",
+                    "items": [
+                        "Full name of the client",
+                        "Contact details: phone number, email",
+                        "Full names of all passengers",
+                        "Trip details: date, time, route, flight number",
+                        "Any other information voluntarily provided during booking"
+                    ],
+                    "note": "Important: We do not collect or store bank card details — all payments are handled securely by third-party payment providers."
+                },
+                {
+                    "title": "Purpose of Data Processing",
+                    "description": "Personal data is processed exclusively for the following purposes:",
+                    "items": [
+                        "processing and fulfilling transfer bookings",
+                        "providing customer support",
+                        "sending confirmations, notifications, and follow-up messages",
+                        "compliance with legal requirements (e.g. tax and accounting)",
+                        "improving service quality",
+                        "collecting optional customer feedback"
+                    ]
+                },
+                {
+                    "title": "Legal Basis for Processing",
+                    "description": "Data processing is based on:",
+                    "items": [
+                        "the User’s consent",
+                        "necessity to perform a contract (transfer booking)",
+                        "Company’s legitimate interests (e.g. fraud prevention, service quality)",
+                        "legal obligations (e.g. accounting, record keeping)"
+                    ]
+                },
+                {
+                    "title": "Data Storage and Transfers",
+                    "clauses": [
+                        "All personal data is stored securely and accessed only by authorized personnel.",
+                        {
+                            "title": "Data may be shared with:",
+                            "items": [
+                                "drivers and partners involved in delivering the transfer service",
+                                "payment providers (for processing payments)",
+                                "government authorities — only as legally required"
+                            ]
+                        },
+                        "We do not share personal data with third parties for marketing without explicit consent."
+                    ]
+                },
+                {
+                    "title": "Data Retention",
+                    "description": "Personal data is retained for as long as necessary for the purposes described:",
+                    "clauses": [
+                        "typically up to 3 years after trip completion",
+                        "longer if required for accounting/tax purposes",
+                        "feedback data is stored until review is complete",
+                        "After these periods, data is securely deleted or anonymized."
+                    ]
+                },
+                {
+                    "title": "User Rights",
+                    "description": "Users have the right to:",
+                    "items": [
+                        "request information about their personal data",
+                        "request correction or deletion",
+                        "withdraw consent to processing",
+                        "restrict processing",
+                        "file a complaint with a supervisory authority"
+                    ],
+                    "note": "To exercise these rights, contact us via: info@avitovip.com"
+                },
+                {
+                    "title": "Data Security",
+                    "description": "We implement administrative, technical, and physical measures to protect personal data from:",
+                    "items": [
+                        "loss",
+                        "unauthorized access",
+                        "alteration or destruction",
+                        "unlawful disclosure"
+                    ],
+                    "note": "All information is transmitted using secure channels and modern encryption protocols."
+                },
+                {
+                    "title": "Cookies and Analytics",
+                    "clauses": [
+                        "The website may use cookies and analytics tools (e.g., Google Analytics) to collect anonymized statistics and improve service quality. Users may disable cookies in their browser settings."
+                    ]
+                },
+                {
+                    "title": "Policy Updates",
+                    "clauses": [
+                        "We reserve the right to update this Policy. The latest version will always be available at: https://avitovip.com",
+                        "Last updated: April 10, 2025"
+                    ]
+                }
+            ]
+        },
+        "terms": {
+            "meta": {
+                "title": "Offer for the Provision of Transfer Booking Services",
+                "subtitle": "",
+                "description": "This document is a public offer by AVİTO TURİZM TİCARET LİMİTED ŞİRKETİ, registration number 208525-5, located at YENİŞEHİR MAH. ANKARA CAD. NO:405 İÇ KAPI NO:60 PENDİK, ISTANBUL, Turkey, holding tourism license No. 12520, hereinafter referred to as the “Provider”, addressed to any individual or legal entity (hereinafter referred to as the “Client”) under the following terms and conditions:"
+            },
+            "sections": [
+                {
+                    "title": "Definitions",
+                    "clauses": [
+                        "<strong>Provider</strong> – AVİTO TURİZM TİCARET LİMİTED ŞİRKETİ, a company registered in Turkey and providing private transfer services under license No. 12520.",
+                        "<strong>Client</strong> – an individual or legal entity submitting a request and paying for transfer services.",
+                        "<strong>Service</strong> – the organization and provision of transportation of passengers and their luggage along a specified route and schedule.",
+                        "<strong>Booking Request</strong> – a service order made by the Client through the website, email, WhatsApp, or phone. Submission of a request implies acceptance of this Agreement.",
+                        "<strong>Voucher</strong> – a document (digital or otherwise) confirming the transfer details and payment or payment terms.",
+                        "<strong>Promo Code</strong> – a code provided by the <strong>Provider</strong> that may be entered during booking for a discount or benefit."
+                    ]
+                },
+                {
+                    "title": "Subject of the Agreement",
+                    "clauses": [
+                        "The <strong>Provider</strong> undertakes to provide the <strong>Client</strong> with private transfer services, and the Client agrees to accept and pay for the Services as per this Agreement.",
+                        "The Service includes the transportation of the <strong>Client</strong> or designated passengers and their luggage from a departure to a destination point at a pre-agreed time using a vehicle of suitable class and capacity.",
+                        "Booking may be made through the Provider’s website, email (e.g., info@avitovip.com), messengers, or phone."
+                    ]
+                },
+                {
+                    "title": "Terms of Service",
+                    "clauses": [
+                        "The <strong>Client</strong> must provide accurate and complete booking details, including: departure/destination, date and time, flight number (if applicable), number of passengers, and their names.",
+                        "Contact details (name, phone number, email) must be correct and up to date for communication and updates.",
+                        "The <strong>Provider</strong> will supply a safe, clean, and operational vehicle with a professional driver in line with the confirmed booking.",
+                        "The <strong>Client</strong> and passengers must arrive on time at the agreed pickup point. Delays caused by the Client may shorten the transfer time or lead to cancellation without compensation.",
+                        "Changes to the order (route, time, number of passengers) must be promptly communicated. The <strong>Provider</strong> will try to accommodate changes but cannot guarantee them after confirmation.",
+                        "Waiting time: Waiting time varies by location. In major airports like IST/SAW, waiting may be extended without extra charges depending on the flight. Elsewhere, free waiting may be limited (e.g., 15–60 minutes). Beyond that, additional fees may apply.",
+                        "Minors: Children under 14 must be accompanied by an adult. The <strong>Client</strong> must notify the <strong>Provider</strong> in advance and may request a child safety seat."
+                    ]
+                },
+                {
+                    "title": "Payment Terms",
+                    "clauses": [
+                        "Pricing is based on route, vehicle class, and other order parameters. The confirmed price remains fixed unless the Client changes the order.",
+                        "Payment: The <strong>Client</strong> pays either online in advance or, where permitted, in cash to the driver. Available payment methods are listed on the Provider's website or offered via support.",
+                        "Online Payment: Payments are processed by a third-party payment gateway via secure SSL and 3-D Secure technologies. The Provider does not collect or store card data. Payment is considered complete upon confirmation from the payment processor."
+                    ]
+                },
+                {
+                    "title": "Price and Payment Procedure",
+                    "clauses": [
+                        "<strong>Provider</strong>'s Liability: The <strong>Provider</strong> is liable for proper delivery of Services unless prevented by force majeure (natural disasters, government restrictions, transport issues, etc.).",
+                        "<strong>Client</strong>'s Liability: The <strong>Client</strong> is responsible for providing accurate data and complying with all terms. The Client covers any damages to the vehicle or other property caused by passengers.",
+                        "The <strong>Provider</strong> is not liable for delays or missed services caused by incorrect client information or force majeure.",
+                        "In case of delays caused by the <strong>Client</strong> (e.g., customs, luggage), the <strong>Provider</strong> may reduce service time or treat it as completed after the free waiting period."
+                    ]
+                },
+                {
+                    "title": "Privacy and Data",
+                    "clauses": [
+                        "The <strong>Provider</strong> collects personal data (names, contacts, travel details) solely to fulfill the booking. Data may be shared with drivers, partners, or payment processors as needed.",
+                        "By booking, the <strong>Client</strong> consents to data processing as per the Provider’s Privacy Policy. Consent may be withdrawn in writing.",
+                        "Data is protected using reasonable technical and organizational security measures."
+                    ]
+                },
+                {
+                    "title": "Cancellation Policy",
+                    "clauses": [
+                        "The <strong>Client</strong> may cancel the booking at least 24 hours before the scheduled pickup to receive a full refund. Later cancellations are non-refundable.",
+                        "Refunds are processed to the original payment method within 5–30 working days, depending on the payment processor and banks involved.",
+                        "The <strong>Provider</strong> may cancel a booking due to force majeure, technical issues, or legal restrictions, in which case a full refund is offered."
+                    ]
+                },
+                {
+                    "title": "Promo Codes",
+                    "clauses": [
+                        "Promo codes may be applied during booking for discounts or benefits, if still valid.",
+                        "Codes are usually valid for a limited time and may be used once unless otherwise stated. They cannot be exchanged for cash or combined unless specified.",
+                        "The <strong>Provider</strong> may change or cancel promo codes at any time."
+                    ]
+                },
+                {
+                    "title": "Final Provisions",
+                    "clauses": [
+                        "This Agreement is a public offer. Booking a transfer and/or making a payment constitutes full acceptance.",
+                        "This Agreement is governed by the laws of the Republic of Turkey.",
+                        "Disputes shall be resolved amicably or, if necessary, in a competent court at the Provider’s place of registration.",
+                        "If any provision is held invalid, the remainder shall remain in force.",
+                        "In case of discrepancies between this English version and the original Turkish version, the Turkish version shall prevail.",
+                        "Acceptance of terms and conditions: By placing an order (Application) for transfer, the Customer confirms that he has read the terms and conditions of this Agreement, understands them and accepts them in full. The Customer also confirms that he/she has the necessary legal capacity to conclude this Agreement. Receipt by the Contractor of the Application from the Customer means the acceptance by the Customer of this offer and conclusion of the Agreement on the stated conditions."
+                    ]
+                }
+            ]
+        }
+    }
+}

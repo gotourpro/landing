@@ -1,0 +1,140 @@
+<footer class="main-footer main-footer--two">
+    <div class="main-footer__middle">
+        <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-y-10 gap-x-6">
+
+                <div>
+                    <div class="footer-widget footer-widget--about">
+                        <a
+                            href="/"
+                            class="footer-widget__logo"
+                        >
+                            <app-logo />
+                        </a>
+
+                        <p class="footer-widget__text">
+                            {{ aboutText }}
+                        </p>
+
+                        <div class="main-footer__social">
+
+                            @for (item of socials; track item.href) {
+
+                            <a
+                                [href]="item.href"
+                                target="_blank"
+                            >
+                                <i [class]="item.icon"></i>
+                            </a>
+
+                            }
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="footer-widget footer-widget--links">
+                        <h2 class="footer-widget__title">
+                            {{ 'components.footer.usefulLinks' | translate }}
+                        </h2>
+
+                        <ul class="list-unstyled footer-widget__links">
+
+                            @for (item of usefulLinks; track item.label) {
+
+                            <li>
+                                <a [routerLink]="item.route">
+                                    {{ item.label }}
+                                </a>
+                            </li>
+
+                            }
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div
+                    class="wow fadeInUp"
+                    data-wow-delay="600ms"
+                >
+                    <div class="footer-widget footer-widget--links-two">
+
+                        <h2 class="footer-widget__title">
+                            {{ 'components.footer.services' | translate }}
+                        </h2>
+
+                        <ul class="list-unstyled footer-widget__links">
+
+                            <li>
+                                <a routerLink="/tours">
+                                    {{ 'components.footer.partnership' | translate }}
+                                </a>
+                            </li>
+
+                            <li>
+                                <a routerLink="/tours">
+                                    {{ 'components.footer.tourPackages' | translate }}
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="footer-widget footer-widget--links-two">
+
+                    <h2 class="footer-widget__title">
+                        {{ 'components.footer.legal' | translate }}
+                    </h2>
+
+                    <ul class="list-unstyled footer-widget__links">
+
+                        <li>
+                            <a routerLink="/privacy-policy">
+                                {{ 'components.footer.privacyPolicy' | translate }}
+                            </a>
+                        </li>
+
+                        <li>
+                            <a routerLink="/terms-and-conditions">
+                                {{ 'components.footer.termsConditions' | translate }}
+                            </a>
+                        </li>
+
+                        <li>
+                            <a routerLink="/cookie-policy">
+                                {{ 'components.footer.cookiePolicy' | translate }}
+                            </a>
+                        </li>
+
+                        <li>
+                            <a routerLink="/disclaimer">
+                                {{ 'components.footer.disclaimer' | translate }}
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div
+        class="main-footer__bottom wow fadeInUp"
+        data-wow-delay="300ms"
+    >
+        <div class="container">
+            <div class="flex justify-center items-center">
+                <p class="main-footer__copyright">
+                    © 2024 - {{ currentYear }} Go Tour.
+                    {{ 'components.footer.rightsReserved' | translate }}
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>

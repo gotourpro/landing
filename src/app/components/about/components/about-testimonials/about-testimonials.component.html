@@ -1,0 +1,111 @@
+<section class="testimonials-two">
+
+  <div class="container">
+    <div class="testimonials-two__left">
+
+      @for (image of testimonialsImagesLeft; track image) {
+
+      <div class="testimonials-two__auth">
+        <img
+          [src]="image"
+          alt="traveller"
+        >
+      </div>
+
+      }
+
+    </div>
+    <div class="testimonials-two__inner">
+      <div class="">
+        <div>
+          <div>
+            <div
+              class="counter-one__funfact wow fadeInRight"
+              data-wow-duration="1500ms"
+              data-wow-delay="100ms"
+            >
+
+
+              <div class="counter-one__funfact__item count-box">
+
+                <h3 class="counter-one__funfact__count">
+                  {{ stats[0].value }}
+                </h3>
+
+                <p class="counter-one__funfact__text">
+                  {{ stats[0].textKey | translate }}
+                </p>
+
+              </div>
+
+              <div class="counter-one__funfact__item count-box">
+
+                <h3 class="counter-one__funfact__count">
+                  {{ stats[1].value }}
+                </h3>
+
+                <p class="counter-one__funfact__text">
+                  {{ stats[1].textKey | translate }}
+                </p>
+
+              </div>
+
+
+              <div class="counter-one__funfact__item count-box">
+
+                <h3 class="counter-one__funfact__count">
+                  {{ stats[2].value }}
+                </h3>
+
+                <p class="counter-one__funfact__text">
+                  {{ stats[2].textKey | translate }}
+                </p>
+
+              </div>
+
+
+              <div class="counter-one__funfact__item count-box">
+
+                <h3 class="counter-one__funfact__count">
+                  {{ stats[3].value }}
+                </h3>
+
+                <p class="counter-one__funfact__text">
+                  {{ stats[3].textKey | translate }}
+                </p>
+
+              </div>
+
+
+              <div class="counter-one__funfact__item-two count-box">
+
+                <h3 class="counter-one__funfact__item-two__count">
+                  {{ stats[4].value }}
+                </h3>
+
+              </div>
+
+              <span class="counter-one__funfact__line"></span>
+              <span class="counter-one__funfact__line-two"></span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonials-two__right">
+
+      @for (image of testimonialsImagesRight; track image) {
+
+      <div class="testimonials-two__auth">
+        <img
+          [src]="image"
+          alt="traveller"
+        >
+      </div>
+
+      }
+
+    </div>
+  </div>
+</section>

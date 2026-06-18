@@ -1,0 +1,36 @@
+<p-galleria
+    [value]="galleryImages"
+    [(visible)]="displayGallery"
+    [(activeIndex)]="activeIndex"
+    [fullScreen]="true"
+    [showThumbnails]="true"
+    maskClass="bg-black/99"
+    [showItemNavigators]="true"
+    [showThumbnailNavigators]="true"
+    [circular]="true"
+    [numVisible]="5"
+>
+
+    <ng-template
+        pTemplate="item"
+        let-item
+    >
+        <div class="galleria-image-wrapper">
+            <img
+                [src]="item.itemImageSrc"
+                [alt]="item.alt"
+            />
+        </div>
+    </ng-template>
+
+    <ng-template
+        pTemplate="thumbnail"
+        let-item
+    >
+        <img
+            [src]="item.thumbnailImageSrc"
+            class="galleria-thumbnail"
+        />
+    </ng-template>
+
+</p-galleria>

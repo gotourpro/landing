@@ -1,0 +1,159 @@
+<animated-container>
+    <app-menu [styleClass]="'relative! w-full! p-0! border-0 rounded-none! bg-transparent'"></app-menu>
+    <div class="pt-20">
+        <app-header [title]="'components.contact.title' | translate">
+            {{ 'components.contact.description' | translate }}
+        </app-header>
+        <section class="contact-page">
+            <div class="container">
+                <div class="grid lg:grid-cols-2 items-center gap-10">
+                    <div
+                        class="wow fadeInUp"
+                        data-wow-delay="100ms"
+                    >
+                        <div class="h-[400px] w-full overflow-hidden rounded-[24px]">
+
+                            <ng-container *ngIf="showMap$ | async">
+                                <google-map
+                                    height="100%"
+                                    width="100%"
+                                    [options]="mapOptions"
+                                >
+
+                                    <map-advanced-marker
+                                        *ngFor="let m of markers; trackBy: trackBy"
+                                        [position]="m.position"
+                                        [content]="m.content"
+                                        [gmpDraggable]="false"
+                                    >
+                                    </map-advanced-marker>
+
+                                </google-map>
+                            </ng-container>
+                        </div>
+
+                    </div>
+
+                    <div
+                        class="wow fadeInRight"
+                        data-wow-delay="200ms"
+                    >
+
+                        <form
+                            class="contact-page__form contact-form-validated form-one"
+                            [formGroup]="form"
+                            (ngSubmit)="onSubmit()"
+                        >
+
+
+                            @if (submitSuccess) {
+
+                            <p-message
+                                severity="success"
+                                [text]="'components.contact.successMessage' | translate"
+                                styleClass="mb-6 w-full"
+                            />
+
+                            }
+
+                            @if (submitError) {
+
+                            <p-message
+                                severity="error"
+                                [text]="'components.contact.errorMessage' | translate"
+                                styleClass="mb-6 w-full"
+                            />
+
+                            }
+
+                            <div class="form-one__group">
+
+                                <div
+                                    class="form-one__control"
+                                    [appFieldValidation]="errorMessages"
+                                >
+
+                                    <label for="name">
+                                        {{ 'components.contact.fullName' | translate }}
+                                    </label>
+
+                                    <input
+                                        pInputText
+                                        formControlName="name"
+                                        id="name"
+                                        type="text"
+                                        name="name"
+                                        [placeholder]="'components.contact.enterName' | translate"
+                                    >
+
+                                </div>
+
+                                <div
+                                    class="form-one__control"
+                                    [appFieldValidation]="errorMessages"
+                                >
+
+                                    <label for="email">
+                                        {{ 'components.contact.email' | translate }}
+                                    </label>
+
+                                    <input
+                                        pInputText
+                                        formControlName="email"
+                                        id="email"
+                                        type="email"
+                                        name="email"
+                                        [placeholder]="'components.contact.enterName' | translate"
+                                    >
+
+
+
+                                </div>
+
+                                <div
+                                    class="form-one__control form-one__control--full"
+                                    [appFieldValidation]="errorMessages"
+                                >
+
+                                    <label for="message">
+                                        {{ 'components.contact.message' | translate }}
+                                    </label>
+
+                                    <textarea
+                                        formControlName="message"
+                                        id="message"
+                                        name="message"
+                                        [placeholder]="'components.contact.writeMessage' | translate"
+                                    >
+                                    </textarea>
+
+                                </div>
+
+                                <div class="form-one__control form-one__control--full">
+
+
+                                    <p-button
+                                        type="submit"
+                                        aria-label="Send Messages"
+                                        size="large"
+                                        [loading]="sending"
+                                        [disabled]="sending || form.invalid"
+                                        [label]="'components.contact.sendMessage' | translate"
+                                    />
+
+                                </div>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <app-footer />
+    </div>
+</animated-container>

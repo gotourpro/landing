@@ -1,0 +1,4 @@
+<p-sidebar [(visible)]="isVisible" styleClass="sidebar-bottom" [modal]="false" (visibleChange)="onVisibleChange($event)" position="bottom">
+
+  <p-chart #chart type="line" [data]="data" [options]="options" />
+</p-sidebar>

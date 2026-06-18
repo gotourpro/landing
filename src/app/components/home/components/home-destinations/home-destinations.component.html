@@ -1,0 +1,74 @@
+<animated-container>
+
+  <section class="destination-two">
+    <div class="container">
+      <div class="sec-title text-center">
+        <div class="sec-title__tagline bw-split-in-right"> {{ 'components.homeDestinations.tagline' | translate }}</div>
+        <h3 class="sec-title__title bw-split-in-left">{{ 'components.homeDestinations.title' | translate }}</h3>
+        <p class="sec-title__text inline-block max-w-3xl mx-auto"> {{ 'components.homeDestinations.description' |
+          translate }}</p>
+      </div>
+
+      <ui-carousel
+        className="destination-two__carousel"
+        [hideMask]="true"
+        [hideButtons]="true"
+        [options]="{
+        align: 'start',
+        loop: true
+    }"
+        [size]="'25%'"
+        spacing="24px"
+        height="auto"
+        [breakpoints]="breakpoints"
+      >
+        <ui-carousel-item *ngFor="let item of destinationItems; let index = index">
+          <div class="destination-two__item shadow-[0_4px_20px_rgba(0,0,0,0.04)] wow fadeInUp">
+            <div class="destination-two__image">
+              <img
+                [src]="item.image"
+                [alt]="localization.getText(item.title)"
+              >
+            </div>
+
+            <div class="destination-two__content">
+
+              <div class="destination-two__content__inner">
+
+                <div class="destination-two__content__left">
+
+                  <h4 class="destination-two__item__title">
+                    <a [routerLink]="['/destinations', item.slug]">
+                      {{ localization.getText(item.title) }}
+                    </a>
+                  </h4>
+
+
+
+                </div>
+
+                <div class="destination-two__item__btn">
+                  <a
+                    [routerLink]="['/destinations', item.slug]"
+                    class="travhub-btn travhub-btn--base"
+                  >
+                    <span>
+                      <i
+                        class="pi pi-arrow-up-right"
+                        style="font-size: 1.5rem"
+                      ></i>
+                    </span>
+                  </a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </ui-carousel-item>
+      </ui-carousel>
+    </div>
+
+  </section>
+</animated-container>

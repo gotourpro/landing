@@ -1,0 +1,26 @@
+ ::ng-deep {
+     .language-button>button.p-button {
+         overflow: visible !important;
+     }
+
+     .p-popover-content {
+         padding: 0;
+     }
+
+     .p-popover .p-listbox {
+         border: none !important;
+         box-shadow: none !important;
+     }
+
+     .p-popover {
+         box-shadow: var(--p-popover-shadow);
+         border: none;
+
+     }
+
+     .p-popover:before {
+         border: none;
+     }
+
+ }
+

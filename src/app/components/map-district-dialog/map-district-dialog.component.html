@@ -1,0 +1,338 @@
+<div class="c-map-dialog">
+
+  <p-progressbar
+    *ngIf="inProgress"
+    styleClass="map-dialog-progress"
+    mode="indeterminate"
+    [style]="{ height: '4px' }"
+  />
+
+  <p-speeddial
+    *ngIf="!isLargeScreen"
+    className="map-dialog-close-button"
+    (click)="onClose()"
+    showIcon="pi pi-times"
+    hideIcon="pi pi-times"
+    buttonClassName="speed-dial-map-button"
+    direction="left"
+  />
+
+  <div class="c-map-dialog_wrapper">
+
+    <button
+      class="map-config-button p-link"
+      [ngClass]="{
+    'left-0!': !isMapSidebar(),
+    'left-[515px]! max-991:hidden': isMapSidebar()
+  }"
+      (click)="toggleSideBar()"
+      type="button"
+    >
+      <i
+        class="pi"
+        [ngClass]="{
+      'pi-angle-right': !isMapSidebar(),
+      'pi-angle-left': isMapSidebar()
+    }"
+      >
+      </i>
+    </button>
+    <div
+      #dialog
+      class="c-map-dialog_sidebar"
+      *ngIf="isMapSidebar()"
+      [ngClass]="containerClass()"
+    >
+
+      <div class="map-dialog_sidebar-toolbar border-b border-surface flex items-center justify-between">
+        <ng-container *ngIf="noProgress">
+          <p-skeleton
+            width="100%"
+            height="2rem"
+          />
+        </ng-container>
+        <ng-container *ngIf="!noProgress">
+          <p-button
+            *ngIf="!isVisibleSettings"
+            [text]="true"
+            styleClass="text-color"
+            label="Settings"
+            icon="pi pi-sliders-h"
+            (click)="onSettings()"
+          />
+          <p-button
+            *ngIf="isVisibleSettings"
+            [text]="true"
+            label="Back"
+            styleClass="text-900"
+            icon="pi pi-angle-left"
+            (click)="onSettings()"
+          />
+
+          <div class="flex">
+            <ng-container *ngIf="isLargeScreen">
+              <p-button
+                class=""
+                (click)="toggleSideBar()"
+                styleClass="text-xl mr-4"
+                [tooltipDisabled]="!isLargeScreen"
+                [rounded]="true"
+                badgeSeverity="contrast"
+                size="large"
+                pTooltip="Map"
+                tooltipPosition="bottom"
+                icon="pi pi-map"
+                [text]="true"
+              />
+
+              <p-button
+                class=""
+                (click)="onClose()"
+                styleClass="text-xl mr-4"
+                [tooltipDisabled]="!isLargeScreen"
+                [rounded]="true"
+                badgeSeverity="contrast"
+                size="large"
+                pTooltip="Close"
+                tooltipPosition="bottom"
+                icon="pi pi-times"
+                [text]="true"
+              />
+            </ng-container>
+          </div>
+        </ng-container>
+
+      </div>
+
+      <div
+        [formGroup]="form"
+        class="c-map-dialog_sidebar-content"
+      >
+        <ng-container *ngIf="noProgress">
+          <div class="grid m-0">
+            <div class="h-full p-6 ">
+              <div class="grid">
+                <div class="mb-4">
+
+                  <p-skeleton
+                    width="100%"
+                    height="1rem"
+                    styleClass="mb-6"
+                  />
+
+
+                  <p-skeleton
+                    width="100%"
+                    height="1rem"
+                    styleClass="mb-6"
+                  />
+
+
+                  <p-skeleton
+                    width="100%"
+                    height="1rem"
+                    styleClass="mb-6"
+                  />
+
+
+                  <p-skeleton
+                    width="100%"
+                    height="1rem"
+                    styleClass="mb-6"
+                  />
+
+
+
+                  <p-skeleton
+                    width="100%"
+                    height="1rem"
+                    styleClass="mb-6"
+                  />
+
+
+                  <p-skeleton
+                    width="100%"
+                    height="1rem"
+                    styleClass="mb-6"
+                  />
+
+
+
+                  <p-skeleton
+                    width="100%"
+                    height="1rem"
+                    styleClass="mb-6"
+                  />
+
+
+
+                  <p-skeleton
+                    width="100%"
+                    height="1rem"
+                    styleClass="mb-6"
+                  />
+
+
+                </div>
+                <div class="col-12 field mb-4">
+                  <div class="flex flex-column lg:flex-row flex-wrap lg:items-center py-2 mt-3">
+                    <div class="flex-auto">
+
+                      <p-skeleton
+                        width="100%"
+                        height="1rem"
+                        styleClass="mb-6"
+                      />
+
+
+                      <p-skeleton
+                        width="100%"
+                        height="1rem"
+                        styleClass="mb-6"
+                      />
+
+
+                      <p-skeleton
+                        width="100%"
+                        height="1rem"
+                        styleClass="mb-6"
+                      />
+
+                      <div class="flex flex-auto justify-between items-center">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </ng-container>
+        <div
+          *ngIf="!noProgress"
+          class="grid"
+        >
+          <div class="col-span-12 lg:col-span-12 h-full p-6">
+            <div class="col-span-12 flex flex-col gap-2">
+              <label
+                for="search"
+                class="text-900 font-semibold"
+              ></label>
+              <p-autocomplete
+                placeholder="Search disctrict name"
+                minLength="2"
+                delay="300"
+                forceSelection="true"
+                [suggestions]="(boundariesSuggestions$ | async) || []"
+                showClear="true"
+                inputStyleClass="w-full"
+                styleClass="w-full"
+                (onSelect)="onSelectBoundaries()"
+                (completeMethod)="onSearchBoundaries($event)"
+                field="description"
+                dataKey="placeId"
+                formControlName="search"
+                inputId="search"
+              />
+            </div>
+          </div>
+
+          <div class="col-span-12 lg:col-span-12 h-full p-6">
+            <div class="col-span-12 flex flex-col gap-4">
+              <div class="col-span-12 mb-4">
+                <div class="flex justify-between items-center mb-3">
+                  <span class="font-bold">Name</span>
+                  <span class="font-bold">{{itemData?.name ||'-'}}</span>
+                </div>
+                <div class="flex justify-between items-center mb-3">
+                  <span class="font-bold">Title</span>
+                  <span class="font-bold">{{itemData?.title ||'-'}}</span>
+                </div>
+                <div class="flex justify-between items-center mb-3">
+                  <span class="font-bold">Description</span>
+                  <span class="font-bold">{{itemData?.description ||'-'}}</span>
+                </div>
+                <div class="flex justify-between items-center mb-3">
+                  <span>Comment</span>
+                  <span>{{itemData?.comment || '-' }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <p-drawer
+          [(visible)]="isVisibleSettings"
+          modal="false"
+          appendTo=""
+          showCloseIcon="false"
+          styleClass="border-none p-drawer-bottom-settings"
+          position="bottom"
+        >
+          <ng-template #header>
+            <div class="flex align-items-center justify-content-between mb-0">
+              <span class="text-900 text-xl font-semibold">Settings</span>
+            </div>
+          </ng-template>
+
+          <app-maps-style-settings></app-maps-style-settings>
+        </p-drawer>
+
+      </div>
+    </div>
+
+    <div class="map-dialog_map-container">
+      <ng-container *ngIf="noProgress">
+        <p-skeleton
+          width="100%"
+          height="100%"
+        />
+      </ng-container>
+      <div
+        [class.invisible]="noProgress"
+        class="c-map"
+      >
+        <ng-container *ngIf="isApiLoaded">
+          <google-map
+            height="100%"
+            width="100%"
+            [options]="mapOptions"
+            (mapInitialized)="onMapReady($event)"
+          >
+            <div class="c-map-toolbar-horizontal">
+              <div class="flex-fill"></div>
+              <div class="c-map__left-offset">
+
+                <map-drawing-control
+                  #drawing
+                  [tolerance]="form.get('tolerance')?.value"
+                  [geoJson]="featureCollection"
+                  *ngIf="style$ | async as style"
+                  [style]="style"
+                  [fitBounds]="form.get('fitBounds')?.value"
+                ></map-drawing-control>
+
+              </div>
+              <div class="flex-fill"></div>
+            </div>
+
+            <div class="c-map-toolbar-vertical">
+              <div class="flex-fill"></div>
+              <map-fullscreen-control [fullscreenClass]="fullscreenClass"></map-fullscreen-control>
+              <div class="c-map__y-offset"></div>
+              <map-zoom-control></map-zoom-control>
+              <div class="flex-fill"></div>
+
+            </div>
+
+
+          </google-map>
+        </ng-container>
+      </div>
+    </div>
+
+  </div>
+</div>

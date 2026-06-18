@@ -1,0 +1,36 @@
+<section class="pricing-info">
+  <div class="container">
+
+    <div class="flex flex-wrap -mx-3">
+
+      @for (item of advantages; track $index) {
+
+      <div
+        class="w-full md:w-1/2 xl:w-1/4 px-3 mb-6 wow fadeInUp"
+        [attr.data-wow-delay]="item.delay + 'ms'"
+      >
+
+        <div class="pricing-info__item">
+
+          <div class="pricing-info__icon">
+            <i [class]="item.icon"></i>
+          </div>
+
+          <h5 class="pricing-info__title">
+            {{ item.titleKey | translate }}
+          </h5>
+
+          <p class="pricing-info__text">
+            {{ item.textKey | translate }}
+          </p>
+
+        </div>
+
+      </div>
+
+      }
+
+    </div>
+
+  </div>
+</section>

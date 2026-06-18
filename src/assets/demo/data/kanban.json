@@ -1,0 +1,60 @@
+{
+    "data": [
+        {
+            "listIndex": 0,
+            "title": "Созданные",
+            "key":"created"
+        },
+        {
+            "listIndex":1,
+            "title": "Планируемые",
+             "key":"assigned"
+        },
+        {
+            "listIndex":2,
+            "title": "В процессе",
+             "key":"shipping"
+        },
+        {
+            "listIndex":3,
+            "title": "Завершены",
+             "key":"complete"
+        },
+        {
+            "listIndex":4,
+            "title": "Срыв",
+             "key":"failure"
+        },
+        {
+            "listIndex":5,
+            "title": "Срыв",
+             "key":"failure"
+        },
+        {
+            "listIndex":6,
+            "title": "Срыв",
+             "key":"failure"
+        },
+        {
+            "listIndex":7,
+            "title": "Срыв",
+             "key":"failure"
+        },
+        {
+            "listIndex":8,
+            "title": "Срыв",
+             "key":"failure"
+        },
+        {
+            "listIndex":9,
+            "title": "Срыв",
+             "key":"failure"
+        },
+        {
+            "listIndex":9,
+            "title": "Срыв",
+             "key":"failure"
+        }
+        
+    ]
+}

@@ -1,0 +1,92 @@
+<animated-container>
+  <app-menu [styleClass]="'relative! w-full! p-0! border-0 rounded-none! bg-transparent'"></app-menu>
+  <div class="pt-20">
+    <app-header [title]="'components.blog.title' | translate">
+      {{ 'components.blog.description' | translate }}
+    </app-header>
+    <section class="blog-grid">
+      <div class="container">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-[30px]">
+
+          <div
+            *ngFor="let item of blogs; let index = index"
+            class="w-full"
+          >
+
+            <div class="blog-one__item wow fadeInUp h-full">
+
+              <div class="blog-one__item__thumb">
+
+                <img
+                  [src]="item.image"
+                  [alt]="localization.getText(item.title)"
+                >
+
+                <img
+                  [src]="item.image"
+                  [alt]="localization.getText(item.title)"
+                >
+
+                <a
+                  [routerLink]="['/blog', item.slug]"
+                  class="blog-one__item__thumb__link"
+                >
+                  <span class="sr-only">
+                    {{ localization.getText(item.title) }}
+                  </span>
+                </a>
+
+              </div>
+
+              <div class="blog-one__item__content">
+
+                <h3 class="blog-one__item__title">
+
+                  <a [routerLink]="['/blog', item.slug]">
+                    {{ localization.getText(item.title) }}
+                  </a>
+
+                </h3>
+
+                <ul class="blog-one__item__meta">
+
+                  <li>
+                    <i class="icon-calendar"></i>
+                    {{ item.category || 'Travel' }}
+                  </li>
+
+                  <li>
+                    <i class="icon-comment"></i>
+                    {{ item.publishedAt | date:'dd MMMM, yyyy' }}
+                  </li>
+
+                </ul>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="mt-12 flex justify-center">
+
+          <p-button
+            [disabled]="!hasMore || loading"
+            [loading]="loading"
+            [rounded]="true"
+            size="large"
+            [label]="'components.blog.loadMore' | translate"
+            (click)="loadMore()"
+          >
+          </p-button>
+
+        </div>
+
+      </div>
+    </section>
+    <app-footer className="mt-64" />
+  </div>
+</animated-container>

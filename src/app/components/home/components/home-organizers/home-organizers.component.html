@@ -1,0 +1,25 @@
+<div class="client-carousel-two">
+    <div class="container">
+
+        <h5 class="client-carousel-two__title">
+            {{ 'components.homeOrganizers.title' | translate }}
+        </h5>
+
+        @if (clientPartners.length === 1) {
+
+
+        <floating-customers
+            className="pb-10"
+            labelClass="text-white dark:text-white"
+            iconClass="[&_path]:fill-white dark:[&_path]:fill-white"
+            [floatingCustomersData]="clientPartners"
+        />
+
+        } @else {
+
+
+
+        }
+
+    </div>
+</div>

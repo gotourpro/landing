@@ -1,0 +1,46 @@
+<p-speeddial
+    [model]="items"
+    [buttonClassName]="buttonClassName"
+    direction="up"
+    showIcon="pi pi-comments text-2xl!"
+    hideIcon="pi pi-times text-2xl!"
+    [className]="className"
+>
+    <ng-template
+        #item
+        let-item
+        let-toggleCallback="toggleCallback"
+    >
+        <a
+            *ngIf="item.routerLink"
+            [routerLink]="item.routerLink"
+            (click)="toggleCallback($event, item)"
+            class="
+        w-12 h-12
+        text-2xl
+        rounded-full
+        shadow-lg
+        bg-(--p-card-background)
+        flex items-center justify-center
+      "
+        >
+            <i [ngClass]="item.icon"></i>
+        </a>
+        <a
+            *ngIf="!item.routerLink"
+            [href]="item.url"
+            [target]="item.target"
+            (click)="toggleCallback($event, item)"
+            class="
+        w-14 h-14
+        text-2xl
+        rounded-full
+        shadow-lg
+        bg-(--p-card-background)
+        flex items-center justify-center
+      "
+        >
+            <i [ngClass]="[ item.icon, 'text-2xl' ]"></i>
+        </a>
+    </ng-template>
+</p-speeddial>

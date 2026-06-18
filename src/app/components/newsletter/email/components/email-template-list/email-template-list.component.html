@@ -1,0 +1,166 @@
+<div class="flex justify-content-between align-items-center mb-5">
+    <span class="text-900 text-xl font-semibold">Template List <p-badge [value]="totalRecords" /></span>
+  </div>
+  
+  <p-menu #contextMenu [model]="items" [appendTo]="'body'" [style]="{'width': '12%'}" [popup]="true" />
+  <p-menu #exportMenu [model]="exportItems" [appendTo]="'body'" [popup]="true" />
+  
+  <p-table #table 
+    [globalFilterFields]="['name', 'createdAt']"
+   [value]="dataSource" [loading]="inProgress" [scrollable]="true" [size]="tableOptions.size"
+    [showGridlines]="tableOptions.showGridlines" [columnResizeMode]="tableOptions.columnResizeMode!" [columns]="columns"
+    [stateStorage]="tableOptions.stateStorage!" [stateKey]="tableOptions.stateKey"
+    [resizableColumns]="tableOptions.resizableColumns" [reorderableColumns]="tableOptions.reorderableColumns"
+    [tableStyle]="tableOptions.tableStyle" sortMode="multiple" [rowHover]="true" [lazyLoadOnInit]="false"
+    [paginatorDropdownAppendTo]="'body'" [scrollHeight]="tableOptions.scrollHeight" [rows]="rows"
+    (onLazyLoad)="onLazyLoad($event)" [exportFilename]=tableOptions.exportFilename! [showLoader]="false"
+    [rowsPerPageOptions]="[10, 25, 50,100]" [lazy]="true" [paginator]="tableOptions.paginator"
+    currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries" [first]="first"
+    [showCurrentPageReport]="tableOptions.showCurrentPageReport" [totalRecords]="totalRecords">
+    <ng-template #paginatorright let-state> </ng-template>
+
+
+    <ng-template #caption>
+      <div class="flex">
+          <p-iconfield iconPosition="left" class="ml-auto">
+              <p-inputicon>
+                  <i class="pi pi-search"></i>
+              </p-inputicon>
+              <input
+                  pInputText
+                  type="text"
+                  (input)="onGlobalFilter($event)"
+                  placeholder="Search keyword"
+              />
+          </p-iconfield>
+      </div>
+  </ng-template>
+  
+    <ng-template #header let-columns>
+      <tr>
+        <ng-container *ngFor="let col of columns">
+  
+          <ng-container [ngSwitch]="true">
+            <th [ngStyle]="col.style"
+              *ngSwitchCase="tableOptions.resizableColumns && !tableOptions.reorderableColumns && !col.sortable"
+              alignFrozen="right" pFrozenColumn [frozen]="col?.frozen" pResizableColumn>
+              {{ col.header }}
+            </th>
+            <th [ngStyle]="col.style"
+              *ngSwitchCase="tableOptions.reorderableColumns && !tableOptions.resizableColumns && !col.sortable"
+              alignFrozen="right" pFrozenColumn [frozen]="col?.frozen" pReorderableColumn>
+              {{ col.header }}
+            </th>
+            <th [ngStyle]="col.style"
+              *ngSwitchCase="tableOptions.reorderableColumns && tableOptions.resizableColumns && !col.sortable"
+              alignFrozen="right" pFrozenColumn [frozen]="col?.frozen" pResizableColumn pReorderableColumn>
+              {{ col.header }}
+            </th>
+  
+            <th [ngStyle]="col.style"
+              *ngSwitchCase="tableOptions.reorderableColumns && tableOptions.resizableColumns && col.sortable"
+              alignFrozen="right" pFrozenColumn [frozen]="col?.frozen" pResizableColumn pReorderableColumn
+              [pSortableColumn]="col.field">
+              {{ col.header }}
+              <p-sortIcon *ngIf="col?.sortable" [field]="col.field"></p-sortIcon>
+            </th>
+            <th [ngStyle]="col.style"
+              *ngSwitchCase="tableOptions.resizableColumns && !tableOptions.reorderableColumns && col.sortable"
+              alignFrozen="right" pFrozenColumn [frozen]="col?.frozen" pResizableColumn [pSortableColumn]="col.field">
+              {{ col.header }}
+              <p-sortIcon *ngIf="col?.sortable" [field]="col.field"></p-sortIcon>
+            </th>
+            <th [ngStyle]="col.style"
+              *ngSwitchCase="tableOptions.reorderableColumns && !tableOptions.resizableColumns && col.sortable"
+              alignFrozen="right" pFrozenColumn [frozen]="col?.frozen" pReorderableColumn [pSortableColumn]="col.field">
+              {{ col.header }}
+              <p-sortIcon *ngIf="col?.sortable" [field]="col.field"></p-sortIcon>
+            </th>
+            <th [ngStyle]="col.style"
+              *ngSwitchCase="!tableOptions.resizableColumns && !tableOptions.reorderableColumns && col.sortable"
+              alignFrozen="right" pFrozenColumn [frozen]="col?.frozen" [pSortableColumn]="col.field">
+              {{ col.header }}
+              <p-sortIcon *ngIf="col?.sortable" [field]="col.field"></p-sortIcon>
+            </th>
+  
+            <th [ngStyle]="col.style" *ngSwitchDefault alignFrozen="right" pFrozenColumn [frozen]="col?.frozen">
+              {{ col.header }}
+            </th>
+          </ng-container>
+  
+        </ng-container>
+        <th style="width:6%; max-width: 60px"></th>
+      </tr>
+
+      <tr>
+        <th>
+            <p-columnFilter
+                type="text"
+                field="name"
+                placeholder="Search by name"
+                ariaLabel="Filter Name"
+            ></p-columnFilter>
+        </th>
+
+        <th>
+          <p-columnFilter
+              type="text"
+              field="createdAt"
+              placeholder="Search by name"
+              ariaLabel="Filter Name"
+          ></p-columnFilter>
+      </th>
+      </tr>
+    </ng-template>
+  
+    <ng-template #dtBody #body let-rowData let-columns="columns" let-index="rowIndex">
+  
+      <tr [pSelectableRow]="rowData">
+        <ng-container *ngFor="let col of columns">
+  
+          <td [ngStyle]="col.style" pFrozenColumn alignFrozen="right" [frozen]="col.frozen" *ngIf="col.field ==='name'">
+            {{rowData?.name}}
+          </td>
+  
+          <td [ngStyle]="col.style" pFrozenColumn alignFrozen="right" [frozen]="col.frozen" *ngIf="col.field ==='createdAt'">
+            {{ rowData?.createdAt | date: "dd.MM.yyyy" }}
+          </td>
+  
+          <td [ngStyle]="col.style" pFrozenColumn alignFrozen="right" [frozen]="col.frozen" *ngIf="col.field ==='id'">
+            {{rowData?.id}}
+          </td>
+  
+        </ng-container>
+        <td style="width:6%; max-width: 60px">
+          <span (click)="contextMenuShow($event,rowData,false,index)" pButton pRipple type="button"
+            icon="pi pi-ellipsis-v" class="text-color p-button-rounded p-button-text" style="font-size: 2.5rem"></span>
+        </td>
+      </tr>
+    </ng-template>
+  
+    <ng-template #loadingbody>
+      <tr *ngFor="let _ of skeletonRows">
+        <td *ngFor="let col of columns; let even = even">
+          <p-skeleton [ngStyle]="{ 'width': even ? (col.field === 'year' ? '30%' : '40%') : '60%' }"></p-skeleton>
+        </td>
+        <td>
+          <p-skeleton [ngStyle]="{ 'width':'30%' }"></p-skeleton>
+        </td>
+      </tr>
+    </ng-template>
+  
+    <ng-template #emptymessage>
+      <tr *ngIf="noProgress && !inProgress">
+        <td colspan="10">Nothing found</td>
+      </tr>
+  
+    </ng-template>
+  </p-table>
+  
+  
+  
+  <div class="flex justify-content-end flex-wrap absolute" style="bottom: 80px; right: 80px;">
+    <p-speedDial #button positionStyle="fixed" pTooltip="Создать заказ" positionTop="24" positionLeft="-10"
+      tooltipPosition="left" className="p-speeddial-fixed-button" *ngIf="isAdmin" (click)="onCreate()"
+      showIcon="pi pi-plus" hideIcon="pi pi-plus" [model]="[]" direction="left" />
+  </div>

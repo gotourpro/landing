@@ -1,0 +1,50 @@
+.galleria-image-wrapper {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galleria-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.galleria-thumbnail {
+    width: 100%;
+    height: 60px;
+    object-fit: cover;
+}
+
+::ng-deep .p-galleria-mask .p-galleria-content {
+    width: 80vw;
+    max-width: 1000px;
+    margin: auto;
+}
+
+::ng-deep .p-galleria-item-wrapper {
+    height: 70vh;
+}
+
+::ng-deep .p-galleria-thumbnail-items {
+    justify-content: center;
+    gap: 8px;
+}
+
+::ng-deep .p-galleria-thumbnail-item {
+    flex: 0 0 auto !important;
+}
+
+
+::ng-deep .p-galleria-thumbnails-content {
+    background: #030303;
+}
+
+::ng-deep .p-galleria {
+    border-color: transparent;
+}
+
+::ng-deep .p-galleria-thumbnails-viewport {
+    margin-top: 20px;
+}

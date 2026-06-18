@@ -1,0 +1,166 @@
+<section class="gallery-one">
+    <div class="container">
+
+        <div class="sec-title text-center">
+            <div class="sec-title__tagline bw-split-in-right">
+                Our Gallery
+            </div>
+
+            <h3 class="sec-title__title bw-split-in-left">
+                Recent Gallery
+            </h3>
+
+            <p class="sec-title__text bw-split-in-up-fast">
+                content of a page when looking at layout the point
+                <br>
+                of using lorem the is Ipsum less
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-x-6 gap-y-[30px]">
+
+            <div
+                *ngFor="let column of galleryColumns"
+                class="space-y-[30px]"
+            >
+
+                <ng-container *ngIf="column.type === 'large'; else smallColumn">
+
+                    <div class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)] h-[460px]">
+
+                        <img
+                            [src]="column.items[0].image"
+                            alt="Travhub"
+                            class="w-full h-full object-cover"
+                        >
+
+                        <div class="gallery-one__card__hover">
+                            <a
+                                [href]="column.items[0].image"
+                                class="img-popup"
+                            >
+                                <i
+                                    class="pi pi-camera"
+                                    style="font-size: 1.5rem"
+                                ></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </ng-container>
+
+                <ng-template #smallColumn>
+
+                    <div
+                        *ngFor="let item of column.items"
+                        class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)] h-[215px]"
+                    >
+
+                        <img
+                            [src]="item.image"
+                            alt="Travhub"
+                            class="w-full h-full object-cover"
+                        >
+
+                        <div class="gallery-one__card__hover">
+                            <a
+                                [href]="item.image"
+                                class="img-popup"
+                            >
+                                <i
+                                    class="pi pi-camera"
+                                    style="font-size: 1.5rem"
+                                ></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </ng-template>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="gallery-two">
+
+    <div class="container-fluid">
+
+        <div class="sec-title text-center">
+
+            <div class="sec-title__tagline bw-split-in-right">
+                Recent Gallery
+            </div>
+
+            <h3 class="sec-title__title bw-split-in-left">
+                Our Beautiful Moment
+            </h3>
+
+            <p class="sec-title__text bw-split-in-up-fast">
+                content of a page when looking at layout the point
+                <br>
+                of using lorem the is Ipsum less normal
+            </p>
+
+        </div>
+
+        <ui-carousel
+            className="gallery-two__carousel"
+            [autoPlay]="false"
+            [hideButtons]="true"
+            [hideMask]="true"
+            [size]="isMobile() ? '50%' : '23.8%'"
+            spacing="24px"
+            height="auto"
+            [options]="{
+                align: 'center',
+                loop: true
+            }"
+        >
+
+            @for (item of galleryItems; track $index) {
+
+            <ui-carousel-item>
+
+                <div class="gallery-two__item">
+
+                    <div class="gallery-two__image">
+
+                        <img
+                            [src]="item.image"
+                            [alt]="item.title"
+                        >
+
+                    </div>
+
+                    <div class="gallery-two__content">
+
+                        <h4 class="gallery-two__title">
+                            {{ item.title }}
+                        </h4>
+
+                        <a
+                            [href]="item.image"
+                            class="gallery-two__link"
+                            target="_blank"
+                        >
+                            <i class="flaticon-camera-2"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </ui-carousel-item>
+
+            }
+
+        </ui-carousel>
+
+    </div>
+
+</section>

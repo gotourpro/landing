@@ -1,0 +1,57 @@
+<p-button
+    #btn
+    [rounded]="true"
+    [text]="true"
+    size="large"
+    class="language-button"
+    (click)="popover.toggle($event)"
+    [styleClass]="styleClass"
+    [style.overflow]="'visible'"
+>
+    <ng-template pTemplate="content">
+        <div class="flex align-items-center">
+            <img
+                [src]="selected?.flag"
+                class="w-6 h-6 rounded-full object-cover mr-2"
+                style="border-radius: 50%;"
+                alt="{{ selected?.code }}"
+            />
+            <span class="hidden sm:inline">
+                {{ selected?.label }}
+            </span>
+        </div>
+    </ng-template>
+</p-button>
+
+<p-popover
+    #popover
+    appendTo="body"
+    [dismissable]="true"
+    [style]="panelStyle"
+    [baseZIndex]="1000"
+    [styleClass]="panelStyleClass"
+>
+    <p-listbox
+        [options]="languages"
+        [ngModel]="selected"
+        optionLabel="label"
+        (onChange)="onChange($event)"
+        [style]="{ 'border': 'none', 'box-shadow': 'none' }"
+    >
+        <ng-template
+            let-lang
+            pTemplate="item"
+        >
+            <ng-container *ngIf="lang">
+                <div class="flex items-center gap-2 p-2 cursor-pointer">
+                    <img
+                        [src]="lang.flag"
+                        class="w-5 h-5 object-cover rounded-full"
+                        alt="{{ lang.code }}"
+                    />
+                    <span>{{ lang.label }}</span>
+                </div>
+            </ng-container>
+        </ng-template>
+    </p-listbox>
+</p-popover>

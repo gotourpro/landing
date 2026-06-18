@@ -1,0 +1,273 @@
+<animated-container>
+    <app-menu [styleClass]="'relative! w-full! p-0! border-0 rounded-none! bg-transparent'"></app-menu>
+    <div class="pt-20">
+        <app-header [title]="title">
+
+            {{ destination ? localization.getText(destination.description) : '' }}
+        </app-header>
+        <section class="destination-details">
+            <div class="container">
+                @if (destination && galleryColumns.length) {
+
+                <div class="grid grid-cols-1 xl:grid-cols-11 gap-4">
+
+                    <div class="xl:col-span-2 flex flex-col gap-4">
+
+                        @for (item of galleryColumns[0].images; track $index) {
+
+                        <div
+                            class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)]"
+                            [style.height.px]="item.height"
+                        >
+
+                            <img
+                                [src]="item.image"
+                                alt=""
+                                class="w-full h-full object-cover"
+                            >
+
+                            <div class="gallery-one__card__hover">
+
+                                <a
+                                    (click)="openGallery(item.image)"
+                                    class="img-popup"
+                                >
+                                    <i
+                                        class="pi pi-camera"
+                                        style="font-size:1.5rem"
+                                    ></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        }
+
+                    </div>
+
+                    <div class="xl:col-span-3">
+
+                        <div
+                            class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)]"
+                            [style.height.px]="galleryColumns[1].images[0].height"
+                        >
+
+                            <img
+                                [src]="galleryColumns[1].images[0].image"
+                                alt=""
+                                class="w-full h-full object-cover"
+                            >
+
+                            <div class="gallery-one__card__hover">
+
+                                <a
+                                    (click)="openGallery(galleryColumns[1].images[0].image)"
+                                    class="img-popup"
+                                >
+                                    <i
+                                        class="pi pi-camera"
+                                        style="font-size:1.5rem"
+                                    ></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="xl:col-span-4">
+
+                        <div
+                            class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)]"
+                            [style.height.px]="galleryColumns[2].images[0].height"
+                        >
+
+                            <img
+                                [src]="galleryColumns[2].images[0].image"
+                                alt=""
+                                class="w-full h-full object-cover"
+                            >
+
+                            <div class="gallery-one__card__hover">
+
+                                <a
+                                    (click)="openGallery(galleryColumns[2].images[0].image)"
+                                    class="img-popup"
+                                >
+                                    <i
+                                        class="pi pi-camera"
+                                        style="font-size:1.5rem"
+                                    ></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="xl:col-span-2 flex flex-col gap-4">
+
+                        @for (item of galleryColumns[3].images; track $index) {
+
+                        <div
+                            class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)]"
+                            [style.height.px]="item.height"
+                        >
+
+                            <img
+                                [src]="item.image"
+                                alt=""
+                                class="w-full h-full object-cover"
+                            >
+
+                            <div class="gallery-one__card__hover">
+
+                                <a
+                                    (click)="openGallery(item.image)"
+                                    class="img-popup"
+                                >
+                                    <i
+                                        class="pi pi-camera"
+                                        style="font-size:1.5rem"
+                                    ></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        }
+
+                    </div>
+
+                </div>
+
+                }
+                <div class="mt-[25px] flex justify-center">
+                    <div
+                        class="col-lg-8 wow fadeInUp"
+                        data-wow-delay="200ms"
+                    >
+                        <div class="destination-details__content">
+                            <h3 class="destination-details__title"> {{ destination ?
+                                localization.getText(destination.title) : '' }} </h3>
+                            @if (destination?.description) {
+                            <p class="destination-details__text">
+                                {{ destination ? localization.getText(destination.description) : '' }}
+                            </p>
+                            }
+                            @if (destination?.content) {
+                            <p class="destination-details__text">
+                                {{ destination ? localization.getText(destination.content) : '' }}
+                            </p>
+                            }
+
+                            @if (destination?.contentSecond) {
+                            <p class="destination-details__text">
+                                {{ destination ? localization.getText(destination.contentSecond) : '' }}
+                            </p>
+                            }
+                            <ul class="destination-details__info">
+                                <li>
+                                    <div class="destination-details__info__icon"><i class="pi pi-map-marker"></i></div>
+                                    <h5 class="destination-details__info__title">Address</h5>
+                                    <p class="destination-details__info__text">{{ destination?.address ?
+                                        localization.getText(destination?.address) : '-' }}</p>
+                                </li>
+                                <li>
+                                    <div class="destination-details__info__icon"><i class="pi pi-language"></i></div>
+                                    <h5 class="destination-details__info__title">Languages</h5>
+                                    <p class="destination-details__info__text">{{ destination?.language ?
+                                        localization.getText(destination?.language) : '-' }}</p>
+                                </li>
+                                <li>
+                                    <div class="destination-details__info__icon"><i class="pi pi-money-bill"></i></div>
+                                    <h5 class="destination-details__info__title">Currency Used</h5>
+                                    <p class="destination-details__info__text"> {{ destination?.currency ?
+                                        localization.getText(destination?.currency) : '-' }}
+
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="destination-details__info__icon"><i class="pi pi-directions"></i></div>
+                                    <h5 class="destination-details__info__title">Distance</h5>
+                                    <p class="destination-details__info__text"> {{ destination?.distance ?
+                                        localization.getText(destination?.distance) : '-' }}
+
+                                    </p>
+                                </li>
+                            </ul>
+                            @if (destination?.video) {
+
+                            <div class="destination-details__video">
+
+                                <img
+                                    [src]="destination?.videoThumb || destination?.image"
+                                    [alt]="destination ? localization.getText(destination.title) : ''"
+                                >
+
+                                <a
+                                    class="video-popup"
+                                    [href]="destination?.video"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="assets/images/shapes/video-btn.png"
+                                        [alt]="destination ? localization.getText(destination.title) : ''"
+                                    >
+                                </a>
+
+                            </div>
+
+                            }
+
+
+                            <h3 class="destination-details__title">Question About Destination</h3>
+                            <p class="destination-details__text">
+                                {{ destination?.questions?.length || '-' }}
+                            </p>
+
+                            <h3 class="destination-details__title">See Map</h3>
+                            <p class="destination-details__text">
+                                You’ve switched your charity’s office to renewable energy. You’ve cut most flights. The
+                                office
+                                fridge is stacked high with
+                                oat milk, and lycra-clad staff are proudly showing off their subsidised bicycles. On
+                                your way to
+                                net-zero.
+                            </p>
+                            <div
+                                class="destination-details__map"
+                                *ngIf="showMap$ | async"
+                            >
+                                <google-map
+                                    height="476px"
+                                    width="100%"
+                                    [options]="mapOptions"
+                                >
+
+                                    <map-advanced-marker
+                                        *ngFor="let m of markers; trackBy: trackBy"
+                                        [position]="m.position"
+                                        [content]="m.content"
+                                        [gmpDraggable]="false"
+                                    >
+                                    </map-advanced-marker>
+
+                                </google-map>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <app-footer />
+    </div>
+</animated-container>
+
+<app-galleria />

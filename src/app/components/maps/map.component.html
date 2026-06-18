@@ -1,0 +1,30 @@
+<div class="c-map">
+  <map-sidebar [isVisible]="isVisible"
+    ></map-sidebar>
+
+  <div class="c-map-toolbar-vertical">
+    <map-settings-control  [isShowSettingsControl]="true">
+    </map-settings-control>
+    <div class="c-map__y-offset"></div>
+    <map-fullscreen-control></map-fullscreen-control>
+    <div class="flex-fill"></div>
+    <div class="c-map__y-offset"></div>
+    <div class="c-map__y-offset"></div>
+    <div class="c-map__y-offset"></div>
+    <div class="c-map__y-offset"></div>
+    <div class="c-map__y-offset"></div>
+    <div class="c-map__y-offset"></div>
+    <map-zoom-control></map-zoom-control>
+
+    <div class="flex-fill"></div>
+    <div class="flex-fill"></div>
+  
+  </div>
+  <div class="c-map-toolbar-horizontal c-map-toolbar-horizontal__bottom">
+  </div>
+  <ng-container > 
+    <p-skeleton width="100%" height="100%" />
+  </ng-container>
+  
+
+</div>

@@ -1,0 +1,232 @@
+[
+    {
+        "id": "1",
+        "slug": "beijing-imperial-tour",
+        "destinationSlug": "beijing",
+        "title": {
+            "en": "Beijing Imperial Tour",
+            "ru": "Императорский тур по Пекину",
+            "zh-Hans": "北京皇家之旅"
+        },
+        "country": {
+            "en": "China",
+            "ru": "Китай",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "en": "Beijing",
+            "ru": "Пекин",
+            "zh-Hans": "北京"
+        },
+        "video": "https://www.youtube.com/watch?v=xxxxx",
+        "videoThumb": "assets/images/destination/840x415.svg",
+        "image": "assets/images/destination/312x380.svg",
+        "images": [
+            "assets/images/destination/312x381.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x385.svg"
+        ],
+        "price": 399,
+        "currency": "USD",
+        "durationDays": 6,
+        "durationNights": 5,
+        "rating": 5,
+        "reviews": 245,
+        "featured": true,
+        "popular": true
+    },
+    {
+        "id": "2",
+        "slug": "great-wall-adventure",
+        "destinationSlug": "beijing",
+        "title": {
+            "en": "Great Wall Adventure",
+            "ru": "Приключение на Великой Китайской стене",
+            "zh-Hans": "长城探险之旅"
+        },
+        "country": {
+            "en": "China",
+            "ru": "Китай",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "en": "Beijing",
+            "ru": "Пекин",
+            "zh-Hans": "北京"
+        },
+        "video": "https://www.youtube.com/watch?v=xxxxx",
+        "videoThumb": "assets/images/destination/840x415.svg",
+        "image": "assets/images/destination/312x380.svg",
+        "images": [
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg"
+        ],
+        "price": 349,
+        "currency": "USD",
+        "durationDays": 4,
+        "durationNights": 3,
+        "rating": 4.9,
+        "reviews": 198,
+        "featured": true
+    },
+    {
+        "id": "3",
+        "slug": "shanghai-city-break",
+        "destinationSlug": "shanghai",
+        "title": {
+            "en": "Shanghai City Break",
+            "ru": "Уикенд в Шанхае",
+            "zh-Hans": "上海城市之旅"
+        },
+        "country": {
+            "en": "China",
+            "ru": "Китай",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "en": "Shanghai",
+            "ru": "Шанхай",
+            "zh-Hans": "上海"
+        },
+        "video": "https://www.youtube.com/watch?v=xxxxx",
+        "videoThumb": "assets/images/destination/840x415.svg",
+        "image": "assets/images/destination/312x380.svg",
+        "images": [
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg"
+        ],
+        "price": 459,
+        "currency": "USD",
+        "durationDays": 5,
+        "durationNights": 4,
+        "rating": 4.9,
+        "reviews": 156,
+        "popular": true,
+        "featured": true
+    },
+    {
+        "id": "4",
+        "slug": "xian-terracotta-warriors",
+        "destinationSlug": "xian",
+        "title": {
+            "en": "Xi'an Terracotta Warriors",
+            "ru": "Терракотовая армия Сианя",
+            "zh-Hans": "西安兵马俑之旅"
+        },
+        "country": {
+            "en": "China",
+            "ru": "Китай",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "en": "Xi'an",
+            "ru": "Сиань",
+            "zh-Hans": "西安"
+        },
+        "video": "https://www.youtube.com/watch?v=xxxxx",
+        "videoThumb": "assets/images/destination/840x415.svg",
+        "image": "assets/images/destination/312x380.svg",
+        "images": [
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg"
+        ],
+        "price": 299,
+        "currency": "USD",
+        "durationDays": 4,
+        "durationNights": 3,
+        "rating": 4.8,
+        "reviews": 121,
+        "featured": true
+    },
+    {
+        "id": "5",
+        "slug": "guilin-river-cruise",
+        "destinationSlug": "guilin",
+        "title": {
+            "en": "Guilin River Cruise",
+            "ru": "Круиз по реке Гуйлинь",
+            "zh-Hans": "桂林漓江游船"
+        },
+        "country": {
+            "en": "China",
+            "ru": "Китай",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "en": "Guilin",
+            "ru": "Гуйлинь",
+            "zh-Hans": "桂林"
+        },
+        "video": "https://www.youtube.com/watch?v=xxxxx",
+        "videoThumb": "assets/images/destination/840x415.svg",
+        "image": "assets/images/destination/312x380.svg",
+        "images": [
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg"
+        ],
+        "price": 519,
+        "currency": "USD",
+        "durationDays": 5,
+        "durationNights": 4,
+        "rating": 5,
+        "reviews": 88,
+        "featured": true
+    },
+    {
+        "id": "6",
+        "slug": "zhangjiajie-avatar-mountains",
+        "destinationSlug": "zhangjiajie",
+        "title": {
+            "en": "Avatar Mountains Tour",
+            "ru": "Горы Аватара Чжанцзяцзе",
+            "zh-Hans": "张家界阿凡达山之旅"
+        },
+        "country": {
+            "en": "China",
+            "ru": "Китай",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "en": "Zhangjiajie",
+            "ru": "Чжанцзяцзе",
+            "zh-Hans": "张家界"
+        },
+        "video": "https://www.youtube.com/watch?v=xxxxx",
+        "videoThumb": "assets/images/destination/840x415.svg",
+        "image": "assets/images/destination/312x380.svg",
+        "images": [
+            "assets/images/destination/312x381.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg"
+        ],
+        "price": 699,
+        "currency": "USD",
+        "durationDays": 7,
+        "durationNights": 6,
+        "rating": 5,
+        "reviews": 167,
+        "featured": true
+    }
+]

@@ -1,0 +1,69 @@
+<animated-container>
+    <app-menu [styleClass]="'relative! w-full! p-0! border-0 rounded-none! bg-transparent'"></app-menu>
+    <div class="pt-20">
+        <app-header [title]="'components.destination.title' | translate">
+            {{ 'components.destination.description' | translate }}
+        </app-header>
+        <section class="destination-one">
+            <div class="container">
+                <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+                    <div *ngFor="let item of destinations">
+                        <div class="tours-one__item h-full flex flex-col">
+
+                            <img
+                                [src]="item.image"
+                                class="w-full! h-[500px]! object-cover shrink-0"
+                                [alt]="localization.getText(item.title)"
+                            >
+
+                            <div class="tours-one__item__content">
+
+                                <h3 class="tours-one__item__title">
+
+                                    <a [routerLink]="['/destinations', item.slug]">
+                                        {{ localization.getText(item.title) }}
+                                    </a>
+
+                                </h3>
+
+                                <p class="text-white/80 text-sm mt-2">
+                                    {{ localization.getText(item.country) }}
+                                </p>
+
+                            </div>
+
+                            <div class="tours-one__item__btn">
+
+                                <a (click)="openGallery(item)">
+                                    <i class="pi pi-camera"></i>
+                                </a>
+
+                                <a [routerLink]="['/destinations', item.slug]">
+                                    <i class="pi pi-arrow-up-right"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12 flex justify-center">
+                    <p-button
+                        [disabled]="!hasMore || loading"
+                        [loading]="loading"
+                        [rounded]="true"
+                        size="large"
+                        [label]="'components.destination.loadMore' | translate"
+                        (click)="loadMore()"
+                    >
+                    </p-button>
+                </div>
+
+            </div>
+
+        </section>
+        <app-footer />
+    </div>
+</animated-container>
+
+<app-galleria #gallery></app-galleria>

@@ -1,0 +1,346 @@
+<animated-container>
+    <app-menu [styleClass]="'relative! w-full! p-0! border-0 rounded-none! bg-transparent'"></app-menu>
+    <div class="pt-20">
+        <app-header [title]="title">
+
+            <p
+                class="text-[20px] font-medium max-w-[calc(100%-3rem)] lg:max-w-[44rem] mx-auto! text-center mt-8 text-[var(--travhub-text2)]">
+                Since 2019, we've been providing comfortable and reliable transfers in Istanbul and Antalya. Over 9,000
+                successful rides, average rating 4.9 — trusted by thousands of travelers.
+            </p>
+        </app-header>
+        <section class="tours-details">
+            <div class="container">
+                @if (tour && galleryColumns.length) {
+                <div class="grid grid-cols-1 xl:grid-cols-11 gap-4">
+
+                    <div class="xl:col-span-2 flex flex-col gap-4">
+
+                        @for (item of galleryColumns[0].images; track $index) {
+
+                        <div
+                            class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)]"
+                            [style.height.px]="item.height"
+                        >
+
+                            <img
+                                [src]="item.image"
+                                alt=""
+                                class="w-full h-full object-cover"
+                            >
+
+                            <div class="gallery-one__card__hover">
+
+                                <a
+                                    (click)="openGallery(item.image)"
+                                    class="img-popup"
+                                >
+                                    <i
+                                        class="pi pi-camera"
+                                        style="font-size:1.5rem"
+                                    ></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        }
+
+                    </div>
+
+
+                    <div class="xl:col-span-3">
+
+                        <div
+                            class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)]"
+                            [style.height.px]="galleryColumns[1].images[0].height"
+                        >
+
+                            <img
+                                [src]="galleryColumns[1].images[0].image"
+                                alt=""
+                                class="w-full h-full object-cover"
+                            >
+
+                            <div class="gallery-one__card__hover">
+
+                                <a
+                                    (click)="openGallery(galleryColumns[1].images[0].image)"
+                                    class="img-popup"
+                                >
+                                    <i
+                                        class="pi pi-camera"
+                                        style="font-size:1.5rem"
+                                    ></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="xl:col-span-4">
+
+                        <div
+                            class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)]"
+                            [style.height.px]="galleryColumns[2].images[0].height"
+                        >
+
+                            <img
+                                [src]="galleryColumns[2].images[0].image"
+                                alt=""
+                                class="w-full h-full object-cover"
+                            >
+
+                            <div class="gallery-one__card__hover">
+
+                                <a
+                                    (click)="openGallery(galleryColumns[2].images[0].image)"
+                                    class="img-popup"
+                                >
+                                    <i
+                                        class="pi pi-camera"
+                                        style="font-size:1.5rem"
+                                    ></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="xl:col-span-2 flex flex-col gap-4">
+
+                        @for (item of galleryColumns[3].images; track $index) {
+
+                        <div
+                            class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)]"
+                            [style.height.px]="item.height"
+                        >
+
+                            <img
+                                [src]="item.image"
+                                alt=""
+                                class="w-full h-full object-cover"
+                            >
+
+                            <div class="gallery-one__card__hover">
+
+                                <a
+                                    (click)="openGallery(item.image)"
+                                    class="img-popup"
+                                >
+                                    <i
+                                        class="pi pi-camera"
+                                        style="font-size:1.5rem"
+                                    ></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        }
+
+                    </div>
+
+                </div>
+                }
+                <div class="mt-[25px] flex justify-center">
+                    <div
+                        class="col-lg-8 wow fadeInUp"
+                        data-wow-delay="200ms"
+                    >
+
+                        <div class="tours-details__content">
+                            <h3 class="tours-details__title">Overview</h3>
+                            <p class="tours-details__text">
+                                You’ve switched your charity’s office to renewable energy. You’ve cut most flights. The
+                                office fridge is stacked high with
+                                oat milk, and lycra-clad staff are proudly showing off their subsidised bicycles. On
+                                your way to net-zero, right? But
+                                operational emissions are just one part of the net-zero picture: your money, too, has a
+                                carbon cost attached.
+                            </p>
+                            <p class="tours-details__text">
+                                Cras varius. Donec vitae orci sed dolor rutrum auctor. Fusce egestas elit eget lorem.
+                                Suspendisse nisl elit, rhoncus eget
+                                elementum acondimentum eget, diam. Nam at tortor in tellus interdum sagitliquam
+                                lobortis. Donec orci lectus, aliquam ut,
+                                faucibus non, euismod id, nulla. Curabitur blandit mollis lacus. Nam adipiscing.
+                                Vestibulum eu odio. Vivamus laoreet.
+                                mavailable market standard dummy text available market industry Lorem Ipsum simply dummy
+                                text of free available market.
+                                There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration
+                            </p>
+                            <h3 class="tours-details__title mt35">Included / Excluded</h3>
+                            <p class="tours-details__text">
+                                You’ve switched your charity’s office to renewable energy. You’ve cut most flights. The
+                                office fridge is stacked high with
+                                oat milk, and lycra-clad staff are proudly showing off their subsidised bicycles. On
+                                your way to net-zero, right? But
+                                operational emissions are just one part of the net-zero picture: your money, too, has a
+                                carbon cost attached.
+                            </p>
+                            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+
+                                <div>
+                                    <ul class="tours-details__list">
+                                        <li><i
+                                                class="pi pi-check"
+                                                style="font-size: 1.2rem"
+                                            ></i>Breakfast, lunch, and dinner.</li>
+                                        <li><i
+                                                class="pi pi-check"
+                                                style="font-size: 1.2rem"
+                                            ></i>Breakfast, lunch, and dinner.</li>
+                                        <li><i
+                                                class="pi pi-check"
+                                                style="font-size: 1.2rem"
+                                            ></i>Breakfast, lunch, and dinner.</li>
+                                        <li><i
+                                                class="pi pi-check"
+                                                style="font-size: 1.2rem"
+                                            ></i>Breakfast, lunch, and dinner.</li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <ul class="tours-details__list">
+                                        <li><i
+                                                class="pi pi-times"
+                                                style="font-size: 1.2rem"
+                                            ></i>Professional tour guide</li>
+                                        <li><i
+                                                class="pi pi-times"
+                                                style="font-size: 1.2rem"
+                                            ></i>Professional tour guide</li>
+                                        <li><i
+                                                class="pi pi-times"
+                                                style="font-size: 1.2rem"
+                                            ></i>Professional tour guide</li>
+                                        <li><i
+                                                class="pi pi-times"
+                                                style="font-size: 1.2rem"
+                                            ></i>Professional tour guide</li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                </div>
+
+                            </div>
+
+                            <h3 class="tours-details__title mt35">
+                                Daily Schedule
+                            </h3>
+
+                            <p class="tours-details__text">
+                                Follow a carefully planned daily program designed to help you make the most of your
+                                journey. From morning departures and guided sightseeing to cultural experiences, local
+                                cuisine, and evening leisure time, every part of the day is organized to provide a
+                                comfortable and memorable travel experience.
+                            </p>
+                            <h3 class="tours-details__title mt35">Top Highlights</h3>
+                            <p class="tours-details__text">
+                                You’ve switched your charity’s office to renewable energy. You’ve cut most flights. The
+                                office fridge is stacked high with
+                                oat milk, and lycra-clad staff are proudly showing off their subsidised bicycles. On
+                                your way to net-zero, right? But
+                                operational emissions are just one part of the net-zero picture: your money, too, has a
+                                carbon cost attached.
+                            </p>
+
+                        </div>
+
+                        <h3 class="tours-details__title mt35">Itinerary</h3>
+                        <p class="tours-details__text">
+                            You’ve switched your charity’s office to renewable energy. You’ve cut most flights. The
+                            office fridge is stacked high with
+                            oat milk, and lycra-clad staff are proudly showing off their subsidised bicycles. On your
+                            way to net-zero, right? But
+                            operational emissions are just one part of the net-zero picture: your money, too, has a
+                            carbon cost attached.
+                        </p>
+
+
+
+
+                        <h3 class="destination-details__title">Questions About This Tour</h3>
+
+                        <p class="destination-details__text">
+                            Find answers to the most frequently asked questions about this tour, including
+                            transportation, accommodation, meals, activities, group size, and other important travel
+                            details to help you plan your journey with confidence.
+                        </p>
+
+
+                        @if (tour?.video) {
+
+                        <div class="destination-details__video">
+
+                            <img
+                                [src]="tour?.videoThumb || tour?.image"
+                                [alt]="tour?.title"
+                            >
+
+                            <a
+                                class="video-popup"
+                                [href]="tour?.video"
+                                target="_blank"
+                            >
+                                <img
+                                    src="assets/images/shapes/video-btn.png"
+                                    [alt]="tour?.title"
+                                >
+                            </a>
+
+                        </div>
+
+                        }
+
+                        <h3 class="destination-details__title">See Map</h3>
+                        <p class="destination-details__text">
+                            You’ve switched your charity’s office to renewable energy. You’ve cut most flights. The
+                            office
+                            fridge is stacked high with
+                            oat milk, and lycra-clad staff are proudly showing off their subsidised bicycles. On
+                            your way to
+                            net-zero.
+                        </p>
+                        <div
+                            class="destination-details__map"
+                            *ngIf="showMap$ | async"
+                        >
+                            <google-map
+                                height="476px"
+                                width="100%"
+                                [options]="mapOptions"
+                            >
+
+                                <map-advanced-marker
+                                    *ngFor="let m of markers; trackBy: trackBy"
+                                    [position]="m.position"
+                                    [content]="m.content"
+                                    [gmpDraggable]="false"
+                                >
+                                </map-advanced-marker>
+
+                            </google-map>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <app-footer />
+    </div>
+    <app-galleria />
+</animated-container>

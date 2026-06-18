@@ -1,0 +1,21 @@
+
+<p-button
+    icon="pi pi-heart"
+    [rounded]="true"
+    [disabled]="!(state$ | async)?.routes?.length"
+    (click)="onFitBounds()"
+    [style]="{'width': '48px', 'height': '49px'}"
+    styleClass="p-button-map shadow-[0_8px_20px_hsla(40,3%,45%,0.2)]">
+
+    <ng-template
+    #icon
+    let-checked
+>
+    <span
+        class="material-icons-outlined" style="font-size: x-large;"
+
+    >
+    route
+    </span>
+</ng-template>
+</p-button>

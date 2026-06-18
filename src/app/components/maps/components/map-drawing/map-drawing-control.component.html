@@ -1,0 +1,72 @@
+<div class="flex items-center">
+    <p-togglebutton
+        pButton
+        tooltipPosition="left"
+        positionLeft="-5"
+        [pTooltip]="isDraw ? 'Stop draw' : 'Start draw'"
+        [(ngModel)]="isDraw"
+        iconPos="right"
+        [allowEmpty]="true"
+        onLabel=""
+        (onChange)="onDrawChange($event)"
+        offLabel=""
+        styleClass="icon-only-toggle p-button-icon-only p-button-map my-0 mx-4"
+        [style]="{'width': '38px', 'height': '38px'}"
+    >
+        <ng-template
+            #icon
+            let-checked
+        >
+            <span
+                class="material-icons-outlined"
+                [class.filled]="checked"
+            >
+                polyline
+            </span>
+        </ng-template>
+    </p-togglebutton>
+
+    <p-togglebutton
+        pButton
+        tooltipPosition="left"
+        positionLeft="-5"
+        [pTooltip]="isEdit ? 'Stop editing' : 'Edit shape'"
+        [(ngModel)]="isEdit"
+        iconPos="right"
+        [allowEmpty]="true"
+        [disabled]="!(shapeExists$ | async)"
+        onLabel=""
+        (onChange)="onEditChange($event)"
+        offLabel=""
+        styleClass="icon-only-toggle p-button-icon-only p-button-map my-0 mx-4"
+        [style]="{'width': '38px', 'height': '38px'}"
+    >
+        <ng-template
+            #icon
+            let-checked
+        >
+            <span
+                class="material-icons-outlined"
+                [class.filled]="checked"
+            >
+                edit
+            </span>
+        </ng-template>
+    </p-togglebutton>
+    <p-button
+        pRipple
+        tooltipPosition="left"
+        positionLeft="9"
+        pTooltip="Remove a shape"
+        (click)="onRemove()"
+        [disabled]="!(shapeExists$ | async)"
+        [style]="{'width': '38px', 'height': '38px'}"
+        styleClass="p-button-map my-0 mx-4"
+    >
+        <ng-template pTemplate="icon">
+            <span class="material-icons-outlined">
+                delete
+            </span>
+        </ng-template>
+    </p-button>
+</div>

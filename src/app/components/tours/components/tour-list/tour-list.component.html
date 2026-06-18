@@ -1,0 +1,106 @@
+<animated-container>
+    <app-menu [styleClass]="'relative! w-full! p-0! border-0 rounded-none! bg-transparent'"></app-menu>
+    <div class="pt-20">
+        <app-header [title]="'components.tour.title' | translate">
+            {{ 'components.tour.description' | translate }}
+        </app-header>
+        <section class="tours-one py-16 lg:py-24">
+
+            <div class="container">
+
+                <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+
+                    <div
+                        *ngFor="let item of tours"
+                        class="tours-one__item"
+                    >
+
+                        <img
+                            [src]="item.image"
+                            [alt]="localization.getText(item.title)"
+                        >
+
+                        @if (item.featured) {
+                        <div class="tours-one__item__offer tours-one__item__feature">
+                            Featured
+                        </div>
+                        }
+
+
+
+                        <div class="tours-one__item__content">
+
+
+
+                            <h3 class="tours-one__item__title">
+
+                                <a [routerLink]="['/tours', item.slug]">
+                                    {{ localization.getText(item.title) }}
+                                </a>
+
+                            </h3>
+
+                            <ul class="tours-one__item__meta">
+
+                                <li>
+                                    <i class="pi pi-calendar-clock"></i>
+                                    {{ item.durationDays }} Days
+                                </li>
+
+
+                                <li>
+                                    <i class="pi pi-map-marker"></i>
+                                    {{ localization.getText(item.city) }},
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="tours-one__item__btn">
+
+                            <a (click)="openGallery(item)">
+                                <i class="pi pi-camera"></i>
+                            </a>
+
+                            <a
+                                *ngIf="item.video"
+                                [href]="item.video"
+                                target="_blank"
+                            >
+                                <i class="pi pi-video"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="mt-12 flex justify-center">
+
+
+                    <p-button
+                        [disabled]="!hasMore || loading"
+                        [loading]="loading"
+                        [rounded]="true"
+                        size="large"
+                        [label]="'components.tour.loadMore' | translate"
+                        (click)="loadMore()"
+                    >
+                    </p-button>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <app-footer />
+    </div>
+
+</animated-container>
+
+<app-galleria #gallery></app-galleria>

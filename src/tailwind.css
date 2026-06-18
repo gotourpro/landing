@@ -1,0 +1,113 @@
+@config "../tailwind.config.js";
+@import "tailwindcss";
+@plugin "tailwindcss-primeui";
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  .title {
+    @apply text-6xl font-semibold leading-[125%] text-transparent bg-clip-text;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 5%, rgba(255, 255, 255, 1) 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .description {
+    @apply text-lg lg:text-xl leading-7 text-white/64;
+  }
+
+  .button-regular {
+    @apply min-w-28 px-5 py-2 rounded-full flex items-center justify-center gap-2 font-medium text-surface-950 bg-surface-0 cursor-pointer hover:opacity-80 transition-all;
+    box-shadow:
+      0px 10px 10px -8px rgba(18, 18, 23, 0.02),
+      0px 2px 2px -1.5px rgba(18, 18, 23, 0.02),
+      0px 1px 1px -0.5px rgba(18, 18, 23, 0.02),
+      0px 0px 0px 1px rgba(18, 18, 23, 0.02);
+  }
+
+  .button-outlined {
+    @apply min-w-28 px-5 py-2 rounded-full flex items-center justify-center gap-2 font-medium text-surface-0 cursor-pointer backdrop-blur-lg border border-white/24 hover:opacity-80 transition-all;
+  }
+
+  .button-gradient {
+    @apply rounded-full px-5 py-2 bg-main-gradient shadow-blue-card min-w-28 w-fit flex items-center justify-center gap-2 font-medium text-surface-0 cursor-pointer hover:opacity-80 transition-all;
+  }
+
+  .button-blur {
+    @apply h-11 px-5 rounded-full flex items-center justify-center gap-2 bg-white/16 hover:bg-white/24 transition-all backdrop-blur-[48px] text-surface-0 font-medium border border-white/8;
+    box-shadow:
+      0px 2px 5px 0px rgba(255, 255, 255, 0.06) inset,
+      0px 12px 20px 0px rgba(0, 0, 0, 0.06);
+  }
+
+  .badge {
+    @apply block px-3.5 py-1 w-fit rounded-full border border-surface-200 dark:border-surface-800 bg-surface-0 dark:bg-surface-950 font-medium text-surface-950 dark:text-surface-0;
+    box-shadow: 0px 1px 2px 0px rgba(18, 18, 23, 0.05);
+  }
+
+  .container {
+    @apply max-w-[1152px] px-4 mx-auto;
+  }
+
+  .p-accordioncontent-content {
+    @apply dark:bg-surface-950;
+  }
+
+  .icon-box {
+    @apply w-14 h-14 lg:w-20 lg:h-20 flex items-center justify-center mx-auto bg-main-gradient rounded-2xl lg:rounded-3xl [&>svg]:w-8 [&>svg]:h-8 [&>svg]:lg:w-10 [&>svg]:lg:h-10;
+
+    box-shadow:
+      0px 2px 3px 0px rgba(255, 255, 255, 0.25) inset,
+      0px 19px 5px 0px rgba(0, 0, 0, 0.00),
+      0px 12px 5px 0px rgba(0, 0, 0, 0.01),
+      0px 7px 4px 0px rgba(0, 0, 0, 0.05),
+      0px 3px 3px 0px rgba(0, 0, 0, 0.09),
+      0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+  }
+}
+
+:root {
+  --background: var(--p-surface-0);
+  --foreground: var(--p-surface-950);
+
+  --bg-gradient-from: var(--p-primary-800);
+  --bg-gradient-to: var(--p-primary-500);
+
+  --gradient-background: linear-gradient(180deg,
+      var(--bg-gradient-from) 0%,
+      var(--bg-gradient-to) 100%);
+  --gradient-background-to-top: linear-gradient(0deg,
+      var(--bg-gradient-from) 0%,
+      var(--bg-gradient-to) 100%);
+  --gradient-background-to-left: linear-gradient(90deg,
+      var(--bg-gradient-from) 0%,
+      var(--bg-gradient-to) 100%);
+  /* Shadows */
+  --card-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.06),
+    0px -1px 1px 0px rgba(0, 0, 0, 0.06) inset,
+    0px 12px 3px 0px rgba(0, 0, 0, 0), 0px 8px 3px 0px rgba(0, 0, 0, 0.01),
+    0px 4px 3px 0px rgba(0, 0, 0, 0.03), 0px 2px 2px 0px rgba(0, 0, 0, 0.05),
+    0px 0px 1px 0px rgba(0, 0, 0, 0.06);
+
+  --black-card-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.06),
+    0px -1px 1px 0px rgba(0, 0, 0, 0.06) inset,
+    0px 12px 3px 0px rgba(0, 0, 0, 0), 0px 8px 3px 0px rgba(0, 0, 0, 0.01),
+    0px 4px 3px 0px rgba(0, 0, 0, 0.03), 0px 2px 2px 0px rgba(0, 0, 0, 0.05),
+    0px 0px 1px 0px rgba(0, 0, 0, 0.06);
+
+  --blue-card-shadow: 0px 59px 16px -8px rgba(120, 149, 206, 0),
+    0px 38px 15px -8px rgba(120, 149, 206, 0.01),
+    0px 21px 13px -8px rgba(120, 149, 206, 0.04),
+    0px 9px 9px -4px rgba(120, 149, 206, 0.07),
+    0px 2px 5px 0px rgba(120, 149, 206, 0.08);
+
+  --stroke-shadow: 0px 1px 2px 0px rgba(164, 172, 185, 0.24),
+    0px 0px 0px 1px rgba(18, 55, 105, 0.08);
+}

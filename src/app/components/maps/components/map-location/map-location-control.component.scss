@@ -1,0 +1,29 @@
+.place {
+    -webkit-tap-highlight-color: transparent;
+    background-color: var(--ground-background);
+    background-position: 6px 4px;
+    background-repeat: no-repeat;
+    background-size: 11px 14px;
+    border-radius: 50%;
+    height: 24px;
+    left: -12px;
+    position: relative;
+    top: -12px;
+    width: 24px;
+}
+
+.place--current-location {
+    align-items: center;
+    background-image: none;
+    display: flex;
+    justify-content: center;
+}
+
+.place--current-location:after {
+    background-color: var(--p-button-primary-background);
+    border-radius: 3px;
+    content: "";
+    display: block;
+    height: 6px;
+    width: 6px;
+}

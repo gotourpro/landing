@@ -1,0 +1,49 @@
+<div [ngClass]="containerClass">
+
+        <p-button
+                [pTooltip]="tooltipZoomIn"
+                positionLeft="-5"
+                tooltipPosition="left"
+                [tooltipDisabled]="disableTooltips"
+                [disabled]="isDisabledZoomIn"
+                (click)="onZoomInChange()"
+                [style]="styleButtonZoomIn"
+                styleClass="p-button-map"
+                icon="pi pi-plus"
+        >
+                <ng-template
+                        #icon
+                        let-checked
+                >
+                        <span
+                                class="material-icons-outlined"
+                                style="font-size: x-large;"
+                        >
+                                add
+                        </span>
+                </ng-template>
+        </p-button>
+        <p-button
+                [pTooltip]="tooltipZoomOut"
+                positionLeft="-5"
+                tooltipPosition="left"
+                [tooltipDisabled]="disableTooltips"
+                [disabled]="isDisabledZoomOut"
+                (click)="onZoomOutChange()"
+                [style]="styleButtonZoomOut"
+                styleClass="border-top-none p-button-map"
+                icon="pi pi-minus"
+        >
+                <ng-template
+                        #icon
+                        let-checked
+                >
+                        <span
+                                class="material-icons-outlined"
+                                style="font-size: x-large;"
+                        >
+                                remove
+                        </span>
+                </ng-template>
+        </p-button>
+</div>
