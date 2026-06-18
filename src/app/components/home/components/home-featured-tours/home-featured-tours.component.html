@@ -99,15 +99,18 @@
             [height]="'auto'"
             [breakpoints]="breakpoints"
             [options]="{
-     align: 'center',
+     align: 'start',
       loop: true,
       containScroll: false,
     }"
         >
 
-            <ui-carousel-item *ngFor="let tour of tours">
+            <ui-carousel-item
+                *ngFor="let tour of tours"
+                className="px-4"
+            >
 
-                <div class="tours-one__item h-[350px]">
+                <div class="tours-one__item h-[465px]!">
 
                     <img
                         [src]="tour.image"

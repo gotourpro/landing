@@ -59,6 +59,7 @@ export class HomeDestinationsComponent {
             spacing: '24px'
         }
     };
+    
     public ngOnInit(): void {
         this.destinationsService
             .getPopular()

@@ -81,12 +81,16 @@
             data-wow-delay="200ms"
         >
             <ui-carousel
+                dotActiveClass="bg-white scale-125"
+                dotInactiveClass="bg-white/40"
                 className="why-choose-two__carousel"
                 [hideMask]="true"
+                [hideDots]="!isMobile()"
                 [hideButtons]="true"
                 [options]="{
         align: 'start',
-        loop: true
+        loop: true,
+         containScroll: 'trimSnaps'
     }"
                 [size]="'33.333%'"
                 spacing="24px"
@@ -94,7 +98,10 @@
                 [breakpoints]="breakpoints"
             >
 
-                <ui-carousel-item *ngFor="let item of whyChooseItems; let index = index">
+                <ui-carousel-item
+                    *ngFor="let item of whyChooseItems; let index = index"
+                    className="px-4"
+                >
                     <div class="why-choose-two__item
          shadow-[0_4px_20px_rgba(0,0,0,0.04)]
          h-[312px]

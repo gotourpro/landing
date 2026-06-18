@@ -53,7 +53,7 @@ export class HomeFeaturedToursComponent {
     public breakpoints = {
         576: {
             size: '100%',
-            spacing: '14px'
+            spacing: '24px'
         },
 
         992: {

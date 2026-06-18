@@ -21,6 +21,7 @@
             [options]="{
         align: 'start',
         loop: true,
+         containScroll: false,
     }"
             [size]="'33.333%'"
             spacing="24px"
@@ -28,9 +29,9 @@
             [breakpoints]="breakpoints"
         >
 
-            <ui-carousel-item *ngFor="let item of blogItems; let index = index">
+            <ui-carousel-item *ngFor="let item of blogItems; let index = index" className="px-4">
 
-                <div class="blog-one__item ">
+                <div class="blog-one__item h-[465px]!">
 
                     <div class="blog-one__item__thumb">
 
@@ -45,11 +46,11 @@
                         >
 
                         <a
-    [routerLink]="['/blog', item.slug]"
-    class="blog-one__item__thumb__link"
->
+                            [routerLink]="['/blog', item.slug]"
+                            class="blog-one__item__thumb__link"
+                        >
                             <span class="sr-only">
-                               {{ localization.getText(item.title) }}
+                                {{ localization.getText(item.title) }}
                             </span>
                         </a>
 
@@ -57,24 +58,24 @@
 
                     <div class="blog-one__item__content">
 
-                       <h3 class="blog-one__item__title">
+                        <h3 class="blog-one__item__title">
 
-    <a [routerLink]="['/blog', item.slug]">
-        {{ localization.getText(item.title) }}
-    </a>
+                            <a [routerLink]="['/blog', item.slug]">
+                                {{ localization.getText(item.title) }}
+                            </a>
 
-</h3>
+                        </h3>
 
                         <ul class="blog-one__item__meta">
 
                             <li>
                                 <i class="icon-calendar"></i>
-                               {{ item.category }}
+                                {{ item.category }}
                             </li>
 
                             <li>
                                 <i class="icon-calendar"></i>
-                               {{ item.publishedAt | date:'longDate' }}
+                                {{ item.publishedAt | date:'longDate' }}
 
                             </li>
 

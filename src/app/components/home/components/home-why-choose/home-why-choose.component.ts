@@ -27,30 +27,22 @@ export class HomeWhyChooseComponent {
     isWide = computed(() => this.layoutService.isWide());
 
       public breakpoints = {
-        1200: { size: '50%' },
-        768: { size: '100%' }
+        576: {
+            size: '100%',
+            spacing: '24px'
+        },
+
+        992: {
+            size: '50%',
+            spacing: '24px'
+        },
+
+        1200: {
+            size: '33.333%',
+            spacing: '24px'
+        }
     };
 
      public whyChooseItems = HOME_WHY_CHOOSE_ITEMS;
 
-    // whyChooseItems = [
-    //     {
-    //         icon: 'pi pi-map-marker',
-    //         title: 'Customizable Tours',
-    //         description:
-    //             'Content of a page when looking at layout the point of using lorem the is Ipsum less normal',
-    //     },
-    //     {
-    //         icon: 'pi pi-users',
-    //         title: 'Expert Guides',
-    //         description:
-    //             'Content of a page when looking at layout the point of using lorem the is Ipsum less normal',
-    //     },
-    //     {
-    //         icon: 'pi pi-clipboard',
-    //         title: 'Seamless Planning',
-    //         description:
-    //             'Content of a page when looking at layout the point of using lorem the is Ipsum less normal',
-    //     }
-    // ];
 }

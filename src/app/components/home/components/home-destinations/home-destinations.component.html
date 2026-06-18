@@ -10,7 +10,7 @@
       </div>
 
       <ui-carousel
-        [scaled]="true"
+        [scaled]="false"
         [hideMask]="true"
         [hideButtons]="true"
         [hideDots]="false"
@@ -23,7 +23,7 @@
         height="auto"
         [breakpoints]="breakpoints"
       >
-        <ui-carousel-item *ngFor="let item of destinationItems; let index = index" [scaled]="false">
+        <ui-carousel-item *ngFor="let item of destinationItems; let index = index"  className="px-4" [scaled]="false">
           <div class="destination-two__item  shadow-[0_4px_20px_rgba(0,0,0,0.04)] wow fadeInUp">
             <div class="destination-two__image h-[380px]">
               <img

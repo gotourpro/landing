@@ -75,15 +75,16 @@ import { Subject } from "rxjs";
   *ngIf="!hideDots"
   class="mt-6 flex justify-center gap-3"
 >
-<button
-  *ngFor="let dot of dots"
-  type="button"
-  (click)="scrollTo(dot)"
-  class="h-3 w-3 rounded-full transition-all duration-300"
-  [ngClass]="selectedIndex === dot
-    ? dotActiveClass
-    : dotInactiveClass"
-></button>
+  <button
+    *ngFor="let dot of dots"
+    type="button"
+    (click)="scrollTo(dot)"
+    class="h-3 w-3 rounded-full transition-all duration-300"
+    [ngClass]="{
+      'bg-primary scale-125': selectedIndex === dot,
+      'bg-gray-300 dark:bg-white/20': selectedIndex !== dot
+    }"
+  ></button>
 </div>
     </section>
   `,
