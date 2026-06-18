@@ -3,7 +3,6 @@ import { AnimatedContainer } from "../../../animatedcontainer";
 import { MenuComponent } from "../../../menu/components/menu.component";
 import { HeaderComponent } from "../../../header/header.component";
 import { FooterComponent } from "../../../footer/footer.component";
-import { ITour } from "../../interfaces/tour.interface";
 import { ActivatedRoute } from "@angular/router";
 import { ToursService } from "../../services/tours.service";
 import { LocalizationService } from "../../../../services/localization.service";
@@ -40,8 +39,8 @@ export class TourDetailsComponent {
     public markers: any[] = [];
     public _destroy$ = new Subject<void>();
     private _showMapSubject = new BehaviorSubject<boolean>(false);
-    layoutService = inject(LayoutService);
-    isDarkTheme = computed(() => this.layoutService.isDarkTheme());
+    public layoutService = inject(LayoutService);
+    public isDarkTheme = computed(() => this.layoutService.isDarkTheme());
     public showMap$: Observable<boolean> = this._showMapSubject.asObservable();
     public mapOptions: google.maps.MapOptions = {
         center: { lat: 55.74218032609179, lng: 37.62001671463327 },
@@ -56,7 +55,6 @@ export class TourDetailsComponent {
         clickableIcons: false
     };
 
-
     constructor(
         private route: ActivatedRoute,
         private toursService: ToursService,
@@ -64,7 +62,7 @@ export class TourDetailsComponent {
         private _googleMapsLoader: GoogleMapsLoaderService,
     ) { }
 
-    ngOnInit(): void {
+    public ngOnInit(): void {
 
         const slug =
             this.route.snapshot.paramMap.get('slug');
@@ -93,7 +91,7 @@ export class TourDetailsComponent {
                         this.tour.tourHeader ??
                         this.tour.description
                     );
-                this.setDetails();
+                this.onInit();
 
             });
 
@@ -102,7 +100,7 @@ export class TourDetailsComponent {
     }
 
 
-    setDetails(): void {
+    public onInit(): void {
 
         if (!this.tour) {
             return;
@@ -202,11 +200,11 @@ export class TourDetailsComponent {
             ? this.tour.images
             : [this.tour.image];
     }
-    trackBy(index: number, m: any): string {
+    public trackBy(index: number, m: any): string {
         return m.label;
     }
 
-    getGallerySpan(span: number): string {
+    public getGallerySpan(span: number): string {
         return `xl:col-span-${span}`;
     }
 

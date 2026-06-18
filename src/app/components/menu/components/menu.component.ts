@@ -8,7 +8,7 @@ import { Router, RouterModule } from '@angular/router';
 import { catchError, debounceTime, filter, fromEvent, of, startWith, Subject, take, takeUntil } from 'rxjs';
 import { FormGroup, FormsModule } from '@angular/forms';
 import { SelectModule } from 'primeng/select';
-
+import { RouterLink } from "@angular/router";
 import { MenubarModule } from 'primeng/menubar';
 import { BreakpointObserver } from '@angular/cdk/layout';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
@@ -40,6 +40,7 @@ import { MenuService } from '../services/menu.service';
         KeepOpenMegaMenuDirective,
         MegaMenuMaskDirective,
         TranslateModule,
+        RouterLink,
         MenubarModule,
         ConfiguratorComponent
     ],
