@@ -157,6 +157,7 @@
 
 
                                 <p-button
+                                    *ngIf="!isMobile"
                                     icon="pi pi-comment"
                                     [styleClass]="twMerge(
     '[&_.p-button-label]:hidden sm:[&_.p-button-label]:inline-block'
