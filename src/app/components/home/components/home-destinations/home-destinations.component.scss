@@ -1,6 +1,8 @@
 /*--------------------------------------------------------------
 # Destination Section
 --------------------------------------------------------------*/
+
+
 .destination-one {
     position: relative;
     padding: 120px 0px;
@@ -186,12 +188,15 @@
     z-index: 1;
     overflow: hidden;
     border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .destination-two__image img {
     -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
+    height: 100%;
     transform: scale(1);
     transition: all 0.5s ease-in-out;
 }

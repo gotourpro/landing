@@ -56,10 +56,10 @@
             "ru": "Китайский юань (CNY)",
             "zh-Hans": "人民币（CNY）"
         },
-        "image": "assets/images/destination/424x713.svg",
+        "image": "assets/images/destination/350x380.svg",
         "images": [
             "assets/images/destination/424x713.svg",
-            "assets/images/destination/424x713.svg",
+            "assets/images/destination/test.jpg",
             "assets/images/destination/424x713.svg"
         ],
         "featured": true,
@@ -117,7 +117,7 @@
             "ru": "Китайский юань (CNY)",
             "zh-Hans": "人民币（CNY）"
         },
-        "image": "assets/images/destination/424x713.svg",
+        "image": "assets/images/destination/350x380.svg",
         "images": [
             "assets/images/destination/424x713.svg",
             "assets/images/destination/424x713.svg",
@@ -178,7 +178,7 @@
             "ru": "Китайский юань (CNY)",
             "zh-Hans": "人民币（CNY）"
         },
-        "image": "assets/images/destination/424x713.svg",
+        "image": "assets/images/destination/350x380.svg",
         "images": [
             "assets/images/destination/424x713.svg",
             "assets/images/destination/424x713.svg",
@@ -254,7 +254,7 @@
             "ru": "0 км",
             "zh-Hans": "0公里"
         },
-        "image": "assets/images/destination/424x713.svg",
+        "image": "assets/images/destination/350x380.svg",
         "images": [
             "assets/images/destination/424x713.svg",
             "assets/images/destination/424x713.svg",

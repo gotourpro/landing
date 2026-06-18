@@ -113,18 +113,19 @@ export class UICarousel {
 
   @ViewChild("emblaRef") emblaRef!: ElementRef;
 
-  emblaApi!: EmblaCarouselType | null;
-  autoplayPlugin?: any;
-  prevBtnDisabled: boolean = false;
-  nextBtnDisabled: boolean = false;
-  tweenNodes: HTMLElement[] = [];
-  tweenFactor: number = 0;
-  dots: number[] = [];
-  selectedIndex = 0;
+  public emblaApi!: EmblaCarouselType | null;
+  public autoplayPlugin?: any;
+  public prevBtnDisabled: boolean = false;
+  public nextBtnDisabled: boolean = false;
+  public tweenNodes: HTMLElement[] = [];
+  public tweenFactor: number = 0;
+  public dots: number[] = [];
+  public selectedIndex = 0;
   public currentSize = this.size;
   public currentSpacing = this.spacing;
   public currentHeight = this.height;
-  emblaApiSubject = new Subject<EmblaCarouselType | null>();
+  public isSingleSlide = false;
+  public emblaApiSubject = new Subject<EmblaCarouselType | null>();
 
   twMerge = twMerge;
 
@@ -156,6 +157,8 @@ export class UICarousel {
     this.currentSize = config.size ?? this.currentSize;
     this.currentSpacing = config.spacing ?? this.currentSpacing;
     this.currentHeight = config.height ?? this.currentHeight;
+
+    this.isSingleSlide = this.currentSize === '100%';
   }
 
   scrollTo(index: number) {

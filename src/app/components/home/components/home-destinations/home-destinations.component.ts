@@ -38,18 +38,27 @@ export class HomeDestinationsComponent {
     ) { }
 
     public destinationItems: IDestination[] = [];
-    layoutService = inject(LayoutService);
-    isMobile = computed(() => this.layoutService.isMobile());
-    isDarkTheme = computed(() => this.layoutService?.isDarkTheme());
-
-    isWide = computed(() => this.layoutService.isWide());
-
-    public breakpoints = {
-        1200: { size: '50%' },
-        768: { size: '100%' }
-    };
+    public layoutService = inject(LayoutService);
+    public isMobile = computed(() => this.layoutService.isMobile());
+    public isDarkTheme = computed(() => this.layoutService?.isDarkTheme());
 
 
+public breakpoints = {
+  576: {
+    size: '100%',
+    spacing: '.125rem'
+  },
+
+  992: {
+    size: '50%',
+    spacing: '24px'
+  },
+
+  1200: {
+    size: '33.333%',
+    spacing: '24px'
+  }
+};
     public ngOnInit(): void {
         this.destinationsService
             .getPopular()

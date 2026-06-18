@@ -10,22 +10,24 @@
       </div>
 
       <ui-carousel
-        className="destination-two__carousel"
+        [scaled]="true"
         [hideMask]="true"
         [hideButtons]="true"
+        [hideDots]="false"
         [options]="{
-        align: 'start',
-        loop: true
-    }"
-        [size]="'25%'"
-        spacing="24px"
+    align: 'start',
+    loop: true,
+     containScroll: 'trimSnaps'
+  }"
+        [size]="'33.333%'"
         height="auto"
         [breakpoints]="breakpoints"
       >
         <ui-carousel-item *ngFor="let item of destinationItems; let index = index">
-          <div class="destination-two__item shadow-[0_4px_20px_rgba(0,0,0,0.04)] wow fadeInUp">
-            <div class="destination-two__image">
+          <div class="destination-two__item  shadow-[0_4px_20px_rgba(0,0,0,0.04)] wow fadeInUp">
+            <div class="destination-two__image h-[380px]">
               <img
+                class="w-full"
                 [src]="item.image"
                 [alt]="localization.getText(item.title)"
               >
@@ -42,8 +44,6 @@
                       {{ localization.getText(item.title) }}
                     </a>
                   </h4>
-
-
 
                 </div>
 
