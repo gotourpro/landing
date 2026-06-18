@@ -66,9 +66,7 @@
 
                     <div class="tours-one__item__btn">
 
-                        <a
-                            (click)="openGallery(tour)"
-                        >
+                        <a (click)="openGallery(tour)">
                             <i class="pi pi-camera"></i>
                         </a>
 
@@ -87,87 +85,86 @@
             </animated-container>
         </div>
 
-    }
+        }
 
 
         @if (isMobile()) {
 
-<ui-carousel
-    [hideMask]="true"
-    [hideButtons]="true"
-    [hideDots]="false"
-    [size]="'33.333%'"
-    [spacing]="'.5rem'"
-    [height]="'auto'"
-    [breakpoints]="breakpoints"
-    [options]="{
-     align: 'start',
-      loop: true
+        <ui-carousel
+            [hideMask]="true"
+            [hideButtons]="true"
+            [hideDots]="false"
+            [size]="'33.333%'"
+            [spacing]="'24px'"
+            [height]="'auto'"
+            [breakpoints]="breakpoints"
+            [options]="{
+     align: 'center',
+      loop: true,
+      containScroll: false,
     }"
->
+        >
 
-    <ui-carousel-item
-        *ngFor="let tour of tours"
-    >
+            <ui-carousel-item *ngFor="let tour of tours">
 
-        <div class="tours-one__item h-[350px]">
+                <div class="tours-one__item h-[350px]">
 
-            <img
-                [src]="tour.image"
-                [alt]="localization.getText(tour.title)"
-            >
+                    <img
+                        [src]="tour.image"
+                        [alt]="localization.getText(tour.title)"
+                    >
 
-            @if (tour.featured) {
-                <div class="tours-one__item__offer tours-one__item__feature">
-                    {{ 'components.homeFeaturedTours.featured' | translate }}
+                    @if (tour.featured) {
+                    <div class="tours-one__item__offer tours-one__item__feature">
+                        {{ 'components.homeFeaturedTours.featured' | translate }}
+                    </div>
+                    }
+
+                    <div class="tours-one__item__content">
+
+                        <h3 class="tours-one__item__title">
+                            <a [routerLink]="['/tours', tour.slug]">
+                                {{ localization.getText(tour.title) }}
+                            </a>
+                        </h3>
+
+                        <ul class="tours-one__item__meta">
+                            <li>
+                                <i class="pi pi-calendar-clock"></i>
+                                {{ tour.durationDays }} Days
+                            </li>
+
+                            <li>
+                                <i class="flaticon-pin-1"></i>
+                                {{ localization.getText(tour.city) }}
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="tours-one__item__btn">
+
+                        <a (click)="openGallery(tour)">
+                            <i class="pi pi-camera"></i>
+                        </a>
+
+                        <a
+                            *ngIf="tour.video"
+                            [href]="tour.video"
+                            target="_blank"
+                        >
+                            <i class="pi pi-video"></i>
+                        </a>
+
+                    </div>
+
                 </div>
-            }
 
-            <div class="tours-one__item__content">
+            </ui-carousel-item>
 
-                <h3 class="tours-one__item__title">
-                    <a [routerLink]="['/tours', tour.slug]">
-                        {{ localization.getText(tour.title) }}
-                    </a>
-                </h3>
+        </ui-carousel>
 
-                <ul class="tours-one__item__meta">
-                    <li>
-                        <i class="pi pi-calendar-clock"></i>
-                        {{ tour.durationDays }} Days
-                    </li>
-
-                    <li>
-                        <i class="flaticon-pin-1"></i>
-                        {{ localization.getText(tour.city) }}
-                    </li>
-                </ul>
-
-            </div>
-
-            <div class="tours-one__item__btn">
-
-                <a (click)="openGallery(tour)">
-                    <i class="pi pi-camera"></i>
-                </a>
-
-                <a
-                    *ngIf="tour.video"
-                    [href]="tour.video"
-                    target="_blank"
-                >
-                    <i class="pi pi-video"></i>
-                </a>
-
-            </div>
-
-        </div>
-
-    </ui-carousel-item>
-
-</ui-carousel>
-
-}
+        }
 
     </div>
     <div

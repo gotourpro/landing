@@ -43,22 +43,22 @@ export class HomeDestinationsComponent {
     public isDarkTheme = computed(() => this.layoutService?.isDarkTheme());
 
 
-public breakpoints = {
-  576: {
-    size: '100%',
-    spacing: '.125rem'
-  },
+    public breakpoints = {
+        576: {
+            size: '100%',
+            spacing: '24px'
+        },
 
-  992: {
-    size: '50%',
-    spacing: '24px'
-  },
+        992: {
+            size: '50%',
+            spacing: '24px'
+        },
 
-  1200: {
-    size: '33.333%',
-    spacing: '24px'
-  }
-};
+        1200: {
+            size: '33.333%',
+            spacing: '24px'
+        }
+    };
     public ngOnInit(): void {
         this.destinationsService
             .getPopular()

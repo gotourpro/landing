@@ -35,7 +35,7 @@ export class HomeBlogComponent {
     public breakpoints = {
         576: {
             size: '100%',
-            spacing: '.125rem'
+            spacing: '24px'
         },
 
         992: {
