@@ -47,14 +47,14 @@ export class AboutTestimonialsComponent {
     ];
 
     public testimonialsImagesLeft = [
-        'assets/images/resources/test-2-1.png',
-        'assets/images/resources/test-2-2.png',
-        'assets/images/resources/test-2-3.png'
+        'assets/images/resources/85x85.svg',
+        'assets/images/resources/85x85.svg',
+        'assets/images/resources/85x85.svg',
     ];
 
     public testimonialsImagesRight = [
-        'assets/images/resources/test-2-4.png',
-        'assets/images/resources/test-2-5.png',
-        'assets/images/resources/test-2-6.png'
+        'assets/images/resources/85x85.svg',
+        'assets/images/resources/85x85.svg',
+        'assets/images/resources/85x85.svg',
     ];
 }

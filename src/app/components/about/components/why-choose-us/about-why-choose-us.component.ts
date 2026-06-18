@@ -26,25 +26,25 @@ export class AboutWhyChooseUsComponent {
 
     public advantages = [
         {
-            icon: 'flaticon-suitcase',
+            icon: 'pi pi-map',
             titleKey: 'components.about.advantages.experiences.title',
             textKey: 'components.about.advantages.experiences.text',
             delay: 100
         },
         {
-            icon: 'flaticon-group',
+            icon: 'pi pi-users',
             titleKey: 'components.about.advantages.guides.title',
             textKey: 'components.about.advantages.guides.text',
             delay: 200
         },
         {
-            icon: 'flaticon-appointment',
+            icon: 'pi pi-calendar-clock',
             titleKey: 'components.about.advantages.booking.title',
             textKey: 'components.about.advantages.booking.text',
             delay: 300
         },
         {
-            icon: 'flaticon-customer',
+            icon: 'pi pi-headphones',
             titleKey: 'components.about.advantages.support.title',
             textKey: 'components.about.advantages.support.text',
             delay: 400
