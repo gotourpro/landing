@@ -8,13 +8,13 @@ export const ABOUT_TEAM_ITEMS: ITeamMember[] = [
             'zh-Hans': '奥尔加·马'
         },
         position: {
-            en: 'Travel Consultant',
+            en: 'Travel agent',
             ru: 'Туристический консультант',
             'zh-Hans': '旅游顾问'
         },
         image: 'assets/images/resources/team-2-1.jpg',
         socials: [
-             {
+            {
                 icon: 'pi pi-telegram',
                 url: '#'
             },
