@@ -32,12 +32,6 @@ export class AboutWhyChooseUsComponent {
             delay: 100
         },
         {
-            icon: 'pi pi-users',
-            titleKey: 'components.about.advantages.guides.title',
-            textKey: 'components.about.advantages.guides.text',
-            delay: 200
-        },
-        {
             icon: 'pi pi-calendar-clock',
             titleKey: 'components.about.advantages.booking.title',
             textKey: 'components.about.advantages.booking.text',
