@@ -1,29 +1,14 @@
+
 <animated-container>
-
-    <div class="container relative">
-
-        <div class="relative z-20">
-
-
-        </div>
-
-
-    </div>
-
-    <section class="page-header">
-        <div class="page-header__bg"></div>
-        <div class="container">
-            <h2 class="page-header__title bw-split-in-right">404</h2>
-            <p
-                class="text-[20px] font-medium max-w-[calc(100%-3rem)] lg:max-w-[44rem] mx-auto! text-center mt-8 text-[var(--travhub-text2)]">
-                Oops! Page Not Found
-            </p>
-
-        </div>
-    </section>
+  <app-menu [styleClass]="'relative! w-full! p-0! border-0 rounded-none! bg-transparent'"></app-menu>
+  <div class="pt-20">
+    <app-header [title]="'404'">
+      {{ 'components.notFound.title' | translate }}
+    </app-header>
+   
 
 
-    <section class="py-16 lg:py-24">
+ <section class="py-16 lg:py-24">
 
         <div class="container">
 
@@ -951,14 +936,12 @@
                 </svg>
 
 
-                <a
+
+                <p-button
                     routerLink="/"
-                    class="travhub-btn mt-8"
-                >
-                    <span>
-                        Go To Home Page
-                    </span>
-                </a>
+                    [label]="'components.notFound.button' | translate"
+                    [rounded]="true"
+                    size="large" />
 
             </div>
 
@@ -966,6 +949,7 @@
 
     </section>
 
-    <app-footer className="mt-64" />
-
+    <app-footer />
+  </div>
 </animated-container>
+

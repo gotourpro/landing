@@ -74,6 +74,11 @@
             "title": "Our Latest Articles",
             "description": "Discover travel tips, destination guides, cultural insights, and inspiration for your next adventure in China."
         },
+        "notFound": {
+            "title": "Oops! Page Not Found",
+            "description": "The page you are looking for doesn't exist or has been moved.",
+            "button": "Back to Home"
+        },
         "about": {
             "title": "Why Choose GoTour",
             "description": "We specialize in unforgettable journeys across China, helping travelers discover iconic landmarks, rich culture, authentic cuisine, and unique local experiences.",
