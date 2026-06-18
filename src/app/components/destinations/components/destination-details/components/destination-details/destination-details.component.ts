@@ -1,4 +1,4 @@
-import { Component, Input, ViewChild } from "@angular/core";
+import { Component, computed, inject, Input, ViewChild } from "@angular/core";
 import { FooterComponent } from "../../../../../footer/footer.component";
 import { MenuComponent } from "../../../../../menu/components/menu.component";
 import { HeaderComponent } from "../../../../../header/header.component";
@@ -14,6 +14,7 @@ import { CommonModule } from "@angular/common";
 import { Feature, Point } from "geojson";
 import { point } from "@turf/helpers";
 import { GalleriaComponent } from "../../../../../galleria/galleria.component";
+import { LayoutService } from "../../../../../../services/layout.service";
 @Component({
     selector: "app-destination-details",
     standalone: true,
@@ -37,6 +38,8 @@ export class DestinationDetailsComponent {
     public markers: any[] = [];
     public _destroy$ = new Subject<void>();
     private _showMapSubject = new BehaviorSubject<boolean>(false);
+    layoutService = inject(LayoutService);
+    isDarkTheme = computed(() => this.layoutService.isDarkTheme());
     public showMap$: Observable<boolean> = this._showMapSubject.asObservable();
     public mapOptions: google.maps.MapOptions = {
         center: { lat: 55.74218032609179, lng: 37.62001671463327 },
@@ -44,9 +47,8 @@ export class DestinationDetailsComponent {
         disableDefaultUI: true,
         minZoom: 3,
         mapId: 'a870aaade7ac6f22',
-        styles: [
-
-        ],
+        styles: [],
+        colorScheme: this.isDarkTheme() ? 'DARK' : 'LIGHT',
         gestureHandling: 'greedy',
         scrollwheel: true,
         clickableIcons: false

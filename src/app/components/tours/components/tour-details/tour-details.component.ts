@@ -1,4 +1,4 @@
-import { Component, ViewChild } from "@angular/core";
+import { Component, computed, inject, ViewChild } from "@angular/core";
 import { AnimatedContainer } from "../../../animatedcontainer";
 import { MenuComponent } from "../../../menu/components/menu.component";
 import { HeaderComponent } from "../../../header/header.component";
@@ -14,6 +14,7 @@ import { BehaviorSubject, debounceTime, Observable, Subject, takeUntil, timer } 
 import { point } from "@turf/helpers";
 import { CommonModule } from "@angular/common";
 import { GalleriaComponent } from "../../../galleria/galleria.component";
+import { LayoutService } from "../../../../services/layout.service";
 @Component({
     selector: "app-tour-details",
     standalone: true,
@@ -39,6 +40,8 @@ export class TourDetailsComponent {
     public markers: any[] = [];
     public _destroy$ = new Subject<void>();
     private _showMapSubject = new BehaviorSubject<boolean>(false);
+    layoutService = inject(LayoutService);
+    isDarkTheme = computed(() => this.layoutService.isDarkTheme());
     public showMap$: Observable<boolean> = this._showMapSubject.asObservable();
     public mapOptions: google.maps.MapOptions = {
         center: { lat: 55.74218032609179, lng: 37.62001671463327 },
@@ -46,9 +49,8 @@ export class TourDetailsComponent {
         disableDefaultUI: true,
         minZoom: 3,
         mapId: 'a870aaade7ac6f22',
-        styles: [
-
-        ],
+        styles: [],
+        colorScheme: this.isDarkTheme() ? 'DARK' : 'LIGHT',
         gestureHandling: 'greedy',
         scrollwheel: true,
         clickableIcons: false

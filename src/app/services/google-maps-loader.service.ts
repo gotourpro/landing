@@ -39,6 +39,7 @@ export class GoogleMapsLoaderService {
         libraries: (config.loader.libraries ?? []).join(','),
         language: config.loader.language ?? 'en',
         region: config.loader.region ?? '',
+        loading: 'async',
         v: config.loader.version ?? 'weekly',
         callback: 'initMap'
       });
