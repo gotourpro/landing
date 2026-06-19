@@ -5,7 +5,7 @@ import { ButtonModule } from 'primeng/button';
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { AvatarModule } from 'primeng/avatar';
 import { Router, RouterModule } from '@angular/router';
-import { catchError, debounceTime, filter, fromEvent, of, startWith, Subject, take, takeUntil } from 'rxjs';
+import { debounceTime, fromEvent, startWith, Subject, takeUntil } from 'rxjs';
 import { FormGroup, FormsModule } from '@angular/forms';
 import { SelectModule } from 'primeng/select';
 import { RouterLink } from "@angular/router";
