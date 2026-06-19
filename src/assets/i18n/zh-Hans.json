@@ -11,7 +11,7 @@
         },
         "homeHero": {
             "subtitle": "欢迎来到 GoTour！",
-             "subtitlePrefix": "欢迎来到 GoTour!",
+            "subtitlePrefix": "欢迎来到 GoTour!",
             "title": "真正的中国，从这里开始！",
             "description": "探索云南、四川和青藏高原最壮丽的风景线路，体验精心策划、舒适而难忘的中国之旅。",
             "contactUs": "联系我们",
@@ -180,6 +180,26 @@
         },
         "news": {
             "underDevelopment": "网站正在开发中。"
+        },
+        "privacyPolicy": {
+            "title": "隐私政策",
+            "description": "了解我们如何收集、使用和保护您的个人信息。",
+            "lastUpdated": "最后更新"
+        },
+        "termsAndConditions": {
+            "title": "使用条款",
+            "description": "请阅读有关使用我们的网站、服务及旅游预订平台的条款和条件。",
+            "lastUpdated": "最后更新"
+        },
+        "disclaimer": {
+            "title": "免责声明",
+            "description": "有关使用本网站及责任限制的重要信息。",
+            "lastUpdated": "最后更新"
+        },
+        "cookiePolicy": {
+            "title": "Cookie 使用政策",
+            "description": "了解我们如何使用 Cookie 和类似技术来改善您在网站上的体验。",
+            "lastUpdated": "最后更新"
         },
         "maps": {},
         "toast": {

@@ -1,0 +1,78 @@
+{
+    "lastUpdated": "2026-06-19",
+    "sections": [
+        {
+            "id": "general",
+            "title": "1. General Provisions",
+            "content": [
+                "This Cookie Policy explains how the GoTour website uses cookies and similar technologies to ensure the proper functioning of the website and improve the user experience.",
+                "By using the website, the User agrees to the use of cookies in accordance with this Policy.",
+                "This Policy supplements the Privacy Policy and applies to all visitors of the website."
+            ]
+        },
+        {
+            "id": "what-are-cookies",
+            "title": "2. What Are Cookies",
+            "content": [
+                "Cookies are small text files stored on a User's device when visiting a website.",
+                "Cookies allow a website to remember certain information about a User's actions and preferences for a period of time.",
+                "In addition to cookies, similar data storage technologies may be used, including localStorage and sessionStorage."
+            ]
+        },
+        {
+            "id": "types-of-cookies",
+            "title": "3. What Data We Store",
+            "content": [
+                "The website may store technical settings necessary for the proper operation of the user interface.",
+                "In particular, the User's selected language preference may be stored to automatically display the website in the preferred language during future visits.",
+                "The website does not use cookies to store sensitive information such as passwords or payment details."
+            ]
+        },
+        {
+            "id": "purposes",
+            "title": "4. Purposes of Using Cookies",
+            "content": [
+                "Ensuring the proper operation of the website and its individual features.",
+                "Saving user preferences and settings.",
+                "Improving the usability of the website.",
+                "Enhancing website performance and stability.",
+                "Ensuring the proper functioning of integrations with third-party services."
+            ]
+        },
+        {
+            "id": "third-party-services",
+            "title": "5. Third-Party Services",
+            "content": [
+                "The website may use third-party services, including Google Maps and other tools required to provide information and functionality.",
+                "Such services may use their own cookies and data storage technologies in accordance with their own policies and privacy practices.",
+                "The Company does not control the use of cookies by third-party services."
+            ]
+        },
+        {
+            "id": "cookie-management",
+            "title": "6. Cookie Management",
+            "content": [
+                "Most web browsers allow Users to manage cookies through their browser settings.",
+                "Users may delete previously stored cookies or completely disable their use.",
+                "Disabling cookies may result in certain website features functioning improperly."
+            ]
+        },
+        {
+            "id": "policy-changes",
+            "title": "7. Changes to This Policy",
+            "content": [
+                "The Company reserves the right to modify this Cookie Policy at any time.",
+                "The updated version of the Policy will be published on the website and becomes effective upon publication.",
+                "Users are encouraged to periodically review the current version of this document."
+            ]
+        },
+        {
+            "id": "contact",
+            "title": "8. Contact Information",
+            "content": [
+                "If you have any questions regarding the use of cookies, you may contact us at: info@gotour.pro.",
+                "The current version of the Cookie Policy is available at: https://gotour.pro/cookie-policy."
+            ]
+        }
+    ]
+}

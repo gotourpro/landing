@@ -1,11 +1,12 @@
 import { Injectable, PLATFORM_ID, inject } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
 import { PrimeNG } from 'primeng/config';
 import { LOCALES } from '../constants/locales.constants';
 import { isPlatformBrowser, DOCUMENT } from '@angular/common';
 import { GoogleMapsConfigService } from './google-maps-config.service';
 import { GoogleMapsLoaderService } from './google-maps-loader.service';
 import { ILocalizedText } from '../interfaces/localized-text.interface';
+import { Observable } from 'rxjs';
 
 export interface LanguageOption {
     name: string;
@@ -38,7 +39,6 @@ export class LocalizationService {
 
     constructor(
         private mapsConfig: GoogleMapsConfigService,
-        private mapsLoader: GoogleMapsLoaderService
     ) {
         this.translate.addLangs(this.languages.map(l => l.code));
         const saved = localStorage.getItem('app_language') || 'en';
@@ -57,8 +57,6 @@ export class LocalizationService {
             this.setHtmlLang(code);
             const region = this.mapRegionFromLanguage(code);
             this.mapsConfig.update({ loader: { language: code, region } });
-            this.mapsLoader.reloadWithNewLanguage(code).then(() => {
-            });
 
         });
     }
@@ -90,26 +88,34 @@ export class LocalizationService {
     }
 
     public getText(
-    value?: ILocalizedText
-): string {
+        value?: ILocalizedText
+    ): string {
 
-    if (!value) {
-        return '';
+        if (!value) {
+            return '';
+        }
+
+        const lang =
+            this.translate.currentLang as keyof ILocalizedText;
+
+        return (
+            value[lang] ??
+            value.en ??
+            value.ru
+        );
     }
-
-    const lang =
-        this.translate.currentLang as keyof ILocalizedText;
-
-    return (
-        value[lang] ??
-        value.en ??
-        value.ru
-    );
-}
 
     private setHtmlLang(code: string) {
         if (isPlatformBrowser(this.platformId)) {
             this.document.documentElement.lang = code;
         }
+    }
+
+    public get languageChanged$(): Observable<LangChangeEvent> {
+        return this.translate.onLangChange;
+    }
+
+    public getCurrentLanguage(): string {
+        return this.translate.currentLang || 'en';
     }
 }

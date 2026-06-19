@@ -9,7 +9,7 @@ import { LocalizationService } from "../../../../services/localization.service";
 import { GoogleMapsLoaderService } from "../../../../services/google-maps-loader.service";
 import { GoogleMapsModule, MapAdvancedMarker } from "@angular/google-maps";
 import { Feature, Point } from "geojson";
-import { BehaviorSubject, debounceTime, Observable, Subject, takeUntil, timer } from "rxjs";
+import { BehaviorSubject, debounceTime, map, Observable, Subject, takeUntil, timer } from "rxjs";
 import { point } from "@turf/helpers";
 import { CommonModule } from "@angular/common";
 import { GalleriaComponent } from "../../../galleria/galleria.component";
@@ -172,6 +172,25 @@ export class TourDetailsComponent {
 
         const marker = this.buildMarker(point(this.tour?.coordinates as any, { name: ' ' }) as any, '', '');
         this.markers.push(marker);
+
+
+         this.localization.languageChanged$
+                    .pipe(
+                        map(event => event.lang),
+                        takeUntil(this._destroy$)
+                    )
+                    .subscribe(lang => {
+        
+                        this._googleMapsLoader
+                            .reloadWithNewLanguage(lang);
+        
+                    });
+    }
+
+    public ngOnDestroy(): void {
+
+        this._destroy$.next();
+        this._destroy$.complete();
     }
 
     public openGallery(

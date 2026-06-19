@@ -3,7 +3,7 @@ import { AnimatedContainer } from "../../../animatedcontainer";
 import { FooterComponent } from "../../../footer/footer.component";
 import { HeaderComponent } from "../../../header/header.component";
 import { MenuComponent } from "../../../menu/components/menu.component";
-import { BehaviorSubject, debounceTime, Observable, Subject, takeUntil, timer } from "rxjs";
+import { BehaviorSubject, debounceTime, map, Observable, Subject, takeUntil, timer } from "rxjs";
 import { GoogleMapsModule, MapAdvancedMarker } from "@angular/google-maps";
 import { GoogleMapsLoaderService } from "../../../../services/google-maps-loader.service";
 import { Feature, Point } from "geojson";
@@ -18,6 +18,7 @@ import { FieldValidationDirective } from "../../../../directives/field-validatio
 import { ContactService } from "../../services/contact.service";
 import { MessageModule } from 'primeng/message';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { LocalizationService } from "../../../../services/localization.service";
 @Component({
     selector: 'app-contact',
     standalone: true,
@@ -88,7 +89,8 @@ export class ContactComponent {
         private _googleMapsLoader: GoogleMapsLoaderService,
         private _fb: FormBuilder,
         private contactService: ContactService,
-        private translate: TranslateService
+        private translate: TranslateService,
+        public localization: LocalizationService,
     ) {
         this.buildForm();
         this._watchForMapAPILoadChanges();
@@ -135,6 +137,19 @@ export class ContactComponent {
                     'components.contact.validation.required'
                 )
         };
+
+
+        this.localization.languageChanged$
+                    .pipe(
+                        map(event => event.lang),
+                        takeUntil(this._destroy$)
+                    )
+                    .subscribe(lang => {
+        
+                        this._googleMapsLoader
+                            .reloadWithNewLanguage(lang);
+        
+                    });
     }
 
     public onSubmit(): void {

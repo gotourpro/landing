@@ -1,17 +1,17 @@
-import { Component } from "@angular/core";
-import { AnimatedContainer } from "../animatedcontainer";
-import { TranslateModule } from "@ngx-translate/core";
 import { CommonModule } from "@angular/common";
+import { Component } from "@angular/core";
+
+import { TranslateModule } from "@ngx-translate/core";
+import { Observable } from "rxjs";
+import { AnimatedContainer } from "../animatedcontainer";
 import { HeaderComponent } from "../header/header.component";
 import { MenuComponent } from "../menu/components/menu.component";
 import { FooterComponent } from "../footer/footer.component";
-import { Observable } from "rxjs";
 import { ILegalDocument } from "../../interfaces/legal-document.interface";
 import { LegalContentService } from "../../services/legal.service";
 import { LocalizationService } from "../../services/localization.service";
-
 @Component({
-    selector: 'app-privacy-policy',
+    selector: 'app-terms-and-conditions',
     standalone: true,
     imports: [
         CommonModule,
@@ -20,25 +20,23 @@ import { LocalizationService } from "../../services/localization.service";
         HeaderComponent,
         MenuComponent,
         FooterComponent
-
     ],
-    templateUrl: './privacy-policy.component.html',
+    templateUrl: './terms-and-conditions.component.html',
 })
-export class PrivacyPolicyComponent {
+export class TermsAndConditionComponent {
 
+    public terms$!: Observable<ILegalDocument>;
 
-    public policy$!: Observable<ILegalDocument>;
+    constructor(
+        private readonly legalContent: LegalContentService,
+        public localization: LocalizationService
+    ) { }
 
-constructor(
-    private readonly legalContent: LegalContentService,
-     public localization: LocalizationService
-) {}
+    ngOnInit(): void {
 
-ngOnInit(): void {
-
-    this.policy$ =
-        this.legalContent.getDocument(
-            'privacy-policy'
-        );
-}
+        this.terms$ =
+            this.legalContent.getDocument(
+                'terms-and-conditions'
+            );
+    }
 }

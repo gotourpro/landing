@@ -7,7 +7,7 @@ import { IDestination } from "../../../../interfaces/destination.interface";
 import { ActivatedRoute } from "@angular/router";
 import { DestinationsService } from "../../../../services/destinations.service";
 import { GoogleMapsLoaderService } from "../../../../../../services/google-maps-loader.service";
-import { BehaviorSubject, debounceTime, Observable, Subject, takeUntil, timer } from "rxjs";
+import { BehaviorSubject, debounceTime, map, Observable, Subject, takeUntil, timer } from "rxjs";
 import { LocalizationService } from "../../../../../../services/localization.service";
 import { GoogleMapsModule, MapAdvancedMarker } from "@angular/google-maps";
 import { CommonModule } from "@angular/common";
@@ -72,6 +72,19 @@ export class DestinationDetailsComponent {
 
 
         this._watchForMapAPILoadChanges();
+
+
+        this.localization.languageChanged$
+            .pipe(
+                map(event => event.lang),
+                takeUntil(this._destroy$)
+            )
+            .subscribe(lang => {
+
+                this._googleMapsLoader
+                    .reloadWithNewLanguage(lang);
+
+            });
 
         const slug =
             this.route.snapshot.paramMap.get('slug');
@@ -152,6 +165,12 @@ export class DestinationDetailsComponent {
 
 
             });
+    }
+
+    public ngOnDestroy(): void {
+
+        this._destroy$.next();
+        this._destroy$.complete();
     }
 
 

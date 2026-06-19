@@ -1,0 +1,25 @@
+{
+    "lastUpdated": "2026-06-19",
+    "sections": [
+        {
+            "id": "general",
+            "title": {
+                "en": "1. General Provisions",
+                "ru": "1. Общие положения",
+                "zh-Hans": "1. 一般规定"
+            },
+            "paragraphs": [
+                {
+                    "en": "This personal data processing policy has been prepared...",
+                    "ru": "Настоящая политика обработки персональных данных составлена...",
+                    "zh-Hans": "本个人数据处理政策依据..."
+                },
+                {
+                    "en": "The Operator considers compliance with the rights...",
+                    "ru": "Оператор ставит своей важнейшей целью...",
+                    "zh-Hans": "运营方将保护个人隐私..."
+                }
+            ]
+        }
+    ]
+}

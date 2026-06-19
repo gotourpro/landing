@@ -17,7 +17,6 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
         AnimatedContainer,
         AppLogo,
         RouterLink,
-        AnimatedContainer,
         TranslateModule
     ],
 })

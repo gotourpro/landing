@@ -1,16 +1,16 @@
 <animated-container>
     <app-menu [styleClass]="'relative! w-full! p-0! border-0 rounded-none! bg-transparent'"></app-menu>
     <div class="pt-20">
-        <app-header [title]="'components.privacyPolicy.title' | translate">
-            {{ 'components.privacyPolicy.description' | translate }}
+        <app-header [title]="'components.disclaimer.title' | translate">
+            {{ 'components.disclaimer.description' | translate }}
         </app-header>
 
         <section class="max-w-5xl mx-auto py-[120px]">
 
-            @if (policy$ | async; as policy) {
+            @if (disclaimer$ | async; as disclaimer) {
 
             <div>
-                @for (section of policy.sections; track section.id) {
+                @for (section of disclaimer.sections; track section.id) {
 
                 <section
                     [id]="section.id"
@@ -68,7 +68,7 @@
 
                 <p class="mb-10 text-sm text-gray-500">
                     {{ 'components.privacyPolicy.lastUpdated' | translate }}
-                    {{ policy.lastUpdated }}
+                    {{ disclaimer.lastUpdated }}
                 </p>
             </div>
 

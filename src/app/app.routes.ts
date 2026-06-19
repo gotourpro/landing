@@ -38,8 +38,8 @@ export const routes: Routes = [
   },
   {
     path: 'terms-and-conditions', loadComponent: () =>
-      import("./components/terms-and-conditions/index").then(
-        (c) => c.TermsAndConditionsPageComponent
+      import("./components/terms-and-conditions/terms-and-conditions.component").then(
+        (c) => c.TermsAndConditionComponent
       ),
     resolve: {
       layout: setLayout(PageLayout.Public),
@@ -70,8 +70,6 @@ export const routes: Routes = [
       },
     ],
   },
-
-
   {
     path: "tours",
     resolve: {
@@ -143,6 +141,24 @@ export const routes: Routes = [
       ), resolve: {
         layout: setLayout(PageLayout.Public)
       },
+  },
+
+  {
+    path: 'cookie-policy', loadComponent: () =>
+      import('./components/cookie-policy/cookie-policy.component')
+        .then(
+          (c) => c.CookiePolicyComponent), resolve: {
+            layout: setLayout(PageLayout.Public)
+          },
+  },
+  {
+    path: 'disclaimer',
+    loadComponent: () =>
+      import('./components/disclaimer/disclaimer.component')
+        .then(m => m.DisclaimerComponent),
+    resolve: {
+      layout: setLayout(PageLayout.Public)
+    },
   },
   { path: '**', redirectTo: '/404' }
 

@@ -8,10 +8,10 @@ export const GOOGLE_DEFAULT_CONFIG: IGoogleMapsConfig = {
     loader: {
         apiKey: environment.apiKeyGoogle!,
         language: GoogleMapsLanguage.RU,
-        region: GoogleMapsRegion.TR,
+        region: GoogleMapsRegion.RU,
         version: 'weekly',
-        libraries: ['drawing', 'places'],
-        mapIds:     ['a870aaade7ac6f22']
+        libraries: [],
+        mapIds: ['a870aaade7ac6f22']
     },
     style: {
         ...DEFAULT_MAP_STYLE_OPTIONS
