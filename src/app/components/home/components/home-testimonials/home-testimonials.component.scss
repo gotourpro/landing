@@ -653,3 +653,12 @@
 .testimonials-three__shape-two img {
     animation: leftToRight 3.5s ease-in-out infinite;
 }
+
+
+.testimonials-card__content {
+    @media (max-width: 767px) {
+        font-size: 32px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+}

@@ -45,21 +45,5 @@ public ngOnInit(): void {
         });
 }
 
-    // testimonialsItems = [
-    //     {
-    //         content:
-    //             'Travehub work helped us save a significant percentage of our tour plan we are happy with all experiences & all services.',
-    //         name: 'Tomas Widdin',
-    //         designation: 'Web Developer',
-    //     },
-    //     {
-    //         content:
-    //             'Travehub work helped us save a significant percentage of our tour plan we are happy with all experiences & all services.',
-    //         name: 'William Jack',
-    //         designation: 'Web Designer',
-    //     },
-    // ];
-
-
 
 }
