@@ -119,7 +119,8 @@
                 "travelers": "Happy Travelers",
                 "destinations": "Popular Destinations",
                 "tours": "Curated Tours",
-                "rating": "Average Rating"
+                "rating": "Average Rating",
+                "reviews": "Real reviews"
             }
         },
         "blog": {
