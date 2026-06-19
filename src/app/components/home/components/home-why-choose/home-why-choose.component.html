@@ -1,64 +1,5 @@
-<!-- 
 <section class="why-choose-two">
     <div class="container">
-
-
-
-        <div class="sec-title text-start">
-            <div class="sec-title__tagline bw-split-in-right">Why Choose Us</div>
-            <h3 class="sec-title__title bw-split-in-left">The Perfect Travel Place <br> For You & Your Family
-            </h3>
-            <p class="sec-title__text bw-split-in-up-fast">Content of a page when looking at layout the point of
-                using lorem the is Ipsum less normal</p>
-        </div>
-
-
-
-        <div
-            class="why-choose-two__carousel-box wow fadeInUp"
-            data-wow-delay="200ms"
-        >
-            <ui-carousel
-                className="why-choose-two__carousel"
-                [hideMask]="true"
-                [hideButtons]="true"
-                [options]="{
-        align: 'start',
-        loop: true
-    }"
-                [size]="isMobile() ? '100%' : '33.333%'"
-                spacing="24px"
-                height="auto"
-            >
-
-                <ui-carousel-item *ngFor="let item of whyChooseItems; let index = index">
-                    <div class="why-choose-two__item shadow-[0_4px_20px_rgba(0,0,0,0.04)]">
-                        <div class="why-choose-two__item__icon">
-                            <i
-                                [class]="item.icon"
-                                style="font-size: 2rem"
-                            ></i>
-                        </div>
-
-                        <h4 class="why-choose-two__item__title">
-                            {{ item.title }}
-                        </h4>
-
-                        <p class="why-choose-two__item__text">
-                            {{ item.description }}
-                        </p>
-                    </div>
-                </ui-carousel-item>
-
-            </ui-carousel>
-        </div>
-    </div>
-</section> -->
-
-<section class="why-choose-two">
-    <div class="container">
-
-
 
         <div class="sec-title text-start">
             <div class="sec-title__tagline bw-split-in-right">
@@ -73,8 +14,6 @@
                 {{ 'components.homeWhyChoose.description' | translate }}
             </p>
         </div>
-
-
 
         <div
             class="why-choose-two__carousel-box wow fadeInUp"

@@ -13,6 +13,7 @@ import { RouterLink } from "@angular/router";
 import { GalleriaComponent } from "../../../galleria/galleria.component";
 import { UICarouselItem } from "../../../UI/carousel-item";
 import { UICarousel } from "../../../UI/carousel";
+import { TextAnimationDirective } from "../../../../directives/text-animation/text-animation.directive";
 @Component({
     selector: "app-home-featured-tours",
     standalone: true,
@@ -27,7 +28,8 @@ import { UICarousel } from "../../../UI/carousel";
         GridCardComponent,
         ParallaxDirective,
         UICarousel,
-        UICarouselItem
+        UICarouselItem,
+        TextAnimationDirective
     ],
 })
 export class HomeFeaturedToursComponent {

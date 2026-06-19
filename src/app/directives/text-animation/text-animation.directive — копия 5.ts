@@ -23,16 +23,21 @@ export class TextAnimationDirective implements AfterViewInit, OnDestroy {
     private isVisible = false;
     private hasAnimated = false;
     private skipNextAnimation = false;
-    private isAnimating = false; // ФЛАГ: идет ли анимация прямо сейчас?
+    private isAnimating = false;
 
     @Input('appTextAnimation') animation: TextAnimationType = 'fade';
     @Input() translationKey = '';
     @Input() delay = 0;
-    @Input() stagger = 20;
-    @Input() duration = 1200;
+    @Input() stagger = 100; // Для слов stagger должен быть чуть больше (например, 70-100мс), чем для букв (20мс)
+    @Input() duration = 1000; // Оригинальные тайминги обычно около 1000-1200мс
     @Input() once = true;
     @Input() intersectionMargin = '-50px 0px -50px 0px';
     @Input() threshold = 0.15;
+
+    // НАСТРОЙКА КРАСОТЫ: 'lines' (строки), 'words' (целые слова), 'chars' (буквы)
+    @Input() splitBy: 'lines' | 'words' | 'chars' = 'words';
+    // ВКЛЮЧЕНИЕ МАСКИ: выплывание из невидимой области (по умолчанию true для красивого эффекта)
+    @Input() useMask = true;
 
     public ngAfterViewInit(): void {
         if (this.shouldSkipAnimation()) {
@@ -53,8 +58,6 @@ export class TextAnimationDirective implements AfterViewInit, OnDestroy {
 
                 if (entry.isIntersecting) {
                     this.isVisible = true;
-
-                    // Если анимация УЖЕ идет, игнорируем повторный запуск от дребезга скролла
                     if (this.isAnimating) return;
 
                     if (!this.once || !this.hasAnimated) {
@@ -66,23 +69,17 @@ export class TextAnimationDirective implements AfterViewInit, OnDestroy {
                     }
                 } else {
                     this.isVisible = false;
-
-                    // Сбрасываем буквы в скрытое состояние только если анимация НЕ идет в данный момент
                     if (!this.once && this.hasAnimated && !this.isAnimating) {
-                        this.prepareCharsForAnimation();
+                        this.prepareElementsForAnimation();
                     }
                 }
             },
-            {
-                threshold: this.threshold,
-                rootMargin: this.intersectionMargin
-            }
+            { threshold: this.threshold, rootMargin: this.intersectionMargin }
         );
         this.intersectionObserver.observe(element);
 
         this.langChangeSub = this.translateService.onLangChange.subscribe(() => {
             this.skipNextAnimation = true;
-            // Принудительно сбрасываем флаг блокировки, так как смена языка приоритетнее скролла
             this.isAnimating = false;
 
             if (this.isVisible) {
@@ -100,9 +97,7 @@ export class TextAnimationDirective implements AfterViewInit, OnDestroy {
         const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         if (prefersReduced) return true;
         const nav = navigator as any;
-        const isLowMemory = nav.deviceMemory && nav.deviceMemory < 4;
-        const isLowCpu = nav.hardwareConcurrency && nav.hardwareConcurrency < 4;
-        return !!(isLowMemory || isLowCpu);
+        return !!((nav.deviceMemory && nav.deviceMemory < 4) || (nav.hardwareConcurrency && nav.hardwareConcurrency < 4));
     }
 
     private loadStaticTextOnly(): void {
@@ -127,11 +122,12 @@ export class TextAnimationDirective implements AfterViewInit, OnDestroy {
 
                 if (!translatedText.trim()) return;
 
-                this.splitType = new SplitType(element, { types: ['words', 'chars'] });
+                // Нарезаем текст в зависимости от выбранного splitBy режима
+                this.splitType = new SplitType(element, { types: [this.splitBy] });
 
                 if (this.skipNextAnimation) {
                     this.skipNextAnimation = false;
-                    this.showStaticChars();
+                    this.showStaticElements();
                     if (this.isVisible) {
                         element.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 200, easing: 'ease-out' });
                     }
@@ -139,40 +135,35 @@ export class TextAnimationDirective implements AfterViewInit, OnDestroy {
                 }
 
                 this.hasAnimated = true;
-                this.isAnimating = true; // ВКЛЮЧАЕМ БЛОКИРОВКУ: процесс пошел
-                this.prepareCharsForAnimation();
+                this.isAnimating = true;
+                this.prepareElementsForAnimation();
 
                 const keyframes = this.getKeyframes();
-                const chars = this.splitType.chars as HTMLElement[];
+                const targets = this.getTargetElements();
                 let lastAnimation: Animation | null = null;
 
-                chars.forEach((char, index) => {
+                targets.forEach((target, index) => {
                     const calculatedDelay = this.delay + (index * this.stagger);
-                    const anim = char.animate(keyframes, {
+                    const anim = target.animate(keyframes, {
                         duration: this.duration,
                         delay: calculatedDelay,
                         fill: 'forwards',
-                        easing: 'cubic-bezier(0.16, 1, 0.3, 1)'
+                        easing: 'cubic-bezier(0.25, 1, 0.5, 1)' // Изменили кривую на более мягкую "outQuart"
                     });
                     this.activeAnimations.push(anim);
 
-                    // Запоминаем плеер последней буквы (она закончит анимацию позже всех)
-                    if (index === chars.length - 1) {
+                    if (index === targets.length - 1) {
                         lastAnimation = anim;
                     }
                 });
 
-                // Ждем окончания анимации последней буквы нативного Web Animations API
                 if (lastAnimation) {
                     (lastAnimation as Animation).finished.then(() => {
-                        this.isAnimating = false; // СНИМАЕМ БЛОКИРОВКУ: буквы полностью долетели
-
-                        // Проверка на случай, если пока шла анимация, пользователь уже ускроллил от блока
+                        this.isAnimating = false;
                         if (!this.isVisible && !this.once) {
-                            this.prepareCharsForAnimation();
+                            this.prepareElementsForAnimation();
                         }
                     }).catch(() => {
-                        // Если анимация была прервана принудительно (например, переключили язык посреди анимации)
                         this.isAnimating = false;
                     });
                 } else {
@@ -181,25 +172,53 @@ export class TextAnimationDirective implements AfterViewInit, OnDestroy {
             });
     }
 
-    private prepareCharsForAnimation(): void {
-        const chars = this.splitType?.chars as HTMLElement[];
-        if (!chars) return;
-        chars.forEach(char => {
-            this.renderer.setStyle(char, 'display', 'inline-block');
-            this.renderer.setStyle(char, 'opacity', '0');
-            this.renderer.setStyle(char, 'will-change', 'transform, opacity');
+    /**
+     * Получает массив элементов для анимации в зависимости от настроек
+     */
+    private getTargetElements(): HTMLElement[] {
+        if (!this.splitType) return [];
+        if (this.splitBy === 'lines') return (this.splitType.lines || []) as HTMLElement[];
+        if (this.splitBy === 'chars') return (this.splitType.chars || []) as HTMLElement[];
+        return (this.splitType.words || []) as HTMLElement[]; // по умолчанию words
+    }
+
+    private prepareElementsForAnimation(): void {
+        const targets = this.getTargetElements();
+        targets.forEach(target => {
+            this.renderer.setStyle(target, 'display', 'inline-block');
+            this.renderer.setStyle(target, 'opacity', '0');
+            this.renderer.setStyle(target, 'will-change', 'transform, opacity');
+
+            // ИСПРАВЛЕНИЕ: Если включен режим маски, сохраняем блочную структуру и пробелы
+            if (this.useMask && target.parentElement) {
+                this.renderer.setStyle(target.parentElement, 'overflow', 'hidden');
+
+                // Если мы анимируем строки — маска должна быть block, чтобы они были друг под другом
+                if (this.splitBy === 'lines') {
+                    this.renderer.setStyle(target.parentElement, 'display', 'block');
+                } else {
+                    // Если слова/буквы — используем inline-flex, он сохраняет центрирование и не ломает пробелы
+                    this.renderer.setStyle(target.parentElement, 'display', 'inline-flex');
+                }
+            }
         });
     }
 
-    private showStaticChars(): void {
-        const chars = this.splitType?.chars as HTMLElement[];
-        if (!chars) return;
-        chars.forEach(char => {
-            this.renderer.setStyle(char, 'display', 'inline-block');
-            this.renderer.setStyle(char, 'opacity', '1');
-            this.renderer.setStyle(char, 'transform', 'none');
+    private showStaticElements(): void {
+        const targets = this.getTargetElements();
+        targets.forEach(target => {
+            this.renderer.setStyle(target, 'display', 'inline-block');
+            this.renderer.setStyle(target, 'opacity', '1');
+            this.renderer.setStyle(target, 'transform', 'none');
+
+            // Убираем маску при статичном показе (смене языка)
+            if (target.parentElement) {
+                this.renderer.removeStyle(target.parentElement, 'overflow');
+                this.renderer.removeStyle(target.parentElement, 'display');
+            }
         });
     }
+
 
     private cleanupAnimations(): void {
         this.activeAnimations.forEach(anim => anim.cancel());
@@ -207,13 +226,14 @@ export class TextAnimationDirective implements AfterViewInit, OnDestroy {
     }
 
     private getKeyframes(): Keyframe[] {
+        // Изменили начальные точки сдвигов, чтобы анимация в маске выглядела аккуратно (100% высоты для выплывания снизу)
         switch (this.animation) {
-            case 'left': return [{ transform: 'translateX(-20px)', opacity: 0 }, { transform: 'translateX(0)', opacity: 1 }];
-            case 'right': return [{ transform: 'translateX(20px)', opacity: 0 }, { transform: 'translateX(0)', opacity: 1 }];
-            case 'up': return [{ transform: 'translateY(80px)', opacity: 0 }, { transform: 'translateY(0)', opacity: 1 }];
-            case 'down': return [{ transform: 'translateY(-20px)', opacity: 0 }, { transform: 'translateY(0)', opacity: 1 }];
-            case 'rotate': return [{ transform: 'rotateX(50deg)', opacity: 0 }, { transform: 'rotateX(0deg)', opacity: 1 }];
-            case 'scale': return [{ transform: 'scale(0.7)', opacity: 0 }, { transform: 'scale(1)', opacity: 1 }];
+            case 'left': return [{ transform: 'translateX(-40px)', opacity: 0 }, { transform: 'translateX(0)', opacity: 1 }];
+            case 'right': return [{ transform: 'translateX(40px)', opacity: 0 }, { transform: 'translateX(0)', opacity: 1 }];
+            case 'up': return [{ transform: 'translateY(100%)', opacity: 0 }, { transform: 'translateY(0)', opacity: 1 }];
+            case 'down': return [{ transform: 'translateY(-100%)', opacity: 0 }, { transform: 'translateY(0)', opacity: 1 }];
+            case 'rotate': return [{ transform: 'rotateX(60deg)', opacity: 0 }, { transform: 'rotateX(0deg)', opacity: 1 }];
+            case 'scale': return [{ transform: 'scale(0.8)', opacity: 0 }, { transform: 'scale(1)', opacity: 1 }];
             case 'fade':
             default: return [{ opacity: 0 }, { opacity: 1 }];
         }

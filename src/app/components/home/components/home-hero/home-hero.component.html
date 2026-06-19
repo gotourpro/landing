@@ -8,25 +8,41 @@
 
         <div class="hero-two__content mr-[50px]">
 
-          <h5 class="hero-two__sub-title sub-title bw-split-in-left">
-            {{ 'components.homeHero.subtitlePrefix' | translate }}
-            <span class="text-[#F8931F] font-bold">GoTour!</span>
+          <h5
+            class="hero-two__sub-title  text-[#F8931F]!"
+            [appTextAnimation]="'left'"
+            translationKey="components.homeHero.subtitlePrefix"
+            [delay]="100"
+            [stagger]="15"
+            [once]="true"
+            [duration]="1200"
+          >
           </h5>
+
           <h2
             class="hero-two__title"
-            appTextAnimation="down"
+            [appTextAnimation]="'down'"
+            translationKey="components.homeHero.title"
             [delay]="350"
             [stagger]="25"
+            [once]="true"
             [duration]="1500"
           >
-            {{ 'components.homeHero.title' | translate }}
           </h2>
 
-          <p class="hero-one__text sub-title bw-split-in-left">
-            {{ 'components.homeHero.description' | translate }}
+          <p
+            class="hero-one__text sub-title"
+            [appTextAnimation]="'left'"
+            translationKey="components.homeHero.description"
+            [delay]="700"
+            [stagger]="5"
+            [once]="true"
+            [duration]="1200"
+          >
           </p>
 
           <div class="mt-8 flex flex-wrap gap-4">
+
             <p-button
               icon="pi pi-arrow-right"
               iconPos="right"
@@ -35,7 +51,6 @@
               routerLink="/contact"
               [rounded]="true"
             />
-
 
           </div>
 

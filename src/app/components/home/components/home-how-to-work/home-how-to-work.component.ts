@@ -6,6 +6,7 @@ import { SelectIcon } from "../../../icon/select/select.component";
 import { AppointmentsIcon } from "../../../icon/appointment/appointments.component";
 import { ProcessIcon } from "../../../icon/process/process.component";
 import { TranslateModule } from "@ngx-translate/core";
+import { TextAnimationDirective } from "../../../../directives/text-animation/text-animation.directive";
 
 @Component({
   selector: "app-home-how-to-work",
@@ -16,7 +17,8 @@ import { TranslateModule } from "@ngx-translate/core";
     CommonModule,
     AnimatedContainer,
     RouterLink,
-    TranslateModule
+    TranslateModule,
+    TextAnimationDirective
   ],
 })
 export class HomeHowToWorkComponent {
