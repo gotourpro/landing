@@ -1,6 +1,59 @@
 <section class="pricing-info">
   <div class="container">
 
+    <ui-carousel
+      [hideMask]="true"
+      [hideButtons]="true"
+      [hideDots]="!isMobile()"
+      [options]="{
+                align: 'start',
+                loop: true,
+                containScroll: 'trimSnaps'
+            }"
+      [size]="'33.333%'"
+      spacing="24px"
+      height="auto"
+      [breakpoints]="breakpoints"
+    >
+
+      @for (item of advantages; track $index) {
+
+      <ui-carousel-item className="px-3">
+
+        <div
+          class="pricing-info__item wow fadeInUp h-full min-h-[290px]"
+          [attr.data-wow-delay]="item.delay + 'ms'"
+        >
+
+          <div class="pricing-info__icon">
+            <i
+              [class]="item.icon"
+              style="font-size: 1.8rem;"
+            ></i>
+          </div>
+
+          <h5 class="pricing-info__title">
+            {{ item.titleKey | translate }}
+          </h5>
+
+          <p class="pricing-info__text">
+            {{ item.textKey | translate }}
+          </p>
+
+        </div>
+
+      </ui-carousel-item>
+
+      }
+
+    </ui-carousel>
+
+  </div>
+</section>
+
+<!-- <section class="pricing-info">
+  <div class="container">
+
     <div class="flex flex-wrap -mx-3">
 
       @for (item of advantages; track $index) {
@@ -36,4 +89,4 @@
     </div>
 
   </div>
-</section>
+</section> -->

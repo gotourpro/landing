@@ -8,12 +8,21 @@ import { ParallaxDirective } from "../../../../directives/parallax.directive";
 import { TranslateModule } from "@ngx-translate/core";
 import { LocalizationService } from '../../../../services/localization.service';
 import { ABOUT_TEAM_ITEMS } from "../../constants/about-team.constant";
+import { UICarousel } from "../../../UI/carousel";
+import { UICarouselItem } from "../../../UI/carousel-item";
 @Component({
     selector: "app-about-team",
     standalone: true,
     templateUrl: './about-team.component.html',
     styleUrls: ['./about-team.component.scss'],
-    imports: [AnimatedContainer, ParallaxDirective, TextAnimationDirective, ImageAnimationDirective, CommonModule, TranslateModule],
+    imports: [AnimatedContainer,
+        ParallaxDirective,
+        TextAnimationDirective,
+        ImageAnimationDirective,
+        CommonModule,
+        UICarousel,
+        UICarouselItem,
+        TranslateModule],
 })
 export class AboutTeamComponent {
 
@@ -21,11 +30,25 @@ export class AboutTeamComponent {
         public localization: LocalizationService
     ) { }
 
-    layoutService = inject(LayoutService);
-
-    isDarkTheme = computed(() => this.layoutService?.isDarkTheme());
-
-    isWide = computed(() => this.layoutService.isWide());
+    public layoutService = inject(LayoutService);
+    public isMobile = computed(() => this.layoutService.isMobile());
 
     public teamItems = ABOUT_TEAM_ITEMS;
+
+    public breakpoints = {
+        576: {
+            size: '100%',
+            spacing: '24px'
+        },
+
+        992: {
+            size: '50%',
+            spacing: '24px'
+        },
+
+        1200: {
+            size: '33.333%',
+            spacing: '24px'
+        }
+    };
 }

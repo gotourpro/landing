@@ -9,7 +9,7 @@ export const ABOUT_TEAM_ITEMS: ITeamMember[] = [
         },
         position: {
             en: 'Travel agent',
-            ru: 'Туристический консультант',
+            ru: 'Туристический агент',
             'zh-Hans': '旅游顾问'
         },
         image: 'assets/images/resources/team-2-1.jpg',

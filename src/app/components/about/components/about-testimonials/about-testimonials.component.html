@@ -1,7 +1,7 @@
 <section class="testimonials-two">
 
   <div class="container">
-    <div class="testimonials-two__left">
+    <div class="testimonials-two__left hidden lg:block">
 
       @for (image of testimonialsImagesLeft; track image) {
 
@@ -97,7 +97,7 @@
 
       @for (image of testimonialsImagesRight; track image) {
 
-      <div class="testimonials-two__auth">
+      <div class="testimonials-two__auth hidden lg:block">
         <img
           [src]="image"
           alt="traveller"

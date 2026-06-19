@@ -3,69 +3,87 @@
 
         <div class="sec-title text-center">
 
-    <div class="sec-title__tagline bw-split-in-right">
-        {{ 'components.about.team.tagline' | translate }}
-    </div>
+            <div class="sec-title__tagline bw-split-in-right">
+                {{ 'components.about.team.tagline' | translate }}
+            </div>
 
-    <h3 class="sec-title__title bw-split-in-left">
-        {{ 'components.about.team.title' | translate }}
-    </h3>
+            <h3 class="sec-title__title bw-split-in-left">
+                {{ 'components.about.team.title' | translate }}
+            </h3>
 
-    <p class="sec-title__text bw-split-in-up-fast">
-        {{ 'components.about.team.description' | translate }}
-    </p>
+            <p class="sec-title__text bw-split-in-up-fast">
+                {{ 'components.about.team.description' | translate }}
+            </p>
 
-</div>
+        </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-[24px] lg:gap-x-[24px]">
+        <div>
 
-            @for (item of teamItems; track $index) {
-
-            <div
-                class="team-two__item wow fadeInUp"
-                data-wow-duration="1500ms"
-                [attr.data-wow-delay]="item.delay + 'ms'"
+            <ui-carousel
+                [hideMask]="true"
+                [hideButtons]="true"
+                [hideDots]="!isMobile()"
+                [options]="{
+        align: 'start',
+        loop: true,
+        containScroll: 'trimSnaps'
+    }"
+                [size]="'33.333%'"
+                spacing="24px"
+                height="auto"
+                [breakpoints]="breakpoints"
             >
 
-                <div class="team-two__item__image">
+                @for (item of teamItems; track $index) {
 
-                    <img
-                        [src]="item.image"
-                       
+                <ui-carousel-item className="px-3">
+
+                    <div
+                        class="team-two__item wow fadeInUp h-full"
+                        data-wow-duration="1500ms"
+                        [attr.data-wow-delay]="item.delay + 'ms'"
                     >
 
-                    <div class="team-two__item__icon">
+                        <div class="team-two__item__image">
 
-                        <a
-                            *ngFor="let social of item.socials"
-                            [href]="social.url"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <i [class]="social.icon"></i>
-                        </a>
+                            <img [src]="item.image">
+
+                            <div class="team-two__item__icon">
+
+                                <a
+                                    *ngFor="let social of item.socials"
+                                    [href]="social.url"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i [class]="social.icon"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="team-two__item__content">
+
+                            <h4 class="team-two__item__title">
+                                <a [href]="item.link">
+                                    {{ localization.getText(item.name) }}
+                                </a>
+                            </h4>
+
+                            <p class="team-two__item__text">
+                                {{ localization.getText(item.position) }}
+                            </p>
+
+                        </div>
 
                     </div>
 
-                </div>
+                </ui-carousel-item>
 
-                <div class="team-two__item__content">
+                }
 
-                    <h4 class="team-two__item__title">
-                        <a [href]="item.link">
-                           {{ localization.getText(item.name) }}
-                        </a>
-                    </h4>
-
-                    <p class="team-two__item__text">
-                      {{ localization.getText(item.position) }}
-                    </p>
-
-                </div>
-
-            </div>
-
-            }
+            </ui-carousel>
 
         </div>
 

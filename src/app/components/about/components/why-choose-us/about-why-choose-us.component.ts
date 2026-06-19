@@ -4,13 +4,20 @@ import { AnimatedContainer } from "../../../animatedcontainer";
 import { LayoutService } from "../../../../services/layout.service";
 import { LocalizationService } from "../../../../services/localization.service";
 import { TranslateModule } from "@ngx-translate/core";
+import { UICarousel } from "../../../UI/carousel";
+import { UICarouselItem } from "../../../UI/carousel-item";
 
 @Component({
     selector: "app-about-why-choose-us",
     standalone: true,
     templateUrl: './about-why-choose-us.component.html',
     styleUrls: ['./about-why-choose-us.component.scss'],
-    imports: [AnimatedContainer, CommonModule, TranslateModule],
+    imports: [
+        AnimatedContainer,
+        CommonModule,
+        UICarousel,
+        UICarouselItem,
+        TranslateModule],
 })
 export class AboutWhyChooseUsComponent {
 
@@ -18,11 +25,26 @@ export class AboutWhyChooseUsComponent {
         public localization: LocalizationService
     ) { }
 
-    layoutService = inject(LayoutService);
+    public layoutService = inject(LayoutService);
+    public isMobile = computed(() => this.layoutService.isMobile());
 
-    isDarkTheme = computed(() => this.layoutService?.isDarkTheme());
 
-    isWide = computed(() => this.layoutService.isWide());
+    public breakpoints = {
+        576: {
+            size: '100%',
+            spacing: '24px'
+        },
+
+        992: {
+            size: '50%',
+            spacing: '24px'
+        },
+
+        1200: {
+            size: '33.333%',
+            spacing: '24px'
+        }
+    };
 
     public advantages = [
         {
