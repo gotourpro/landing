@@ -136,14 +136,14 @@
 
 .blog-one__item__meta li:not(:last-of-type)::before {
     content: "";
-    width: 4px;
-    height: 4px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
     background-color: var(--travhub-base);
 
     position: absolute;
     top: 50%;
-    right: -14px;
+    right: -16px;
     transform: translateY(-50%);
 }
 
