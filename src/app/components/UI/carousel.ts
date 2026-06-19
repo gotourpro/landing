@@ -223,6 +223,7 @@ export class UICarousel {
 
       this.emblaApi.on("select", () => {
         this.selectedIndex = this.emblaApi?.selectedScrollSnap() ?? 0;
+        this.cdr.detectChanges();
       });
 
       this.emblaApi.on("reInit", () => {
@@ -232,6 +233,7 @@ export class UICarousel {
           this.setTweenNodes();
           this.setTweenFactor();
           this.tweenScale();
+          this.cdr.detectChanges();
         }
       });
 

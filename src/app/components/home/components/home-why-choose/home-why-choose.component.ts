@@ -15,14 +15,14 @@ import { HOME_WHY_CHOOSE_ITEMS } from "../../constants/home-wh-choose-items.cons
     templateUrl: './home-why-choose.component.html',
     styleUrls: ['./home-why-choose.component.scss'],
     imports: [
-        AnimatedContainer, 
+        AnimatedContainer,
         ParallaxDirective,
-         UICarousel, 
-         UICarouselItem, 
-         TextAnimationDirective, 
-         ImageAnimationDirective, 
-         CommonModule, 
-         TranslateModule],
+        UICarousel,
+        UICarouselItem,
+        TextAnimationDirective,
+        ImageAnimationDirective,
+        CommonModule,
+        TranslateModule],
 })
 export class HomeWhyChooseComponent {
     layoutService = inject(LayoutService);
@@ -31,7 +31,9 @@ export class HomeWhyChooseComponent {
 
     isDarkTheme = computed(() => this.layoutService?.isDarkTheme());
 
-      public breakpoints = {
+    public whyChooseItems = HOME_WHY_CHOOSE_ITEMS;
+
+    public breakpoints = {
         576: {
             size: '100%',
             spacing: '24px'
@@ -47,7 +49,5 @@ export class HomeWhyChooseComponent {
             spacing: '24px'
         }
     };
-
-     public whyChooseItems = HOME_WHY_CHOOSE_ITEMS;
 
 }

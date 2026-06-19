@@ -140,16 +140,16 @@ export class ContactComponent {
 
 
         this.localization.languageChanged$
-                    .pipe(
-                        map(event => event.lang),
-                        takeUntil(this._destroy$)
-                    )
-                    .subscribe(lang => {
-        
-                        this._googleMapsLoader
-                            .reloadWithNewLanguage(lang);
-        
-                    });
+            .pipe(
+                map(event => event.lang),
+                takeUntil(this._destroy$)
+            )
+            .subscribe(lang => {
+
+                this._googleMapsLoader
+                    .reloadWithNewLanguage(lang);
+
+            });
     }
 
     public onSubmit(): void {

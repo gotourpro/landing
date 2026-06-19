@@ -86,6 +86,7 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   public ngOnInit(): void {
+    this._googleMapsLoader.loadGoogleMapsScript();
     //localStorage.clear();
   }
 

@@ -40,6 +40,7 @@ export class LocalizationService {
     constructor(
         private mapsConfig: GoogleMapsConfigService,
     ) {
+
         this.translate.addLangs(this.languages.map(l => l.code));
         const saved = localStorage.getItem('app_language') || 'en';
         this.setLanguage(saved);
