@@ -5,76 +5,77 @@
             {{ 'components.privacyPolicy.description' | translate }}
         </app-header>
 
-        <section class="max-w-5xl mx-auto py-[120px]">
+        <section class="py-[120px]">
+            <div class="container">
 
-            @if (policy$ | async; as policy) {
+                @if (policy$ | async; as policy) {
 
-            <div>
-                @for (section of policy.sections; track section.id) {
+                <div>
+                    @for (section of policy.sections; track section.id) {
 
-                <section
-                    [id]="section.id"
-                    class="mb-16"
-                >
+                    <section
+                        [id]="section.id"
+                        class="mb-16"
+                    >
 
-                    <h2 class="mb-8 text-2xl font-semibold">
-                        {{ section.title }}
-                    </h2>
+                        <h2 class="mb-8 text-2xl font-semibold">
+                            {{ section.title }}
+                        </h2>
 
-                    @for (paragraph of section.content; track $index) {
+                        @for (paragraph of section.content; track $index) {
 
-                    <p class="mb-4 leading-8 text-gray-700">
-                        {{ paragraph }}
-                    </p>
+                        <p class="mb-4 leading-8 text-gray-700">
+                            {{ paragraph }}
+                        </p>
 
-                    }
+                        }
 
-                    @if (section.items?.length) {
+                        @if (section.items?.length) {
 
-                    <div class="mt-8 space-y-8">
+                        <div class="mt-8 space-y-8">
 
-                        @for (item of section.items; track item.title) {
+                            @for (item of section.items; track item.title) {
 
-                        <div>
+                            <div>
 
-                            <h3 class="mb-4 text-lg font-medium">
-                                {{ item.title }}
-                            </h3>
+                                <h3 class="mb-4 text-lg font-medium">
+                                    {{ item.title }}
+                                </h3>
 
-                            <ul class="list-disc pl-6 space-y-2">
+                                <ul class="list-disc pl-6 space-y-2">
 
-                                @for (line of item.content; track $index) {
+                                    @for (line of item.content; track $index) {
 
-                                <li class="leading-7 text-gray-700">
-                                    {{ line }}
-                                </li>
+                                    <li class="leading-7 text-gray-700">
+                                        {{ line }}
+                                    </li>
 
-                                }
+                                    }
 
-                            </ul>
+                                </ul>
+
+                            </div>
+
+                            }
 
                         </div>
 
                         }
 
-                    </div>
+                    </section>
+
 
                     }
 
-                </section>
-
+                    <p class="mb-10 text-sm text-gray-500">
+                        {{ 'components.privacyPolicy.lastUpdated' | translate }}
+                        {{ policy.lastUpdated }}
+                    </p>
+                </div>
 
                 }
 
-                <p class="mb-10 text-sm text-gray-500">
-                    {{ 'components.privacyPolicy.lastUpdated' | translate }}
-                    {{ policy.lastUpdated }}
-                </p>
             </div>
-
-            }
-
-
         </section>
         <app-footer />
     </div>
