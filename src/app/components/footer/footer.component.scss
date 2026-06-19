@@ -152,6 +152,12 @@
     color: var(--travhub-white);
 }
 
+@media (max-width: 767px) {
+    .main-footer__copyright {
+        font-size: 12px;
+    }
+}
+
 .main-footer__social {
     display: flex;
     position: relative;
