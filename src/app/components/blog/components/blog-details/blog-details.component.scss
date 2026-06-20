@@ -124,13 +124,14 @@
     margin: 24px 0 26px;
     font-size: 28px;
     line-height: 36px;
-    color: var(--travhub-black);
+    color: var(--p-surface-0);
     font-family: var(--travhub-heading-font);
-    background-color: #fafafa;
+    background-color: var(--p-primary-color);
     font-weight: 600;
     padding: 38px 136px 55px;
     text-align: center;
     border-left: 0;
+    border-radius: 10px;
 
     @media (max-width: 1199px) {
         padding: 38px 30px 55px;
@@ -197,9 +198,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid var(--travhub-border-color);
-    border-bottom: 1px solid var(--travhub-border-color);
-    padding: 20px 0;
+    // border-top: 1px solid var(--travhub-border-color);
+    // border-bottom: 1px solid var(--travhub-border-color);
+    // padding: 20px 0;
     margin: 35px 0 45px;
 
     @media (max-width: 767px) {
