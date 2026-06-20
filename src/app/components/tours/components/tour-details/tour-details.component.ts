@@ -19,8 +19,16 @@ import { LayoutService } from "../../../../services/layout.service";
     standalone: true,
     templateUrl: './tour-details.component.html',
     styleUrls: ['./tour-details.component.scss'],
-    imports: [CommonModule, AnimatedContainer, MenuComponent,
-        HeaderComponent, FooterComponent, GoogleMapsModule, MapAdvancedMarker, GalleriaComponent],
+    imports: [
+        CommonModule,
+        AnimatedContainer,
+        MenuComponent,
+        HeaderComponent,
+        FooterComponent,
+        GoogleMapsModule,
+        MapAdvancedMarker,
+        GalleriaComponent
+    ],
 })
 export class TourDetailsComponent {
     @ViewChild(GalleriaComponent)
@@ -106,9 +114,6 @@ export class TourDetailsComponent {
             return;
         }
 
-
-
-
         const images =
             this.tour.images?.length
                 ? this.tour.images
@@ -174,17 +179,17 @@ export class TourDetailsComponent {
         this.markers.push(marker);
 
 
-         this.localization.languageChanged$
-                    .pipe(
-                        map(event => event.lang),
-                        takeUntil(this._destroy$)
-                    )
-                    .subscribe(lang => {
-        
-                        this._googleMapsLoader
-                            .reloadWithNewLanguage(lang);
-        
-                    });
+        this.localization.languageChanged$
+            .pipe(
+                map(event => event.lang),
+                takeUntil(this._destroy$)
+            )
+            .subscribe(lang => {
+
+                this._googleMapsLoader
+                    .reloadWithNewLanguage(lang);
+
+            });
     }
 
     public ngOnDestroy(): void {

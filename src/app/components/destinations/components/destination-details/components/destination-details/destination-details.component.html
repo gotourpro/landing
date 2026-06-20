@@ -9,7 +9,137 @@
             <div class="container">
                 @if (destination && galleryColumns.length) {
 
-                <div class="grid grid-cols-1 xl:grid-cols-11 gap-4">
+
+                <div class="md:hidden">
+
+                    <div class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)] h-[320px]">
+
+                        <img
+                            [src]="galleryColumns[2].images[0].image"
+                            alt=""
+                            class="w-full h-full object-cover"
+                        >
+
+                        <div class="gallery-one__card__hover">
+
+                            <a
+                                (click)="openGallery(galleryColumns[2].images[0].image)"
+                                class="img-popup"
+                            >
+                                <i
+                                    class="pi pi-camera"
+                                    style="font-size:1.5rem"
+                                ></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="hidden md:grid xl:hidden grid-cols-5 gap-4">
+
+                    <div class="col-span-1 flex flex-col gap-4">
+
+                        @for (item of galleryColumns[0].images; track $index) {
+
+                        <div
+                            class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)]"
+                            [style.height.px]="item.height"
+                        >
+
+                            <img
+                                [src]="item.image"
+                                alt=""
+                                class="w-full h-full object-cover"
+                            >
+
+                            <div class="gallery-one__card__hover">
+
+                                <a
+                                    (click)="openGallery(item.image)"
+                                    class="img-popup"
+                                >
+                                    <i
+                                        class="pi pi-camera"
+                                        style="font-size:1.5rem"
+                                    ></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        }
+
+                    </div>
+
+                    <div class="col-span-2">
+
+                        <div
+                            class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)]"
+                            [style.height.px]="galleryColumns[1].images[0].height"
+                        >
+
+                            <img
+                                [src]="galleryColumns[1].images[0].image"
+                                alt=""
+                                class="w-full h-full object-cover"
+                            >
+
+                            <div class="gallery-one__card__hover">
+
+                                <a
+                                    (click)="openGallery(galleryColumns[1].images[0].image)"
+                                    class="img-popup"
+                                >
+                                    <i
+                                        class="pi pi-camera"
+                                        style="font-size:1.5rem"
+                                    ></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-span-2">
+
+                        <div
+                            class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)]"
+                            [style.height.px]="galleryColumns[2].images[0].height"
+                        >
+
+                            <img
+                                [src]="galleryColumns[2].images[0].image"
+                                alt=""
+                                class="w-full h-full object-cover"
+                            >
+
+                            <div class="gallery-one__card__hover">
+
+                                <a
+                                    (click)="openGallery(galleryColumns[2].images[0].image)"
+                                    class="img-popup"
+                                >
+                                    <i
+                                        class="pi pi-camera"
+                                        style="font-size:1.5rem"
+                                    ></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="hidden xl:grid xl:grid-cols-11 gap-4">
 
                     <div class="xl:col-span-2 flex flex-col gap-4">
 
@@ -270,4 +400,4 @@
     </div>
 </animated-container>
 
-<app-galleria />
+<app-galleria #gallery></app-galleria>
