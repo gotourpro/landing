@@ -18,13 +18,13 @@
                         class="mb-16"
                     >
 
-                        <h2 class="mb-8 text-2xl font-semibold">
+                        <h2 class="mb-8 text-2xl font-semibold dark:text-surface-0!">
                             {{ section.title }}
                         </h2>
 
                         @for (paragraph of section.content; track $index) {
 
-                        <p class="mb-4 leading-8 text-gray-700">
+                        <p class="mb-4 leading-8 text-gray-700 dark:text-surface-0!">
                             {{ paragraph }}
                         </p>
 
@@ -38,7 +38,7 @@
 
                             <div>
 
-                                <h3 class="mb-4 text-lg font-medium">
+                                <h3 class="mb-4 text-lg font-medium dark:text-surface-0!">
                                     {{ item.title }}
                                 </h3>
 
@@ -46,7 +46,7 @@
 
                                     @for (line of item.content; track $index) {
 
-                                    <li class="leading-7 text-gray-700">
+                                    <li class="leading-7 text-gray-700 dark:text-surface-0!">
                                         {{ line }}
                                     </li>
 
@@ -67,7 +67,7 @@
 
                     }
 
-                    <p class="mb-10 text-sm text-gray-500">
+                    <p class="mb-10 text-sm text-gray-500 dark:text-surface-0!">
                         {{ 'components.privacyPolicy.lastUpdated' | translate }}
                         {{ policy.lastUpdated }}
                     </p>
