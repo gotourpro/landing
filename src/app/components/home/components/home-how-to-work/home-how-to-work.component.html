@@ -6,11 +6,11 @@
                 {{ 'components.homeHowToWork.tagline' | translate }}
             </div>
 
-            <h3 class="sec-title__title bw-split-in-left">
+            <h3 class="sec-title__title bw-split-in-left dark:text-surface-0!">
                 {{ 'components.homeHowToWork.title' | translate }}
             </h3>
 
-            <p class="sec-title__text inline-block max-w-3xl mx-auto">
+            <p class="sec-title__text inline-block max-w-3xl mx-auto dark:text-surface-0!">
                 {{ 'components.homeHowToWork.description' | translate }}
             </p>
         </div>
@@ -21,16 +21,13 @@
 
             @for (item of howToWorkItems; track $index) {
 
-            <div
-                class="how-to-work__item wow fadeInUp"
-                data-wow-duration="1500ms"
-            >
+            <div class="how-to-work__item wow fadeInUp">
                 <div class="how-to-work__icon">
                     <ng-container *ngComponentOutlet="item.icon"></ng-container>
                     <span class="how-to-work__icon__count"></span>
                 </div>
 
-                <h4 class="how-to-work__title">
+                <h4 class="how-to-work__title dark:text-surface-0!">
                     {{ item.titleKey | translate }}
                 </h4>
 
