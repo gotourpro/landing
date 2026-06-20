@@ -85,6 +85,10 @@ export class FooterComponent implements OnInit {
             'components.footer.partnership',
             'components.footer.tourPackages',
 
+            'components.footer.womenBeautyTours',
+            'components.footer.menWellnessTours',
+            'components.footer.airportTransfer',
+
             'components.footer.privacyPolicy',
             'components.footer.termsConditions'
         ]).subscribe(t => {
@@ -122,6 +126,18 @@ export class FooterComponent implements OnInit {
                 {
                     label: t['components.footer.tourPackages'],
                     route: '/tours'
+                },
+                {
+                    label: t['components.footer.womenBeautyTours'],
+                    route: '/tours/women-beauty'
+                },
+                {
+                    label: t['components.footer.menWellnessTours'],
+                    route: '/tours/men-wellness'
+                },
+                {
+                    label: t['components.footer.airportTransfer'],
+                    route: '/transfer'
                 }
             ];
 
