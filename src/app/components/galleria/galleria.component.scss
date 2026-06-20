@@ -48,3 +48,9 @@
 ::ng-deep .p-galleria-thumbnails-viewport {
     margin-top: 20px;
 }
+
+::ng-deep {
+    .p-galleria-mask {
+        background: rgba(0, 0, 0, 0.99) !important;
+    }
+}
