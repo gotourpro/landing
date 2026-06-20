@@ -74,6 +74,16 @@
             "title": "Our Latest Articles",
             "description": "Discover travel tips, destination guides, cultural insights, and inspiration for your next adventure in China."
         },
+        "homeCta": {
+            "tagline": "Airport Pickup",
+            "title": "Travel With Comfort",
+            "description": "Meet & greet service, luggage assistance and comfortable transfer to your hotel any time of day.",
+            "badgeTitle": "24/7",
+            "badgeText": "AIRPORT TRANSFER",
+            "badgeLine1": "AIRPORT",
+            "badgeLine2": "TRANSFER",
+            "learnMore": "Learn More"
+        },
         "notFound": {
             "title": "Oops! Page Not Found",
             "description": "The page you are looking for doesn't exist or has been moved.",

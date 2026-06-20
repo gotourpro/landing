@@ -13,6 +13,7 @@ import { HomeHowToWorkComponent } from "../home-how-to-work/home-how-to-work.com
 import { DialogDrawerService } from "../../../dialog-panel/dialog-panel.service";
 import { DIALOG_PANEL_DATA } from "../../../dialog-panel/dialog-panel.tokens";
 import { MenuComponent } from "../../../menu/components/menu.component";
+import { HomeCtaComponent } from "../home-offer/home-cta.component";
 
 @Component({
     selector: 'app-home',
@@ -29,7 +30,8 @@ import { MenuComponent } from "../../../menu/components/menu.component";
         HomeBlogComponent,
         HomeWhyChooseComponent,
         HomeHowToWorkComponent,
-        MenuComponent
+        MenuComponent,
+        HomeCtaComponent
 
     ],
     providers: [DialogDrawerService, {

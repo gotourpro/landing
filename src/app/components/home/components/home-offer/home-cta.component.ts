@@ -10,13 +10,13 @@ import { TranslateModule } from '@ngx-translate/core';
 import { RouterLink } from "@angular/router";
 
 @Component({
-    selector: "app-home-hero",
+    selector: "app-home-cta",
     standalone: true,
-    templateUrl: './home-hero.component.html',
-    styleUrls: ['./home-hero.component.scss'],
+    templateUrl: './home-cta.component.html',
+    styleUrls: ['./home-cta.component.scss'],
     imports: [AnimatedContainer, TranslateModule, ParallaxDirective, ButtonModule, TextAnimationDirective, ImageAnimationDirective, CommonModule, RouterLink],
 })
-export class HomeHeroComponent {
+export class HomeCtaComponent {
     layoutService = inject(LayoutService);
     isDarkTheme = computed(() => this.layoutService?.isDarkTheme());
     isWide = computed(() => this.layoutService.isWide());

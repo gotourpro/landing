@@ -74,6 +74,16 @@
             "title": "最新文章",
             "description": "探索旅行建议、目的地指南和文化见闻，为您的下一次中国之旅寻找灵感。"
         },
+        "homeCta": {
+            "tagline": "机场接机服务",
+            "title": "舒适开启您的旅程",
+            "description": "提供机场接机、行李协助及舒适酒店接送服务，全天候为您服务。",
+            "badgeTitle": "24/7",
+            "badgeText": "机场接送",
+            "badgeLine1": "机场",
+            "badgeLine2": "接送",
+            "learnMore": "了解更多"
+        },
         "notFound": {
             "title": "哎呀！页面未找到",
             "subtitle": "您访问的页面不存在或已被移动。",
