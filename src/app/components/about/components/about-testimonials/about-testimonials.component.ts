@@ -1,16 +1,17 @@
 import { Component, computed, inject } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { AnimatedContainer } from "../../../../components/animatedcontainer";
-import { CirclePattern } from "../../../../components/circlepattern";
 import { LayoutService } from "../../../../services/layout.service";
 import { TranslateModule } from "@ngx-translate/core";
 import { LocalizationService } from "../../../../services/localization.service";
+import { CountUpModule } from 'ngx-countup';
+
 @Component({
     selector: "app-about-testimonials",
     standalone: true,
     templateUrl: './about-testimonials.component.html',
     styleUrls: ['./about-testimonials.component.scss'],
-    imports: [AnimatedContainer, CommonModule, TranslateModule],
+    imports: [AnimatedContainer, CommonModule, TranslateModule, CountUpModule],
 })
 export class AboutTestimonialsComponent {
 
@@ -25,23 +26,28 @@ export class AboutTestimonialsComponent {
 
     public stats = [
         {
-            value: '10K+',
+            value: 10000,
+            suffix: '+',
             textKey: 'components.about.stats.travelers'
         },
         {
-            value: '50+',
+            value: 50,
+            suffix: '+',
             textKey: 'components.about.stats.destinations'
         },
         {
-            value: '100+',
+            value: 100,
+            suffix: '+',
             textKey: 'components.about.stats.tours'
         },
         {
-            value: '500+',
+            value: 500,
+            suffix: '+',
             textKey: 'components.about.stats.reviews'
         },
         {
-            value: '4.9',
+            value: 4.9,
+            decimals: 1,
             textKey: 'components.about.stats.rating'
         }
     ];

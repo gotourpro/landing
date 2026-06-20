@@ -325,6 +325,18 @@
     margin-top: 104px;
 }
 
+@media (max-width: 1199px) {
+    .main-footer--two {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-footer--two {
+        margin-top: 60px;
+    }
+}
+
 .main-footer--two .main-footer__middle {
     padding-top: 80px;
     padding-bottom: 20px;

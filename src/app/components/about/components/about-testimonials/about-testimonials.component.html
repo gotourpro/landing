@@ -19,63 +19,31 @@
       <div class="">
         <div>
           <div>
-            <div
-              class="counter-one__funfact wow fadeInRight"
-              data-wow-duration="1500ms"
-              data-wow-delay="100ms"
-            >
+            <div class="counter-one__funfact wow fadeInRight">
 
+              @for (stat of stats.slice(0, 4); track stat; let i = $index) {
 
               <div class="counter-one__funfact__item count-box">
 
                 <h3 class="counter-one__funfact__count">
-                  {{ stats[0].value }}
+
+                  <span
+                    [countUp]="stat.value"
+                    [options]="{
+                duration: 8,
+                suffix: stat.suffix || ''
+            }"
+                  ></span>
+
                 </h3>
 
                 <p class="counter-one__funfact__text">
-                  {{ stats[0].textKey | translate }}
+                  {{ stat.textKey | translate }}
                 </p>
 
               </div>
 
-              <div class="counter-one__funfact__item count-box">
-
-                <h3 class="counter-one__funfact__count">
-                  {{ stats[1].value }}
-                </h3>
-
-                <p class="counter-one__funfact__text">
-                  {{ stats[1].textKey | translate }}
-                </p>
-
-              </div>
-
-
-              <div class="counter-one__funfact__item count-box">
-
-                <h3 class="counter-one__funfact__count">
-                  {{ stats[2].value }}
-                </h3>
-
-                <p class="counter-one__funfact__text">
-                  {{ stats[2].textKey | translate }}
-                </p>
-
-              </div>
-
-
-              <div class="counter-one__funfact__item count-box">
-
-                <h3 class="counter-one__funfact__count">
-                  {{ stats[3].value }}
-                </h3>
-
-                <p class="counter-one__funfact__text">
-                  {{ stats[3].textKey | translate }}
-                </p>
-
-              </div>
-
+              }
 
               <div class="counter-one__funfact__item-two count-box">
 
