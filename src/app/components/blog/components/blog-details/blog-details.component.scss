@@ -81,12 +81,13 @@
 
 .blog-details__meta li:not(:first-of-type)::before {
     content: "";
-    width: 1px;
-    height: 10px;
-    background-color: var(--travhub-text2);
-    position: relative;
-    display: inline-block;
-    margin: 0 8px 0 14px;
+    // width: 6px;
+    // height: 6px;
+    // border-radius: 50%;
+    // background-color: var(--travhub-base);
+    // position: relative;
+    // display: inline-block;
+    margin: 0 6px 0 6px;
 }
 
 .blog-details__meta li i {
@@ -245,7 +246,7 @@
     align-items: center;
     background-color: transparent;
     font-size: 16px;
-    color: var(--travhub-black);
+    color: var(--p-contarst);
     transition: all 500ms ease;
 }
 
