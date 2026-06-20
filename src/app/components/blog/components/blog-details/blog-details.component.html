@@ -21,8 +21,8 @@
                             <div class="blog-details__date">18<span>June</span></div>
                         </div><!-- /.blog-details__thumb -->
                         <ul class="blog-details__meta">
-                            <li><i class="icon-user"></i><a href="blog-grid-right.html">Wade Warren</a></li>
-                            <li><i class="icon-bubble-chat"></i>05 Comment</li>
+                            <li><i class="pi pi-user"></i><a href="blog-grid-right.html">Wade Warren</a></li>
+                            <li><i class=" pi pi-eye"></i>240</li>
                         </ul><!-- /.blog-details__meta -->
                         <h3 class="blog-details__title">Katie Stewart Your charity may be net zero</h3>
                         <!-- /.blog-details__title -->
@@ -50,8 +50,34 @@
                                 There are many variations of passages of Lorem Ipsum available, but the majority have
                                 suffered alteration
                             </p>
-                            <blockquote class="blog-details__blockquote">
+                            <!-- <blockquote class="blog-details__blockquote">
                                 Feeling adventurous? Explore the beauty of Shapla Beels.
+                            </blockquote> -->
+
+
+                            <blockquote class="blog-details__blockquote">
+
+
+                                <svg
+                                    class="blog-details__blockquote-icon"
+                                    width="32"
+                                    height="32"
+                                    viewBox="0 0 32 32"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M0 4V28L12 16V4H0Z"
+                                        fill="#1BBC9B"
+                                    />
+                                    <path
+                                        d="M20 4V28L32 16V4H20Z"
+                                        fill="#1BBC9B"
+                                    />
+                                </svg>
+
+                                Feeling adventurous? Explore the beauty of Shapla Beels.
+
                             </blockquote>
                             <p class="blog-details__text">
                                 Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
@@ -98,24 +124,38 @@
                         </div><!-- /.blog-details__content -->
                         <div class="blog-details__post-meta">
                             <div class="blog-details__tags">
-                                <h4 class="blog-details__tags__title">Tags</h4><!-- /.blog-details__tags__title -->
-                                <div class="sidebar__tags">
-                                    <a href="blog-list-right.html">Travel</a>
-                                    <a href="blog-list-right.html">Destination</a>
-                                    <a href="blog-list-right.html">Tour Guide</a>
-                                </div><!-- /.sidebar__projects -->
-                            </div><!-- /.blog-details__tags -->
+
+                                <h4 class="blog-details__tags__title">
+                                    Tags
+                                </h4>
+
+                                <div class="flex flex-wrap gap-2">
+
+                                    @for (tag of tags; track tag) {
+
+                                    <p-tag
+                                        [value]="tag"
+                                        [rounded]="true"
+                                        severity="contrast"
+                                        styleClass="bg-primary text-primary-contrast"
+                                    />
+
+                                    }
+
+                                </div>
+
+                            </div>
                             <div class="blog-details__social">
                                 <a href="https://facebook.com">
                                     <i
-                                        class="fab fa-facebook-f"
+                                        class="pi pi-telegram"
                                         aria-hidden="true"
                                     ></i>
                                     <span class="sr-only">Facebook</span>
                                 </a>
                                 <a href="https://twitter.com">
                                     <i
-                                        class="fab fa-twitter"
+                                        class="pi pi-whatsapp"
                                         aria-hidden="true"
                                     ></i>
                                     <span class="sr-only">Twitter</span>

@@ -137,16 +137,29 @@
     }
 }
 
-.blog-details__blockquote::before {
-    position: relative;
+// .blog-details__blockquote::before {
+//     position: relative;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     font-family: flaticon_mycollection !important;
+//     content: "\f108";
+//     font-size: 34px;
+//     color: var(--travhub-base);
+//     margin-bottom: 5px;
+// }
+
+
+.blog-details__blockquote {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    font-family: flaticon_mycollection !important;
-    content: "\f108";
-    font-size: 34px;
-    color: var(--travhub-base);
-    margin-bottom: 5px;
+}
+
+.blog-details__blockquote-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
 }
 
 .blog-details__list {
