@@ -1,0 +1,54 @@
+[
+    {
+        "slug": "travel-tips",
+        "title": {
+            "en": "Travel Tips",
+            "ru": "Советы путешественникам",
+            "zh-Hans": "旅行贴士"
+        },
+        "shortTitle": {
+            "en": "Tips",
+            "ru": "Советы",
+            "zh-Hans": "贴士"
+        }
+    },
+    {
+        "slug": "wellness",
+        "title": {
+            "en": "Health & Wellness",
+            "ru": "Здоровье и оздоровление",
+            "zh-Hans": "健康与养生"
+        },
+        "shortTitle": {
+            "en": "Wellness",
+            "ru": "Здоровье",
+            "zh-Hans": "养生"
+        }
+    },
+    {
+        "slug": "medical-tourism",
+        "title": {
+            "en": "Medical Tourism",
+            "ru": "Медицинский туризм",
+            "zh-Hans": "医疗旅游"
+        },
+        "shortTitle": {
+            "en": "Medical",
+            "ru": "Медицина",
+            "zh-Hans": "医疗"
+        }
+    },
+    {
+        "slug": "transport",
+        "title": {
+            "en": "Transfers & Transport",
+            "ru": "Трансферы и транспорт",
+            "zh-Hans": "接送与交通"
+        },
+        "shortTitle": {
+            "en": "Transport",
+            "ru": "Транспорт",
+            "zh-Hans": "交通"
+        }
+    }
+]

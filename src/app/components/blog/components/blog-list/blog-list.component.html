@@ -5,7 +5,7 @@
       {{ 'components.blog.description' | translate }}
     </app-header>
     <section class="blog-grid">
-      <div class="container">
+      <!-- <div class="container">
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-[30px]">
 
@@ -85,7 +85,187 @@
 
         </div>
 
+      </div> -->
+
+
+
+      <div class="container">
+
+
+        <div class="mb-12 flex justify-center">
+          <p-selectbutton
+            [options]="categories"
+            [size]="selectButtonSize"
+            [(ngModel)]="selectedCategory"
+            (onChange)="onCategoryChange($event.value)"
+            [allowEmpty]="false"
+            optionLabel="label"
+            optionValue="value"
+          />
+        </div>
+
+
+        @if (!initialLoading && blogs.length === 0) {
+
+        <div class="py-20 text-center">
+
+          <i class="pi pi-search text-6xl text-surface-400"></i>
+
+          <h3 class="mt-6 text-2xl font-semibold">
+            {{ 'components.blog.noBlogsFound' | translate }}
+          </h3>
+
+          <p class="mt-2 text-surface-500">
+            {{ 'components.blog.tryAnotherCategory' | translate }}
+          </p>
+
+        </div>
+
+        }
+
+        @if (initialLoading) {
+
+        <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+
+          @for (item of [1,2,3]; track item) {
+
+          <div class="
+            overflow-hidden
+            rounded-[30px]
+            border
+            border-surface-200
+            dark:border-surface-700
+            bg-surface-0
+            dark:bg-surface-900
+        ">
+
+            <p-skeleton
+              height="292px"
+              styleClass="rounded-none"
+            />
+
+            <div class="p-6">
+
+              <p-skeleton
+                width="65%"
+                height="32px"
+                styleClass="mb-5"
+              />
+
+              <div class="flex gap-4">
+
+                <p-skeleton
+                  width="90px"
+                  height="18px"
+                />
+
+                <p-skeleton
+                  width="110px"
+                  height="18px"
+                />
+
+              </div>
+
+            </div>
+
+          </div>
+
+          }
+
+        </div>
+
+        }
+        @if (!initialLoading && blogs.length > 0) {
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-[30px]">
+
+          <div
+            *ngFor="let item of blogs"
+            class="w-full"
+          >
+
+            <div class="blog-one__item h-[400px]">
+
+              <div class="blog-one__item__thumb">
+
+                <img
+                  [src]="item.image"
+                  [alt]="localization.getText(item.title)"
+                >
+
+                <img
+                  [src]="item.image"
+                  [alt]="localization.getText(item.title)"
+                >
+
+                <a
+                  [routerLink]="['/blog', item.slug]"
+                  class="blog-one__item__thumb__link"
+                >
+                  <span class="sr-only">
+                    {{ localization.getText(item.title) }}
+                  </span>
+                </a>
+
+              </div>
+
+              <div class="blog-one__item__content">
+
+                <h3 class="blog-one__item__title">
+
+                  <a [routerLink]="['/blog', item.slug]">
+                    {{ localization.getText(item.title) }}
+                  </a>
+
+                </h3>
+
+                <ul class="blog-one__item__meta">
+
+                  @if (item.categorySlug) {
+                  <li>
+                    <i class="pi pi-tag mr-2"></i>
+                    {{ item.categorySlug }}
+                  </li>
+                  }
+
+                  @if (item.publishedAt) {
+                  <li>
+                    <i class="pi pi-calendar mr-2"></i>
+                    {{ item.publishedAt | date:'dd MMM yyyy' }}
+                  </li>
+                  }
+
+                </ul>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        }
+
+        @if (blogs.length > 0) {
+
+        <div class="mt-12 flex justify-center">
+
+          <p-button
+            [disabled]="!hasMore || loading"
+            [loading]="loading"
+            [rounded]="true"
+            size="large"
+            [label]="'components.blog.loadMore' | translate"
+            (click)="loadMore()"
+          />
+
+        </div>
+
+        }
+
       </div>
+
     </section>
     <app-footer />
   </div>

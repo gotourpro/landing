@@ -6,6 +6,8 @@ export interface IBlogPost {
 
     slug: string;
 
+    categorySlug: string;
+
     title: ILocalizedText;
 
     description?: ILocalizedText;
@@ -17,8 +19,6 @@ export interface IBlogPost {
     image: string;
 
     images?: string[];
-
-    category?: string;
 
     tags?: string[];
 

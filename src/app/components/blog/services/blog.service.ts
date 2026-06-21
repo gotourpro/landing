@@ -20,7 +20,7 @@ export class BlogService {
 
     constructor(
         private readonly http: HttpClient
-    ) {}
+    ) { }
 
     public load(): Observable<IBlogPost[]> {
 
@@ -66,6 +66,36 @@ export class BlogService {
         );
     }
 
+
+    public getPageByCategory(
+        categorySlug: string,
+        page: number,
+        limit: number
+    ): Observable<IBlogPage> {
+
+        return this.getByCategory(categorySlug).pipe(
+            map(items => {
+
+                const start =
+                    (page - 1) * limit;
+
+                const data =
+                    items.slice(
+                        start,
+                        start + limit
+                    );
+
+                return {
+                    items: data,
+                    total: items.length,
+                    hasMore:
+                        start + limit <
+                        items.length
+                };
+            })
+        );
+    }
+
     public getPopular(): Observable<IBlogPost[]> {
 
         return this.getList().pipe(
@@ -78,14 +108,14 @@ export class BlogService {
     }
 
     public getByCategory(
-        category: string
+        categorySlug: string
     ): Observable<IBlogPost[]> {
 
         return this.getList().pipe(
             map(items =>
                 items.filter(
                     item =>
-                        item.category === category
+                        item.categorySlug === categorySlug
                 )
             )
         );

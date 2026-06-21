@@ -126,15 +126,15 @@ export class FooterComponent implements OnInit {
                 },
                 {
                     label: t['components.footer.womenBeautyTours'],
-                    route: '/tours/women-beauty'
+                    route: '/tours/category/women-beauty'
                 },
                 {
                     label: t['components.footer.menWellnessTours'],
-                    route: '/tours/men-wellness'
+                    route: '/tours/category/men-wellness'
                 },
                 {
                     label: t['components.footer.educationalTours'],
-                    route: '/tours/educational'
+                    route: '/tours/category/educational'
                 },
                 {
                     label: t['components.footer.airportTransfer'],

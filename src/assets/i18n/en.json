@@ -136,12 +136,18 @@
         "blog": {
             "title": "Travel Blog",
             "description": "Travel guides, destination tips, cultural insights, and useful information for your journey across China.",
-            "loadMore": "Load More Blogs"
+            "loadMore": "Load More Blogs",
+            "noBlogsFound": "No blogs found",
+            "tryAnotherCategory": "Try selecting another category",
+            "allCategories": "All"
         },
         "tour": {
             "title": "China Tours",
             "description": "Explore carefully selected tours across China, from iconic landmarks and cultural treasures to unforgettable local experiences.",
-            "loadMore": "Load More Tours"
+            "loadMore": "Load More Tours",
+            "noToursFound": "No tours found",
+            "tryAnotherCategory": "Try selecting another category",
+            "allTours": "All Tours"
         },
         "destination": {
             "title": "Destinations in China",

@@ -98,8 +98,6 @@
 
 .blog-one__item__title a {
     color: inherit;
-    // background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
-    // transition: all 500ms ease;
 }
 
 .blog-one__item__title a:hover {
@@ -125,7 +123,6 @@
     text-transform: capitalize;
     display: flex;
     align-items: center;
-    // gap: 10px;
     position: relative;
 
     @media (min-width: 992px) and (max-width: 1199px) {
@@ -146,23 +143,6 @@
     right: -16px;
     transform: translateY(-50%);
 }
-
-// .blog-one__item__meta li:not(:last-of-type)::before {
-//     content: "";
-//     width: 2px;
-//     height: 14px;
-//     background-color: var(--travhub-base);
-//     // opacity: .31;
-//     position: absolute;
-//     top: 0;
-//     right: -13px;
-//     bottom: 0;
-//     margin: auto;
-
-//     @media (min-width: 992px) and (max-width: 1199px) {
-//         right: -9px;
-//     }
-// }
 
 .blog-one__item__meta li i {
     font-size: 18px;
@@ -515,40 +495,11 @@
     transition: opacity 500ms ease, transform 500ms ease;
 }
 
-.blog-two__item__thumb__link::before,
-.blog-two__item__thumb__link::after {
-    // content: "";
-    // width: 25px;
-    // height: 2px;
-    // background-color: var(--travhub-white);
-    // display: block;
-    // position: absolute;
-    // top: 50%;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
-}
+
 
 .blog-two__item__thumb__link::after {
     transform: translate(-50%, -50%) rotate(90deg);
 }
-
-// .blog-two__item__thumb::after {
-//   content: "";
-//   width: 100%;
-//   height: 75px;
-//   position: absolute;
-//   bottom: -6px;
-//   left: 0;
-//   background-color: var(--travhub-white);
-//   -webkit-mask: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300.000000 52.000000"  preserveAspectRatio="xMidYMid meet">  <g transform="translate(0.000000,52.000000) scale(0.050000,-0.050000)" stroke="none"> <path d="M0 531 l0 -511 3000 0 3000 0 0 283 0 283 -43 -38 c-24 -21 -60 -76 -81 -123 -45 -100 -34 -103 -266 74 -88 67 -197 140 -243 162 -246 120 -1016 66 -1300 -92 -111 -62 -139 -69 -277 -69 l-154 0 -119 -121 -119 -122 -144 34 c-79 18 -171 46 -204 62 -93 43 -278 67 -526 67 -264 0 -286 -8 -476 -181 -165 -149 -131 -153 -523 64 -350 195 -526 276 -600 277 -55 0 -125 -66 -125 -118 0 -125 -152 -39 -431 245 -133 135 -270 265 -305 290 l-64 46 0 -512z"/> </g> </svg>');
-//   mask: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300.000000 52.000000"  preserveAspectRatio="xMidYMid meet">  <g transform="translate(0.000000,52.000000) scale(0.050000,-0.050000)" stroke="none"> <path d="M0 531 l0 -511 3000 0 3000 0 0 283 0 283 -43 -38 c-24 -21 -60 -76 -81 -123 -45 -100 -34 -103 -266 74 -88 67 -197 140 -243 162 -246 120 -1016 66 -1300 -92 -111 -62 -139 -69 -277 -69 l-154 0 -119 -121 -119 -122 -144 34 c-79 18 -171 46 -204 62 -93 43 -278 67 -526 67 -264 0 -286 -8 -476 -181 -165 -149 -131 -153 -523 64 -350 195 -526 276 -600 277 -55 0 -125 -66 -125 -118 0 -125 -152 -39 -431 245 -133 135 -270 265 -305 290 l-64 46 0 -512z"/> </g> </svg>');
-//   -webkit-mask-repeat: no-repeat;
-//   mask-repeat: no-repeat;
-//   -webkit-mask-position: center center;
-//   mask-position: center center;
-//   -webkit-mask-size: auto;
-//   mask-size: auto;
-// }
 
 @media (max-width: 1399px) {
     .blog-two__item__thumb::after {
@@ -919,4 +870,19 @@
 
 .blog-three__item__btn a:hover::after {
     width: 100%;
+}
+
+
+::ng-deep {
+    .p-togglebutton {
+
+        border: 1px solid var(--travhub-base);
+        color: white;
+        background: var(--travhub-base);
+    }
+
+    .p-togglebutton-checked .p-togglebutton-content {
+        background: #009688;
+
+    }
 }

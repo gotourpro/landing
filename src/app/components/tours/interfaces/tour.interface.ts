@@ -18,6 +18,7 @@ export interface ITour {
     excluded?: ILocalizedText[];
     city?: ILocalizedText;
     coordinates?: [number, number];
+    categorySlug?: string;
     image: string;
     images?: string[];
     video?: string;

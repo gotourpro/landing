@@ -29,8 +29,6 @@ export class AboutGalleryComponent {
 
   isDarkTheme = computed(() => this.layoutService?.isDarkTheme());
 
-  isWide = computed(() => this.layoutService.isWide());
-
 
   public galleryColumns = ABOUT_GALLERY_COLUMNS;
 

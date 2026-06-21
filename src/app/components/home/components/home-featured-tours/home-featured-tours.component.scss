@@ -1,6 +1,31 @@
 /*--------------------------------------------------------------
     # Best Feature
 --------------------------------------------------------------*/
+
+
+.blog-one__item__meta li:not(:last-of-type)::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--travhub-base);
+
+    position: absolute;
+    top: 50%;
+    right: -16px;
+    transform: translateY(-50%);
+}
+
+.blog-one__item__meta li i {
+    font-size: 18px;
+    color: var(--travhub-base);
+    display: inline-block;
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        font-size: 16px;
+    }
+}
+
 .best-feature {
     position: relative;
     z-index: 1;

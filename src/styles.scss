@@ -9,11 +9,6 @@
 @import "assets/layout/styles/layout/layout.scss";
 
 
-.p-accordioncontent-content {
-  @apply dark:bg-surface-950;
-}
-
-
 // .container {
 //   margin-left: auto;
 //   margin-right: auto;
@@ -1528,7 +1523,6 @@ h6 {
 .travhub-btn {
   display: inline-block;
   vertical-align: middle;
-  -webkit-appearance: none;
   border: none;
   outline: none !important;
   font-family: var(--travhub-font);
@@ -5242,7 +5236,8 @@ h6 {
 
 .tours-one__item__meta li i {
   position: relative;
-  top: 2px;
+  // top: 2px;
+  color: var(--travhub-base);
   font-size: 18px;
   display: inline-block;
 }
@@ -5607,18 +5602,7 @@ h6 {
   transition: opacity 500ms ease, transform 500ms ease;
 }
 
-.tours-two__image__link::before,
-.tours-two__image__link::after {
-  // content: "";
-  // width: 25px;
-  // height: 2px;
-  // background-color: var(--travhub-white);
-  // display: block;
-  // position: absolute;
-  // top: 50%;
-  // left: 50%;
-  // transform: translate(-50%, -50%);
-}
+
 
 .tours-two__image__link::after {
   transform: translate(-50%, -50%) rotate(90deg);

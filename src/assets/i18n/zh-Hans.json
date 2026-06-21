@@ -136,12 +136,18 @@
         "blog": {
             "title": "中国旅游博客",
             "description": "关于中国旅行的实用指南、旅游建议、文化介绍和精彩文章。",
-            "loadMore": "加载更多文章"
+            "loadMore": "加载更多文章",
+            "noBlogsFound": "未找到相关文章",
+            "tryAnotherCategory": "请尝试选择其他分类",
+            "allCategories": "全部"
         },
         "tour": {
             "title": "中国旅游线路",
             "description": "探索精心挑选的中国旅游线路，感受著名景点、丰富文化和难忘的旅行体验。",
-            "loadMore": "加载更多线路"
+            "loadMore": "加载更多线路",
+            "noToursFound": "未找到旅游产品",
+            "tryAnotherCategory": "请尝试选择其他分类",
+            "allTours": "所有旅游线路"
         },
         "destination": {
             "title": "中国旅游目的地",

@@ -3,6 +3,7 @@
         "id": "1",
         "slug": "beijing-imperial-tour",
         "destinationSlug": "beijing",
+        "categorySlug": "educational",
         "title": {
             "en": "Beijing Imperial Tour",
             "ru": "Императорский тур по Пекину",

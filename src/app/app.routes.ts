@@ -47,51 +47,86 @@ export const routes: Routes = [
     },
 
   },
+  // {
+  //   path: "blog",
+  //   resolve: {
+  //     layout: setLayout(PageLayout.Public),
+
+  //   },
+  //   children: [
+  //     {
+  //       path: "",
+  //       loadComponent: () =>
+  //         import("./components/blog/components/blog-list/blog-list.component").then(
+  //           (c) => c.BlogListComponent
+  //         ),
+  //     },
+  //     {
+  //       path: ":slug",
+  //       loadComponent: () =>
+  //         import("./components/blog/components/blog-details/blog-details.component").then(
+  //           (c) => c.BlogDetaislComponent
+  //         ),
+  //     },
+  //   ],
+  // },
   {
     path: "blog",
     resolve: {
-      layout: setLayout(PageLayout.Public),
-
+      layout: setLayout(PageLayout.Public)
     },
     children: [
       {
         path: "",
         loadComponent: () =>
-          import("./components/blog/components/blog-list/blog-list.component").then(
-            (c) => c.BlogListComponent
-          ),
+          import(
+            "./components/blog/components/blog-list/blog-list.component"
+          ).then(c => c.BlogListComponent)
+      },
+      {
+        path: "category/:slug",
+        loadComponent: () =>
+          import(
+            "./components/blog/components/blog-list/blog-list.component"
+          ).then(c => c.BlogListComponent)
       },
       {
         path: ":slug",
         loadComponent: () =>
-          import("./components/blog/components/blog-details/blog-details.component").then(
-            (c) => c.BlogDetaislComponent
-          ),
-      },
-    ],
+          import(
+            "./components/blog/components/blog-details/blog-details.component"
+          ).then(c => c.BlogDetaislComponent)
+      }
+    ]
   },
   {
     path: "tours",
     resolve: {
-      layout: setLayout(PageLayout.Public),
-
+      layout: setLayout(PageLayout.Public)
     },
     children: [
       {
         path: "",
         loadComponent: () =>
-          import("./components/tours/components/tour-list/tour-list.component").then(
-            (c) => c.TourListComponent
-          ),
+          import(
+            "./components/tours/components/tour-list/tour-list.component"
+          ).then(c => c.TourListComponent)
+      },
+      {
+        path: "category/:slug",
+        loadComponent: () =>
+          import(
+            "./components/tours/components/tour-list/tour-list.component"
+          ).then(c => c.TourListComponent)
       },
       {
         path: ":slug",
         loadComponent: () =>
-          import("./components/tours/components/tour-details/tour-details.component").then(
-            (c) => c.TourDetailsComponent
-          ),
-      },
-    ],
+          import(
+            "./components/tours/components/tour-details/tour-details.component"
+          ).then(c => c.TourDetailsComponent)
+      }
+    ]
   },
   {
     path: "destinations",

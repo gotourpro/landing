@@ -71,16 +71,19 @@
 
                         <ul class="blog-one__item__meta">
 
+                            @if (item.categorySlug) {
                             <li>
-                                <i class="icon-calendar"></i>
-                                {{ item.category }}
+                                <i class="pi pi-tag mr-2"></i>
+                                {{ item.categorySlug }}
                             </li>
+                            }
 
+                            @if (item.publishedAt) {
                             <li>
-                                <i class="icon-calendar"></i>
-                                {{ item.publishedAt | date:'longDate' }}
-
+                                <i class="pi pi-calendar mr-2"></i>
+                                {{ item.publishedAt | date:'dd MMM yyyy' }}
                             </li>
+                            }
 
                         </ul>
 

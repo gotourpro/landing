@@ -31,7 +31,7 @@ export class ToursService {
 
     constructor(
         private readonly http: HttpClient
-    ) {}
+    ) { }
 
     public load(): Observable<ITour[]> {
         return this.http
@@ -53,6 +53,48 @@ export class ToursService {
             map(items =>
                 items.find(item => item.slug === slug)
             )
+        );
+    }
+
+
+    public getByCategory(
+        categorySlug: string
+    ): Observable<ITour[]> {
+        return this.getList().pipe(
+            map(items =>
+                items.filter(
+                    item => item.categorySlug === categorySlug
+                )
+            )
+        );
+    }
+
+    public getPageByCategory(
+        categorySlug: string,
+        page: number,
+        limit: number
+    ): Observable<ITourPage> {
+
+        return this.getByCategory(categorySlug).pipe(
+            map(items => {
+
+                const start =
+                    (page - 1) * limit;
+
+                const data =
+                    items.slice(
+                        start,
+                        start + limit
+                    );
+
+                return {
+                    items: data,
+                    total: items.length,
+                    hasMore:
+                        start + limit <
+                        items.length
+                };
+            })
         );
     }
 
@@ -84,7 +126,7 @@ export class ToursService {
             )
         );
     }
-    
+
     public getPage(
         page: number,
         limit: number
