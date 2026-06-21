@@ -25,7 +25,7 @@
                 dotInactiveClass="bg-white/40"
                 className="why-choose-two__carousel"
                 [hideMask]="true"
-                [hideDots]="false"
+                [hideDots]="!isMobile()"
                 [hideButtons]="true"
                 [options]="{
         align: 'start',
