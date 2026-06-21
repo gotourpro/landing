@@ -82,7 +82,7 @@ export class FooterComponent implements OnInit {
             'components.footer.contact',
             'components.footer.aboutUs',
 
-            'components.footer.partnership',
+            'components.footer.educationalTours',
             'components.footer.tourPackages',
 
             'components.footer.womenBeautyTours',
@@ -121,9 +121,6 @@ export class FooterComponent implements OnInit {
 
             this.serviceLinks = [
                 {
-                    label: t['components.footer.partnership']
-                },
-                {
                     label: t['components.footer.tourPackages'],
                     route: '/tours'
                 },
@@ -134,6 +131,10 @@ export class FooterComponent implements OnInit {
                 {
                     label: t['components.footer.menWellnessTours'],
                     route: '/tours/men-wellness'
+                },
+                {
+                    label: t['components.footer.educationalTours'],
+                    route: '/tours/educational'
                 },
                 {
                     label: t['components.footer.airportTransfer'],
