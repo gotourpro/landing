@@ -4,11 +4,10 @@ export interface IEnvironment {
   apiUri: string;
   debounceTime: number;
   iconsUri?: string;
-  uri?:string;
-  accessTokenMapBox?: string;
-  apiUriMapbox?: string;
+  uri?: string;
+  gtmId: string;
   apiUriGoogle?: string;
   apiKeyGoogle?: string;
   storageUri?: string;
-  baseURL?:string;
+  baseURL?: string;
 }

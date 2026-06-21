@@ -24,6 +24,8 @@ import { NewsComponent } from './components/news/news.component';
 import { GoogleMapsLoaderService } from './services/google-maps-loader.service';
 import { AnimatedContainer } from './components/animatedcontainer';
 import { SocialMenuComponent } from './components/social-menu/social-menu.component';
+import { GoogleTagManagerService } from 'angular-google-tag-manager';
+import { AnalyticsService } from './services/analytics.service';
 @Component({
   selector: 'app-root',
   imports: [
@@ -71,6 +73,7 @@ export class AppComponent implements OnInit, OnDestroy {
     public renderer: Renderer2,
     private _lastVisitedPageService: LastVisitedPageService,
     private _googleMapsLoader: GoogleMapsLoaderService,
+    private readonly analytics: AnalyticsService
   ) {
     this._watchForRoute();
     this.config.setTranslation({
@@ -83,6 +86,8 @@ export class AppComponent implements OnInit, OnDestroy {
       )
       .subscribe(() => {
       });
+
+    this.analytics.init();
   }
 
   public ngOnInit(): void {

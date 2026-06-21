@@ -3,6 +3,7 @@ import { IEnvironment } from "./interfaces/environment.interface";
 export const environment: IEnvironment = {
     debounceTime: 300,
     production: false,
+    gtmId: 'GTM-KBDR2TWN',
     ssoUri: '',
     apiUri: '/api/',
     uri: 'http://localhost:3000/',

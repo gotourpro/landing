@@ -49,13 +49,6 @@ export class HomeComponent {
     ) { }
 
     public ngOnInit(): void {
-
-        console.log(
-            this.translate.instant(
-                'page.home.meta.title'
-            )
-        );
-
         this.seoService.fromTranslation(
             this.translate,
             'page.home.meta',

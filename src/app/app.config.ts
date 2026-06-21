@@ -6,7 +6,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { HTTP_INTERCEPTORS, HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { JwtModule } from "@auth0/angular-jwt";
 import { JWT_NAME } from './constants/jwt-name.constant';
-import localeEnGb from '@angular/common/locales/en-GB'; 
+import localeEnGb from '@angular/common/locales/en-GB';
 import { registerLocaleData } from '@angular/common';
 import { MessageService } from 'primeng/api';
 import { ToastModule } from 'primeng/toast';
@@ -15,7 +15,7 @@ import { Noir } from './app-theme';
 import { provideNgIdle } from '@ng-idle/core';
 import { ErrorInterceptor } from './interceptors/http-error.interceptor';
 import { RefreshInterceptor } from './interceptors/refresh.interceptor';
-
+import { GoogleTagManagerModule } from 'angular-google-tag-manager';
 import {
   TranslateModule,
   TranslateLoader,
@@ -28,6 +28,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 }
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { LocalizationService } from './services/localization.service';
+import { environment } from '../environments/environment';
 
 
 export function tokenGetter() {
@@ -42,10 +43,15 @@ export const appConfig: ApplicationConfig = {
     { provide: LOCALE_ID, useValue: 'en-GB' },
     {
       provide: HTTP_INTERCEPTORS,
-      useClass: ErrorInterceptor,  
-      multi: true, 
+      useClass: ErrorInterceptor,
+      multi: true,
     },
-      importProvidersFrom(
+    importProvidersFrom(
+      GoogleTagManagerModule.forRoot({
+        id: environment.gtmId
+      })
+    ),
+    importProvidersFrom(
       TranslateModule.forRoot({
         defaultLanguage: 'en',
         loader: {
@@ -62,21 +68,21 @@ export const appConfig: ApplicationConfig = {
     provideNgIdle(),
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideHttpClient(withInterceptorsFromDi()),
-    provideRouter(routes, withComponentInputBinding(),withEnabledBlockingInitialNavigation(),withInMemoryScrolling({
-        scrollPositionRestoration: 'top', // This is the key option
-        anchorScrolling: 'enabled'
-      })),
+    provideRouter(routes, withComponentInputBinding(), withEnabledBlockingInitialNavigation(), withInMemoryScrolling({
+      scrollPositionRestoration: 'top', // This is the key option
+      anchorScrolling: 'enabled'
+    })),
     provideClientHydration(),
     provideAnimationsAsync(),
     // providePrimeNG({ theme: Noir, ripple: false, inputStyle: 'outlined' }),
-     providePrimeNG({
+    providePrimeNG({
       ripple: true,
       theme: {
         preset: Noir,
         options: {
           cssLayer: {
             name: 'primeng',
-             order: 'theme, base, primeng'
+            order: 'theme, base, primeng'
           },
           darkModeSelector: '.dark'
         }
@@ -93,6 +99,6 @@ export const appConfig: ApplicationConfig = {
         }
       })
     ]),
-   // provideHttpClient(withInterceptors([authInterceptor]))
+    // provideHttpClient(withInterceptors([authInterceptor]))
   ]
 };
