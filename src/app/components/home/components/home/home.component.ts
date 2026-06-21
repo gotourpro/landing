@@ -14,6 +14,8 @@ import { DialogDrawerService } from "../../../dialog-panel/dialog-panel.service"
 import { DIALOG_PANEL_DATA } from "../../../dialog-panel/dialog-panel.tokens";
 import { MenuComponent } from "../../../menu/components/menu.component";
 import { HomeCtaComponent } from "../home-offer/home-cta.component";
+import { SeoService } from "../../../../services/seo.service";
+import { TranslateService } from "@ngx-translate/core";
 
 @Component({
     selector: 'app-home',
@@ -40,4 +42,23 @@ import { HomeCtaComponent } from "../home-offer/home-cta.component";
     }],
     templateUrl: './home.component.html',
 })
-export class HomeComponent { }
+export class HomeComponent {
+    constructor(
+        private seoService: SeoService,
+        private translate: TranslateService
+    ) { }
+
+    public ngOnInit(): void {
+
+        console.log(
+            this.translate.instant(
+                'page.home.meta.title'
+            )
+        );
+
+        this.seoService.fromTranslation(
+            this.translate,
+            'page.home.meta',
+        );
+    }
+}

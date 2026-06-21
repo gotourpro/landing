@@ -447,6 +447,12 @@
                     ]
                 }
             ]
+        },
+        "home": {
+            "meta": {
+                "title": "GoTour | Travel, Wellness & Educational Tours in China",
+                "description": "Discover China with educational, wellness and cultural tours. Airport transfers, hotel assistance and unforgettable experiences."
+            }
         }
     }
 }

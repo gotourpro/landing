@@ -9,14 +9,6 @@
 @import "assets/layout/styles/layout/layout.scss";
 
 
-// .container {
-//   margin-left: auto;
-//   margin-right: auto;
-//   max-width: 1152px;
-//   padding-left: 1rem;
-//   padding-right: 1rem;
-// }
-
 .container {
   margin-inline: auto;
   max-width: 1152px;
@@ -5201,12 +5193,6 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
-
-  @media (max-width: 991px) {
-    gap: 0;
-    flex-direction: column;
-
-  }
 }
 
 .tours-one__item__meta li {
