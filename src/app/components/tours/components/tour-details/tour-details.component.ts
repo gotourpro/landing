@@ -38,9 +38,8 @@ import { ITourLocation } from "../../../../interfaces/location.interface";
 })
 export class TourDetailsComponent {
 
-    @ViewChild(GoogleMap)
     public map!: any;
-
+    @ViewChild(GalleriaComponent)
     public galleria!: GalleriaComponent;
     public tour: any = null;
     public title = '';

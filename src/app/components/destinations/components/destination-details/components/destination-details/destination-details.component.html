@@ -1,12 +1,43 @@
 <animated-container>
     <app-menu [styleClass]="'relative! w-full! p-0! border-0 rounded-none! bg-transparent'"></app-menu>
     <div class="pt-20">
-        <app-header [title]="title">
-
-            {{ destination ? localization.getText(destination.description) : '' }}
-        </app-header>
         <section class="destination-details">
             <div class="container">
+
+
+                @if (destination) {
+
+                <div class="mb-8">
+
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6 dark:text-surface-0!">
+                        {{ localization.getText(destination.title) }}
+                    </h1>
+
+                    <div class="flex flex-wrap gap-3">
+
+                        @for (
+                        fact of destination?.facts?.slice(0, 4) ?? [];
+                        track $index
+                        ) {
+
+                        <div
+                            class="flex items-center gap-2 px-5 py-3 rounded-full border border-[var(--p-surface-200)]">
+
+                            <i [class]="fact.icon + ' text-[var(--p-primary-color)]'"></i>
+
+                            <span class="font-medium">
+                                {{ localization.getText(fact.value) }}
+                            </span>
+
+                        </div>
+
+                        }
+
+                    </div>
+
+                </div>
+                }
+
                 @if (destination && galleryColumns.length) {
 
 
@@ -276,14 +307,39 @@
                 </div>
 
                 }
+
+                @if (destination?.tags?.length) {
+
+                <div class="flex flex-wrap gap-2 mt-4">
+
+                    @for (
+                    tag of destination?.tags;
+                    track $index
+                    ) {
+
+                    <div class="flex items-center gap-2 px-4 py-2 rounded-full border border-[var(--p-surface-200)]">
+
+                        <i class="pi pi-hashtag text-[var(--p-primary-color)] text-xs"></i>
+
+                        <span class="font-medium text-sm">
+
+                            {{ localization.getText(tag) }}
+
+                        </span>
+
+                    </div>
+
+                    }
+
+                </div>
+
+                }
+
                 <div class="mt-[25px] flex justify-center">
-                    <div
-                        class="col-lg-8 wow fadeInUp"
-                        data-wow-delay="200ms"
-                    >
+                    <div>
                         <div class="destination-details__content">
-                            <h3 class="destination-details__title"> {{ destination ?
-                                localization.getText(destination.title) : '' }} </h3>
+                            <h3 class="destination-details__title dark:text-surface-0!"> {{ 'components.tour.overview' |
+                                translate }} </h3>
                             @if (destination?.description) {
                             <p class="destination-details__text">
                                 {{ destination ? localization.getText(destination.description) : '' }}
@@ -300,36 +356,70 @@
                                 {{ destination ? localization.getText(destination.contentSecond) : '' }}
                             </p>
                             }
-                            <ul class="destination-details__info">
-                                <li>
-                                    <div class="destination-details__info__icon"><i class="pi pi-map-marker"></i></div>
-                                    <h5 class="destination-details__info__title">Address</h5>
-                                    <p class="destination-details__info__text">{{ destination?.address ?
-                                        localization.getText(destination?.address) : '-' }}</p>
-                                </li>
-                                <li>
-                                    <div class="destination-details__info__icon"><i class="pi pi-language"></i></div>
-                                    <h5 class="destination-details__info__title">Languages</h5>
-                                    <p class="destination-details__info__text">{{ destination?.language ?
-                                        localization.getText(destination?.language) : '-' }}</p>
-                                </li>
-                                <li>
-                                    <div class="destination-details__info__icon"><i class="pi pi-money-bill"></i></div>
-                                    <h5 class="destination-details__info__title">Currency Used</h5>
-                                    <p class="destination-details__info__text"> {{ destination?.currency ?
-                                        localization.getText(destination?.currency) : '-' }}
 
-                                    </p>
-                                </li>
-                                <li>
-                                    <div class="destination-details__info__icon"><i class="pi pi-directions"></i></div>
-                                    <h5 class="destination-details__info__title">Distance</h5>
-                                    <p class="destination-details__info__text"> {{ destination?.distance ?
-                                        localization.getText(destination?.distance) : '-' }}
+                            <h3 class="tours-details__title mt-9! dark:text-surface-0!">
+                                {{ 'components.destination.topHighlights' | translate }}
+                            </h3>
 
-                                    </p>
+                            @if (destination?.highlights?.length) {
+
+                            <ul class="tours-details__list">
+
+                                @for (
+                                item of destination?.highlights;
+                                track $index
+                                ) {
+
+                                <li>
+
+                                    <i
+                                        class="pi pi-check"
+                                        style="font-size: 1.2rem"
+                                    ></i>
+
+                                    {{ localization.getText(item) }}
+
                                 </li>
+
+                                }
+
                             </ul>
+
+                            }
+
+
+                            <h3 class="destination-details__title mt-9! dark:text-surface-0!">
+                                {{ 'components.destination.locations' | translate }}
+                            </h3>
+
+                            @if (destination?.locations?.length) {
+
+                            <div class="flex flex-wrap gap-3">
+
+                                @for (
+                                item of destination?.locations;
+                                track $index
+                                ) {
+
+                                <div
+                                    class="flex items-center gap-2 px-5 py-3 rounded-full border border-[var(--p-surface-200)]">
+
+                                    <i class="pi pi-map-marker text-[var(--p-primary-color)]"></i>
+
+                                    <span class="font-medium">
+
+                                        {{ localization.getText(item.name) }}
+
+                                    </span>
+
+                                </div>
+
+                                }
+
+                            </div>
+
+                            }
+
                             @if (destination?.video) {
 
                             <div class="destination-details__video">
@@ -355,20 +445,62 @@
                             }
 
 
-                            <h3 class="destination-details__title">Question About Destination</h3>
-                            <p class="destination-details__text">
-                                {{ destination?.questions?.length || '-' }}
-                            </p>
+                            <h3 class="destination-details__title mt-9! dark:text-surface-0!"> {{
+                                'components.destination.questions' |
+                                translate }}</h3>
 
-                            <h3 class="destination-details__title">See Map</h3>
-                            <p class="destination-details__text">
-                                You’ve switched your charity’s office to renewable energy. You’ve cut most flights. The
-                                office
-                                fridge is stacked high with
-                                oat milk, and lycra-clad staff are proudly showing off their subsidised bicycles. On
-                                your way to
-                                net-zero.
-                            </p>
+
+                            @if (destination?.questions?.length) {
+
+                            <p-accordion
+                                class="flex flex-col gap-4"
+                                expandIcon="pi pi-plus"
+                                collapseIcon="pi pi-minus"
+                            >
+
+                                @for (
+                                item of destination?.questions ?? [];
+                                track $index
+                                ) {
+
+                                <p-accordion-panel
+                                    [value]="$index"
+                                    class="rounded-3xl px-1 overflow-hidden shadow-stroke dark:shadow-none border-0! dark:border! dark:border-white/12"
+                                >
+
+                                    <p-accordion-header class="py-6! bg-surface-0! dark:bg-surface-950!">
+
+                                        <h3
+                                            class="text-xl! m-0! font-semibold text-surface-950 dark:text-surface-0! flex-1">
+
+                                            {{ localization.getText(item.title) }}
+
+                                        </h3>
+
+                                    </p-accordion-header>
+
+                                    <p-accordion-content>
+
+                                        <p class="pb-6 text-lg font-medium text-surface-500 dark:text-white/64">
+
+                                            {{ localization.getText(item.description) }}
+
+                                        </p>
+
+                                    </p-accordion-content>
+
+                                </p-accordion-panel>
+
+                                }
+
+                            </p-accordion>
+
+                            }
+
+                            <h3 class="destination-details__title mt-9! dark:text-surface-0!">{{
+                                'components.destination.seeMap' |
+                                translate }}</h3>
+
                             <div
                                 class="destination-details__map"
                                 *ngIf="showMap$ | async"
@@ -377,6 +509,7 @@
                                     height="476px"
                                     width="100%"
                                     [options]="mapOptions"
+                                    (mapInitialized)="onMapInitialized($event)"
                                 >
 
                                     <map-advanced-marker

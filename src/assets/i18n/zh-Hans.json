@@ -169,7 +169,12 @@
         "destination": {
             "title": "中国旅游目的地",
             "description": "探索中国最迷人的旅游目的地，从历史古迹和现代都市到壮丽的自然景观。",
-            "loadMore": "加载更多目的地"
+            "loadMore": "加载更多目的地",
+            "topHighlights": "行程亮点",
+            "questions": "关于此目的地的常见问题",
+            "seeMap": "查看地图",
+            "overview": "概览",
+            "locations": "游览地点"
         },
         "contact": {
             "title": "联系我们",

@@ -169,7 +169,13 @@
         "destination": {
             "title": "Destinations in China",
             "description": "Discover China's most fascinating destinations, from ancient landmarks and vibrant cities to breathtaking natural wonders.",
-            "loadMore": "Load More Destinations"
+            "loadMore": "Load More Destinations",
+            "topHighlights": "Top Highlights",
+            "features": "Features",
+            "locations": "Places You'll Visit",
+            "questions": "Questions About This Destination",
+            "seeMap": "See Map",
+            "overview": "Overview"
         },
         "contact": {
             "title": "Get in Touch with Us",

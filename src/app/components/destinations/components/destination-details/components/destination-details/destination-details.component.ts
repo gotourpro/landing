@@ -1,4 +1,4 @@
-import { Component, computed, inject, Input, ViewChild } from "@angular/core";
+import { ChangeDetectorRef, Component, computed, inject, Input, ViewChild } from "@angular/core";
 import { FooterComponent } from "../../../../../footer/footer.component";
 import { MenuComponent } from "../../../../../menu/components/menu.component";
 import { HeaderComponent } from "../../../../../header/header.component";
@@ -15,13 +15,25 @@ import { Feature, Point } from "geojson";
 import { point } from "@turf/helpers";
 import { GalleriaComponent } from "../../../../../galleria/galleria.component";
 import { LayoutService } from "../../../../../../services/layout.service";
+import { AccordionModule } from "primeng/accordion";
+import { TranslateModule } from "@ngx-translate/core";
+import { SeoService } from "../../../../../../services/seo.service";
 @Component({
     selector: "app-destination-details",
     standalone: true,
     templateUrl: './destination-details.component.html',
     styleUrls: ['./destination-details.component.scss'],
-    imports: [CommonModule, GalleriaComponent, AnimatedContainer, GoogleMapsModule, MapAdvancedMarker, MenuComponent,
-        HeaderComponent, FooterComponent],
+    imports: [CommonModule,
+        GalleriaComponent,
+        AnimatedContainer,
+        GoogleMapsModule,
+        MapAdvancedMarker,
+        MenuComponent,
+        HeaderComponent,
+        FooterComponent,
+        AccordionModule,
+        TranslateModule
+    ],
 })
 export class DestinationDetailsComponent {
 
@@ -35,6 +47,7 @@ export class DestinationDetailsComponent {
     @ViewChild(GalleriaComponent)
 
     public galleria!: GalleriaComponent;
+    public map!: any;
     public markers: any[] = [];
     public _destroy$ = new Subject<void>();
     private _showMapSubject = new BehaviorSubject<boolean>(false);
@@ -54,11 +67,7 @@ export class DestinationDetailsComponent {
         clickableIcons: false
     };
 
-    public get title(): string {
-        return this.destination
-            ? this.localization.getText(this.destination.title)
-            : '';
-    }
+    public title = '';
     public description = '';
 
     constructor(
@@ -66,6 +75,8 @@ export class DestinationDetailsComponent {
         private _googleMapsLoader: GoogleMapsLoaderService,
         private destinationsService: DestinationsService,
         public localization: LocalizationService,
+        private seoService: SeoService,
+        private _cdr: ChangeDetectorRef,
     ) { }
 
     public ngOnInit(): void {
@@ -83,6 +94,10 @@ export class DestinationDetailsComponent {
 
                 this._googleMapsLoader
                     .reloadWithNewLanguage(lang);
+
+                if (this.destination) {
+                    this.updateLocalizedContent();
+                }
 
             });
 
@@ -164,6 +179,24 @@ export class DestinationDetailsComponent {
                 this.markers.push(marker);
 
 
+                if (this.destination.locations?.length) {
+
+                    const locationMarkers =
+                        this.destination.locations
+                            .filter(location => location.coordinates?.length)
+                            .map(location =>
+                                this.buildLocationMarker(
+                                    point(location.coordinates as any, {
+                                        name: this.localization.getText(location.name)
+                                    }) as any
+                                )
+                            );
+
+                    this.markers.push(...locationMarkers);
+
+                }
+
+
             });
     }
 
@@ -171,6 +204,139 @@ export class DestinationDetailsComponent {
 
         this._destroy$.next();
         this._destroy$.complete();
+    }
+
+
+
+    private buildLocationMarker(
+        feature: Feature<Point>
+    ): any {
+
+        const [lng, lat] =
+            feature.geometry.coordinates;
+
+        return {
+            feature,
+            position: { lat, lng },
+            content: this.createCircleMarkerContent()
+        };
+    }
+
+
+    private createCircleMarkerContent(): HTMLElement {
+
+        const el =
+            document.createElement('div');
+
+        Object.assign(el.style, {
+            width: '16px',
+            height: '16px',
+            borderRadius: '50%',
+            backgroundColor: '#F8931F',
+            border: '4px solid white',
+            boxShadow: '0 2px 8px rgba(0,0,0,.25)'
+        });
+
+        return el;
+    }
+
+
+    private updateLocalizedContent(): void {
+
+        if (!this.destination) {
+            return;
+        }
+
+        this.title =
+            this.localization.getText(
+                this.destination.titleHeader ??
+                this.destination.title
+            );
+
+        this.description =
+            this.localization.getText(
+                this.destination.description
+            );
+
+        this.updateSeo();
+    }
+
+
+    public onMapInitialized(
+        map: google.maps.Map
+    ): void {
+
+        this.map = map;
+        this.fitBounds();
+    }
+
+
+    private updateSeo(): void {
+
+        if (!this.description) {
+            return;
+        }
+
+        const title =
+            this.localization.getText(
+                this.destination?.seoTitle ??
+                this.destination?.titleHeader ??
+                this.destination?.title
+            );
+
+        const description =
+            this.localization.getText(
+                this.destination?.seoDescription ??
+                this.destination?.destinationHeader ??
+                this.destination?.description
+            );
+
+        const keywords =
+            this.destination?.seoKeywords?.length
+                ? this.destination.seoKeywords
+                    .map(tag =>
+                        this.localization.getText(tag)
+                    )
+                    .join(', ')
+                : undefined;
+
+        this.seoService.update({
+            title,
+            description,
+            keywords,
+            image: this.destination?.image,
+            lang: this.localization.getCurrentLanguage(),
+            type: 'article'
+        });
+    }
+
+
+    private fitBounds(): void {
+
+        if (!this.map || !this.markers.length) {
+            return;
+        }
+
+        const bounds =
+            new google.maps.LatLngBounds();
+
+        this.markers.forEach(marker => {
+
+            bounds.extend(
+                marker.position
+            );
+
+        });
+
+        this.map.fitBounds(
+            bounds,
+            {
+                top: 80,
+                right: 80,
+                bottom: 80,
+                left: 80
+            }
+        );
     }
 
 
