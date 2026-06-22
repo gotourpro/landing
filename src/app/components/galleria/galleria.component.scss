@@ -51,6 +51,35 @@
 
 ::ng-deep {
     .p-galleria-mask {
-        background: rgba(0, 0, 0, 0.99) !important;
+        background: var(--p-surface-0);
+    }
+
+    .dark .p-galleria-mask {
+        background: var(--p-surface-950);
+    }
+
+
+    .p-galleria-thumbnails-content {
+        background: var(--p-surface-0);
+    }
+
+    .p-galleria-thumbnails-content {
+        background: var(--p-surface-0);
+    }
+
+    .dark .p-galleria-thumbnails-content {
+        background: var(--p-surface-950);
+    }
+
+
+    .p-galleria-close-button {
+        color: var(--p-primary-color);
+        background: rgb(28 188 156 / 13%);
+
+    }
+
+    .p-galleria-thumbnail-nav-button {
+        color: var(--p-primary-color);
+
     }
 }
