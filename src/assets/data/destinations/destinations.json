@@ -352,5 +352,713 @@
                 }
             }
         ]
+    },
+    {
+        "id": "dali",
+        "slug": "dali",
+        "title": {
+            "ru": "Дали"
+        },
+        "description": {
+            "ru": "Один из самых живописных городов провинции Юньнань, расположенный между озером Эрхай и горами Цаншань.",
+            "en": "One of the most picturesque cities in Yunnan Province, located between Erhai Lake and the Cangshan Mountains.",
+            "zh-Hans": "大理是云南省最风景如画的城市之一，坐落于洱海与苍山之间。"
+        },
+        "titleHeader": {
+            "ru": "Дали — древний город между озером Эрхай и горами Цаншань",
+            "en": "Dali — An Ancient City Between Erhai Lake and the Cangshan Mountains",
+            "zh-Hans": "大理——坐落于洱海与苍山之间的千年古城"
+        },
+        "destinationHeader": {
+            "ru": "Откройте для себя уникальное направление на юго-западе Китая, где древняя культура народа Бай, величественные горы и чистейшие озёра создают идеальные условия для путешествий и отдыха.",
+            "en": "Discover a unique destination in southwest China, where the ancient culture of the Bai people, majestic mountains, and crystal-clear lakes create the perfect setting for travel and relaxation.",
+            "zh-Hans": "探索中国西南部这一独特目的地，在这里，白族悠久的文化、壮丽的群山与清澈的湖泊共同营造出理想的旅行与度假环境。"
+        },
+        "seoTitle": {
+            "ru": "Дали, Юньнань — достопримечательности, отдых и путешествия по Китаю",
+            "en": "Dali, Yunnan — Attractions, Travel, and Experiences in China",
+            "zh-Hans": "大理，云南——中国旅游、景点与度假体验"
+        },
+        "seoDescription": {
+            "ru": "Узнайте больше о Дали — одном из самых красивых туристических направлений Китая. Озеро Эрхай, горы Цаншань, древний город и культура народа Бай.",
+            "en": "Discover Dali, one of China's most beautiful travel destinations. Explore Erhai Lake, the Cangshan Mountains, the ancient town of Dali, and the rich culture of the Bai people.",
+            "zh-Hans": "了解大理——中国最迷人的旅游目的地之一。探索洱海、苍山、大理古城以及独具特色的白族文化。"
+        },
+        "seoKeywords": [
+            {
+                "ru": "Дали",
+                "en": "Dali",
+                "zh-Hans": "大理"
+            },
+            {
+                "ru": "Юньнань",
+                "en": "Yunnan",
+                "zh-Hans": "云南"
+            },
+            {
+                "ru": "Озеро Эрхай",
+                "en": "Erhai Lake",
+                "zh-Hans": "洱海"
+            },
+            {
+                "ru": "Гора Цаншань",
+                "en": "Cangshan Mountain",
+                "zh-Hans": "苍山"
+            },
+            {
+                "ru": "Китай",
+                "en": "China",
+                "zh-Hans": "中国"
+            },
+            {
+                "ru": "Отдых в Китае",
+                "en": "Travel in China",
+                "zh-Hans": "中国旅游"
+            }
+        ],
+        "country": {
+            "ru": "Китай",
+            "en": "China",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "ru": "Дали",
+            "en": "Dali",
+            "zh-Hans": "大理"
+        },
+        "region": {
+            "ru": "Юньнань",
+            "en": "Yunnan",
+            "zh-Hans": "云南"
+        },
+        "coordinates": [
+            100.1634,
+            25.6947
+        ],
+        "image": "assets/images/destination/350x380.svg",
+        "images": [
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg"
+        ],
+        "rating": 4.9,
+        "views": 12500,
+        "featured": true,
+        "popular": true,
+        "facts": [
+            {
+                "icon": "pi pi-map-marker",
+                "title": {
+                    "ru": "Регион",
+                    "en": "Region",
+                    "zh-Hans": "地区"
+                },
+                "value": {
+                    "ru": "Провинция Юньнань",
+                    "en": "Yunnan Province",
+                    "zh-Hans": "云南省"
+                }
+            },
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Население",
+                    "en": "Population",
+                    "zh-Hans": "人口"
+                },
+                "value": {
+                    "ru": "Около 700 000 человек",
+                    "en": "Approximately 700,000 people",
+                    "zh-Hans": "约70万人"
+                }
+            },
+            {
+                "icon": "pi pi-sun",
+                "title": {
+                    "ru": "Климат",
+                    "en": "Climate",
+                    "zh-Hans": "气候"
+                },
+                "value": {
+                    "ru": "Мягкий круглый год",
+                    "en": "Mild all year round",
+                    "zh-Hans": "全年气候温和"
+                }
+            },
+            {
+                "icon": "pi pi-language",
+                "title": {
+                    "ru": "Основной язык",
+                    "en": "Primary Language",
+                    "zh-Hans": "主要语言"
+                },
+                "value": {
+                    "ru": "Китайский (путунхуа)",
+                    "en": "Chinese (Mandarin)",
+                    "zh-Hans": "普通话"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Лучшее время для посещения",
+                    "en": "Best Time to Visit",
+                    "zh-Hans": "最佳旅游时间"
+                },
+                "value": {
+                    "ru": "Март — ноябрь",
+                    "en": "March – November",
+                    "zh-Hans": "3月至11月"
+                }
+            }
+        ],
+        "tags": [
+            {
+                "ru": "Юньнань",
+                "en": "Yunnan",
+                "zh-Hans": "云南"
+            },
+            {
+                "ru": "Озеро Эрхай",
+                "en": "Erhai Lake",
+                "zh-Hans": "洱海"
+            },
+            {
+                "ru": "Горы Цаншань",
+                "en": "Cangshan Mountains",
+                "zh-Hans": "苍山"
+            },
+            {
+                "ru": "Культура Бай",
+                "en": "Bai Culture",
+                "zh-Hans": "白族文化"
+            },
+            {
+                "ru": "Древний город",
+                "en": "Ancient Town",
+                "zh-Hans": "古城"
+            },
+            {
+                "ru": "Природа Китая",
+                "en": "Nature of China",
+                "zh-Hans": "中国自然风光"
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "Озеро Эрхай — одно из крупнейших пресноводных озёр Китая",
+                "en": "Erhai Lake — one of the largest freshwater lakes in China",
+                "zh-Hans": "洱海——中国最大的淡水湖之一"
+            },
+            {
+                "ru": "Горный массив Цаншань",
+                "en": "The Cangshan Mountain Range",
+                "zh-Hans": "苍山山脉"
+            },
+            {
+                "ru": "Исторический центр Дали",
+                "en": "The Historic Center of Dali",
+                "zh-Hans": "大理古城"
+            },
+            {
+                "ru": "Три пагоды храма Чуншэнсы",
+                "en": "The Three Pagodas of Chongsheng Temple",
+                "zh-Hans": "崇圣寺三塔"
+            },
+            {
+                "ru": "Культура и традиции народа Бай",
+                "en": "The Culture and Traditions of the Bai People",
+                "zh-Hans": "白族文化与传统"
+            },
+            {
+                "ru": "Чайные плантации и местная гастрономия",
+                "en": "Tea Plantations and Local Cuisine",
+                "zh-Hans": "茶园与当地美食"
+            },
+            {
+                "ru": "Комфортный климат круглый год",
+                "en": "A Pleasant Climate Throughout the Year",
+                "zh-Hans": "全年舒适宜人的气候"
+            },
+            {
+                "ru": "Одно из лучших направлений Юньнани",
+                "en": "One of Yunnan's Top Travel Destinations",
+                "zh-Hans": "云南最受欢迎的旅游目的地之一"
+            }
+        ],
+        "locations": [
+            {
+                "name": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海"
+                },
+                "coordinates": [
+                    100.1786,
+                    25.8247
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山"
+                },
+                "coordinates": [
+                    100.1057,
+                    25.6903
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Древний город Дали",
+                    "en": "Dali Ancient Town",
+                    "zh-Hans": "大理古城"
+                },
+                "coordinates": [
+                    100.1634,
+                    25.6947
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Храм Чуншэнсы и Три пагоды",
+                    "en": "Chongsheng Temple and the Three Pagodas",
+                    "zh-Hans": "崇圣寺与三塔"
+                },
+                "coordinates": [
+                    100.1515,
+                    25.7056
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Деревни народа Бай",
+                    "en": "Bai Ethnic Villages",
+                    "zh-Hans": "白族村落"
+                },
+                "coordinates": [
+                    100.22,
+                    25.78
+                ]
+            }
+        ],
+        "content": {
+            "ru": "Дали расположен на западе провинции Юньнань и считается одним из самых красивых туристических направлений Китая. Город находится между живописным озером Эрхай и горным массивом Цаншань, благодаря чему здесь сформировался мягкий климат и уникальные природные ландшафты. На протяжении многих веков Дали был столицей одноимённого королевства и важным центром торговли на юго-западе Китая.",
+            "en": "Located in western Yunnan Province, Dali is considered one of China's most beautiful travel destinations. The city lies between the picturesque Erhai Lake and the Cangshan Mountains, creating a mild climate and breathtaking natural scenery. For centuries, Dali served as the capital of the ancient Dali Kingdom and was an important trade center in southwestern China.",
+            "zh-Hans": "大理位于云南省西部，被誉为中国最美丽的旅游目的地之一。城市坐落于风景秀丽的洱海与苍山之间，拥有温和宜人的气候和独特的自然景观。数百年来，大理曾是大理国的都城，也是中国西南地区重要的贸易中心。"
+        },
+        "contentSecond": {
+            "ru": "Сегодня Дали привлекает путешественников древней архитектурой, культурой народа Бай, многочисленными храмами, традиционными рынками и великолепными природными пейзажами. Здесь можно прогуляться по старинным улочкам древнего города, отправиться на прогулку по озеру Эрхай, подняться в горы Цаншань или познакомиться с богатой чайной культурой региона.",
+            "en": "Today, Dali attracts travelers with its ancient architecture, rich Bai ethnic culture, numerous temples, traditional markets, and stunning natural landscapes. Visitors can stroll through the narrow streets of the ancient town, take a scenic trip around Erhai Lake, hike in the Cangshan Mountains, or discover the region's renowned tea culture.",
+            "zh-Hans": "如今，大理以其古老的建筑、独特的白族文化、众多寺庙、传统集市以及壮丽的自然风光吸引着来自世界各地的游客。游客可以漫步于大理古城的街巷之间，环游洱海，登临苍山，或深入体验云南丰富的茶文化传统。"
+        },
+        "questions": [
+            {
+                "title": {
+                    "ru": "Когда лучше всего посещать Дали?",
+                    "en": "When Is the Best Time to Visit Dali?",
+                    "zh-Hans": "什么时候是游览大理的最佳时间？"
+                },
+                "description": {
+                    "ru": "Наиболее комфортный период для путешествий — с марта по ноябрь, когда устанавливается тёплая и сухая погода.",
+                    "en": "The most comfortable time to visit is from March to November, when the weather is generally warm and dry.",
+                    "zh-Hans": "每年3月至11月是游览大理最舒适的时期，此时气候温暖且降雨较少。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Сколько дней рекомендуется провести в Дали?",
+                    "en": "How Many Days Should I Spend in Dali?",
+                    "zh-Hans": "建议在大理停留几天？"
+                },
+                "description": {
+                    "ru": "Для знакомства с основными достопримечательностями обычно достаточно 3–5 дней.",
+                    "en": "Three to five days are usually enough to explore the main attractions of Dali.",
+                    "zh-Hans": "通常3至5天即可充分游览大理的主要景点。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Можно ли купаться в озере Эрхай?",
+                    "en": "Can You Swim in Erhai Lake?",
+                    "zh-Hans": "可以在洱海游泳吗？"
+                },
+                "description": {
+                    "ru": "Озеро является важным природным объектом региона. Основной интерес представляют прогулки, экскурсии и фотосъёмка.",
+                    "en": "Erhai Lake is an important natural landmark. Most visitors come for sightseeing, boat trips, and photography.",
+                    "zh-Hans": "洱海是当地重要的自然景观，大多数游客前来观光、乘船游览和拍照。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Чем известен Дали?",
+                    "en": "What Is Dali Famous For?",
+                    "zh-Hans": "大理因什么而闻名？"
+                },
+                "description": {
+                    "ru": "Дали известен древним городом, культурой народа Бай, озером Эрхай, горой Цаншань и храмом Чуншэнсы с Тремя пагодами.",
+                    "en": "Dali is famous for its ancient town, Bai ethnic culture, Erhai Lake, Cangshan Mountain, and the Three Pagodas of Chongsheng Temple.",
+                    "zh-Hans": "大理以其古城、白族文化、洱海、苍山以及崇圣寺三塔而闻名。"
+                }
+            }
+        ]
+    },
+    {
+        "id": "dali",
+        "slug": "dali",
+        "title": {
+            "ru": "Дали"
+        },
+        "description": {
+            "ru": "Один из самых живописных городов провинции Юньнань, расположенный между озером Эрхай и горами Цаншань.",
+            "en": "One of the most picturesque cities in Yunnan Province, located between Erhai Lake and the Cangshan Mountains.",
+            "zh-Hans": "大理是云南省最风景如画的城市之一，坐落于洱海与苍山之间。"
+        },
+        "titleHeader": {
+            "ru": "Дали — древний город между озером Эрхай и горами Цаншань",
+            "en": "Dali — An Ancient City Between Erhai Lake and the Cangshan Mountains",
+            "zh-Hans": "大理——坐落于洱海与苍山之间的千年古城"
+        },
+        "destinationHeader": {
+            "ru": "Откройте для себя уникальное направление на юго-западе Китая, где древняя культура народа Бай, величественные горы и чистейшие озёра создают идеальные условия для путешествий и отдыха.",
+            "en": "Discover a unique destination in southwest China, where the ancient culture of the Bai people, majestic mountains, and crystal-clear lakes create the perfect setting for travel and relaxation.",
+            "zh-Hans": "探索中国西南部这一独特目的地，在这里，白族悠久的文化、壮丽的群山与清澈的湖泊共同营造出理想的旅行与度假环境。"
+        },
+        "seoTitle": {
+            "ru": "Дали, Юньнань — достопримечательности, отдых и путешествия по Китаю",
+            "en": "Dali, Yunnan — Attractions, Travel, and Experiences in China",
+            "zh-Hans": "大理，云南——中国旅游、景点与度假体验"
+        },
+        "seoDescription": {
+            "ru": "Узнайте больше о Дали — одном из самых красивых туристических направлений Китая. Озеро Эрхай, горы Цаншань, древний город и культура народа Бай.",
+            "en": "Discover Dali, one of China's most beautiful travel destinations. Explore Erhai Lake, the Cangshan Mountains, the ancient town of Dali, and the rich culture of the Bai people.",
+            "zh-Hans": "了解大理——中国最迷人的旅游目的地之一。探索洱海、苍山、大理古城以及独具特色的白族文化。"
+        },
+        "seoKeywords": [
+            {
+                "ru": "Дали",
+                "en": "Dali",
+                "zh-Hans": "大理"
+            },
+            {
+                "ru": "Юньнань",
+                "en": "Yunnan",
+                "zh-Hans": "云南"
+            },
+            {
+                "ru": "Озеро Эрхай",
+                "en": "Erhai Lake",
+                "zh-Hans": "洱海"
+            },
+            {
+                "ru": "Гора Цаншань",
+                "en": "Cangshan Mountain",
+                "zh-Hans": "苍山"
+            },
+            {
+                "ru": "Китай",
+                "en": "China",
+                "zh-Hans": "中国"
+            },
+            {
+                "ru": "Отдых в Китае",
+                "en": "Travel in China",
+                "zh-Hans": "中国旅游"
+            }
+        ],
+        "country": {
+            "ru": "Китай",
+            "en": "China",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "ru": "Дали",
+            "en": "Dali",
+            "zh-Hans": "大理"
+        },
+        "region": {
+            "ru": "Юньнань",
+            "en": "Yunnan",
+            "zh-Hans": "云南"
+        },
+        "coordinates": [
+            100.1634,
+            25.6947
+        ],
+        "image": "assets/images/destination/350x380.svg",
+        "images": [
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg"
+        ],
+        "rating": 4.9,
+        "views": 12500,
+        "featured": true,
+        "popular": true,
+        "facts": [
+            {
+                "icon": "pi pi-map-marker",
+                "title": {
+                    "ru": "Регион",
+                    "en": "Region",
+                    "zh-Hans": "地区"
+                },
+                "value": {
+                    "ru": "Провинция Юньнань",
+                    "en": "Yunnan Province",
+                    "zh-Hans": "云南省"
+                }
+            },
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Население",
+                    "en": "Population",
+                    "zh-Hans": "人口"
+                },
+                "value": {
+                    "ru": "Около 700 000 человек",
+                    "en": "Approximately 700,000 people",
+                    "zh-Hans": "约70万人"
+                }
+            },
+            {
+                "icon": "pi pi-sun",
+                "title": {
+                    "ru": "Климат",
+                    "en": "Climate",
+                    "zh-Hans": "气候"
+                },
+                "value": {
+                    "ru": "Мягкий круглый год",
+                    "en": "Mild all year round",
+                    "zh-Hans": "全年气候温和"
+                }
+            },
+            {
+                "icon": "pi pi-language",
+                "title": {
+                    "ru": "Основной язык",
+                    "en": "Primary Language",
+                    "zh-Hans": "主要语言"
+                },
+                "value": {
+                    "ru": "Китайский (путунхуа)",
+                    "en": "Chinese (Mandarin)",
+                    "zh-Hans": "普通话"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Лучшее время для посещения",
+                    "en": "Best Time to Visit",
+                    "zh-Hans": "最佳旅游时间"
+                },
+                "value": {
+                    "ru": "Март — ноябрь",
+                    "en": "March – November",
+                    "zh-Hans": "3月至11月"
+                }
+            }
+        ],
+        "tags": [
+            {
+                "ru": "Юньнань",
+                "en": "Yunnan",
+                "zh-Hans": "云南"
+            },
+            {
+                "ru": "Озеро Эрхай",
+                "en": "Erhai Lake",
+                "zh-Hans": "洱海"
+            },
+            {
+                "ru": "Горы Цаншань",
+                "en": "Cangshan Mountains",
+                "zh-Hans": "苍山"
+            },
+            {
+                "ru": "Культура Бай",
+                "en": "Bai Culture",
+                "zh-Hans": "白族文化"
+            },
+            {
+                "ru": "Древний город",
+                "en": "Ancient Town",
+                "zh-Hans": "古城"
+            },
+            {
+                "ru": "Природа Китая",
+                "en": "Nature of China",
+                "zh-Hans": "中国自然风光"
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "Озеро Эрхай — одно из крупнейших пресноводных озёр Китая",
+                "en": "Erhai Lake — one of the largest freshwater lakes in China",
+                "zh-Hans": "洱海——中国最大的淡水湖之一"
+            },
+            {
+                "ru": "Горный массив Цаншань",
+                "en": "The Cangshan Mountain Range",
+                "zh-Hans": "苍山山脉"
+            },
+            {
+                "ru": "Исторический центр Дали",
+                "en": "The Historic Center of Dali",
+                "zh-Hans": "大理古城"
+            },
+            {
+                "ru": "Три пагоды храма Чуншэнсы",
+                "en": "The Three Pagodas of Chongsheng Temple",
+                "zh-Hans": "崇圣寺三塔"
+            },
+            {
+                "ru": "Культура и традиции народа Бай",
+                "en": "The Culture and Traditions of the Bai People",
+                "zh-Hans": "白族文化与传统"
+            },
+            {
+                "ru": "Чайные плантации и местная гастрономия",
+                "en": "Tea Plantations and Local Cuisine",
+                "zh-Hans": "茶园与当地美食"
+            },
+            {
+                "ru": "Комфортный климат круглый год",
+                "en": "A Pleasant Climate Throughout the Year",
+                "zh-Hans": "全年舒适宜人的气候"
+            },
+            {
+                "ru": "Одно из лучших направлений Юньнани",
+                "en": "One of Yunnan's Top Travel Destinations",
+                "zh-Hans": "云南最受欢迎的旅游目的地之一"
+            }
+        ],
+        "locations": [
+            {
+                "name": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海"
+                },
+                "coordinates": [
+                    100.1786,
+                    25.8247
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山"
+                },
+                "coordinates": [
+                    100.1057,
+                    25.6903
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Древний город Дали",
+                    "en": "Dali Ancient Town",
+                    "zh-Hans": "大理古城"
+                },
+                "coordinates": [
+                    100.1634,
+                    25.6947
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Храм Чуншэнсы и Три пагоды",
+                    "en": "Chongsheng Temple and the Three Pagodas",
+                    "zh-Hans": "崇圣寺与三塔"
+                },
+                "coordinates": [
+                    100.1515,
+                    25.7056
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Деревни народа Бай",
+                    "en": "Bai Ethnic Villages",
+                    "zh-Hans": "白族村落"
+                },
+                "coordinates": [
+                    100.22,
+                    25.78
+                ]
+            }
+        ],
+        "content": {
+            "ru": "Дали расположен на западе провинции Юньнань и считается одним из самых красивых туристических направлений Китая. Город находится между живописным озером Эрхай и горным массивом Цаншань, благодаря чему здесь сформировался мягкий климат и уникальные природные ландшафты. На протяжении многих веков Дали был столицей одноимённого королевства и важным центром торговли на юго-западе Китая.",
+            "en": "Located in western Yunnan Province, Dali is considered one of China's most beautiful travel destinations. The city lies between the picturesque Erhai Lake and the Cangshan Mountains, creating a mild climate and breathtaking natural scenery. For centuries, Dali served as the capital of the ancient Dali Kingdom and was an important trade center in southwestern China.",
+            "zh-Hans": "大理位于云南省西部，被誉为中国最美丽的旅游目的地之一。城市坐落于风景秀丽的洱海与苍山之间，拥有温和宜人的气候和独特的自然景观。数百年来，大理曾是大理国的都城，也是中国西南地区重要的贸易中心。"
+        },
+        "contentSecond": {
+            "ru": "Сегодня Дали привлекает путешественников древней архитектурой, культурой народа Бай, многочисленными храмами, традиционными рынками и великолепными природными пейзажами. Здесь можно прогуляться по старинным улочкам древнего города, отправиться на прогулку по озеру Эрхай, подняться в горы Цаншань или познакомиться с богатой чайной культурой региона.",
+            "en": "Today, Dali attracts travelers with its ancient architecture, rich Bai ethnic culture, numerous temples, traditional markets, and stunning natural landscapes. Visitors can stroll through the narrow streets of the ancient town, take a scenic trip around Erhai Lake, hike in the Cangshan Mountains, or discover the region's renowned tea culture.",
+            "zh-Hans": "如今，大理以其古老的建筑、独特的白族文化、众多寺庙、传统集市以及壮丽的自然风光吸引着来自世界各地的游客。游客可以漫步于大理古城的街巷之间，环游洱海，登临苍山，或深入体验云南丰富的茶文化传统。"
+        },
+        "questions": [
+            {
+                "title": {
+                    "ru": "Когда лучше всего посещать Дали?",
+                    "en": "When Is the Best Time to Visit Dali?",
+                    "zh-Hans": "什么时候是游览大理的最佳时间？"
+                },
+                "description": {
+                    "ru": "Наиболее комфортный период для путешествий — с марта по ноябрь, когда устанавливается тёплая и сухая погода.",
+                    "en": "The most comfortable time to visit is from March to November, when the weather is generally warm and dry.",
+                    "zh-Hans": "每年3月至11月是游览大理最舒适的时期，此时气候温暖且降雨较少。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Сколько дней рекомендуется провести в Дали?",
+                    "en": "How Many Days Should I Spend in Dali?",
+                    "zh-Hans": "建议在大理停留几天？"
+                },
+                "description": {
+                    "ru": "Для знакомства с основными достопримечательностями обычно достаточно 3–5 дней.",
+                    "en": "Three to five days are usually enough to explore the main attractions of Dali.",
+                    "zh-Hans": "通常3至5天即可充分游览大理的主要景点。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Можно ли купаться в озере Эрхай?",
+                    "en": "Can You Swim in Erhai Lake?",
+                    "zh-Hans": "可以在洱海游泳吗？"
+                },
+                "description": {
+                    "ru": "Озеро является важным природным объектом региона. Основной интерес представляют прогулки, экскурсии и фотосъёмка.",
+                    "en": "Erhai Lake is an important natural landmark. Most visitors come for sightseeing, boat trips, and photography.",
+                    "zh-Hans": "洱海是当地重要的自然景观，大多数游客前来观光、乘船游览和拍照。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Чем известен Дали?",
+                    "en": "What Is Dali Famous For?",
+                    "zh-Hans": "大理因什么而闻名？"
+                },
+                "description": {
+                    "ru": "Дали известен древним городом, культурой народа Бай, озером Эрхай, горой Цаншань и храмом Чуншэнсы с Тремя пагодами.",
+                    "en": "Dali is famous for its ancient town, Bai ethnic culture, Erhai Lake, Cangshan Mountain, and the Three Pagodas of Chongsheng Temple.",
+                    "zh-Hans": "大理以其古城、白族文化、洱海、苍山以及崇圣寺三塔而闻名。"
+                }
+            }
+        ]
     }
 ]
