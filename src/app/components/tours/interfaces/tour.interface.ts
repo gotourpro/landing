@@ -17,8 +17,9 @@ export interface ITour {
     seoTitle?: ILocalizedText;
     seoDescription?: ILocalizedText;
     seoKeywords?: ILocalizedText[];
-    destinationSlug?: string;
+    destinationSlugs?: string[];
     country?: ILocalizedText;
+    district?: ILocalizedText;
     tags?: ILocalizedText[];
     facts?: ITourFact[];
     included?: ILocalizedText[];
@@ -26,7 +27,7 @@ export interface ITour {
     city?: ILocalizedText;
     region?: ILocalizedText;
     coordinates?: [number, number];
-    categorySlug?: string;
+    categorySlugs?: string[];
     image: string;
     images?: string[];
     video?: string;

@@ -15,8 +15,25 @@
 
                     <div class="flex flex-wrap gap-3">
 
+                        @if (tour?.region) {
+
+                        <div
+                            class="flex items-center gap-2 px-5 py-3 rounded-full border border-[var(--p-surface-200)]">
+
+                            <i class="pi pi-map-marker text-[var(--p-primary-color)]"></i>
+
+                            <span class="font-medium">
+
+                                {{ localization.getText(tour.region) }}
+
+                            </span>
+
+                        </div>
+
+                        }
+
                         @for (
-                        fact of tour?.facts?.slice(0, 4) ?? [];
+                        fact of tour?.facts?.slice(0, 3) ?? [];
                         track $index
                         ) {
 
@@ -26,7 +43,9 @@
                             <i [class]="fact.icon + ' text-[var(--p-primary-color)]'"></i>
 
                             <span class="font-medium">
+
                                 {{ localization.getText(fact.value) }}
+
                             </span>
 
                         </div>

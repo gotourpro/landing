@@ -4,7 +4,7 @@ import { MenuComponent } from "../../../../../menu/components/menu.component";
 import { HeaderComponent } from "../../../../../header/header.component";
 import { AnimatedContainer } from "../../../../../animatedcontainer";
 import { IDestination } from "../../../../interfaces/destination.interface";
-import { ActivatedRoute } from "@angular/router";
+import { ActivatedRoute, RouterLink } from "@angular/router";
 import { DestinationsService } from "../../../../services/destinations.service";
 import { GoogleMapsLoaderService } from "../../../../../../services/google-maps-loader.service";
 import { BehaviorSubject, debounceTime, map, Observable, Subject, takeUntil, timer } from "rxjs";
@@ -18,6 +18,10 @@ import { LayoutService } from "../../../../../../services/layout.service";
 import { AccordionModule } from "primeng/accordion";
 import { TranslateModule } from "@ngx-translate/core";
 import { SeoService } from "../../../../../../services/seo.service";
+import { ITour } from "../../../../../tours/interfaces/tour.interface";
+import { ToursService } from "../../../../../tours/services/tours.service";
+import { UICarousel } from "../../../../../UI/carousel";
+import { UICarouselItem } from "../../../../../UI/carousel-item";
 @Component({
     selector: "app-destination-details",
     standalone: true,
@@ -32,12 +36,16 @@ import { SeoService } from "../../../../../../services/seo.service";
         HeaderComponent,
         FooterComponent,
         AccordionModule,
-        TranslateModule
+        TranslateModule,
+        RouterLink,
+        UICarousel,
+        UICarouselItem,
     ],
 })
 export class DestinationDetailsComponent {
 
     public destination?: IDestination;
+    public tours: ITour[] = []
     public galleryColumns: {
         images: {
             image: string;
@@ -70,6 +78,23 @@ export class DestinationDetailsComponent {
     public title = '';
     public description = '';
 
+    public breakpoints = {
+        576: {
+            size: '100%',
+            spacing: '24px'
+        },
+
+        992: {
+            size: '50%',
+            spacing: '24px'
+        },
+
+        1200: {
+            size: '33.333%',
+            spacing: '24px'
+        }
+    };
+
     constructor(
         private route: ActivatedRoute,
         private _googleMapsLoader: GoogleMapsLoaderService,
@@ -77,6 +102,7 @@ export class DestinationDetailsComponent {
         public localization: LocalizationService,
         private seoService: SeoService,
         private _cdr: ChangeDetectorRef,
+        private toursService: ToursService,
     ) { }
 
     public ngOnInit(): void {
@@ -117,6 +143,17 @@ export class DestinationDetailsComponent {
                 }
 
                 this.destination = destination;
+
+
+
+                this.toursService
+                    .getByDestination(destination.slug)
+                    .pipe(takeUntil(this._destroy$))
+                    .subscribe(tours => {
+
+                        this.tours = tours;
+
+                    });
 
 
                 const images =

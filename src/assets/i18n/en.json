@@ -175,7 +175,8 @@
             "locations": "Places You'll Visit",
             "questions": "Questions About This Destination",
             "seeMap": "See Map",
-            "overview": "Overview"
+            "overview": "Overview",
+            "tours": "Tours in This Destination"
         },
         "contact": {
             "title": "Get in Touch with Us",

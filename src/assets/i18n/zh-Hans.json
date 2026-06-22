@@ -174,7 +174,8 @@
             "questions": "关于此目的地的常见问题",
             "seeMap": "查看地图",
             "overview": "概览",
-            "locations": "游览地点"
+            "locations": "游览地点",
+            "tours": "此目的地相关行程"
         },
         "contact": {
             "title": "联系我们",

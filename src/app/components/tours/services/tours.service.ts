@@ -60,10 +60,13 @@ export class ToursService {
     public getByCategory(
         categorySlug: string
     ): Observable<ITour[]> {
+
         return this.getList().pipe(
             map(items =>
-                items.filter(
-                    item => item.categorySlug === categorySlug
+                items.filter(item =>
+                    item.categorySlugs?.includes(
+                        categorySlug
+                    )
                 )
             )
         );
@@ -117,11 +120,30 @@ export class ToursService {
     public getByDestination(
         destinationSlug: string
     ): Observable<ITour[]> {
+
         return this.getList().pipe(
             map(items =>
-                items.filter(
-                    item =>
-                        item.destinationSlug === destinationSlug
+                items.filter(item =>
+                    item.destinationSlugs?.includes(
+                        destinationSlug
+                    )
+                )
+            )
+        );
+    }
+
+
+    public getByDestinations(
+        destinationSlugs: string[]
+    ): Observable<ITour[]> {
+
+        return this.getList().pipe(
+            map(items =>
+                items.filter(item =>
+                    item.destinationSlugs?.some(
+                        slug =>
+                            destinationSlugs.includes(slug)
+                    )
                 )
             )
         );

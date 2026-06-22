@@ -15,8 +15,23 @@
 
                     <div class="flex flex-wrap gap-3">
 
+                        @if (destination?.region) {
+
+                        <div
+                            class="flex items-center gap-2 px-5 py-3 rounded-full border border-[var(--p-surface-200)]">
+
+                            <i class="pi pi-map-marker text-[var(--p-primary-color)]"></i>
+
+                            <span class="font-medium">
+                                {{ localization.getText(destination.region) }}
+                            </span>
+
+                        </div>
+
+                        }
+
                         @for (
-                        fact of destination?.facts?.slice(0, 4) ?? [];
+                        fact of destination?.facts?.slice(0, 3) ?? [];
                         track $index
                         ) {
 
@@ -86,19 +101,7 @@
                                 class="w-full h-full object-cover"
                             >
 
-                            <div class="gallery-one__card__hover">
 
-                                <a
-                                    (click)="openGallery(item.image)"
-                                    class="img-popup"
-                                >
-                                    <i
-                                        class="pi pi-camera"
-                                        style="font-size:1.5rem"
-                                    ></i>
-                                </a>
-
-                            </div>
 
                         </div>
 
@@ -523,6 +526,78 @@
                                 </google-map>
 
                             </div>
+
+
+                            @if (tours.length) {
+
+                            <h3 class="destination-details__title mt-9! dark:text-surface-0!">
+                                {{ 'components.destination.tours' | translate }}
+                            </h3>
+
+                            <ui-carousel
+                                [hideMask]="true"
+                                [hideButtons]="true"
+                                [hideDots]="false"
+                                [size]="'33.333%'"
+                                [spacing]="'24px'"
+                                [height]="'auto'"
+                                [breakpoints]="breakpoints"
+                                [options]="{
+        align: 'start',
+        loop: true,
+        containScroll: false
+    }"
+                            >
+
+                                <ui-carousel-item
+                                    *ngFor="let tour of tours"
+                                    className="px-4"
+                                >
+
+                                    <div class="tours-one__item h-[465px]!">
+
+                                        <img
+                                            [src]="tour.image"
+                                            [alt]="localization.getText(tour.title)"
+                                        >
+
+                                        @if (tour.featured) {
+                                        <div class="tours-one__item__offer tours-one__item__feature">
+                                            {{ 'components.homeFeaturedTours.featured' | translate }}
+                                        </div>
+                                        }
+
+                                        <div class="tours-one__item__content">
+
+                                            <h3 class="tours-one__item__title">
+                                                <a [routerLink]="['/tours', tour.slug]">
+                                                    {{ localization.getText(tour.title) }}
+                                                </a>
+                                            </h3>
+
+                                            <ul class="tours-one__item__meta">
+                                                <li>
+                                                    <i class="pi pi-calendar-clock"></i>
+                                                    {{ tour.durationDays }} Days
+                                                </li>
+
+                                                <li>
+                                                    <i class="pi pi-map-marker"></i>
+                                                    {{ localization.getText(tour.region) }}
+                                                </li>
+                                            </ul>
+
+                                        </div>
+
+
+
+                                    </div>
+
+                                </ui-carousel-item>
+
+                            </ui-carousel>
+
+                            }
                         </div>
                     </div>
 

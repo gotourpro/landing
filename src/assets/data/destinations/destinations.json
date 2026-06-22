@@ -96,19 +96,6 @@
         "popular": true,
         "facts": [
             {
-                "icon": "pi pi-map-marker",
-                "title": {
-                    "ru": "Регион",
-                    "en": "Region",
-                    "zh-Hans": "地区"
-                },
-                "value": {
-                    "ru": "Провинция Юньнань",
-                    "en": "Yunnan Province",
-                    "zh-Hans": "云南省"
-                }
-            },
-            {
                 "icon": "pi pi-users",
                 "title": {
                     "ru": "Население",
@@ -449,19 +436,6 @@
         "featured": true,
         "popular": true,
         "facts": [
-            {
-                "icon": "pi pi-map-marker",
-                "title": {
-                    "ru": "Регион",
-                    "en": "Region",
-                    "zh-Hans": "地区"
-                },
-                "value": {
-                    "ru": "Провинция Юньнань",
-                    "en": "Yunnan Province",
-                    "zh-Hans": "云南省"
-                }
-            },
             {
                 "icon": "pi pi-users",
                 "title": {

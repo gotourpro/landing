@@ -2,11 +2,17 @@
     {
         "id": "tour-erhai-tcm-retreat",
         "slug": "erhai-tcm-retreat",
-        "destinationSlug": "beijing",
+        "categorySlugs": [
+            "women-beauty",
+            "men-wellness"
+        ],
+        "destinationSlugs": [
+            "dali"
+        ],
         "title": {
-            "ru": "Восстановление и отдых с традиционной китайской медициной",
-            "en": "Wellness and Recovery with Traditional Chinese Medicine",
-            "zh-Hans": "中医养生与康复之旅"
+            "ru": "Восстановление на озере Эрхай",
+            "en": "Recovery Retreat at Erhai Lake",
+            "zh-Hans": "洱海康复养生之旅"
         },
         "titleHeader": {
             "ru": "12 дней восстановления на термальных источниках Эрхай",
@@ -44,15 +50,20 @@
             "en": "China",
             "zh-Hans": "中国"
         },
+        "region": {
+            "ru": "Юньнань",
+            "en": "Yunnan",
+            "zh-Hans": "云南"
+        },
+        "district": {
+            "ru": "Дали-Бай",
+            "en": "Dali Bai Autonomous Prefecture",
+            "zh-Hans": "大理白族自治州"
+        },
         "city": {
             "ru": "Эрюань",
             "en": "Eryuan",
             "zh-Hans": "洱源县"
-        },
-        "region": {
-            "ru": "Дали-Бай",
-            "en": "Dali Bai Autonomous Prefecture",
-            "zh-Hans": "大理白族自治州"
         },
         "tags": [
             {
@@ -274,19 +285,6 @@
             "zh-Hans": "每位参与者都将接受个性化健康评估，并制定专属康养方案。除中医调理项目外，游客还可体验茶道、养生课程、传统东方疗法，以及参观当地历史文化景点，在云南壮丽的高原自然风光中放松身心。"
         },
         "facts": [
-            {
-                "icon": "pi pi-map-marker",
-                "title": {
-                    "ru": "Регион",
-                    "en": "Location",
-                    "zh-Hans": "地区"
-                },
-                "value": {
-                    "ru": "Эрюань, Дали-Бай",
-                    "en": "Eryuan, Dali",
-                    "zh-Hans": "洱源 · 大理"
-                }
-            },
             {
                 "icon": "pi pi-users",
                 "title": {
@@ -727,11 +725,13 @@
     {
         "id": "tour-erhai-tcm-retreat",
         "slug": "erhai-tcm-retreat",
-        "destinationSlug": "beijing",
+        "destinationSlugs": [
+            "dali"
+        ],
         "title": {
-            "ru": "Восстановление и отдых с традиционной китайской медициной",
-            "en": "Wellness and Recovery with Traditional Chinese Medicine",
-            "zh-Hans": "中医养生与康复之旅"
+            "ru": "Восстановление на озере Эрхай",
+            "en": "Recovery Retreat at Erhai Lake",
+            "zh-Hans": "洱海康复养生之旅"
         },
         "titleHeader": {
             "ru": "12 дней восстановления на термальных источниках Эрхай",
@@ -769,15 +769,20 @@
             "en": "China",
             "zh-Hans": "中国"
         },
+        "region": {
+            "ru": "Юньнань",
+            "en": "Yunnan",
+            "zh-Hans": "云南"
+        },
+        "district": {
+            "ru": "Дали-Бай",
+            "en": "Dali Bai Autonomous Prefecture",
+            "zh-Hans": "大理白族自治州"
+        },
         "city": {
             "ru": "Эрюань",
             "en": "Eryuan",
             "zh-Hans": "洱源县"
-        },
-        "region": {
-            "ru": "Дали-Бай",
-            "en": "Dali Bai Autonomous Prefecture",
-            "zh-Hans": "大理白族自治州"
         },
         "tags": [
             {
@@ -1000,19 +1005,6 @@
         },
         "facts": [
             {
-                "icon": "pi pi-map-marker",
-                "title": {
-                    "ru": "Регион",
-                    "en": "Location",
-                    "zh-Hans": "地区"
-                },
-                "value": {
-                    "ru": "Эрюань, Дали-Бай",
-                    "en": "Eryuan, Dali",
-                    "zh-Hans": "洱源 · 大理"
-                }
-            },
-            {
                 "icon": "pi pi-users",
                 "title": {
                     "ru": "Размер группы",
@@ -1128,29 +1120,59 @@
         ],
         "locations": [
             {
-                "ru": "Озеро Эрхай",
-                "en": "Erhai Lake",
-                "zh-Hans": "洱海"
+                "name": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海"
+                },
+                "coordinates": [
+                    100.1786,
+                    25.8247
+                ]
             },
             {
-                "ru": "Гора Цаншань",
-                "en": "Cangshan Mountain",
-                "zh-Hans": "苍山"
+                "name": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山"
+                },
+                "coordinates": [
+                    100.1057,
+                    25.6903
+                ]
             },
             {
-                "ru": "Древний город Дали",
-                "en": "Dali Ancient Town",
-                "zh-Hans": "大理古城"
+                "name": {
+                    "ru": "Древний город Дали",
+                    "en": "Dali Ancient Town",
+                    "zh-Hans": "大理古城"
+                },
+                "coordinates": [
+                    100.1634,
+                    25.6947
+                ]
             },
             {
-                "ru": "Храм Чуншэнсы",
-                "en": "Chongsheng Temple",
-                "zh-Hans": "崇圣寺"
+                "name": {
+                    "ru": "Храм Чуншэнсы",
+                    "en": "Chongsheng Temple",
+                    "zh-Hans": "崇圣寺"
+                },
+                "coordinates": [
+                    100.1515,
+                    25.7056
+                ]
             },
             {
-                "ru": "Термальные источники Эрюань",
-                "en": "Eryuan Hot Springs",
-                "zh-Hans": "洱源温泉"
+                "name": {
+                    "ru": "Термальные источники Эрюань",
+                    "en": "Eryuan Hot Springs",
+                    "zh-Hans": "洱源温泉"
+                },
+                "coordinates": [
+                    99.9493,
+                    26.1148
+                ]
             }
         ],
         "included": [
@@ -1422,11 +1444,13 @@
     {
         "id": "tour-erhai-tcm-retreat",
         "slug": "erhai-tcm-retreat",
-        "destinationSlug": "beijing",
+        "destinationSlugs": [
+            "dali"
+        ],
         "title": {
-            "ru": "Восстановление и отдых с традиционной китайской медициной",
-            "en": "Wellness and Recovery with Traditional Chinese Medicine",
-            "zh-Hans": "中医养生与康复之旅"
+            "ru": "Восстановление на озере Эрхай",
+            "en": "Recovery Retreat at Erhai Lake",
+            "zh-Hans": "洱海康复养生之旅"
         },
         "titleHeader": {
             "ru": "12 дней восстановления на термальных источниках Эрхай",
@@ -1464,15 +1488,20 @@
             "en": "China",
             "zh-Hans": "中国"
         },
+        "region": {
+            "ru": "Юньнань",
+            "en": "Yunnan",
+            "zh-Hans": "云南"
+        },
+        "district": {
+            "ru": "Дали-Бай",
+            "en": "Dali Bai Autonomous Prefecture",
+            "zh-Hans": "大理白族自治州"
+        },
         "city": {
             "ru": "Эрюань",
             "en": "Eryuan",
             "zh-Hans": "洱源县"
-        },
-        "region": {
-            "ru": "Дали-Бай",
-            "en": "Dali Bai Autonomous Prefecture",
-            "zh-Hans": "大理白族自治州"
         },
         "tags": [
             {
@@ -1695,19 +1724,6 @@
         },
         "facts": [
             {
-                "icon": "pi pi-map-marker",
-                "title": {
-                    "ru": "Регион",
-                    "en": "Location",
-                    "zh-Hans": "地区"
-                },
-                "value": {
-                    "ru": "Эрюань, Дали-Бай",
-                    "en": "Eryuan, Dali",
-                    "zh-Hans": "洱源 · 大理"
-                }
-            },
-            {
                 "icon": "pi pi-users",
                 "title": {
                     "ru": "Размер группы",
@@ -1823,29 +1839,59 @@
         ],
         "locations": [
             {
-                "ru": "Озеро Эрхай",
-                "en": "Erhai Lake",
-                "zh-Hans": "洱海"
+                "name": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海"
+                },
+                "coordinates": [
+                    100.1786,
+                    25.8247
+                ]
             },
             {
-                "ru": "Гора Цаншань",
-                "en": "Cangshan Mountain",
-                "zh-Hans": "苍山"
+                "name": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山"
+                },
+                "coordinates": [
+                    100.1057,
+                    25.6903
+                ]
             },
             {
-                "ru": "Древний город Дали",
-                "en": "Dali Ancient Town",
-                "zh-Hans": "大理古城"
+                "name": {
+                    "ru": "Древний город Дали",
+                    "en": "Dali Ancient Town",
+                    "zh-Hans": "大理古城"
+                },
+                "coordinates": [
+                    100.1634,
+                    25.6947
+                ]
             },
             {
-                "ru": "Храм Чуншэнсы",
-                "en": "Chongsheng Temple",
-                "zh-Hans": "崇圣寺"
+                "name": {
+                    "ru": "Храм Чуншэнсы",
+                    "en": "Chongsheng Temple",
+                    "zh-Hans": "崇圣寺"
+                },
+                "coordinates": [
+                    100.1515,
+                    25.7056
+                ]
             },
             {
-                "ru": "Термальные источники Эрюань",
-                "en": "Eryuan Hot Springs",
-                "zh-Hans": "洱源温泉"
+                "name": {
+                    "ru": "Термальные источники Эрюань",
+                    "en": "Eryuan Hot Springs",
+                    "zh-Hans": "洱源温泉"
+                },
+                "coordinates": [
+                    99.9493,
+                    26.1148
+                ]
             }
         ],
         "included": [
@@ -2117,11 +2163,13 @@
     {
         "id": "tour-erhai-tcm-retreat",
         "slug": "erhai-tcm-retreat",
-        "destinationSlug": "beijing",
+        "destinationSlugs": [
+            "dali"
+        ],
         "title": {
-            "ru": "Восстановление и отдых с традиционной китайской медициной",
-            "en": "Wellness and Recovery with Traditional Chinese Medicine",
-            "zh-Hans": "中医养生与康复之旅"
+            "ru": "Восстановление на озере Эрхай",
+            "en": "Recovery Retreat at Erhai Lake",
+            "zh-Hans": "洱海康复养生之旅"
         },
         "titleHeader": {
             "ru": "12 дней восстановления на термальных источниках Эрхай",
@@ -2159,15 +2207,20 @@
             "en": "China",
             "zh-Hans": "中国"
         },
+        "region": {
+            "ru": "Юньнань",
+            "en": "Yunnan",
+            "zh-Hans": "云南"
+        },
+        "district": {
+            "ru": "Дали-Бай",
+            "en": "Dali Bai Autonomous Prefecture",
+            "zh-Hans": "大理白族自治州"
+        },
         "city": {
             "ru": "Эрюань",
             "en": "Eryuan",
             "zh-Hans": "洱源县"
-        },
-        "region": {
-            "ru": "Дали-Бай",
-            "en": "Dali Bai Autonomous Prefecture",
-            "zh-Hans": "大理白族自治州"
         },
         "tags": [
             {
@@ -2390,19 +2443,6 @@
         },
         "facts": [
             {
-                "icon": "pi pi-map-marker",
-                "title": {
-                    "ru": "Регион",
-                    "en": "Location",
-                    "zh-Hans": "地区"
-                },
-                "value": {
-                    "ru": "Эрюань, Дали-Бай",
-                    "en": "Eryuan, Dali",
-                    "zh-Hans": "洱源 · 大理"
-                }
-            },
-            {
                 "icon": "pi pi-users",
                 "title": {
                     "ru": "Размер группы",
@@ -2518,29 +2558,59 @@
         ],
         "locations": [
             {
-                "ru": "Озеро Эрхай",
-                "en": "Erhai Lake",
-                "zh-Hans": "洱海"
+                "name": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海"
+                },
+                "coordinates": [
+                    100.1786,
+                    25.8247
+                ]
             },
             {
-                "ru": "Гора Цаншань",
-                "en": "Cangshan Mountain",
-                "zh-Hans": "苍山"
+                "name": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山"
+                },
+                "coordinates": [
+                    100.1057,
+                    25.6903
+                ]
             },
             {
-                "ru": "Древний город Дали",
-                "en": "Dali Ancient Town",
-                "zh-Hans": "大理古城"
+                "name": {
+                    "ru": "Древний город Дали",
+                    "en": "Dali Ancient Town",
+                    "zh-Hans": "大理古城"
+                },
+                "coordinates": [
+                    100.1634,
+                    25.6947
+                ]
             },
             {
-                "ru": "Храм Чуншэнсы",
-                "en": "Chongsheng Temple",
-                "zh-Hans": "崇圣寺"
+                "name": {
+                    "ru": "Храм Чуншэнсы",
+                    "en": "Chongsheng Temple",
+                    "zh-Hans": "崇圣寺"
+                },
+                "coordinates": [
+                    100.1515,
+                    25.7056
+                ]
             },
             {
-                "ru": "Термальные источники Эрюань",
-                "en": "Eryuan Hot Springs",
-                "zh-Hans": "洱源温泉"
+                "name": {
+                    "ru": "Термальные источники Эрюань",
+                    "en": "Eryuan Hot Springs",
+                    "zh-Hans": "洱源温泉"
+                },
+                "coordinates": [
+                    99.9493,
+                    26.1148
+                ]
             }
         ],
         "included": [
@@ -2812,11 +2882,13 @@
     {
         "id": "tour-erhai-tcm-retreat",
         "slug": "erhai-tcm-retreat",
-        "destinationSlug": "beijing",
+        "destinationSlugs": [
+            "dali"
+        ],
         "title": {
-            "ru": "Восстановление и отдых с традиционной китайской медициной",
-            "en": "Wellness and Recovery with Traditional Chinese Medicine",
-            "zh-Hans": "中医养生与康复之旅"
+            "ru": "Восстановление на озере Эрхай",
+            "en": "Recovery Retreat at Erhai Lake",
+            "zh-Hans": "洱海康复养生之旅"
         },
         "titleHeader": {
             "ru": "12 дней восстановления на термальных источниках Эрхай",
@@ -2854,15 +2926,20 @@
             "en": "China",
             "zh-Hans": "中国"
         },
+        "region": {
+            "ru": "Юньнань",
+            "en": "Yunnan",
+            "zh-Hans": "云南"
+        },
+        "district": {
+            "ru": "Дали-Бай",
+            "en": "Dali Bai Autonomous Prefecture",
+            "zh-Hans": "大理白族自治州"
+        },
         "city": {
             "ru": "Эрюань",
             "en": "Eryuan",
             "zh-Hans": "洱源县"
-        },
-        "region": {
-            "ru": "Дали-Бай",
-            "en": "Dali Bai Autonomous Prefecture",
-            "zh-Hans": "大理白族自治州"
         },
         "tags": [
             {
@@ -3085,19 +3162,6 @@
         },
         "facts": [
             {
-                "icon": "pi pi-map-marker",
-                "title": {
-                    "ru": "Регион",
-                    "en": "Location",
-                    "zh-Hans": "地区"
-                },
-                "value": {
-                    "ru": "Эрюань, Дали-Бай",
-                    "en": "Eryuan, Dali",
-                    "zh-Hans": "洱源 · 大理"
-                }
-            },
-            {
                 "icon": "pi pi-users",
                 "title": {
                     "ru": "Размер группы",
@@ -3213,29 +3277,59 @@
         ],
         "locations": [
             {
-                "ru": "Озеро Эрхай",
-                "en": "Erhai Lake",
-                "zh-Hans": "洱海"
+                "name": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海"
+                },
+                "coordinates": [
+                    100.1786,
+                    25.8247
+                ]
             },
             {
-                "ru": "Гора Цаншань",
-                "en": "Cangshan Mountain",
-                "zh-Hans": "苍山"
+                "name": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山"
+                },
+                "coordinates": [
+                    100.1057,
+                    25.6903
+                ]
             },
             {
-                "ru": "Древний город Дали",
-                "en": "Dali Ancient Town",
-                "zh-Hans": "大理古城"
+                "name": {
+                    "ru": "Древний город Дали",
+                    "en": "Dali Ancient Town",
+                    "zh-Hans": "大理古城"
+                },
+                "coordinates": [
+                    100.1634,
+                    25.6947
+                ]
             },
             {
-                "ru": "Храм Чуншэнсы",
-                "en": "Chongsheng Temple",
-                "zh-Hans": "崇圣寺"
+                "name": {
+                    "ru": "Храм Чуншэнсы",
+                    "en": "Chongsheng Temple",
+                    "zh-Hans": "崇圣寺"
+                },
+                "coordinates": [
+                    100.1515,
+                    25.7056
+                ]
             },
             {
-                "ru": "Термальные источники Эрюань",
-                "en": "Eryuan Hot Springs",
-                "zh-Hans": "洱源温泉"
+                "name": {
+                    "ru": "Термальные источники Эрюань",
+                    "en": "Eryuan Hot Springs",
+                    "zh-Hans": "洱源温泉"
+                },
+                "coordinates": [
+                    99.9493,
+                    26.1148
+                ]
             }
         ],
         "included": [
@@ -3507,11 +3601,13 @@
     {
         "id": "tour-erhai-tcm-retreat",
         "slug": "erhai-tcm-retreat",
-        "destinationSlug": "beijing",
+        "destinationSlugs": [
+            "dali"
+        ],
         "title": {
-            "ru": "Восстановление и отдых с традиционной китайской медициной",
-            "en": "Wellness and Recovery with Traditional Chinese Medicine",
-            "zh-Hans": "中医养生与康复之旅"
+            "ru": "Восстановление на озере Эрхай",
+            "en": "Recovery Retreat at Erhai Lake",
+            "zh-Hans": "洱海康复养生之旅"
         },
         "titleHeader": {
             "ru": "12 дней восстановления на термальных источниках Эрхай",
@@ -3549,15 +3645,20 @@
             "en": "China",
             "zh-Hans": "中国"
         },
+        "region": {
+            "ru": "Юньнань",
+            "en": "Yunnan",
+            "zh-Hans": "云南"
+        },
+        "district": {
+            "ru": "Дали-Бай",
+            "en": "Dali Bai Autonomous Prefecture",
+            "zh-Hans": "大理白族自治州"
+        },
         "city": {
             "ru": "Эрюань",
             "en": "Eryuan",
             "zh-Hans": "洱源县"
-        },
-        "region": {
-            "ru": "Дали-Бай",
-            "en": "Dali Bai Autonomous Prefecture",
-            "zh-Hans": "大理白族自治州"
         },
         "tags": [
             {
@@ -3780,19 +3881,6 @@
         },
         "facts": [
             {
-                "icon": "pi pi-map-marker",
-                "title": {
-                    "ru": "Регион",
-                    "en": "Location",
-                    "zh-Hans": "地区"
-                },
-                "value": {
-                    "ru": "Эрюань, Дали-Бай",
-                    "en": "Eryuan, Dali",
-                    "zh-Hans": "洱源 · 大理"
-                }
-            },
-            {
                 "icon": "pi pi-users",
                 "title": {
                     "ru": "Размер группы",
@@ -3908,29 +3996,59 @@
         ],
         "locations": [
             {
-                "ru": "Озеро Эрхай",
-                "en": "Erhai Lake",
-                "zh-Hans": "洱海"
+                "name": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海"
+                },
+                "coordinates": [
+                    100.1786,
+                    25.8247
+                ]
             },
             {
-                "ru": "Гора Цаншань",
-                "en": "Cangshan Mountain",
-                "zh-Hans": "苍山"
+                "name": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山"
+                },
+                "coordinates": [
+                    100.1057,
+                    25.6903
+                ]
             },
             {
-                "ru": "Древний город Дали",
-                "en": "Dali Ancient Town",
-                "zh-Hans": "大理古城"
+                "name": {
+                    "ru": "Древний город Дали",
+                    "en": "Dali Ancient Town",
+                    "zh-Hans": "大理古城"
+                },
+                "coordinates": [
+                    100.1634,
+                    25.6947
+                ]
             },
             {
-                "ru": "Храм Чуншэнсы",
-                "en": "Chongsheng Temple",
-                "zh-Hans": "崇圣寺"
+                "name": {
+                    "ru": "Храм Чуншэнсы",
+                    "en": "Chongsheng Temple",
+                    "zh-Hans": "崇圣寺"
+                },
+                "coordinates": [
+                    100.1515,
+                    25.7056
+                ]
             },
             {
-                "ru": "Термальные источники Эрюань",
-                "en": "Eryuan Hot Springs",
-                "zh-Hans": "洱源温泉"
+                "name": {
+                    "ru": "Термальные источники Эрюань",
+                    "en": "Eryuan Hot Springs",
+                    "zh-Hans": "洱源温泉"
+                },
+                "coordinates": [
+                    99.9493,
+                    26.1148
+                ]
             }
         ],
         "included": [

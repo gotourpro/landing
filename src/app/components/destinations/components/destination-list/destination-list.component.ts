@@ -12,6 +12,8 @@ import { MenuComponent } from '../../../menu/components/menu.component';
 import { FooterComponent } from '../../../footer/footer.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { LocalizationService } from '../../../../services/localization.service';
+import { UICarousel } from '../../../UI/carousel';
+import { UICarouselItem } from '../../../UI/carousel-item';
 @Component({
     selector: 'app-destination-list',
     standalone: true,
@@ -30,7 +32,7 @@ import { LocalizationService } from '../../../../services/localization.service';
     styleUrls: ['./destination-list.component.scss']
 })
 export class DestinationListComponent {
-   @ViewChild('gallery')
+    @ViewChild('gallery')
     public galleria: GalleriaComponent;
     public title = 'Destination List';
     public description = ''
@@ -40,10 +42,10 @@ export class DestinationListComponent {
     public hasMore = true;
     public loading = false;
 
-  constructor(
-    private destinationsService: DestinationsService,
-    public localization: LocalizationService
-) {}
+    constructor(
+        private destinationsService: DestinationsService,
+        public localization: LocalizationService
+    ) { }
     public ngOnInit(): void {
         this.loadMore();
     }
