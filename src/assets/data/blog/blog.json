@@ -2,7 +2,10 @@
     {
         "id": "1",
         "slug": "best-time-to-visit-china",
-        "categorySlug": "travel-tips",
+        "categorySlugs": [
+            "travel-guide",
+            "wellness"
+        ],
         "title": {
             "en": "Best Time to Visit China",
             "ru": "Лучшее время для посещения Китая",
@@ -29,7 +32,10 @@
     {
         "id": "1",
         "slug": "best-time-to-visit-china",
-        "categorySlug": "travel-tips",
+        "categorySlugs": [
+            "travel-guide",
+            "wellness"
+        ],
         "title": {
             "en": "Best Time to Visit China",
             "ru": "Лучшее время для посещения Китая",
@@ -56,6 +62,10 @@
     {
         "id": "1",
         "slug": "best-time-to-visit-china",
+        "categorySlugs": [
+            "travel-guide",
+            "wellness"
+        ],
         "title": {
             "en": "Best Time to Visit China",
             "ru": "Лучшее время для посещения Китая",
@@ -72,81 +82,7 @@
             "zh-Hans": "计划前往中国旅行？了解天气和季节信息。"
         },
         "image": "assets/images/blog/424x292.svg",
-        "author": "TravHub Team",
-        "publishedAt": "2026-01-15",
-        "readingTime": 5,
-        "featured": true,
-        "popular": true
-    },
-    {
-        "id": "1",
-        "slug": "best-time-to-visit-china",
-        "title": {
-            "en": "Best Time to Visit China",
-            "ru": "Лучшее время для посещения Китая",
-            "zh-Hans": "游览中国的最佳时间"
-        },
-        "description": {
-            "en": "Discover the best seasons to explore China's most famous destinations.",
-            "ru": "Узнайте, в какое время года лучше всего посещать самые популярные места Китая.",
-            "zh-Hans": "了解游览中国著名景点的最佳季节。"
-        },
-        "excerpt": {
-            "en": "Planning a trip to China? Here's everything you need to know about weather and seasons.",
-            "ru": "Планируете поездку в Китай? Рассказываем всё о погоде и сезонах.",
-            "zh-Hans": "计划前往中国旅行？了解天气和季节信息。"
-        },
-        "image": "assets/images/blog/424x292.svg",
-        "author": "TravHub Team",
-        "publishedAt": "2026-01-15",
-        "readingTime": 5,
-        "featured": true,
-        "popular": true
-    },
-    {
-        "id": "1",
-        "slug": "best-time-to-visit-china",
-        "title": {
-            "en": "Best Time to Visit China",
-            "ru": "Лучшее время для посещения Китая",
-            "zh-Hans": "游览中国的最佳时间"
-        },
-        "description": {
-            "en": "Discover the best seasons to explore China's most famous destinations.",
-            "ru": "Узнайте, в какое время года лучше всего посещать самые популярные места Китая.",
-            "zh-Hans": "了解游览中国著名景点的最佳季节。"
-        },
-        "excerpt": {
-            "en": "Planning a trip to China? Here's everything you need to know about weather and seasons.",
-            "ru": "Планируете поездку в Китай? Рассказываем всё о погоде и сезонах.",
-            "zh-Hans": "计划前往中国旅行？了解天气和季节信息。"
-        },
-        "image": "assets/images/blog/424x292.svg",
-        "author": "TravHub Team",
-        "publishedAt": "2026-01-15",
-        "readingTime": 5,
-        "featured": true,
-        "popular": true
-    },
-    {
-        "id": "1",
-        "slug": "best-time-to-visit-china",
-        "title": {
-            "en": "Best Time to Visit China",
-            "ru": "Лучшее время для посещения Китая",
-            "zh-Hans": "游览中国的最佳时间"
-        },
-        "description": {
-            "en": "Discover the best seasons to explore China's most famous destinations.",
-            "ru": "Узнайте, в какое время года лучше всего посещать самые популярные места Китая.",
-            "zh-Hans": "了解游览中国著名景点的最佳季节。"
-        },
-        "excerpt": {
-            "en": "Planning a trip to China? Here's everything you need to know about weather and seasons.",
-            "ru": "Планируете поездку в Китай? Рассказываем всё о погоде и сезонах.",
-            "zh-Hans": "计划前往中国旅行？了解天气和季节信息。"
-        },
-        "image": "assets/images/blog/424x292.svg",
+        "category": "travel-tips",
         "author": "TravHub Team",
         "publishedAt": "2026-01-15",
         "readingTime": 5,

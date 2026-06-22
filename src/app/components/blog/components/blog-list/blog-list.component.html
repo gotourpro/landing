@@ -221,10 +221,10 @@
 
                 <ul class="blog-one__item__meta">
 
-                  @if (item.categorySlug) {
+                  @if (item.categorySlugs?.length) {
                   <li>
                     <i class="pi pi-tag mr-2"></i>
-                    {{ item.categorySlug }}
+                    {{ item.categorySlugs?.[0] }}
                   </li>
                   }
 

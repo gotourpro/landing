@@ -6,7 +6,7 @@ export interface IBlogPost {
 
     slug: string;
 
-    categorySlug: string;
+    categorySlugs?: string[];
 
     title: ILocalizedText;
 

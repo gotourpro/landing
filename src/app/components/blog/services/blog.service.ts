@@ -113,9 +113,10 @@ export class BlogService {
 
         return this.getList().pipe(
             map(items =>
-                items.filter(
-                    item =>
-                        item.categorySlug === categorySlug
+                items.filter(item =>
+                    item.categorySlugs?.includes(
+                        categorySlug
+                    )
                 )
             )
         );
