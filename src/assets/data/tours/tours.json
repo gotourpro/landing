@@ -1,66 +1,949 @@
 [
     {
-        "id": "1",
-        "slug": "beijing-imperial-tour",
+        "id": "tour-erhai-tcm-retreat",
+        "slug": "erhai-tcm-retreat",
         "destinationSlug": "beijing",
-        "categorySlug": "educational",
         "title": {
-            "en": "Beijing Imperial Tour",
-            "ru": "Императорский тур по Пекину",
-            "zh-Hans": "北京皇家之旅"
+            "ru": "Восстановление и отдых с традиционной китайской медициной",
+            "en": "Wellness and Recovery with Traditional Chinese Medicine",
+            "zh-Hans": "中医养生与康复之旅"
         },
+        "titleHeader": {
+            "ru": "12 дней восстановления на термальных источниках Эрхай",
+            "en": "12 Days of Recovery at the Erhai Hot Springs",
+            "zh-Hans": "洱海温泉12天康养之旅"
+        },
+        "tourHeader": {
+            "ru": "Консультации врача традиционной китайской медицины для индивидуальной работы и восстановления организма",
+            "en": "Consultations with a Traditional Chinese Medicine Doctor for Personalized Wellness and Recovery",
+            "zh-Hans": "由资深中医师提供个性化诊疗与康复调理服务"
+        },
+        "seoTitle": {
+            "en": "12-Day Traditional Chinese Medicine Wellness Tour in Yunnan",
+            "ru": "12-дневный оздоровительный тур традиционной китайской медицины в Юньнани",
+            "zh-Hans": "云南12天中医养生康复之旅"
+        },
+        "seoDescription": {
+            "en": "Join a 12-day wellness retreat in Yunnan with traditional Chinese medicine, hot springs, acupuncture, Tai Chi and personalized recovery programs.",
+            "ru": "12-дневная программа восстановления в Юньнани с традиционной китайской медициной, термальными источниками, акупунктурой и индивидуальной программой оздоровления.",
+            "zh-Hans": "体验云南12天中医养生之旅，包含温泉、针灸、太极和个性化康复计划。"
+        },
+        "seoKeywords": [
+            {
+                "en": "traditional chinese medicine"
+            },
+            {
+                "en": "wellness retreat china"
+            },
+            {
+                "en": "hot springs yunnan"
+            }
+        ],
         "country": {
-            "en": "China",
             "ru": "Китай",
+            "en": "China",
             "zh-Hans": "中国"
         },
         "city": {
-            "en": "Beijing",
-            "ru": "Пекин",
-            "zh-Hans": "北京"
+            "ru": "Эрюань",
+            "en": "Eryuan",
+            "zh-Hans": "洱源县"
         },
-        "video": "https://www.youtube.com/watch?v=xxxxx",
-        "videoThumb": "assets/images/destination/840x415.svg",
-        "image": "assets/images/blog/424x292.svg",
-        "images": [
-            "assets/images/destination/312x381.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x385.svg"
+        "region": {
+            "ru": "Дали-Бай",
+            "en": "Dali Bai Autonomous Prefecture",
+            "zh-Hans": "大理白族自治州"
+        },
+        "tags": [
+            {
+                "ru": "Традиционная китайская медицина",
+                "en": "Traditional Chinese Medicine",
+                "zh-Hans": "中医"
+            },
+            {
+                "ru": "Термальные источники",
+                "en": "Hot Springs",
+                "zh-Hans": "温泉"
+            },
+            {
+                "ru": "Оздоровительный тур",
+                "en": "Wellness Tour",
+                "zh-Hans": "康养之旅"
+            },
+            {
+                "ru": "Ретрит",
+                "en": "Retreat",
+                "zh-Hans": "养生营"
+            },
+            {
+                "ru": "Восстановление организма",
+                "en": "Body Recovery",
+                "zh-Hans": "身体调理"
+            },
+            {
+                "ru": "Wellness",
+                "en": "Wellness",
+                "zh-Hans": "健康养生"
+            }
         ],
-        "price": 399,
-        "currency": "USD",
-        "durationDays": 6,
-        "durationNights": 5,
-        "rating": 5,
-        "reviews": 245,
+        "coordinates": [
+            99.9493,
+            26.1148
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": {
+                    "ru": "Прибытие в Эрюань и знакомство с программой",
+                    "en": "Arrival in Eryuan and Program Introduction",
+                    "zh-Hans": "抵达洱源并了解康养计划"
+                },
+                "description": {
+                    "ru": "Встреча участников, размещение в спа-доме у подножья горы Цаншань, знакомство с врачами традиционной китайской медицины и программой восстановления. Вечерний отдых на термальных источниках.",
+                    "en": "Arrival and welcome meeting, accommodation at the wellness retreat near Cangshan Mountain, introduction to Traditional Chinese Medicine specialists and the recovery program. Evening relaxation at the hot springs.",
+                    "zh-Hans": "抵达后入住苍山脚下的温泉康养中心，与中医专家见面并了解康养计划。晚上体验天然温泉放松身心。"
+                }
+            },
+            {
+                "day": 2,
+                "title": {
+                    "ru": "Первичная диагностика",
+                    "en": "Initial Diagnosis",
+                    "zh-Hans": "初步健康诊断"
+                },
+                "description": {
+                    "ru": "Пульсовая диагностика, консультации специалистов и составление индивидуальной программы оздоровления. Первые лечебные процедуры и знакомство с практиками восстановления.",
+                    "en": "Pulse diagnosis, specialist consultations, and creation of a personalized wellness plan. Introduction to therapeutic treatments and recovery practices.",
+                    "zh-Hans": "进行脉诊和健康评估，与专家咨询并制定个性化康养方案，开始体验中医调理项目。"
+                }
+            },
+            {
+                "day": 3,
+                "title": {
+                    "ru": "Начало программы восстановления",
+                    "en": "Beginning of the Recovery Program",
+                    "zh-Hans": "康复计划正式开始"
+                },
+                "description": {
+                    "ru": "Индивидуальные процедуры, акупунктура, рефлексотерапия, чайная церемония и занятия Тайцзицюань.",
+                    "en": "Personalized treatments, acupuncture, reflexology, tea ceremony, and Tai Chi practice.",
+                    "zh-Hans": "开始个性化调理，包括针灸、反射疗法、茶道体验及太极练习。"
+                }
+            },
+            {
+                "day": 4,
+                "title": {
+                    "ru": "Термальные источники и восточные практики",
+                    "en": "Hot Springs and Eastern Practices",
+                    "zh-Hans": "温泉疗养与东方养生"
+                },
+                "description": {
+                    "ru": "Работа по индивидуальным программам восстановления, посещение термальных бассейнов и практики Бадуаньцзинь.",
+                    "en": "Personal recovery sessions, thermal pools, and Baduanjin wellness exercises.",
+                    "zh-Hans": "继续个性化调理，体验温泉疗养及八段锦养生功法。"
+                }
+            },
+            {
+                "day": 5,
+                "title": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海之旅"
+                },
+                "description": {
+                    "ru": "Экскурсия к озеру Эрхай — одному из самых живописных мест провинции Юньнань. Возвращение в комплекс и вечерние процедуры.",
+                    "en": "Excursion to Erhai Lake, one of Yunnan’s most scenic attractions, followed by evening wellness treatments.",
+                    "zh-Hans": "游览云南著名景点洱海，欣赏自然风光，晚上返回康养中心继续调理。"
+                }
+            },
+            {
+                "day": 6,
+                "title": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山体验"
+                },
+                "description": {
+                    "ru": "Поездка в горный район Цаншань, прогулки на свежем воздухе и восстановительные практики среди высокогорной природы.",
+                    "en": "Visit to Cangshan Mountain with scenic walks and wellness activities in the alpine environment.",
+                    "zh-Hans": "前往苍山地区，体验高山自然环境中的徒步与养生活动。"
+                }
+            },
+            {
+                "day": 7,
+                "title": {
+                    "ru": "День глубокого восстановления",
+                    "en": "Deep Recovery Day",
+                    "zh-Hans": "深度康复日"
+                },
+                "description": {
+                    "ru": "Комплекс лечебных процедур, моксотерапия, ароматерапия и работа с поющими чашами.",
+                    "en": "Comprehensive therapies including moxibustion, aromatherapy, and sound healing with singing bowls.",
+                    "zh-Hans": "体验艾灸、芳香疗法及颂钵音疗等深度康复项目。"
+                }
+            },
+            {
+                "day": 8,
+                "title": {
+                    "ru": "Храм Чуншэнсы",
+                    "en": "Chongsheng Temple",
+                    "zh-Hans": "崇圣寺三塔"
+                },
+                "description": {
+                    "ru": "Посещение знаменитого храмового комплекса Чуншэнсы и Трёх пагод — одного из символов региона Дали.",
+                    "en": "Visit to the famous Chongsheng Temple and the Three Pagodas, symbols of the Dali region.",
+                    "zh-Hans": "参观大理著名地标崇圣寺三塔，了解当地历史文化。"
+                }
+            },
+            {
+                "day": 9,
+                "title": {
+                    "ru": "Традиции Юньнани",
+                    "en": "Yunnan Traditions",
+                    "zh-Hans": "云南传统文化"
+                },
+                "description": {
+                    "ru": "Знакомство с культурой региона, чайными традициями и лечебными травами юго-запада Китая.",
+                    "en": "Explore local culture, tea traditions, and medicinal herbs of Southwest China.",
+                    "zh-Hans": "了解云南文化、茶文化以及中国西南地区传统草药知识。"
+                }
+            },
+            {
+                "day": 10,
+                "title": {
+                    "ru": "Закрепление результатов",
+                    "en": "Consolidating Results",
+                    "zh-Hans": "巩固康复成果"
+                },
+                "description": {
+                    "ru": "Продолжение персональной программы восстановления и повторная диагностика для оценки промежуточных результатов.",
+                    "en": "Continuation of personalized treatments and follow-up diagnosis to evaluate progress.",
+                    "zh-Hans": "继续个性化调理，并进行复查评估康复效果。"
+                }
+            },
+            {
+                "day": 11,
+                "title": {
+                    "ru": "Финальные процедуры",
+                    "en": "Final Treatments",
+                    "zh-Hans": "最终调理阶段"
+                },
+                "description": {
+                    "ru": "Завершающие консультации врачей, рекомендации по поддержанию здоровья после возвращения домой и свободное время для отдыха.",
+                    "en": "Final consultations, health maintenance recommendations, and free time for relaxation.",
+                    "zh-Hans": "完成最后阶段调理，获得健康建议并享受自由休闲时间。"
+                }
+            },
+            {
+                "day": 12,
+                "title": {
+                    "ru": "Завершение программы",
+                    "en": "Program Completion",
+                    "zh-Hans": "康养计划圆满结束"
+                },
+                "description": {
+                    "ru": "Подведение итогов оздоровительной программы, рекомендации специалистов и трансфер к месту отправления.",
+                    "en": "Summary of the wellness program, final recommendations, and transfer to the departure point.",
+                    "zh-Hans": "总结康养成果，获得专家建议并安排送站或送机服务。"
+                }
+            }
+        ],
+        "image": "assets/images/destination/312x380.svg",
+        "images": [
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg"
+        ],
+        "durationDays": 12,
+        "durationNights": 11,
+        "minGroupSize": 6,
+        "maxGroupSize": 15,
         "featured": true,
-        "popular": true
+        "popular": true,
+        "content": {
+            "ru": "Тур проходит на юго-западе Китая, в живописном регионе Дали-Бай, уезда Эрюань, на берегу озера Эрхай. В течение 12 дней участники проходят программу отдыха, восстановления и оздоровления под наблюдением специалистов традиционной китайской медицины. Проживание организовано в уютном спа-доме у подножья горы Цаншань. На территории комплекса расположены 24 термальных бассейна с богатым минеральным составом, способствующим расслаблению, восстановлению сил и поддержанию здоровья.",
+            "en": "This wellness journey takes place in Southwest China, in the scenic Dali Bai region of Eryuan County, on the shores of Erhai Lake. Over 12 days, participants follow a carefully designed program of relaxation, recovery, and rejuvenation under the guidance of experienced Traditional Chinese Medicine specialists. Accommodation is provided in a comfortable wellness retreat at the foot of Cangshan Mountain. The resort features 24 mineral-rich hot spring pools designed to promote relaxation, restore energy, and support overall well-being.",
+            "zh-Hans": "本次康养之旅位于中国西南部云南省大理地区洱源县的洱海湖畔。在为期12天的行程中，参与者将在资深中医专家的指导下体验休养、调理与康复项目。入住环境优雅的温泉康养中心，坐落于苍山脚下。园区内拥有24个富含矿物质的天然温泉池，有助于放松身心、恢复活力并促进整体健康。"
+        },
+        "contentSecond": {
+            "ru": "Каждому участнику проводится индивидуальная диагностика и формируется персональная программа восстановления. Помимо лечебных процедур гостей ждут чайные церемонии, оздоровительные практики, восточная терапия, экскурсии по историческим достопримечательностям и отдых среди высокогорной природы провинции Юньнань.",
+            "en": "Each participant receives a personalized health assessment and a customized recovery plan. In addition to therapeutic treatments, guests can enjoy traditional tea ceremonies, wellness practices, Eastern healing therapies, cultural excursions to historic landmarks, and peaceful relaxation in the stunning mountain landscapes of Yunnan Province.",
+            "zh-Hans": "每位参与者都将接受个性化健康评估，并制定专属康养方案。除中医调理项目外，游客还可体验茶道、养生课程、传统东方疗法，以及参观当地历史文化景点，在云南壮丽的高原自然风光中放松身心。"
+        },
+        "facts": [
+            {
+                "icon": "pi pi-map-marker",
+                "title": {
+                    "ru": "Регион",
+                    "en": "Location",
+                    "zh-Hans": "地区"
+                },
+                "value": {
+                    "ru": "Эрюань, Дали-Бай",
+                    "en": "Eryuan, Dali",
+                    "zh-Hans": "洱源 · 大理"
+                }
+            },
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Размер группы",
+                    "en": "Group Size",
+                    "zh-Hans": "团队规模"
+                },
+                "value": {
+                    "ru": "До 15 человек",
+                    "en": "Up to 15 Guests",
+                    "zh-Hans": "最多15人"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Продолжительность",
+                    "en": "Duration",
+                    "zh-Hans": "行程时长"
+                },
+                "value": {
+                    "ru": "12 дней / 11 ночей",
+                    "en": "12 Days / 11 Nights",
+                    "zh-Hans": "12天11晚"
+                }
+            },
+            {
+                "icon": "pi pi-heart",
+                "title": {
+                    "ru": "Формат",
+                    "en": "Program Type",
+                    "zh-Hans": "项目类型"
+                },
+                "value": {
+                    "ru": "Оздоровительный ретрит",
+                    "en": "Wellness Retreat",
+                    "zh-Hans": "康养之旅"
+                }
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "24 термальных бассейна на территории комплекса",
+                "en": "24 Hot Spring Pools Throughout the Resort",
+                "zh-Hans": "园区内拥有24个天然温泉池"
+            },
+            {
+                "ru": "Индивидуальная программа восстановления организма",
+                "en": "Personalized Recovery Program",
+                "zh-Hans": "个性化康复调理方案"
+            },
+            {
+                "ru": "Сопровождение врача традиционной китайской медицины",
+                "en": "Guidance from Traditional Chinese Medicine Specialists",
+                "zh-Hans": "资深中医专家全程指导"
+            },
+            {
+                "ru": "Проживание у подножья горы Цаншань",
+                "en": "Accommodation at the Foot of Cangshan Mountain",
+                "zh-Hans": "入住苍山脚下温泉康养中心"
+            },
+            {
+                "ru": "Практики Тайцзицюань и Бадуаньцзинь",
+                "en": "Tai Chi and Baduanjin Wellness Practices",
+                "zh-Hans": "太极拳与八段锦养生课程"
+            },
+            {
+                "ru": "Чайные церемонии и лечебные травы",
+                "en": "Tea Ceremonies and Medicinal Herbs",
+                "zh-Hans": "茶道体验与传统草药调理"
+            },
+            {
+                "ru": "Небольшая группа единомышленников",
+                "en": "Small Group Experience",
+                "zh-Hans": "精品小团深度体验"
+            },
+            {
+                "ru": "Гибкая программа под пожелания участников",
+                "en": "Flexible Program Tailored to Participants",
+                "zh-Hans": "根据需求灵活调整行程"
+            }
+        ],
+        "features": [
+            {
+                "ru": "24 термальных бассейна",
+                "en": "24 Hot Spring Pools",
+                "zh-Hans": "24个天然温泉池"
+            },
+            {
+                "ru": "Температура воды от 40 до 90°C",
+                "en": "Water Temperature from 40°C to 90°C",
+                "zh-Hans": "温泉水温40°C至90°C"
+            },
+            {
+                "ru": "Щелочной уровень pH 8.1",
+                "en": "Alkaline pH Level of 8.1",
+                "zh-Hans": "弱碱性水质（pH值8.1）"
+            },
+            {
+                "ru": "Кальций, магний и фториды в составе воды",
+                "en": "Rich in Calcium, Magnesium, and Fluorides",
+                "zh-Hans": "富含钙、镁和氟化物等矿物质"
+            },
+            {
+                "ru": "Высокогорная природа региона Дали",
+                "en": "Highland Nature of the Dali Region",
+                "zh-Hans": "大理高原自然风光"
+            },
+            {
+                "ru": "Мягкий климат юго-запада Китая",
+                "en": "Mild Climate of Southwest China",
+                "zh-Hans": "中国西南地区温和宜人的气候"
+            }
+        ],
+        "locations": [
+            {
+                "ru": "Озеро Эрхай",
+                "en": "Erhai Lake",
+                "zh-Hans": "洱海"
+            },
+            {
+                "ru": "Гора Цаншань",
+                "en": "Cangshan Mountain",
+                "zh-Hans": "苍山"
+            },
+            {
+                "ru": "Древний город Дали",
+                "en": "Dali Ancient Town",
+                "zh-Hans": "大理古城"
+            },
+            {
+                "ru": "Храм Чуншэнсы",
+                "en": "Chongsheng Temple",
+                "zh-Hans": "崇圣寺"
+            },
+            {
+                "ru": "Термальные источники Эрюань",
+                "en": "Eryuan Hot Springs",
+                "zh-Hans": "洱源温泉"
+            }
+        ],
+        "included": [
+            {
+                "ru": "Проживание в спа-доме у подножья горы Цаншань",
+                "en": "Accommodation at a Wellness Retreat at the Foot of Cangshan Mountain",
+                "zh-Hans": "入住苍山脚下温泉康养中心"
+            },
+            {
+                "ru": "Первичная диагностика врача традиционной китайской медицины",
+                "en": "Initial Consultation and Diagnosis by a Traditional Chinese Medicine Doctor",
+                "zh-Hans": "中医专家初步诊断与健康评估"
+            },
+            {
+                "ru": "Индивидуальная программа восстановления",
+                "en": "Personalized Recovery Program",
+                "zh-Hans": "个性化康复调理方案"
+            },
+            {
+                "ru": "Сопровождение врача традиционной китайской медицины",
+                "en": "Guidance and Support from Traditional Chinese Medicine Specialists",
+                "zh-Hans": "资深中医专家全程指导"
+            },
+            {
+                "ru": "Ежедневный доступ к термальным источникам",
+                "en": "Daily Access to Hot Springs",
+                "zh-Hans": "每日不限次温泉体验"
+            },
+            {
+                "ru": "Питание по рекомендациям врача",
+                "en": "Meals Based on Doctor's Recommendations",
+                "zh-Hans": "根据中医建议定制养生膳食"
+            },
+            {
+                "ru": "Оздоровительные чаи и травяные сборы",
+                "en": "Wellness Teas and Herbal Remedies",
+                "zh-Hans": "养生茶饮及草本调理"
+            },
+            {
+                "ru": "Моксотерапия и ароматерапия",
+                "en": "Moxibustion and Aromatherapy",
+                "zh-Hans": "艾灸疗法与芳香疗法"
+            },
+            {
+                "ru": "Звуковая терапия",
+                "en": "Sound Healing Therapy",
+                "zh-Hans": "音疗放松课程"
+            },
+            {
+                "ru": "Практики Тайцзицюань",
+                "en": "Tai Chi Practice",
+                "zh-Hans": "太极拳课程"
+            },
+            {
+                "ru": "Практики Бадуаньцзинь",
+                "en": "Baduanjin Wellness Exercises",
+                "zh-Hans": "八段锦养生课程"
+            }
+        ],
+        "excluded": [
+            {
+                "ru": "Международный перелет",
+                "en": "International Flights",
+                "zh-Hans": "国际往返机票"
+            },
+            {
+                "ru": "Виза в Китай",
+                "en": "China Visa",
+                "zh-Hans": "中国签证费用"
+            },
+            {
+                "ru": "Медицинская страховка",
+                "en": "Travel Medical Insurance",
+                "zh-Hans": "旅行医疗保险"
+            },
+            {
+                "ru": "Личные расходы",
+                "en": "Personal Expenses",
+                "zh-Hans": "个人消费"
+            },
+            {
+                "ru": "Дополнительные экскурсии по желанию",
+                "en": "Optional Excursions and Activities",
+                "zh-Hans": "自选活动及额外观光项目"
+            }
+        ],
+        "treatments": [
+            {
+                "title": {
+                    "ru": "Пульсовая диагностика",
+                    "en": "Pulse Diagnosis",
+                    "zh-Hans": "中医脉诊"
+                },
+                "description": {
+                    "ru": "Позволяет оценить состояние внутренних органов, баланс энергий и общее состояние организма. На основе результатов врач формирует индивидуальную программу восстановления.",
+                    "en": "A traditional diagnostic method used to evaluate organ function, energy balance, and overall health. Based on the results, the doctor develops a personalized recovery plan.",
+                    "zh-Hans": "通过中医脉诊评估脏腑功能、气血平衡及整体健康状况，并据此制定个性化康养方案。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Акупунктура и рефлексотерапия",
+                    "en": "Acupuncture and Reflexology",
+                    "zh-Hans": "针灸与反射疗法"
+                },
+                "description": {
+                    "ru": "Один из самых древних методов восточной медицины, способствующий улучшению кровообращения, снижению напряжения и восстановлению жизненных сил.",
+                    "en": "One of the oldest methods of Eastern medicine, helping improve circulation, reduce tension, and restore vitality.",
+                    "zh-Hans": "传统东方疗法，有助于促进血液循环、缓解压力并恢复身体活力。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Моксотерапия и ароматерапия",
+                    "en": "Moxibustion and Aromatherapy",
+                    "zh-Hans": "艾灸疗法与芳香疗法"
+                },
+                "description": {
+                    "ru": "Комплекс процедур для расслабления, восстановления энергии и гармонизации эмоционального состояния.",
+                    "en": "A combination of therapies designed to promote relaxation, restore energy, and improve emotional well-being.",
+                    "zh-Hans": "结合艾灸与芳香疗法，帮助放松身心、恢复能量并改善情绪状态。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Практики восстановления организма",
+                    "en": "Traditional Wellness Practices",
+                    "zh-Hans": "传统养生课程"
+                },
+                "description": {
+                    "ru": "Традиционные методы, направленные на снижение стресса, укрепление здоровья и достижение внутренней гармонии.",
+                    "en": "Traditional wellness techniques focused on stress reduction, health improvement, and achieving inner balance.",
+                    "zh-Hans": "通过传统养生方法减轻压力、增强体质并促进身心平衡。"
+                }
+            }
+        ],
+        "dailySchedule": [
+            {
+                "time": "07:00 - 08:30",
+                "title": {
+                    "ru": "Консультации и лечебные процедуры",
+                    "en": "Consultations and Therapeutic Treatments",
+                    "zh-Hans": "健康咨询与康复治疗"
+                },
+                "description": {
+                    "ru": "Обследование состояния организма и назначенные процедуры.",
+                    "en": "Health assessments and personalized therapeutic treatments.",
+                    "zh-Hans": "进行健康评估并接受个性化康复治疗。"
+                }
+            },
+            {
+                "time": "07:30 - 09:00",
+                "title": {
+                    "ru": "Завтрак",
+                    "en": "Breakfast",
+                    "zh-Hans": "早餐"
+                },
+                "description": {
+                    "ru": "Шведский стол и блюда традиционной кухни юго-запада Китая.",
+                    "en": "Buffet breakfast featuring local specialties from Southwest China.",
+                    "zh-Hans": "享用自助早餐及中国西南地区特色美食。"
+                }
+            },
+            {
+                "time": "09:30 - 11:00",
+                "title": {
+                    "ru": "Оздоровительные практики",
+                    "en": "Wellness Practices",
+                    "zh-Hans": "养生课程"
+                },
+                "description": {
+                    "ru": "Традиционная китайская медицина, массажи и восточные техники восстановления.",
+                    "en": "Traditional Chinese Medicine therapies, massages, and recovery practices.",
+                    "zh-Hans": "体验中医调理、按摩及传统养生项目。"
+                }
+            },
+            {
+                "time": "11:00 - 12:00",
+                "title": {
+                    "ru": "Чайная церемония",
+                    "en": "Tea Ceremony",
+                    "zh-Hans": "茶道体验"
+                },
+                "description": {
+                    "ru": "Лечебные травы и традиции чаепития региона Юньнань.",
+                    "en": "Discover medicinal herbs and tea traditions of Yunnan Province.",
+                    "zh-Hans": "了解云南传统茶文化及养生草本知识。"
+                }
+            },
+            {
+                "time": "12:00 - 13:00",
+                "title": {
+                    "ru": "Оздоровительный обед",
+                    "en": "Wellness Lunch",
+                    "zh-Hans": "养生午餐"
+                },
+                "description": {
+                    "ru": "Питание по рекомендациям специалистов.",
+                    "en": "Nutritious meals prepared according to wellness recommendations.",
+                    "zh-Hans": "根据专家建议提供健康养生餐食。"
+                }
+            },
+            {
+                "time": "13:30 - 14:30",
+                "title": {
+                    "ru": "Экскурсии и отдых",
+                    "en": "Excursions and Leisure Time",
+                    "zh-Hans": "观光与休闲活动"
+                },
+                "description": {
+                    "ru": "Программы подбираются с учетом пожеланий участников.",
+                    "en": "Activities and excursions tailored to participants' preferences.",
+                    "zh-Hans": "根据参与者需求安排观光与休闲活动。"
+                }
+            },
+            {
+                "time": "18:00 - 19:00",
+                "title": {
+                    "ru": "Ужин",
+                    "en": "Dinner",
+                    "zh-Hans": "晚餐"
+                },
+                "description": {
+                    "ru": "Легкий вечерний прием пищи.",
+                    "en": "A light and balanced evening meal.",
+                    "zh-Hans": "享用轻松健康的晚餐。"
+                }
+            }
+        ],
+        "questions": [
+            {
+                "title": {
+                    "ru": "Нужен ли опыт занятий восточными практиками?",
+                    "en": "Do I Need Previous Experience with Eastern Practices?",
+                    "zh-Hans": "需要有东方养生课程经验吗？"
+                },
+                "description": {
+                    "ru": "Нет. Все занятия подходят как новичкам, так и участникам с опытом.",
+                    "en": "No. All activities are suitable for both beginners and experienced participants.",
+                    "zh-Hans": "不需要。所有课程均适合初学者和有经验的参与者。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Какая максимальная группа?",
+                    "en": "What Is the Maximum Group Size?",
+                    "zh-Hans": "团队最多多少人？"
+                },
+                "description": {
+                    "ru": "До 15 участников для сохранения комфортной атмосферы и индивидуального подхода.",
+                    "en": "Up to 15 participants to ensure a comfortable atmosphere and personalized attention.",
+                    "zh-Hans": "最多15人，以保证舒适的体验和个性化服务。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Подходит ли программа для восстановления после стресса?",
+                    "en": "Is This Program Suitable for Stress Recovery?",
+                    "zh-Hans": "该项目适合缓解压力和恢复身心吗？"
+                },
+                "description": {
+                    "ru": "Да. Программа ориентирована на восстановление физических и эмоциональных ресурсов организма.",
+                    "en": "Yes. The program is designed to restore both physical vitality and emotional well-being.",
+                    "zh-Hans": "是的。本项目旨在帮助恢复身体活力并改善心理状态。"
+                }
+            }
+        ]
     },
     {
-        "id": "2",
-        "slug": "great-wall-adventure",
+        "id": "tour-erhai-tcm-retreat",
+        "slug": "erhai-tcm-retreat",
         "destinationSlug": "beijing",
         "title": {
-            "en": "Great Wall Adventure",
-            "ru": "Приключение на Великой Китайской стене",
-            "zh-Hans": "长城探险之旅"
+            "ru": "Восстановление и отдых с традиционной китайской медициной",
+            "en": "Wellness and Recovery with Traditional Chinese Medicine",
+            "zh-Hans": "中医养生与康复之旅"
         },
+        "titleHeader": {
+            "ru": "12 дней восстановления на термальных источниках Эрхай",
+            "en": "12 Days of Recovery at the Erhai Hot Springs",
+            "zh-Hans": "洱海温泉12天康养之旅"
+        },
+        "tourHeader": {
+            "ru": "Консультации врача традиционной китайской медицины для индивидуальной работы и восстановления организма",
+            "en": "Consultations with a Traditional Chinese Medicine Doctor for Personalized Wellness and Recovery",
+            "zh-Hans": "由资深中医师提供个性化诊疗与康复调理服务"
+        },
+        "seoTitle": {
+            "en": "12-Day Traditional Chinese Medicine Wellness Tour in Yunnan",
+            "ru": "12-дневный оздоровительный тур традиционной китайской медицины в Юньнани",
+            "zh-Hans": "云南12天中医养生康复之旅"
+        },
+        "seoDescription": {
+            "en": "Join a 12-day wellness retreat in Yunnan with traditional Chinese medicine, hot springs, acupuncture, Tai Chi and personalized recovery programs.",
+            "ru": "12-дневная программа восстановления в Юньнани с традиционной китайской медициной, термальными источниками, акупунктурой и индивидуальной программой оздоровления.",
+            "zh-Hans": "体验云南12天中医养生之旅，包含温泉、针灸、太极和个性化康复计划。"
+        },
+        "seoKeywords": [
+            {
+                "en": "traditional chinese medicine"
+            },
+            {
+                "en": "wellness retreat china"
+            },
+            {
+                "en": "hot springs yunnan"
+            }
+        ],
         "country": {
-            "en": "China",
             "ru": "Китай",
+            "en": "China",
             "zh-Hans": "中国"
         },
         "city": {
-            "en": "Beijing",
-            "ru": "Пекин",
-            "zh-Hans": "北京"
+            "ru": "Эрюань",
+            "en": "Eryuan",
+            "zh-Hans": "洱源县"
         },
-        "video": "https://www.youtube.com/watch?v=xxxxx",
-        "videoThumb": "assets/images/destination/840x415.svg",
-        "image": "assets/images/blog/424x292.svg",
+        "region": {
+            "ru": "Дали-Бай",
+            "en": "Dali Bai Autonomous Prefecture",
+            "zh-Hans": "大理白族自治州"
+        },
+        "tags": [
+            {
+                "ru": "Традиционная китайская медицина",
+                "en": "Traditional Chinese Medicine",
+                "zh-Hans": "中医"
+            },
+            {
+                "ru": "Термальные источники",
+                "en": "Hot Springs",
+                "zh-Hans": "温泉"
+            },
+            {
+                "ru": "Оздоровительный тур",
+                "en": "Wellness Tour",
+                "zh-Hans": "康养之旅"
+            },
+            {
+                "ru": "Ретрит",
+                "en": "Retreat",
+                "zh-Hans": "养生营"
+            },
+            {
+                "ru": "Восстановление организма",
+                "en": "Body Recovery",
+                "zh-Hans": "身体调理"
+            },
+            {
+                "ru": "Wellness",
+                "en": "Wellness",
+                "zh-Hans": "健康养生"
+            }
+        ],
+        "coordinates": [
+            99.9493,
+            26.1148
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": {
+                    "ru": "Прибытие в Эрюань и знакомство с программой",
+                    "en": "Arrival in Eryuan and Program Introduction",
+                    "zh-Hans": "抵达洱源并了解康养计划"
+                },
+                "description": {
+                    "ru": "Встреча участников, размещение в спа-доме у подножья горы Цаншань, знакомство с врачами традиционной китайской медицины и программой восстановления. Вечерний отдых на термальных источниках.",
+                    "en": "Arrival and welcome meeting, accommodation at the wellness retreat near Cangshan Mountain, introduction to Traditional Chinese Medicine specialists and the recovery program. Evening relaxation at the hot springs.",
+                    "zh-Hans": "抵达后入住苍山脚下的温泉康养中心，与中医专家见面并了解康养计划。晚上体验天然温泉放松身心。"
+                }
+            },
+            {
+                "day": 2,
+                "title": {
+                    "ru": "Первичная диагностика",
+                    "en": "Initial Diagnosis",
+                    "zh-Hans": "初步健康诊断"
+                },
+                "description": {
+                    "ru": "Пульсовая диагностика, консультации специалистов и составление индивидуальной программы оздоровления. Первые лечебные процедуры и знакомство с практиками восстановления.",
+                    "en": "Pulse diagnosis, specialist consultations, and creation of a personalized wellness plan. Introduction to therapeutic treatments and recovery practices.",
+                    "zh-Hans": "进行脉诊和健康评估，与专家咨询并制定个性化康养方案，开始体验中医调理项目。"
+                }
+            },
+            {
+                "day": 3,
+                "title": {
+                    "ru": "Начало программы восстановления",
+                    "en": "Beginning of the Recovery Program",
+                    "zh-Hans": "康复计划正式开始"
+                },
+                "description": {
+                    "ru": "Индивидуальные процедуры, акупунктура, рефлексотерапия, чайная церемония и занятия Тайцзицюань.",
+                    "en": "Personalized treatments, acupuncture, reflexology, tea ceremony, and Tai Chi practice.",
+                    "zh-Hans": "开始个性化调理，包括针灸、反射疗法、茶道体验及太极练习。"
+                }
+            },
+            {
+                "day": 4,
+                "title": {
+                    "ru": "Термальные источники и восточные практики",
+                    "en": "Hot Springs and Eastern Practices",
+                    "zh-Hans": "温泉疗养与东方养生"
+                },
+                "description": {
+                    "ru": "Работа по индивидуальным программам восстановления, посещение термальных бассейнов и практики Бадуаньцзинь.",
+                    "en": "Personal recovery sessions, thermal pools, and Baduanjin wellness exercises.",
+                    "zh-Hans": "继续个性化调理，体验温泉疗养及八段锦养生功法。"
+                }
+            },
+            {
+                "day": 5,
+                "title": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海之旅"
+                },
+                "description": {
+                    "ru": "Экскурсия к озеру Эрхай — одному из самых живописных мест провинции Юньнань. Возвращение в комплекс и вечерние процедуры.",
+                    "en": "Excursion to Erhai Lake, one of Yunnan’s most scenic attractions, followed by evening wellness treatments.",
+                    "zh-Hans": "游览云南著名景点洱海，欣赏自然风光，晚上返回康养中心继续调理。"
+                }
+            },
+            {
+                "day": 6,
+                "title": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山体验"
+                },
+                "description": {
+                    "ru": "Поездка в горный район Цаншань, прогулки на свежем воздухе и восстановительные практики среди высокогорной природы.",
+                    "en": "Visit to Cangshan Mountain with scenic walks and wellness activities in the alpine environment.",
+                    "zh-Hans": "前往苍山地区，体验高山自然环境中的徒步与养生活动。"
+                }
+            },
+            {
+                "day": 7,
+                "title": {
+                    "ru": "День глубокого восстановления",
+                    "en": "Deep Recovery Day",
+                    "zh-Hans": "深度康复日"
+                },
+                "description": {
+                    "ru": "Комплекс лечебных процедур, моксотерапия, ароматерапия и работа с поющими чашами.",
+                    "en": "Comprehensive therapies including moxibustion, aromatherapy, and sound healing with singing bowls.",
+                    "zh-Hans": "体验艾灸、芳香疗法及颂钵音疗等深度康复项目。"
+                }
+            },
+            {
+                "day": 8,
+                "title": {
+                    "ru": "Храм Чуншэнсы",
+                    "en": "Chongsheng Temple",
+                    "zh-Hans": "崇圣寺三塔"
+                },
+                "description": {
+                    "ru": "Посещение знаменитого храмового комплекса Чуншэнсы и Трёх пагод — одного из символов региона Дали.",
+                    "en": "Visit to the famous Chongsheng Temple and the Three Pagodas, symbols of the Dali region.",
+                    "zh-Hans": "参观大理著名地标崇圣寺三塔，了解当地历史文化。"
+                }
+            },
+            {
+                "day": 9,
+                "title": {
+                    "ru": "Традиции Юньнани",
+                    "en": "Yunnan Traditions",
+                    "zh-Hans": "云南传统文化"
+                },
+                "description": {
+                    "ru": "Знакомство с культурой региона, чайными традициями и лечебными травами юго-запада Китая.",
+                    "en": "Explore local culture, tea traditions, and medicinal herbs of Southwest China.",
+                    "zh-Hans": "了解云南文化、茶文化以及中国西南地区传统草药知识。"
+                }
+            },
+            {
+                "day": 10,
+                "title": {
+                    "ru": "Закрепление результатов",
+                    "en": "Consolidating Results",
+                    "zh-Hans": "巩固康复成果"
+                },
+                "description": {
+                    "ru": "Продолжение персональной программы восстановления и повторная диагностика для оценки промежуточных результатов.",
+                    "en": "Continuation of personalized treatments and follow-up diagnosis to evaluate progress.",
+                    "zh-Hans": "继续个性化调理，并进行复查评估康复效果。"
+                }
+            },
+            {
+                "day": 11,
+                "title": {
+                    "ru": "Финальные процедуры",
+                    "en": "Final Treatments",
+                    "zh-Hans": "最终调理阶段"
+                },
+                "description": {
+                    "ru": "Завершающие консультации врачей, рекомендации по поддержанию здоровья после возвращения домой и свободное время для отдыха.",
+                    "en": "Final consultations, health maintenance recommendations, and free time for relaxation.",
+                    "zh-Hans": "完成最后阶段调理，获得健康建议并享受自由休闲时间。"
+                }
+            },
+            {
+                "day": 12,
+                "title": {
+                    "ru": "Завершение программы",
+                    "en": "Program Completion",
+                    "zh-Hans": "康养计划圆满结束"
+                },
+                "description": {
+                    "ru": "Подведение итогов оздоровительной программы, рекомендации специалистов и трансфер к месту отправления.",
+                    "en": "Summary of the wellness program, final recommendations, and transfer to the departure point.",
+                    "zh-Hans": "总结康养成果，获得专家建议并安排送站或送机服务。"
+                }
+            }
+        ],
+        "image": "assets/images/destination/312x380.svg",
         "images": [
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg",
@@ -69,75 +952,693 @@
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg"
         ],
-        "price": 349,
-        "currency": "USD",
-        "durationDays": 4,
-        "durationNights": 3,
-        "rating": 4.9,
-        "reviews": 198,
-        "featured": true
-    },
-    {
-        "id": "3",
-        "slug": "shanghai-city-break",
-        "destinationSlug": "shanghai",
-        "title": {
-            "en": "Shanghai City Break",
-            "ru": "Уикенд в Шанхае",
-            "zh-Hans": "上海城市之旅"
-        },
-        "country": {
-            "en": "China",
-            "ru": "Китай",
-            "zh-Hans": "中国"
-        },
-        "city": {
-            "en": "Shanghai",
-            "ru": "Шанхай",
-            "zh-Hans": "上海"
-        },
-        "video": "https://www.youtube.com/watch?v=xxxxx",
-        "videoThumb": "assets/images/destination/840x415.svg",
-        "image": "assets/images/blog/424x292.svg",
-        "images": [
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg"
-        ],
-        "price": 459,
-        "currency": "USD",
-        "durationDays": 5,
-        "durationNights": 4,
-        "rating": 4.9,
-        "reviews": 156,
+        "durationDays": 12,
+        "durationNights": 11,
+        "minGroupSize": 6,
+        "maxGroupSize": 15,
+        "featured": true,
         "popular": true,
-        "featured": true
+        "content": {
+            "ru": "Тур проходит на юго-западе Китая, в живописном регионе Дали-Бай, уезда Эрюань, на берегу озера Эрхай. В течение 12 дней участники проходят программу отдыха, восстановления и оздоровления под наблюдением специалистов традиционной китайской медицины. Проживание организовано в уютном спа-доме у подножья горы Цаншань. На территории комплекса расположены 24 термальных бассейна с богатым минеральным составом, способствующим расслаблению, восстановлению сил и поддержанию здоровья.",
+            "en": "This wellness journey takes place in Southwest China, in the scenic Dali Bai region of Eryuan County, on the shores of Erhai Lake. Over 12 days, participants follow a carefully designed program of relaxation, recovery, and rejuvenation under the guidance of experienced Traditional Chinese Medicine specialists. Accommodation is provided in a comfortable wellness retreat at the foot of Cangshan Mountain. The resort features 24 mineral-rich hot spring pools designed to promote relaxation, restore energy, and support overall well-being.",
+            "zh-Hans": "本次康养之旅位于中国西南部云南省大理地区洱源县的洱海湖畔。在为期12天的行程中，参与者将在资深中医专家的指导下体验休养、调理与康复项目。入住环境优雅的温泉康养中心，坐落于苍山脚下。园区内拥有24个富含矿物质的天然温泉池，有助于放松身心、恢复活力并促进整体健康。"
+        },
+        "contentSecond": {
+            "ru": "Каждому участнику проводится индивидуальная диагностика и формируется персональная программа восстановления. Помимо лечебных процедур гостей ждут чайные церемонии, оздоровительные практики, восточная терапия, экскурсии по историческим достопримечательностям и отдых среди высокогорной природы провинции Юньнань.",
+            "en": "Each participant receives a personalized health assessment and a customized recovery plan. In addition to therapeutic treatments, guests can enjoy traditional tea ceremonies, wellness practices, Eastern healing therapies, cultural excursions to historic landmarks, and peaceful relaxation in the stunning mountain landscapes of Yunnan Province.",
+            "zh-Hans": "每位参与者都将接受个性化健康评估，并制定专属康养方案。除中医调理项目外，游客还可体验茶道、养生课程、传统东方疗法，以及参观当地历史文化景点，在云南壮丽的高原自然风光中放松身心。"
+        },
+        "facts": [
+            {
+                "icon": "pi pi-map-marker",
+                "title": {
+                    "ru": "Регион",
+                    "en": "Location",
+                    "zh-Hans": "地区"
+                },
+                "value": {
+                    "ru": "Эрюань, Дали-Бай",
+                    "en": "Eryuan, Dali",
+                    "zh-Hans": "洱源 · 大理"
+                }
+            },
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Размер группы",
+                    "en": "Group Size",
+                    "zh-Hans": "团队规模"
+                },
+                "value": {
+                    "ru": "До 15 человек",
+                    "en": "Up to 15 Guests",
+                    "zh-Hans": "最多15人"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Продолжительность",
+                    "en": "Duration",
+                    "zh-Hans": "行程时长"
+                },
+                "value": {
+                    "ru": "12 дней / 11 ночей",
+                    "en": "12 Days / 11 Nights",
+                    "zh-Hans": "12天11晚"
+                }
+            },
+            {
+                "icon": "pi pi-heart",
+                "title": {
+                    "ru": "Формат",
+                    "en": "Program Type",
+                    "zh-Hans": "项目类型"
+                },
+                "value": {
+                    "ru": "Оздоровительный ретрит",
+                    "en": "Wellness Retreat",
+                    "zh-Hans": "康养之旅"
+                }
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "24 термальных бассейна на территории комплекса",
+                "en": "24 Hot Spring Pools Throughout the Resort",
+                "zh-Hans": "园区内拥有24个天然温泉池"
+            },
+            {
+                "ru": "Индивидуальная программа восстановления организма",
+                "en": "Personalized Recovery Program",
+                "zh-Hans": "个性化康复调理方案"
+            },
+            {
+                "ru": "Сопровождение врача традиционной китайской медицины",
+                "en": "Guidance from Traditional Chinese Medicine Specialists",
+                "zh-Hans": "资深中医专家全程指导"
+            },
+            {
+                "ru": "Проживание у подножья горы Цаншань",
+                "en": "Accommodation at the Foot of Cangshan Mountain",
+                "zh-Hans": "入住苍山脚下温泉康养中心"
+            },
+            {
+                "ru": "Практики Тайцзицюань и Бадуаньцзинь",
+                "en": "Tai Chi and Baduanjin Wellness Practices",
+                "zh-Hans": "太极拳与八段锦养生课程"
+            },
+            {
+                "ru": "Чайные церемонии и лечебные травы",
+                "en": "Tea Ceremonies and Medicinal Herbs",
+                "zh-Hans": "茶道体验与传统草药调理"
+            },
+            {
+                "ru": "Небольшая группа единомышленников",
+                "en": "Small Group Experience",
+                "zh-Hans": "精品小团深度体验"
+            },
+            {
+                "ru": "Гибкая программа под пожелания участников",
+                "en": "Flexible Program Tailored to Participants",
+                "zh-Hans": "根据需求灵活调整行程"
+            }
+        ],
+        "features": [
+            {
+                "ru": "24 термальных бассейна",
+                "en": "24 Hot Spring Pools",
+                "zh-Hans": "24个天然温泉池"
+            },
+            {
+                "ru": "Температура воды от 40 до 90°C",
+                "en": "Water Temperature from 40°C to 90°C",
+                "zh-Hans": "温泉水温40°C至90°C"
+            },
+            {
+                "ru": "Щелочной уровень pH 8.1",
+                "en": "Alkaline pH Level of 8.1",
+                "zh-Hans": "弱碱性水质（pH值8.1）"
+            },
+            {
+                "ru": "Кальций, магний и фториды в составе воды",
+                "en": "Rich in Calcium, Magnesium, and Fluorides",
+                "zh-Hans": "富含钙、镁和氟化物等矿物质"
+            },
+            {
+                "ru": "Высокогорная природа региона Дали",
+                "en": "Highland Nature of the Dali Region",
+                "zh-Hans": "大理高原自然风光"
+            },
+            {
+                "ru": "Мягкий климат юго-запада Китая",
+                "en": "Mild Climate of Southwest China",
+                "zh-Hans": "中国西南地区温和宜人的气候"
+            }
+        ],
+        "locations": [
+            {
+                "ru": "Озеро Эрхай",
+                "en": "Erhai Lake",
+                "zh-Hans": "洱海"
+            },
+            {
+                "ru": "Гора Цаншань",
+                "en": "Cangshan Mountain",
+                "zh-Hans": "苍山"
+            },
+            {
+                "ru": "Древний город Дали",
+                "en": "Dali Ancient Town",
+                "zh-Hans": "大理古城"
+            },
+            {
+                "ru": "Храм Чуншэнсы",
+                "en": "Chongsheng Temple",
+                "zh-Hans": "崇圣寺"
+            },
+            {
+                "ru": "Термальные источники Эрюань",
+                "en": "Eryuan Hot Springs",
+                "zh-Hans": "洱源温泉"
+            }
+        ],
+        "included": [
+            {
+                "ru": "Проживание в спа-доме у подножья горы Цаншань",
+                "en": "Accommodation at a Wellness Retreat at the Foot of Cangshan Mountain",
+                "zh-Hans": "入住苍山脚下温泉康养中心"
+            },
+            {
+                "ru": "Первичная диагностика врача традиционной китайской медицины",
+                "en": "Initial Consultation and Diagnosis by a Traditional Chinese Medicine Doctor",
+                "zh-Hans": "中医专家初步诊断与健康评估"
+            },
+            {
+                "ru": "Индивидуальная программа восстановления",
+                "en": "Personalized Recovery Program",
+                "zh-Hans": "个性化康复调理方案"
+            },
+            {
+                "ru": "Сопровождение врача традиционной китайской медицины",
+                "en": "Guidance and Support from Traditional Chinese Medicine Specialists",
+                "zh-Hans": "资深中医专家全程指导"
+            },
+            {
+                "ru": "Ежедневный доступ к термальным источникам",
+                "en": "Daily Access to Hot Springs",
+                "zh-Hans": "每日不限次温泉体验"
+            },
+            {
+                "ru": "Питание по рекомендациям врача",
+                "en": "Meals Based on Doctor's Recommendations",
+                "zh-Hans": "根据中医建议定制养生膳食"
+            },
+            {
+                "ru": "Оздоровительные чаи и травяные сборы",
+                "en": "Wellness Teas and Herbal Remedies",
+                "zh-Hans": "养生茶饮及草本调理"
+            },
+            {
+                "ru": "Моксотерапия и ароматерапия",
+                "en": "Moxibustion and Aromatherapy",
+                "zh-Hans": "艾灸疗法与芳香疗法"
+            },
+            {
+                "ru": "Звуковая терапия",
+                "en": "Sound Healing Therapy",
+                "zh-Hans": "音疗放松课程"
+            },
+            {
+                "ru": "Практики Тайцзицюань",
+                "en": "Tai Chi Practice",
+                "zh-Hans": "太极拳课程"
+            },
+            {
+                "ru": "Практики Бадуаньцзинь",
+                "en": "Baduanjin Wellness Exercises",
+                "zh-Hans": "八段锦养生课程"
+            }
+        ],
+        "excluded": [
+            {
+                "ru": "Международный перелет",
+                "en": "International Flights",
+                "zh-Hans": "国际往返机票"
+            },
+            {
+                "ru": "Виза в Китай",
+                "en": "China Visa",
+                "zh-Hans": "中国签证费用"
+            },
+            {
+                "ru": "Медицинская страховка",
+                "en": "Travel Medical Insurance",
+                "zh-Hans": "旅行医疗保险"
+            },
+            {
+                "ru": "Личные расходы",
+                "en": "Personal Expenses",
+                "zh-Hans": "个人消费"
+            },
+            {
+                "ru": "Дополнительные экскурсии по желанию",
+                "en": "Optional Excursions and Activities",
+                "zh-Hans": "自选活动及额外观光项目"
+            }
+        ],
+        "treatments": [
+            {
+                "title": {
+                    "ru": "Пульсовая диагностика",
+                    "en": "Pulse Diagnosis",
+                    "zh-Hans": "中医脉诊"
+                },
+                "description": {
+                    "ru": "Позволяет оценить состояние внутренних органов, баланс энергий и общее состояние организма. На основе результатов врач формирует индивидуальную программу восстановления.",
+                    "en": "A traditional diagnostic method used to evaluate organ function, energy balance, and overall health. Based on the results, the doctor develops a personalized recovery plan.",
+                    "zh-Hans": "通过中医脉诊评估脏腑功能、气血平衡及整体健康状况，并据此制定个性化康养方案。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Акупунктура и рефлексотерапия",
+                    "en": "Acupuncture and Reflexology",
+                    "zh-Hans": "针灸与反射疗法"
+                },
+                "description": {
+                    "ru": "Один из самых древних методов восточной медицины, способствующий улучшению кровообращения, снижению напряжения и восстановлению жизненных сил.",
+                    "en": "One of the oldest methods of Eastern medicine, helping improve circulation, reduce tension, and restore vitality.",
+                    "zh-Hans": "传统东方疗法，有助于促进血液循环、缓解压力并恢复身体活力。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Моксотерапия и ароматерапия",
+                    "en": "Moxibustion and Aromatherapy",
+                    "zh-Hans": "艾灸疗法与芳香疗法"
+                },
+                "description": {
+                    "ru": "Комплекс процедур для расслабления, восстановления энергии и гармонизации эмоционального состояния.",
+                    "en": "A combination of therapies designed to promote relaxation, restore energy, and improve emotional well-being.",
+                    "zh-Hans": "结合艾灸与芳香疗法，帮助放松身心、恢复能量并改善情绪状态。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Практики восстановления организма",
+                    "en": "Traditional Wellness Practices",
+                    "zh-Hans": "传统养生课程"
+                },
+                "description": {
+                    "ru": "Традиционные методы, направленные на снижение стресса, укрепление здоровья и достижение внутренней гармонии.",
+                    "en": "Traditional wellness techniques focused on stress reduction, health improvement, and achieving inner balance.",
+                    "zh-Hans": "通过传统养生方法减轻压力、增强体质并促进身心平衡。"
+                }
+            }
+        ],
+        "dailySchedule": [
+            {
+                "time": "07:00 - 08:30",
+                "title": {
+                    "ru": "Консультации и лечебные процедуры",
+                    "en": "Consultations and Therapeutic Treatments",
+                    "zh-Hans": "健康咨询与康复治疗"
+                },
+                "description": {
+                    "ru": "Обследование состояния организма и назначенные процедуры.",
+                    "en": "Health assessments and personalized therapeutic treatments.",
+                    "zh-Hans": "进行健康评估并接受个性化康复治疗。"
+                }
+            },
+            {
+                "time": "07:30 - 09:00",
+                "title": {
+                    "ru": "Завтрак",
+                    "en": "Breakfast",
+                    "zh-Hans": "早餐"
+                },
+                "description": {
+                    "ru": "Шведский стол и блюда традиционной кухни юго-запада Китая.",
+                    "en": "Buffet breakfast featuring local specialties from Southwest China.",
+                    "zh-Hans": "享用自助早餐及中国西南地区特色美食。"
+                }
+            },
+            {
+                "time": "09:30 - 11:00",
+                "title": {
+                    "ru": "Оздоровительные практики",
+                    "en": "Wellness Practices",
+                    "zh-Hans": "养生课程"
+                },
+                "description": {
+                    "ru": "Традиционная китайская медицина, массажи и восточные техники восстановления.",
+                    "en": "Traditional Chinese Medicine therapies, massages, and recovery practices.",
+                    "zh-Hans": "体验中医调理、按摩及传统养生项目。"
+                }
+            },
+            {
+                "time": "11:00 - 12:00",
+                "title": {
+                    "ru": "Чайная церемония",
+                    "en": "Tea Ceremony",
+                    "zh-Hans": "茶道体验"
+                },
+                "description": {
+                    "ru": "Лечебные травы и традиции чаепития региона Юньнань.",
+                    "en": "Discover medicinal herbs and tea traditions of Yunnan Province.",
+                    "zh-Hans": "了解云南传统茶文化及养生草本知识。"
+                }
+            },
+            {
+                "time": "12:00 - 13:00",
+                "title": {
+                    "ru": "Оздоровительный обед",
+                    "en": "Wellness Lunch",
+                    "zh-Hans": "养生午餐"
+                },
+                "description": {
+                    "ru": "Питание по рекомендациям специалистов.",
+                    "en": "Nutritious meals prepared according to wellness recommendations.",
+                    "zh-Hans": "根据专家建议提供健康养生餐食。"
+                }
+            },
+            {
+                "time": "13:30 - 14:30",
+                "title": {
+                    "ru": "Экскурсии и отдых",
+                    "en": "Excursions and Leisure Time",
+                    "zh-Hans": "观光与休闲活动"
+                },
+                "description": {
+                    "ru": "Программы подбираются с учетом пожеланий участников.",
+                    "en": "Activities and excursions tailored to participants' preferences.",
+                    "zh-Hans": "根据参与者需求安排观光与休闲活动。"
+                }
+            },
+            {
+                "time": "18:00 - 19:00",
+                "title": {
+                    "ru": "Ужин",
+                    "en": "Dinner",
+                    "zh-Hans": "晚餐"
+                },
+                "description": {
+                    "ru": "Легкий вечерний прием пищи.",
+                    "en": "A light and balanced evening meal.",
+                    "zh-Hans": "享用轻松健康的晚餐。"
+                }
+            }
+        ],
+        "questions": [
+            {
+                "title": {
+                    "ru": "Нужен ли опыт занятий восточными практиками?",
+                    "en": "Do I Need Previous Experience with Eastern Practices?",
+                    "zh-Hans": "需要有东方养生课程经验吗？"
+                },
+                "description": {
+                    "ru": "Нет. Все занятия подходят как новичкам, так и участникам с опытом.",
+                    "en": "No. All activities are suitable for both beginners and experienced participants.",
+                    "zh-Hans": "不需要。所有课程均适合初学者和有经验的参与者。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Какая максимальная группа?",
+                    "en": "What Is the Maximum Group Size?",
+                    "zh-Hans": "团队最多多少人？"
+                },
+                "description": {
+                    "ru": "До 15 участников для сохранения комфортной атмосферы и индивидуального подхода.",
+                    "en": "Up to 15 participants to ensure a comfortable atmosphere and personalized attention.",
+                    "zh-Hans": "最多15人，以保证舒适的体验和个性化服务。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Подходит ли программа для восстановления после стресса?",
+                    "en": "Is This Program Suitable for Stress Recovery?",
+                    "zh-Hans": "该项目适合缓解压力和恢复身心吗？"
+                },
+                "description": {
+                    "ru": "Да. Программа ориентирована на восстановление физических и эмоциональных ресурсов организма.",
+                    "en": "Yes. The program is designed to restore both physical vitality and emotional well-being.",
+                    "zh-Hans": "是的。本项目旨在帮助恢复身体活力并改善心理状态。"
+                }
+            }
+        ]
     },
     {
-        "id": "4",
-        "slug": "xian-terracotta-warriors",
-        "destinationSlug": "xian",
+        "id": "tour-erhai-tcm-retreat",
+        "slug": "erhai-tcm-retreat",
+        "destinationSlug": "beijing",
         "title": {
-            "en": "Xi'an Terracotta Warriors",
-            "ru": "Терракотовая армия Сианя",
-            "zh-Hans": "西安兵马俑之旅"
+            "ru": "Восстановление и отдых с традиционной китайской медициной",
+            "en": "Wellness and Recovery with Traditional Chinese Medicine",
+            "zh-Hans": "中医养生与康复之旅"
         },
+        "titleHeader": {
+            "ru": "12 дней восстановления на термальных источниках Эрхай",
+            "en": "12 Days of Recovery at the Erhai Hot Springs",
+            "zh-Hans": "洱海温泉12天康养之旅"
+        },
+        "tourHeader": {
+            "ru": "Консультации врача традиционной китайской медицины для индивидуальной работы и восстановления организма",
+            "en": "Consultations with a Traditional Chinese Medicine Doctor for Personalized Wellness and Recovery",
+            "zh-Hans": "由资深中医师提供个性化诊疗与康复调理服务"
+        },
+        "seoTitle": {
+            "en": "12-Day Traditional Chinese Medicine Wellness Tour in Yunnan",
+            "ru": "12-дневный оздоровительный тур традиционной китайской медицины в Юньнани",
+            "zh-Hans": "云南12天中医养生康复之旅"
+        },
+        "seoDescription": {
+            "en": "Join a 12-day wellness retreat in Yunnan with traditional Chinese medicine, hot springs, acupuncture, Tai Chi and personalized recovery programs.",
+            "ru": "12-дневная программа восстановления в Юньнани с традиционной китайской медициной, термальными источниками, акупунктурой и индивидуальной программой оздоровления.",
+            "zh-Hans": "体验云南12天中医养生之旅，包含温泉、针灸、太极和个性化康复计划。"
+        },
+        "seoKeywords": [
+            {
+                "en": "traditional chinese medicine"
+            },
+            {
+                "en": "wellness retreat china"
+            },
+            {
+                "en": "hot springs yunnan"
+            }
+        ],
         "country": {
-            "en": "China",
             "ru": "Китай",
+            "en": "China",
             "zh-Hans": "中国"
         },
         "city": {
-            "en": "Xi'an",
-            "ru": "Сиань",
-            "zh-Hans": "西安"
+            "ru": "Эрюань",
+            "en": "Eryuan",
+            "zh-Hans": "洱源县"
         },
-        "video": "https://www.youtube.com/watch?v=xxxxx",
-        "videoThumb": "assets/images/destination/840x415.svg",
-        "image": "assets/images/blog/424x292.svg",
+        "region": {
+            "ru": "Дали-Бай",
+            "en": "Dali Bai Autonomous Prefecture",
+            "zh-Hans": "大理白族自治州"
+        },
+        "tags": [
+            {
+                "ru": "Традиционная китайская медицина",
+                "en": "Traditional Chinese Medicine",
+                "zh-Hans": "中医"
+            },
+            {
+                "ru": "Термальные источники",
+                "en": "Hot Springs",
+                "zh-Hans": "温泉"
+            },
+            {
+                "ru": "Оздоровительный тур",
+                "en": "Wellness Tour",
+                "zh-Hans": "康养之旅"
+            },
+            {
+                "ru": "Ретрит",
+                "en": "Retreat",
+                "zh-Hans": "养生营"
+            },
+            {
+                "ru": "Восстановление организма",
+                "en": "Body Recovery",
+                "zh-Hans": "身体调理"
+            },
+            {
+                "ru": "Wellness",
+                "en": "Wellness",
+                "zh-Hans": "健康养生"
+            }
+        ],
+        "coordinates": [
+            99.9493,
+            26.1148
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": {
+                    "ru": "Прибытие в Эрюань и знакомство с программой",
+                    "en": "Arrival in Eryuan and Program Introduction",
+                    "zh-Hans": "抵达洱源并了解康养计划"
+                },
+                "description": {
+                    "ru": "Встреча участников, размещение в спа-доме у подножья горы Цаншань, знакомство с врачами традиционной китайской медицины и программой восстановления. Вечерний отдых на термальных источниках.",
+                    "en": "Arrival and welcome meeting, accommodation at the wellness retreat near Cangshan Mountain, introduction to Traditional Chinese Medicine specialists and the recovery program. Evening relaxation at the hot springs.",
+                    "zh-Hans": "抵达后入住苍山脚下的温泉康养中心，与中医专家见面并了解康养计划。晚上体验天然温泉放松身心。"
+                }
+            },
+            {
+                "day": 2,
+                "title": {
+                    "ru": "Первичная диагностика",
+                    "en": "Initial Diagnosis",
+                    "zh-Hans": "初步健康诊断"
+                },
+                "description": {
+                    "ru": "Пульсовая диагностика, консультации специалистов и составление индивидуальной программы оздоровления. Первые лечебные процедуры и знакомство с практиками восстановления.",
+                    "en": "Pulse diagnosis, specialist consultations, and creation of a personalized wellness plan. Introduction to therapeutic treatments and recovery practices.",
+                    "zh-Hans": "进行脉诊和健康评估，与专家咨询并制定个性化康养方案，开始体验中医调理项目。"
+                }
+            },
+            {
+                "day": 3,
+                "title": {
+                    "ru": "Начало программы восстановления",
+                    "en": "Beginning of the Recovery Program",
+                    "zh-Hans": "康复计划正式开始"
+                },
+                "description": {
+                    "ru": "Индивидуальные процедуры, акупунктура, рефлексотерапия, чайная церемония и занятия Тайцзицюань.",
+                    "en": "Personalized treatments, acupuncture, reflexology, tea ceremony, and Tai Chi practice.",
+                    "zh-Hans": "开始个性化调理，包括针灸、反射疗法、茶道体验及太极练习。"
+                }
+            },
+            {
+                "day": 4,
+                "title": {
+                    "ru": "Термальные источники и восточные практики",
+                    "en": "Hot Springs and Eastern Practices",
+                    "zh-Hans": "温泉疗养与东方养生"
+                },
+                "description": {
+                    "ru": "Работа по индивидуальным программам восстановления, посещение термальных бассейнов и практики Бадуаньцзинь.",
+                    "en": "Personal recovery sessions, thermal pools, and Baduanjin wellness exercises.",
+                    "zh-Hans": "继续个性化调理，体验温泉疗养及八段锦养生功法。"
+                }
+            },
+            {
+                "day": 5,
+                "title": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海之旅"
+                },
+                "description": {
+                    "ru": "Экскурсия к озеру Эрхай — одному из самых живописных мест провинции Юньнань. Возвращение в комплекс и вечерние процедуры.",
+                    "en": "Excursion to Erhai Lake, one of Yunnan’s most scenic attractions, followed by evening wellness treatments.",
+                    "zh-Hans": "游览云南著名景点洱海，欣赏自然风光，晚上返回康养中心继续调理。"
+                }
+            },
+            {
+                "day": 6,
+                "title": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山体验"
+                },
+                "description": {
+                    "ru": "Поездка в горный район Цаншань, прогулки на свежем воздухе и восстановительные практики среди высокогорной природы.",
+                    "en": "Visit to Cangshan Mountain with scenic walks and wellness activities in the alpine environment.",
+                    "zh-Hans": "前往苍山地区，体验高山自然环境中的徒步与养生活动。"
+                }
+            },
+            {
+                "day": 7,
+                "title": {
+                    "ru": "День глубокого восстановления",
+                    "en": "Deep Recovery Day",
+                    "zh-Hans": "深度康复日"
+                },
+                "description": {
+                    "ru": "Комплекс лечебных процедур, моксотерапия, ароматерапия и работа с поющими чашами.",
+                    "en": "Comprehensive therapies including moxibustion, aromatherapy, and sound healing with singing bowls.",
+                    "zh-Hans": "体验艾灸、芳香疗法及颂钵音疗等深度康复项目。"
+                }
+            },
+            {
+                "day": 8,
+                "title": {
+                    "ru": "Храм Чуншэнсы",
+                    "en": "Chongsheng Temple",
+                    "zh-Hans": "崇圣寺三塔"
+                },
+                "description": {
+                    "ru": "Посещение знаменитого храмового комплекса Чуншэнсы и Трёх пагод — одного из символов региона Дали.",
+                    "en": "Visit to the famous Chongsheng Temple and the Three Pagodas, symbols of the Dali region.",
+                    "zh-Hans": "参观大理著名地标崇圣寺三塔，了解当地历史文化。"
+                }
+            },
+            {
+                "day": 9,
+                "title": {
+                    "ru": "Традиции Юньнани",
+                    "en": "Yunnan Traditions",
+                    "zh-Hans": "云南传统文化"
+                },
+                "description": {
+                    "ru": "Знакомство с культурой региона, чайными традициями и лечебными травами юго-запада Китая.",
+                    "en": "Explore local culture, tea traditions, and medicinal herbs of Southwest China.",
+                    "zh-Hans": "了解云南文化、茶文化以及中国西南地区传统草药知识。"
+                }
+            },
+            {
+                "day": 10,
+                "title": {
+                    "ru": "Закрепление результатов",
+                    "en": "Consolidating Results",
+                    "zh-Hans": "巩固康复成果"
+                },
+                "description": {
+                    "ru": "Продолжение персональной программы восстановления и повторная диагностика для оценки промежуточных результатов.",
+                    "en": "Continuation of personalized treatments and follow-up diagnosis to evaluate progress.",
+                    "zh-Hans": "继续个性化调理，并进行复查评估康复效果。"
+                }
+            },
+            {
+                "day": 11,
+                "title": {
+                    "ru": "Финальные процедуры",
+                    "en": "Final Treatments",
+                    "zh-Hans": "最终调理阶段"
+                },
+                "description": {
+                    "ru": "Завершающие консультации врачей, рекомендации по поддержанию здоровья после возвращения домой и свободное время для отдыха.",
+                    "en": "Final consultations, health maintenance recommendations, and free time for relaxation.",
+                    "zh-Hans": "完成最后阶段调理，获得健康建议并享受自由休闲时间。"
+                }
+            },
+            {
+                "day": 12,
+                "title": {
+                    "ru": "Завершение программы",
+                    "en": "Program Completion",
+                    "zh-Hans": "康养计划圆满结束"
+                },
+                "description": {
+                    "ru": "Подведение итогов оздоровительной программы, рекомендации специалистов и трансфер к месту отправления.",
+                    "en": "Summary of the wellness program, final recommendations, and transfer to the departure point.",
+                    "zh-Hans": "总结康养成果，获得专家建议并安排送站或送机服务。"
+                }
+            }
+        ],
+        "image": "assets/images/destination/312x380.svg",
         "images": [
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg",
@@ -146,36 +1647,693 @@
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg"
         ],
-        "price": 299,
-        "currency": "USD",
-        "durationDays": 4,
-        "durationNights": 3,
-        "rating": 4.8,
-        "reviews": 121,
-        "featured": true
+        "durationDays": 12,
+        "durationNights": 11,
+        "minGroupSize": 6,
+        "maxGroupSize": 15,
+        "featured": true,
+        "popular": true,
+        "content": {
+            "ru": "Тур проходит на юго-западе Китая, в живописном регионе Дали-Бай, уезда Эрюань, на берегу озера Эрхай. В течение 12 дней участники проходят программу отдыха, восстановления и оздоровления под наблюдением специалистов традиционной китайской медицины. Проживание организовано в уютном спа-доме у подножья горы Цаншань. На территории комплекса расположены 24 термальных бассейна с богатым минеральным составом, способствующим расслаблению, восстановлению сил и поддержанию здоровья.",
+            "en": "This wellness journey takes place in Southwest China, in the scenic Dali Bai region of Eryuan County, on the shores of Erhai Lake. Over 12 days, participants follow a carefully designed program of relaxation, recovery, and rejuvenation under the guidance of experienced Traditional Chinese Medicine specialists. Accommodation is provided in a comfortable wellness retreat at the foot of Cangshan Mountain. The resort features 24 mineral-rich hot spring pools designed to promote relaxation, restore energy, and support overall well-being.",
+            "zh-Hans": "本次康养之旅位于中国西南部云南省大理地区洱源县的洱海湖畔。在为期12天的行程中，参与者将在资深中医专家的指导下体验休养、调理与康复项目。入住环境优雅的温泉康养中心，坐落于苍山脚下。园区内拥有24个富含矿物质的天然温泉池，有助于放松身心、恢复活力并促进整体健康。"
+        },
+        "contentSecond": {
+            "ru": "Каждому участнику проводится индивидуальная диагностика и формируется персональная программа восстановления. Помимо лечебных процедур гостей ждут чайные церемонии, оздоровительные практики, восточная терапия, экскурсии по историческим достопримечательностям и отдых среди высокогорной природы провинции Юньнань.",
+            "en": "Each participant receives a personalized health assessment and a customized recovery plan. In addition to therapeutic treatments, guests can enjoy traditional tea ceremonies, wellness practices, Eastern healing therapies, cultural excursions to historic landmarks, and peaceful relaxation in the stunning mountain landscapes of Yunnan Province.",
+            "zh-Hans": "每位参与者都将接受个性化健康评估，并制定专属康养方案。除中医调理项目外，游客还可体验茶道、养生课程、传统东方疗法，以及参观当地历史文化景点，在云南壮丽的高原自然风光中放松身心。"
+        },
+        "facts": [
+            {
+                "icon": "pi pi-map-marker",
+                "title": {
+                    "ru": "Регион",
+                    "en": "Location",
+                    "zh-Hans": "地区"
+                },
+                "value": {
+                    "ru": "Эрюань, Дали-Бай",
+                    "en": "Eryuan, Dali",
+                    "zh-Hans": "洱源 · 大理"
+                }
+            },
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Размер группы",
+                    "en": "Group Size",
+                    "zh-Hans": "团队规模"
+                },
+                "value": {
+                    "ru": "До 15 человек",
+                    "en": "Up to 15 Guests",
+                    "zh-Hans": "最多15人"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Продолжительность",
+                    "en": "Duration",
+                    "zh-Hans": "行程时长"
+                },
+                "value": {
+                    "ru": "12 дней / 11 ночей",
+                    "en": "12 Days / 11 Nights",
+                    "zh-Hans": "12天11晚"
+                }
+            },
+            {
+                "icon": "pi pi-heart",
+                "title": {
+                    "ru": "Формат",
+                    "en": "Program Type",
+                    "zh-Hans": "项目类型"
+                },
+                "value": {
+                    "ru": "Оздоровительный ретрит",
+                    "en": "Wellness Retreat",
+                    "zh-Hans": "康养之旅"
+                }
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "24 термальных бассейна на территории комплекса",
+                "en": "24 Hot Spring Pools Throughout the Resort",
+                "zh-Hans": "园区内拥有24个天然温泉池"
+            },
+            {
+                "ru": "Индивидуальная программа восстановления организма",
+                "en": "Personalized Recovery Program",
+                "zh-Hans": "个性化康复调理方案"
+            },
+            {
+                "ru": "Сопровождение врача традиционной китайской медицины",
+                "en": "Guidance from Traditional Chinese Medicine Specialists",
+                "zh-Hans": "资深中医专家全程指导"
+            },
+            {
+                "ru": "Проживание у подножья горы Цаншань",
+                "en": "Accommodation at the Foot of Cangshan Mountain",
+                "zh-Hans": "入住苍山脚下温泉康养中心"
+            },
+            {
+                "ru": "Практики Тайцзицюань и Бадуаньцзинь",
+                "en": "Tai Chi and Baduanjin Wellness Practices",
+                "zh-Hans": "太极拳与八段锦养生课程"
+            },
+            {
+                "ru": "Чайные церемонии и лечебные травы",
+                "en": "Tea Ceremonies and Medicinal Herbs",
+                "zh-Hans": "茶道体验与传统草药调理"
+            },
+            {
+                "ru": "Небольшая группа единомышленников",
+                "en": "Small Group Experience",
+                "zh-Hans": "精品小团深度体验"
+            },
+            {
+                "ru": "Гибкая программа под пожелания участников",
+                "en": "Flexible Program Tailored to Participants",
+                "zh-Hans": "根据需求灵活调整行程"
+            }
+        ],
+        "features": [
+            {
+                "ru": "24 термальных бассейна",
+                "en": "24 Hot Spring Pools",
+                "zh-Hans": "24个天然温泉池"
+            },
+            {
+                "ru": "Температура воды от 40 до 90°C",
+                "en": "Water Temperature from 40°C to 90°C",
+                "zh-Hans": "温泉水温40°C至90°C"
+            },
+            {
+                "ru": "Щелочной уровень pH 8.1",
+                "en": "Alkaline pH Level of 8.1",
+                "zh-Hans": "弱碱性水质（pH值8.1）"
+            },
+            {
+                "ru": "Кальций, магний и фториды в составе воды",
+                "en": "Rich in Calcium, Magnesium, and Fluorides",
+                "zh-Hans": "富含钙、镁和氟化物等矿物质"
+            },
+            {
+                "ru": "Высокогорная природа региона Дали",
+                "en": "Highland Nature of the Dali Region",
+                "zh-Hans": "大理高原自然风光"
+            },
+            {
+                "ru": "Мягкий климат юго-запада Китая",
+                "en": "Mild Climate of Southwest China",
+                "zh-Hans": "中国西南地区温和宜人的气候"
+            }
+        ],
+        "locations": [
+            {
+                "ru": "Озеро Эрхай",
+                "en": "Erhai Lake",
+                "zh-Hans": "洱海"
+            },
+            {
+                "ru": "Гора Цаншань",
+                "en": "Cangshan Mountain",
+                "zh-Hans": "苍山"
+            },
+            {
+                "ru": "Древний город Дали",
+                "en": "Dali Ancient Town",
+                "zh-Hans": "大理古城"
+            },
+            {
+                "ru": "Храм Чуншэнсы",
+                "en": "Chongsheng Temple",
+                "zh-Hans": "崇圣寺"
+            },
+            {
+                "ru": "Термальные источники Эрюань",
+                "en": "Eryuan Hot Springs",
+                "zh-Hans": "洱源温泉"
+            }
+        ],
+        "included": [
+            {
+                "ru": "Проживание в спа-доме у подножья горы Цаншань",
+                "en": "Accommodation at a Wellness Retreat at the Foot of Cangshan Mountain",
+                "zh-Hans": "入住苍山脚下温泉康养中心"
+            },
+            {
+                "ru": "Первичная диагностика врача традиционной китайской медицины",
+                "en": "Initial Consultation and Diagnosis by a Traditional Chinese Medicine Doctor",
+                "zh-Hans": "中医专家初步诊断与健康评估"
+            },
+            {
+                "ru": "Индивидуальная программа восстановления",
+                "en": "Personalized Recovery Program",
+                "zh-Hans": "个性化康复调理方案"
+            },
+            {
+                "ru": "Сопровождение врача традиционной китайской медицины",
+                "en": "Guidance and Support from Traditional Chinese Medicine Specialists",
+                "zh-Hans": "资深中医专家全程指导"
+            },
+            {
+                "ru": "Ежедневный доступ к термальным источникам",
+                "en": "Daily Access to Hot Springs",
+                "zh-Hans": "每日不限次温泉体验"
+            },
+            {
+                "ru": "Питание по рекомендациям врача",
+                "en": "Meals Based on Doctor's Recommendations",
+                "zh-Hans": "根据中医建议定制养生膳食"
+            },
+            {
+                "ru": "Оздоровительные чаи и травяные сборы",
+                "en": "Wellness Teas and Herbal Remedies",
+                "zh-Hans": "养生茶饮及草本调理"
+            },
+            {
+                "ru": "Моксотерапия и ароматерапия",
+                "en": "Moxibustion and Aromatherapy",
+                "zh-Hans": "艾灸疗法与芳香疗法"
+            },
+            {
+                "ru": "Звуковая терапия",
+                "en": "Sound Healing Therapy",
+                "zh-Hans": "音疗放松课程"
+            },
+            {
+                "ru": "Практики Тайцзицюань",
+                "en": "Tai Chi Practice",
+                "zh-Hans": "太极拳课程"
+            },
+            {
+                "ru": "Практики Бадуаньцзинь",
+                "en": "Baduanjin Wellness Exercises",
+                "zh-Hans": "八段锦养生课程"
+            }
+        ],
+        "excluded": [
+            {
+                "ru": "Международный перелет",
+                "en": "International Flights",
+                "zh-Hans": "国际往返机票"
+            },
+            {
+                "ru": "Виза в Китай",
+                "en": "China Visa",
+                "zh-Hans": "中国签证费用"
+            },
+            {
+                "ru": "Медицинская страховка",
+                "en": "Travel Medical Insurance",
+                "zh-Hans": "旅行医疗保险"
+            },
+            {
+                "ru": "Личные расходы",
+                "en": "Personal Expenses",
+                "zh-Hans": "个人消费"
+            },
+            {
+                "ru": "Дополнительные экскурсии по желанию",
+                "en": "Optional Excursions and Activities",
+                "zh-Hans": "自选活动及额外观光项目"
+            }
+        ],
+        "treatments": [
+            {
+                "title": {
+                    "ru": "Пульсовая диагностика",
+                    "en": "Pulse Diagnosis",
+                    "zh-Hans": "中医脉诊"
+                },
+                "description": {
+                    "ru": "Позволяет оценить состояние внутренних органов, баланс энергий и общее состояние организма. На основе результатов врач формирует индивидуальную программу восстановления.",
+                    "en": "A traditional diagnostic method used to evaluate organ function, energy balance, and overall health. Based on the results, the doctor develops a personalized recovery plan.",
+                    "zh-Hans": "通过中医脉诊评估脏腑功能、气血平衡及整体健康状况，并据此制定个性化康养方案。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Акупунктура и рефлексотерапия",
+                    "en": "Acupuncture and Reflexology",
+                    "zh-Hans": "针灸与反射疗法"
+                },
+                "description": {
+                    "ru": "Один из самых древних методов восточной медицины, способствующий улучшению кровообращения, снижению напряжения и восстановлению жизненных сил.",
+                    "en": "One of the oldest methods of Eastern medicine, helping improve circulation, reduce tension, and restore vitality.",
+                    "zh-Hans": "传统东方疗法，有助于促进血液循环、缓解压力并恢复身体活力。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Моксотерапия и ароматерапия",
+                    "en": "Moxibustion and Aromatherapy",
+                    "zh-Hans": "艾灸疗法与芳香疗法"
+                },
+                "description": {
+                    "ru": "Комплекс процедур для расслабления, восстановления энергии и гармонизации эмоционального состояния.",
+                    "en": "A combination of therapies designed to promote relaxation, restore energy, and improve emotional well-being.",
+                    "zh-Hans": "结合艾灸与芳香疗法，帮助放松身心、恢复能量并改善情绪状态。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Практики восстановления организма",
+                    "en": "Traditional Wellness Practices",
+                    "zh-Hans": "传统养生课程"
+                },
+                "description": {
+                    "ru": "Традиционные методы, направленные на снижение стресса, укрепление здоровья и достижение внутренней гармонии.",
+                    "en": "Traditional wellness techniques focused on stress reduction, health improvement, and achieving inner balance.",
+                    "zh-Hans": "通过传统养生方法减轻压力、增强体质并促进身心平衡。"
+                }
+            }
+        ],
+        "dailySchedule": [
+            {
+                "time": "07:00 - 08:30",
+                "title": {
+                    "ru": "Консультации и лечебные процедуры",
+                    "en": "Consultations and Therapeutic Treatments",
+                    "zh-Hans": "健康咨询与康复治疗"
+                },
+                "description": {
+                    "ru": "Обследование состояния организма и назначенные процедуры.",
+                    "en": "Health assessments and personalized therapeutic treatments.",
+                    "zh-Hans": "进行健康评估并接受个性化康复治疗。"
+                }
+            },
+            {
+                "time": "07:30 - 09:00",
+                "title": {
+                    "ru": "Завтрак",
+                    "en": "Breakfast",
+                    "zh-Hans": "早餐"
+                },
+                "description": {
+                    "ru": "Шведский стол и блюда традиционной кухни юго-запада Китая.",
+                    "en": "Buffet breakfast featuring local specialties from Southwest China.",
+                    "zh-Hans": "享用自助早餐及中国西南地区特色美食。"
+                }
+            },
+            {
+                "time": "09:30 - 11:00",
+                "title": {
+                    "ru": "Оздоровительные практики",
+                    "en": "Wellness Practices",
+                    "zh-Hans": "养生课程"
+                },
+                "description": {
+                    "ru": "Традиционная китайская медицина, массажи и восточные техники восстановления.",
+                    "en": "Traditional Chinese Medicine therapies, massages, and recovery practices.",
+                    "zh-Hans": "体验中医调理、按摩及传统养生项目。"
+                }
+            },
+            {
+                "time": "11:00 - 12:00",
+                "title": {
+                    "ru": "Чайная церемония",
+                    "en": "Tea Ceremony",
+                    "zh-Hans": "茶道体验"
+                },
+                "description": {
+                    "ru": "Лечебные травы и традиции чаепития региона Юньнань.",
+                    "en": "Discover medicinal herbs and tea traditions of Yunnan Province.",
+                    "zh-Hans": "了解云南传统茶文化及养生草本知识。"
+                }
+            },
+            {
+                "time": "12:00 - 13:00",
+                "title": {
+                    "ru": "Оздоровительный обед",
+                    "en": "Wellness Lunch",
+                    "zh-Hans": "养生午餐"
+                },
+                "description": {
+                    "ru": "Питание по рекомендациям специалистов.",
+                    "en": "Nutritious meals prepared according to wellness recommendations.",
+                    "zh-Hans": "根据专家建议提供健康养生餐食。"
+                }
+            },
+            {
+                "time": "13:30 - 14:30",
+                "title": {
+                    "ru": "Экскурсии и отдых",
+                    "en": "Excursions and Leisure Time",
+                    "zh-Hans": "观光与休闲活动"
+                },
+                "description": {
+                    "ru": "Программы подбираются с учетом пожеланий участников.",
+                    "en": "Activities and excursions tailored to participants' preferences.",
+                    "zh-Hans": "根据参与者需求安排观光与休闲活动。"
+                }
+            },
+            {
+                "time": "18:00 - 19:00",
+                "title": {
+                    "ru": "Ужин",
+                    "en": "Dinner",
+                    "zh-Hans": "晚餐"
+                },
+                "description": {
+                    "ru": "Легкий вечерний прием пищи.",
+                    "en": "A light and balanced evening meal.",
+                    "zh-Hans": "享用轻松健康的晚餐。"
+                }
+            }
+        ],
+        "questions": [
+            {
+                "title": {
+                    "ru": "Нужен ли опыт занятий восточными практиками?",
+                    "en": "Do I Need Previous Experience with Eastern Practices?",
+                    "zh-Hans": "需要有东方养生课程经验吗？"
+                },
+                "description": {
+                    "ru": "Нет. Все занятия подходят как новичкам, так и участникам с опытом.",
+                    "en": "No. All activities are suitable for both beginners and experienced participants.",
+                    "zh-Hans": "不需要。所有课程均适合初学者和有经验的参与者。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Какая максимальная группа?",
+                    "en": "What Is the Maximum Group Size?",
+                    "zh-Hans": "团队最多多少人？"
+                },
+                "description": {
+                    "ru": "До 15 участников для сохранения комфортной атмосферы и индивидуального подхода.",
+                    "en": "Up to 15 participants to ensure a comfortable atmosphere and personalized attention.",
+                    "zh-Hans": "最多15人，以保证舒适的体验和个性化服务。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Подходит ли программа для восстановления после стресса?",
+                    "en": "Is This Program Suitable for Stress Recovery?",
+                    "zh-Hans": "该项目适合缓解压力和恢复身心吗？"
+                },
+                "description": {
+                    "ru": "Да. Программа ориентирована на восстановление физических и эмоциональных ресурсов организма.",
+                    "en": "Yes. The program is designed to restore both physical vitality and emotional well-being.",
+                    "zh-Hans": "是的。本项目旨在帮助恢复身体活力并改善心理状态。"
+                }
+            }
+        ]
     },
     {
-        "id": "5",
-        "slug": "guilin-river-cruise",
-        "destinationSlug": "guilin",
+        "id": "tour-erhai-tcm-retreat",
+        "slug": "erhai-tcm-retreat",
+        "destinationSlug": "beijing",
         "title": {
-            "en": "Guilin River Cruise",
-            "ru": "Круиз по реке Гуйлинь",
-            "zh-Hans": "桂林漓江游船"
+            "ru": "Восстановление и отдых с традиционной китайской медициной",
+            "en": "Wellness and Recovery with Traditional Chinese Medicine",
+            "zh-Hans": "中医养生与康复之旅"
         },
+        "titleHeader": {
+            "ru": "12 дней восстановления на термальных источниках Эрхай",
+            "en": "12 Days of Recovery at the Erhai Hot Springs",
+            "zh-Hans": "洱海温泉12天康养之旅"
+        },
+        "tourHeader": {
+            "ru": "Консультации врача традиционной китайской медицины для индивидуальной работы и восстановления организма",
+            "en": "Consultations with a Traditional Chinese Medicine Doctor for Personalized Wellness and Recovery",
+            "zh-Hans": "由资深中医师提供个性化诊疗与康复调理服务"
+        },
+        "seoTitle": {
+            "en": "12-Day Traditional Chinese Medicine Wellness Tour in Yunnan",
+            "ru": "12-дневный оздоровительный тур традиционной китайской медицины в Юньнани",
+            "zh-Hans": "云南12天中医养生康复之旅"
+        },
+        "seoDescription": {
+            "en": "Join a 12-day wellness retreat in Yunnan with traditional Chinese medicine, hot springs, acupuncture, Tai Chi and personalized recovery programs.",
+            "ru": "12-дневная программа восстановления в Юньнани с традиционной китайской медициной, термальными источниками, акупунктурой и индивидуальной программой оздоровления.",
+            "zh-Hans": "体验云南12天中医养生之旅，包含温泉、针灸、太极和个性化康复计划。"
+        },
+        "seoKeywords": [
+            {
+                "en": "traditional chinese medicine"
+            },
+            {
+                "en": "wellness retreat china"
+            },
+            {
+                "en": "hot springs yunnan"
+            }
+        ],
         "country": {
-            "en": "China",
             "ru": "Китай",
+            "en": "China",
             "zh-Hans": "中国"
         },
         "city": {
-            "en": "Guilin",
-            "ru": "Гуйлинь",
-            "zh-Hans": "桂林"
+            "ru": "Эрюань",
+            "en": "Eryuan",
+            "zh-Hans": "洱源县"
         },
-        "video": "https://www.youtube.com/watch?v=xxxxx",
-        "videoThumb": "assets/images/destination/840x415.svg",
-        "image": "assets/images/blog/424x292.svg",
+        "region": {
+            "ru": "Дали-Бай",
+            "en": "Dali Bai Autonomous Prefecture",
+            "zh-Hans": "大理白族自治州"
+        },
+        "tags": [
+            {
+                "ru": "Традиционная китайская медицина",
+                "en": "Traditional Chinese Medicine",
+                "zh-Hans": "中医"
+            },
+            {
+                "ru": "Термальные источники",
+                "en": "Hot Springs",
+                "zh-Hans": "温泉"
+            },
+            {
+                "ru": "Оздоровительный тур",
+                "en": "Wellness Tour",
+                "zh-Hans": "康养之旅"
+            },
+            {
+                "ru": "Ретрит",
+                "en": "Retreat",
+                "zh-Hans": "养生营"
+            },
+            {
+                "ru": "Восстановление организма",
+                "en": "Body Recovery",
+                "zh-Hans": "身体调理"
+            },
+            {
+                "ru": "Wellness",
+                "en": "Wellness",
+                "zh-Hans": "健康养生"
+            }
+        ],
+        "coordinates": [
+            99.9493,
+            26.1148
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": {
+                    "ru": "Прибытие в Эрюань и знакомство с программой",
+                    "en": "Arrival in Eryuan and Program Introduction",
+                    "zh-Hans": "抵达洱源并了解康养计划"
+                },
+                "description": {
+                    "ru": "Встреча участников, размещение в спа-доме у подножья горы Цаншань, знакомство с врачами традиционной китайской медицины и программой восстановления. Вечерний отдых на термальных источниках.",
+                    "en": "Arrival and welcome meeting, accommodation at the wellness retreat near Cangshan Mountain, introduction to Traditional Chinese Medicine specialists and the recovery program. Evening relaxation at the hot springs.",
+                    "zh-Hans": "抵达后入住苍山脚下的温泉康养中心，与中医专家见面并了解康养计划。晚上体验天然温泉放松身心。"
+                }
+            },
+            {
+                "day": 2,
+                "title": {
+                    "ru": "Первичная диагностика",
+                    "en": "Initial Diagnosis",
+                    "zh-Hans": "初步健康诊断"
+                },
+                "description": {
+                    "ru": "Пульсовая диагностика, консультации специалистов и составление индивидуальной программы оздоровления. Первые лечебные процедуры и знакомство с практиками восстановления.",
+                    "en": "Pulse diagnosis, specialist consultations, and creation of a personalized wellness plan. Introduction to therapeutic treatments and recovery practices.",
+                    "zh-Hans": "进行脉诊和健康评估，与专家咨询并制定个性化康养方案，开始体验中医调理项目。"
+                }
+            },
+            {
+                "day": 3,
+                "title": {
+                    "ru": "Начало программы восстановления",
+                    "en": "Beginning of the Recovery Program",
+                    "zh-Hans": "康复计划正式开始"
+                },
+                "description": {
+                    "ru": "Индивидуальные процедуры, акупунктура, рефлексотерапия, чайная церемония и занятия Тайцзицюань.",
+                    "en": "Personalized treatments, acupuncture, reflexology, tea ceremony, and Tai Chi practice.",
+                    "zh-Hans": "开始个性化调理，包括针灸、反射疗法、茶道体验及太极练习。"
+                }
+            },
+            {
+                "day": 4,
+                "title": {
+                    "ru": "Термальные источники и восточные практики",
+                    "en": "Hot Springs and Eastern Practices",
+                    "zh-Hans": "温泉疗养与东方养生"
+                },
+                "description": {
+                    "ru": "Работа по индивидуальным программам восстановления, посещение термальных бассейнов и практики Бадуаньцзинь.",
+                    "en": "Personal recovery sessions, thermal pools, and Baduanjin wellness exercises.",
+                    "zh-Hans": "继续个性化调理，体验温泉疗养及八段锦养生功法。"
+                }
+            },
+            {
+                "day": 5,
+                "title": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海之旅"
+                },
+                "description": {
+                    "ru": "Экскурсия к озеру Эрхай — одному из самых живописных мест провинции Юньнань. Возвращение в комплекс и вечерние процедуры.",
+                    "en": "Excursion to Erhai Lake, one of Yunnan’s most scenic attractions, followed by evening wellness treatments.",
+                    "zh-Hans": "游览云南著名景点洱海，欣赏自然风光，晚上返回康养中心继续调理。"
+                }
+            },
+            {
+                "day": 6,
+                "title": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山体验"
+                },
+                "description": {
+                    "ru": "Поездка в горный район Цаншань, прогулки на свежем воздухе и восстановительные практики среди высокогорной природы.",
+                    "en": "Visit to Cangshan Mountain with scenic walks and wellness activities in the alpine environment.",
+                    "zh-Hans": "前往苍山地区，体验高山自然环境中的徒步与养生活动。"
+                }
+            },
+            {
+                "day": 7,
+                "title": {
+                    "ru": "День глубокого восстановления",
+                    "en": "Deep Recovery Day",
+                    "zh-Hans": "深度康复日"
+                },
+                "description": {
+                    "ru": "Комплекс лечебных процедур, моксотерапия, ароматерапия и работа с поющими чашами.",
+                    "en": "Comprehensive therapies including moxibustion, aromatherapy, and sound healing with singing bowls.",
+                    "zh-Hans": "体验艾灸、芳香疗法及颂钵音疗等深度康复项目。"
+                }
+            },
+            {
+                "day": 8,
+                "title": {
+                    "ru": "Храм Чуншэнсы",
+                    "en": "Chongsheng Temple",
+                    "zh-Hans": "崇圣寺三塔"
+                },
+                "description": {
+                    "ru": "Посещение знаменитого храмового комплекса Чуншэнсы и Трёх пагод — одного из символов региона Дали.",
+                    "en": "Visit to the famous Chongsheng Temple and the Three Pagodas, symbols of the Dali region.",
+                    "zh-Hans": "参观大理著名地标崇圣寺三塔，了解当地历史文化。"
+                }
+            },
+            {
+                "day": 9,
+                "title": {
+                    "ru": "Традиции Юньнани",
+                    "en": "Yunnan Traditions",
+                    "zh-Hans": "云南传统文化"
+                },
+                "description": {
+                    "ru": "Знакомство с культурой региона, чайными традициями и лечебными травами юго-запада Китая.",
+                    "en": "Explore local culture, tea traditions, and medicinal herbs of Southwest China.",
+                    "zh-Hans": "了解云南文化、茶文化以及中国西南地区传统草药知识。"
+                }
+            },
+            {
+                "day": 10,
+                "title": {
+                    "ru": "Закрепление результатов",
+                    "en": "Consolidating Results",
+                    "zh-Hans": "巩固康复成果"
+                },
+                "description": {
+                    "ru": "Продолжение персональной программы восстановления и повторная диагностика для оценки промежуточных результатов.",
+                    "en": "Continuation of personalized treatments and follow-up diagnosis to evaluate progress.",
+                    "zh-Hans": "继续个性化调理，并进行复查评估康复效果。"
+                }
+            },
+            {
+                "day": 11,
+                "title": {
+                    "ru": "Финальные процедуры",
+                    "en": "Final Treatments",
+                    "zh-Hans": "最终调理阶段"
+                },
+                "description": {
+                    "ru": "Завершающие консультации врачей, рекомендации по поддержанию здоровья после возвращения домой и свободное время для отдыха.",
+                    "en": "Final consultations, health maintenance recommendations, and free time for relaxation.",
+                    "zh-Hans": "完成最后阶段调理，获得健康建议并享受自由休闲时间。"
+                }
+            },
+            {
+                "day": 12,
+                "title": {
+                    "ru": "Завершение программы",
+                    "en": "Program Completion",
+                    "zh-Hans": "康养计划圆满结束"
+                },
+                "description": {
+                    "ru": "Подведение итогов оздоровительной программы, рекомендации специалистов и трансфер к месту отправления.",
+                    "en": "Summary of the wellness program, final recommendations, and transfer to the departure point.",
+                    "zh-Hans": "总结康养成果，获得专家建议并安排送站或送机服务。"
+                }
+            }
+        ],
+        "image": "assets/images/destination/312x380.svg",
         "images": [
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg",
@@ -184,50 +2342,1831 @@
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg"
         ],
-        "price": 519,
-        "currency": "USD",
-        "durationDays": 5,
-        "durationNights": 4,
-        "rating": 5,
-        "reviews": 88,
-        "featured": true
+        "durationDays": 12,
+        "durationNights": 11,
+        "minGroupSize": 6,
+        "maxGroupSize": 15,
+        "featured": true,
+        "popular": true,
+        "content": {
+            "ru": "Тур проходит на юго-западе Китая, в живописном регионе Дали-Бай, уезда Эрюань, на берегу озера Эрхай. В течение 12 дней участники проходят программу отдыха, восстановления и оздоровления под наблюдением специалистов традиционной китайской медицины. Проживание организовано в уютном спа-доме у подножья горы Цаншань. На территории комплекса расположены 24 термальных бассейна с богатым минеральным составом, способствующим расслаблению, восстановлению сил и поддержанию здоровья.",
+            "en": "This wellness journey takes place in Southwest China, in the scenic Dali Bai region of Eryuan County, on the shores of Erhai Lake. Over 12 days, participants follow a carefully designed program of relaxation, recovery, and rejuvenation under the guidance of experienced Traditional Chinese Medicine specialists. Accommodation is provided in a comfortable wellness retreat at the foot of Cangshan Mountain. The resort features 24 mineral-rich hot spring pools designed to promote relaxation, restore energy, and support overall well-being.",
+            "zh-Hans": "本次康养之旅位于中国西南部云南省大理地区洱源县的洱海湖畔。在为期12天的行程中，参与者将在资深中医专家的指导下体验休养、调理与康复项目。入住环境优雅的温泉康养中心，坐落于苍山脚下。园区内拥有24个富含矿物质的天然温泉池，有助于放松身心、恢复活力并促进整体健康。"
+        },
+        "contentSecond": {
+            "ru": "Каждому участнику проводится индивидуальная диагностика и формируется персональная программа восстановления. Помимо лечебных процедур гостей ждут чайные церемонии, оздоровительные практики, восточная терапия, экскурсии по историческим достопримечательностям и отдых среди высокогорной природы провинции Юньнань.",
+            "en": "Each participant receives a personalized health assessment and a customized recovery plan. In addition to therapeutic treatments, guests can enjoy traditional tea ceremonies, wellness practices, Eastern healing therapies, cultural excursions to historic landmarks, and peaceful relaxation in the stunning mountain landscapes of Yunnan Province.",
+            "zh-Hans": "每位参与者都将接受个性化健康评估，并制定专属康养方案。除中医调理项目外，游客还可体验茶道、养生课程、传统东方疗法，以及参观当地历史文化景点，在云南壮丽的高原自然风光中放松身心。"
+        },
+        "facts": [
+            {
+                "icon": "pi pi-map-marker",
+                "title": {
+                    "ru": "Регион",
+                    "en": "Location",
+                    "zh-Hans": "地区"
+                },
+                "value": {
+                    "ru": "Эрюань, Дали-Бай",
+                    "en": "Eryuan, Dali",
+                    "zh-Hans": "洱源 · 大理"
+                }
+            },
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Размер группы",
+                    "en": "Group Size",
+                    "zh-Hans": "团队规模"
+                },
+                "value": {
+                    "ru": "До 15 человек",
+                    "en": "Up to 15 Guests",
+                    "zh-Hans": "最多15人"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Продолжительность",
+                    "en": "Duration",
+                    "zh-Hans": "行程时长"
+                },
+                "value": {
+                    "ru": "12 дней / 11 ночей",
+                    "en": "12 Days / 11 Nights",
+                    "zh-Hans": "12天11晚"
+                }
+            },
+            {
+                "icon": "pi pi-heart",
+                "title": {
+                    "ru": "Формат",
+                    "en": "Program Type",
+                    "zh-Hans": "项目类型"
+                },
+                "value": {
+                    "ru": "Оздоровительный ретрит",
+                    "en": "Wellness Retreat",
+                    "zh-Hans": "康养之旅"
+                }
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "24 термальных бассейна на территории комплекса",
+                "en": "24 Hot Spring Pools Throughout the Resort",
+                "zh-Hans": "园区内拥有24个天然温泉池"
+            },
+            {
+                "ru": "Индивидуальная программа восстановления организма",
+                "en": "Personalized Recovery Program",
+                "zh-Hans": "个性化康复调理方案"
+            },
+            {
+                "ru": "Сопровождение врача традиционной китайской медицины",
+                "en": "Guidance from Traditional Chinese Medicine Specialists",
+                "zh-Hans": "资深中医专家全程指导"
+            },
+            {
+                "ru": "Проживание у подножья горы Цаншань",
+                "en": "Accommodation at the Foot of Cangshan Mountain",
+                "zh-Hans": "入住苍山脚下温泉康养中心"
+            },
+            {
+                "ru": "Практики Тайцзицюань и Бадуаньцзинь",
+                "en": "Tai Chi and Baduanjin Wellness Practices",
+                "zh-Hans": "太极拳与八段锦养生课程"
+            },
+            {
+                "ru": "Чайные церемонии и лечебные травы",
+                "en": "Tea Ceremonies and Medicinal Herbs",
+                "zh-Hans": "茶道体验与传统草药调理"
+            },
+            {
+                "ru": "Небольшая группа единомышленников",
+                "en": "Small Group Experience",
+                "zh-Hans": "精品小团深度体验"
+            },
+            {
+                "ru": "Гибкая программа под пожелания участников",
+                "en": "Flexible Program Tailored to Participants",
+                "zh-Hans": "根据需求灵活调整行程"
+            }
+        ],
+        "features": [
+            {
+                "ru": "24 термальных бассейна",
+                "en": "24 Hot Spring Pools",
+                "zh-Hans": "24个天然温泉池"
+            },
+            {
+                "ru": "Температура воды от 40 до 90°C",
+                "en": "Water Temperature from 40°C to 90°C",
+                "zh-Hans": "温泉水温40°C至90°C"
+            },
+            {
+                "ru": "Щелочной уровень pH 8.1",
+                "en": "Alkaline pH Level of 8.1",
+                "zh-Hans": "弱碱性水质（pH值8.1）"
+            },
+            {
+                "ru": "Кальций, магний и фториды в составе воды",
+                "en": "Rich in Calcium, Magnesium, and Fluorides",
+                "zh-Hans": "富含钙、镁和氟化物等矿物质"
+            },
+            {
+                "ru": "Высокогорная природа региона Дали",
+                "en": "Highland Nature of the Dali Region",
+                "zh-Hans": "大理高原自然风光"
+            },
+            {
+                "ru": "Мягкий климат юго-запада Китая",
+                "en": "Mild Climate of Southwest China",
+                "zh-Hans": "中国西南地区温和宜人的气候"
+            }
+        ],
+        "locations": [
+            {
+                "ru": "Озеро Эрхай",
+                "en": "Erhai Lake",
+                "zh-Hans": "洱海"
+            },
+            {
+                "ru": "Гора Цаншань",
+                "en": "Cangshan Mountain",
+                "zh-Hans": "苍山"
+            },
+            {
+                "ru": "Древний город Дали",
+                "en": "Dali Ancient Town",
+                "zh-Hans": "大理古城"
+            },
+            {
+                "ru": "Храм Чуншэнсы",
+                "en": "Chongsheng Temple",
+                "zh-Hans": "崇圣寺"
+            },
+            {
+                "ru": "Термальные источники Эрюань",
+                "en": "Eryuan Hot Springs",
+                "zh-Hans": "洱源温泉"
+            }
+        ],
+        "included": [
+            {
+                "ru": "Проживание в спа-доме у подножья горы Цаншань",
+                "en": "Accommodation at a Wellness Retreat at the Foot of Cangshan Mountain",
+                "zh-Hans": "入住苍山脚下温泉康养中心"
+            },
+            {
+                "ru": "Первичная диагностика врача традиционной китайской медицины",
+                "en": "Initial Consultation and Diagnosis by a Traditional Chinese Medicine Doctor",
+                "zh-Hans": "中医专家初步诊断与健康评估"
+            },
+            {
+                "ru": "Индивидуальная программа восстановления",
+                "en": "Personalized Recovery Program",
+                "zh-Hans": "个性化康复调理方案"
+            },
+            {
+                "ru": "Сопровождение врача традиционной китайской медицины",
+                "en": "Guidance and Support from Traditional Chinese Medicine Specialists",
+                "zh-Hans": "资深中医专家全程指导"
+            },
+            {
+                "ru": "Ежедневный доступ к термальным источникам",
+                "en": "Daily Access to Hot Springs",
+                "zh-Hans": "每日不限次温泉体验"
+            },
+            {
+                "ru": "Питание по рекомендациям врача",
+                "en": "Meals Based on Doctor's Recommendations",
+                "zh-Hans": "根据中医建议定制养生膳食"
+            },
+            {
+                "ru": "Оздоровительные чаи и травяные сборы",
+                "en": "Wellness Teas and Herbal Remedies",
+                "zh-Hans": "养生茶饮及草本调理"
+            },
+            {
+                "ru": "Моксотерапия и ароматерапия",
+                "en": "Moxibustion and Aromatherapy",
+                "zh-Hans": "艾灸疗法与芳香疗法"
+            },
+            {
+                "ru": "Звуковая терапия",
+                "en": "Sound Healing Therapy",
+                "zh-Hans": "音疗放松课程"
+            },
+            {
+                "ru": "Практики Тайцзицюань",
+                "en": "Tai Chi Practice",
+                "zh-Hans": "太极拳课程"
+            },
+            {
+                "ru": "Практики Бадуаньцзинь",
+                "en": "Baduanjin Wellness Exercises",
+                "zh-Hans": "八段锦养生课程"
+            }
+        ],
+        "excluded": [
+            {
+                "ru": "Международный перелет",
+                "en": "International Flights",
+                "zh-Hans": "国际往返机票"
+            },
+            {
+                "ru": "Виза в Китай",
+                "en": "China Visa",
+                "zh-Hans": "中国签证费用"
+            },
+            {
+                "ru": "Медицинская страховка",
+                "en": "Travel Medical Insurance",
+                "zh-Hans": "旅行医疗保险"
+            },
+            {
+                "ru": "Личные расходы",
+                "en": "Personal Expenses",
+                "zh-Hans": "个人消费"
+            },
+            {
+                "ru": "Дополнительные экскурсии по желанию",
+                "en": "Optional Excursions and Activities",
+                "zh-Hans": "自选活动及额外观光项目"
+            }
+        ],
+        "treatments": [
+            {
+                "title": {
+                    "ru": "Пульсовая диагностика",
+                    "en": "Pulse Diagnosis",
+                    "zh-Hans": "中医脉诊"
+                },
+                "description": {
+                    "ru": "Позволяет оценить состояние внутренних органов, баланс энергий и общее состояние организма. На основе результатов врач формирует индивидуальную программу восстановления.",
+                    "en": "A traditional diagnostic method used to evaluate organ function, energy balance, and overall health. Based on the results, the doctor develops a personalized recovery plan.",
+                    "zh-Hans": "通过中医脉诊评估脏腑功能、气血平衡及整体健康状况，并据此制定个性化康养方案。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Акупунктура и рефлексотерапия",
+                    "en": "Acupuncture and Reflexology",
+                    "zh-Hans": "针灸与反射疗法"
+                },
+                "description": {
+                    "ru": "Один из самых древних методов восточной медицины, способствующий улучшению кровообращения, снижению напряжения и восстановлению жизненных сил.",
+                    "en": "One of the oldest methods of Eastern medicine, helping improve circulation, reduce tension, and restore vitality.",
+                    "zh-Hans": "传统东方疗法，有助于促进血液循环、缓解压力并恢复身体活力。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Моксотерапия и ароматерапия",
+                    "en": "Moxibustion and Aromatherapy",
+                    "zh-Hans": "艾灸疗法与芳香疗法"
+                },
+                "description": {
+                    "ru": "Комплекс процедур для расслабления, восстановления энергии и гармонизации эмоционального состояния.",
+                    "en": "A combination of therapies designed to promote relaxation, restore energy, and improve emotional well-being.",
+                    "zh-Hans": "结合艾灸与芳香疗法，帮助放松身心、恢复能量并改善情绪状态。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Практики восстановления организма",
+                    "en": "Traditional Wellness Practices",
+                    "zh-Hans": "传统养生课程"
+                },
+                "description": {
+                    "ru": "Традиционные методы, направленные на снижение стресса, укрепление здоровья и достижение внутренней гармонии.",
+                    "en": "Traditional wellness techniques focused on stress reduction, health improvement, and achieving inner balance.",
+                    "zh-Hans": "通过传统养生方法减轻压力、增强体质并促进身心平衡。"
+                }
+            }
+        ],
+        "dailySchedule": [
+            {
+                "time": "07:00 - 08:30",
+                "title": {
+                    "ru": "Консультации и лечебные процедуры",
+                    "en": "Consultations and Therapeutic Treatments",
+                    "zh-Hans": "健康咨询与康复治疗"
+                },
+                "description": {
+                    "ru": "Обследование состояния организма и назначенные процедуры.",
+                    "en": "Health assessments and personalized therapeutic treatments.",
+                    "zh-Hans": "进行健康评估并接受个性化康复治疗。"
+                }
+            },
+            {
+                "time": "07:30 - 09:00",
+                "title": {
+                    "ru": "Завтрак",
+                    "en": "Breakfast",
+                    "zh-Hans": "早餐"
+                },
+                "description": {
+                    "ru": "Шведский стол и блюда традиционной кухни юго-запада Китая.",
+                    "en": "Buffet breakfast featuring local specialties from Southwest China.",
+                    "zh-Hans": "享用自助早餐及中国西南地区特色美食。"
+                }
+            },
+            {
+                "time": "09:30 - 11:00",
+                "title": {
+                    "ru": "Оздоровительные практики",
+                    "en": "Wellness Practices",
+                    "zh-Hans": "养生课程"
+                },
+                "description": {
+                    "ru": "Традиционная китайская медицина, массажи и восточные техники восстановления.",
+                    "en": "Traditional Chinese Medicine therapies, massages, and recovery practices.",
+                    "zh-Hans": "体验中医调理、按摩及传统养生项目。"
+                }
+            },
+            {
+                "time": "11:00 - 12:00",
+                "title": {
+                    "ru": "Чайная церемония",
+                    "en": "Tea Ceremony",
+                    "zh-Hans": "茶道体验"
+                },
+                "description": {
+                    "ru": "Лечебные травы и традиции чаепития региона Юньнань.",
+                    "en": "Discover medicinal herbs and tea traditions of Yunnan Province.",
+                    "zh-Hans": "了解云南传统茶文化及养生草本知识。"
+                }
+            },
+            {
+                "time": "12:00 - 13:00",
+                "title": {
+                    "ru": "Оздоровительный обед",
+                    "en": "Wellness Lunch",
+                    "zh-Hans": "养生午餐"
+                },
+                "description": {
+                    "ru": "Питание по рекомендациям специалистов.",
+                    "en": "Nutritious meals prepared according to wellness recommendations.",
+                    "zh-Hans": "根据专家建议提供健康养生餐食。"
+                }
+            },
+            {
+                "time": "13:30 - 14:30",
+                "title": {
+                    "ru": "Экскурсии и отдых",
+                    "en": "Excursions and Leisure Time",
+                    "zh-Hans": "观光与休闲活动"
+                },
+                "description": {
+                    "ru": "Программы подбираются с учетом пожеланий участников.",
+                    "en": "Activities and excursions tailored to participants' preferences.",
+                    "zh-Hans": "根据参与者需求安排观光与休闲活动。"
+                }
+            },
+            {
+                "time": "18:00 - 19:00",
+                "title": {
+                    "ru": "Ужин",
+                    "en": "Dinner",
+                    "zh-Hans": "晚餐"
+                },
+                "description": {
+                    "ru": "Легкий вечерний прием пищи.",
+                    "en": "A light and balanced evening meal.",
+                    "zh-Hans": "享用轻松健康的晚餐。"
+                }
+            }
+        ],
+        "questions": [
+            {
+                "title": {
+                    "ru": "Нужен ли опыт занятий восточными практиками?",
+                    "en": "Do I Need Previous Experience with Eastern Practices?",
+                    "zh-Hans": "需要有东方养生课程经验吗？"
+                },
+                "description": {
+                    "ru": "Нет. Все занятия подходят как новичкам, так и участникам с опытом.",
+                    "en": "No. All activities are suitable for both beginners and experienced participants.",
+                    "zh-Hans": "不需要。所有课程均适合初学者和有经验的参与者。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Какая максимальная группа?",
+                    "en": "What Is the Maximum Group Size?",
+                    "zh-Hans": "团队最多多少人？"
+                },
+                "description": {
+                    "ru": "До 15 участников для сохранения комфортной атмосферы и индивидуального подхода.",
+                    "en": "Up to 15 participants to ensure a comfortable atmosphere and personalized attention.",
+                    "zh-Hans": "最多15人，以保证舒适的体验和个性化服务。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Подходит ли программа для восстановления после стресса?",
+                    "en": "Is This Program Suitable for Stress Recovery?",
+                    "zh-Hans": "该项目适合缓解压力和恢复身心吗？"
+                },
+                "description": {
+                    "ru": "Да. Программа ориентирована на восстановление физических и эмоциональных ресурсов организма.",
+                    "en": "Yes. The program is designed to restore both physical vitality and emotional well-being.",
+                    "zh-Hans": "是的。本项目旨在帮助恢复身体活力并改善心理状态。"
+                }
+            }
+        ]
     },
     {
-        "id": "6",
-        "slug": "zhangjiajie-avatar-mountains",
-        "destinationSlug": "zhangjiajie",
+        "id": "tour-erhai-tcm-retreat",
+        "slug": "erhai-tcm-retreat",
+        "destinationSlug": "beijing",
         "title": {
-            "en": "Avatar Mountains Tour",
-            "ru": "Горы Аватара Чжанцзяцзе",
-            "zh-Hans": "张家界阿凡达山之旅"
+            "ru": "Восстановление и отдых с традиционной китайской медициной",
+            "en": "Wellness and Recovery with Traditional Chinese Medicine",
+            "zh-Hans": "中医养生与康复之旅"
         },
+        "titleHeader": {
+            "ru": "12 дней восстановления на термальных источниках Эрхай",
+            "en": "12 Days of Recovery at the Erhai Hot Springs",
+            "zh-Hans": "洱海温泉12天康养之旅"
+        },
+        "tourHeader": {
+            "ru": "Консультации врача традиционной китайской медицины для индивидуальной работы и восстановления организма",
+            "en": "Consultations with a Traditional Chinese Medicine Doctor for Personalized Wellness and Recovery",
+            "zh-Hans": "由资深中医师提供个性化诊疗与康复调理服务"
+        },
+        "seoTitle": {
+            "en": "12-Day Traditional Chinese Medicine Wellness Tour in Yunnan",
+            "ru": "12-дневный оздоровительный тур традиционной китайской медицины в Юньнани",
+            "zh-Hans": "云南12天中医养生康复之旅"
+        },
+        "seoDescription": {
+            "en": "Join a 12-day wellness retreat in Yunnan with traditional Chinese medicine, hot springs, acupuncture, Tai Chi and personalized recovery programs.",
+            "ru": "12-дневная программа восстановления в Юньнани с традиционной китайской медициной, термальными источниками, акупунктурой и индивидуальной программой оздоровления.",
+            "zh-Hans": "体验云南12天中医养生之旅，包含温泉、针灸、太极和个性化康复计划。"
+        },
+        "seoKeywords": [
+            {
+                "en": "traditional chinese medicine"
+            },
+            {
+                "en": "wellness retreat china"
+            },
+            {
+                "en": "hot springs yunnan"
+            }
+        ],
         "country": {
-            "en": "China",
             "ru": "Китай",
+            "en": "China",
             "zh-Hans": "中国"
         },
         "city": {
-            "en": "Zhangjiajie",
-            "ru": "Чжанцзяцзе",
-            "zh-Hans": "张家界"
+            "ru": "Эрюань",
+            "en": "Eryuan",
+            "zh-Hans": "洱源县"
         },
-        "video": "https://www.youtube.com/watch?v=xxxxx",
-        "videoThumb": "assets/images/destination/840x415.svg",
-        "image": "assets/images/blog/424x292.svg",
+        "region": {
+            "ru": "Дали-Бай",
+            "en": "Dali Bai Autonomous Prefecture",
+            "zh-Hans": "大理白族自治州"
+        },
+        "tags": [
+            {
+                "ru": "Традиционная китайская медицина",
+                "en": "Traditional Chinese Medicine",
+                "zh-Hans": "中医"
+            },
+            {
+                "ru": "Термальные источники",
+                "en": "Hot Springs",
+                "zh-Hans": "温泉"
+            },
+            {
+                "ru": "Оздоровительный тур",
+                "en": "Wellness Tour",
+                "zh-Hans": "康养之旅"
+            },
+            {
+                "ru": "Ретрит",
+                "en": "Retreat",
+                "zh-Hans": "养生营"
+            },
+            {
+                "ru": "Восстановление организма",
+                "en": "Body Recovery",
+                "zh-Hans": "身体调理"
+            },
+            {
+                "ru": "Wellness",
+                "en": "Wellness",
+                "zh-Hans": "健康养生"
+            }
+        ],
+        "coordinates": [
+            99.9493,
+            26.1148
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": {
+                    "ru": "Прибытие в Эрюань и знакомство с программой",
+                    "en": "Arrival in Eryuan and Program Introduction",
+                    "zh-Hans": "抵达洱源并了解康养计划"
+                },
+                "description": {
+                    "ru": "Встреча участников, размещение в спа-доме у подножья горы Цаншань, знакомство с врачами традиционной китайской медицины и программой восстановления. Вечерний отдых на термальных источниках.",
+                    "en": "Arrival and welcome meeting, accommodation at the wellness retreat near Cangshan Mountain, introduction to Traditional Chinese Medicine specialists and the recovery program. Evening relaxation at the hot springs.",
+                    "zh-Hans": "抵达后入住苍山脚下的温泉康养中心，与中医专家见面并了解康养计划。晚上体验天然温泉放松身心。"
+                }
+            },
+            {
+                "day": 2,
+                "title": {
+                    "ru": "Первичная диагностика",
+                    "en": "Initial Diagnosis",
+                    "zh-Hans": "初步健康诊断"
+                },
+                "description": {
+                    "ru": "Пульсовая диагностика, консультации специалистов и составление индивидуальной программы оздоровления. Первые лечебные процедуры и знакомство с практиками восстановления.",
+                    "en": "Pulse diagnosis, specialist consultations, and creation of a personalized wellness plan. Introduction to therapeutic treatments and recovery practices.",
+                    "zh-Hans": "进行脉诊和健康评估，与专家咨询并制定个性化康养方案，开始体验中医调理项目。"
+                }
+            },
+            {
+                "day": 3,
+                "title": {
+                    "ru": "Начало программы восстановления",
+                    "en": "Beginning of the Recovery Program",
+                    "zh-Hans": "康复计划正式开始"
+                },
+                "description": {
+                    "ru": "Индивидуальные процедуры, акупунктура, рефлексотерапия, чайная церемония и занятия Тайцзицюань.",
+                    "en": "Personalized treatments, acupuncture, reflexology, tea ceremony, and Tai Chi practice.",
+                    "zh-Hans": "开始个性化调理，包括针灸、反射疗法、茶道体验及太极练习。"
+                }
+            },
+            {
+                "day": 4,
+                "title": {
+                    "ru": "Термальные источники и восточные практики",
+                    "en": "Hot Springs and Eastern Practices",
+                    "zh-Hans": "温泉疗养与东方养生"
+                },
+                "description": {
+                    "ru": "Работа по индивидуальным программам восстановления, посещение термальных бассейнов и практики Бадуаньцзинь.",
+                    "en": "Personal recovery sessions, thermal pools, and Baduanjin wellness exercises.",
+                    "zh-Hans": "继续个性化调理，体验温泉疗养及八段锦养生功法。"
+                }
+            },
+            {
+                "day": 5,
+                "title": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海之旅"
+                },
+                "description": {
+                    "ru": "Экскурсия к озеру Эрхай — одному из самых живописных мест провинции Юньнань. Возвращение в комплекс и вечерние процедуры.",
+                    "en": "Excursion to Erhai Lake, one of Yunnan’s most scenic attractions, followed by evening wellness treatments.",
+                    "zh-Hans": "游览云南著名景点洱海，欣赏自然风光，晚上返回康养中心继续调理。"
+                }
+            },
+            {
+                "day": 6,
+                "title": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山体验"
+                },
+                "description": {
+                    "ru": "Поездка в горный район Цаншань, прогулки на свежем воздухе и восстановительные практики среди высокогорной природы.",
+                    "en": "Visit to Cangshan Mountain with scenic walks and wellness activities in the alpine environment.",
+                    "zh-Hans": "前往苍山地区，体验高山自然环境中的徒步与养生活动。"
+                }
+            },
+            {
+                "day": 7,
+                "title": {
+                    "ru": "День глубокого восстановления",
+                    "en": "Deep Recovery Day",
+                    "zh-Hans": "深度康复日"
+                },
+                "description": {
+                    "ru": "Комплекс лечебных процедур, моксотерапия, ароматерапия и работа с поющими чашами.",
+                    "en": "Comprehensive therapies including moxibustion, aromatherapy, and sound healing with singing bowls.",
+                    "zh-Hans": "体验艾灸、芳香疗法及颂钵音疗等深度康复项目。"
+                }
+            },
+            {
+                "day": 8,
+                "title": {
+                    "ru": "Храм Чуншэнсы",
+                    "en": "Chongsheng Temple",
+                    "zh-Hans": "崇圣寺三塔"
+                },
+                "description": {
+                    "ru": "Посещение знаменитого храмового комплекса Чуншэнсы и Трёх пагод — одного из символов региона Дали.",
+                    "en": "Visit to the famous Chongsheng Temple and the Three Pagodas, symbols of the Dali region.",
+                    "zh-Hans": "参观大理著名地标崇圣寺三塔，了解当地历史文化。"
+                }
+            },
+            {
+                "day": 9,
+                "title": {
+                    "ru": "Традиции Юньнани",
+                    "en": "Yunnan Traditions",
+                    "zh-Hans": "云南传统文化"
+                },
+                "description": {
+                    "ru": "Знакомство с культурой региона, чайными традициями и лечебными травами юго-запада Китая.",
+                    "en": "Explore local culture, tea traditions, and medicinal herbs of Southwest China.",
+                    "zh-Hans": "了解云南文化、茶文化以及中国西南地区传统草药知识。"
+                }
+            },
+            {
+                "day": 10,
+                "title": {
+                    "ru": "Закрепление результатов",
+                    "en": "Consolidating Results",
+                    "zh-Hans": "巩固康复成果"
+                },
+                "description": {
+                    "ru": "Продолжение персональной программы восстановления и повторная диагностика для оценки промежуточных результатов.",
+                    "en": "Continuation of personalized treatments and follow-up diagnosis to evaluate progress.",
+                    "zh-Hans": "继续个性化调理，并进行复查评估康复效果。"
+                }
+            },
+            {
+                "day": 11,
+                "title": {
+                    "ru": "Финальные процедуры",
+                    "en": "Final Treatments",
+                    "zh-Hans": "最终调理阶段"
+                },
+                "description": {
+                    "ru": "Завершающие консультации врачей, рекомендации по поддержанию здоровья после возвращения домой и свободное время для отдыха.",
+                    "en": "Final consultations, health maintenance recommendations, and free time for relaxation.",
+                    "zh-Hans": "完成最后阶段调理，获得健康建议并享受自由休闲时间。"
+                }
+            },
+            {
+                "day": 12,
+                "title": {
+                    "ru": "Завершение программы",
+                    "en": "Program Completion",
+                    "zh-Hans": "康养计划圆满结束"
+                },
+                "description": {
+                    "ru": "Подведение итогов оздоровительной программы, рекомендации специалистов и трансфер к месту отправления.",
+                    "en": "Summary of the wellness program, final recommendations, and transfer to the departure point.",
+                    "zh-Hans": "总结康养成果，获得专家建议并安排送站或送机服务。"
+                }
+            }
+        ],
+        "image": "assets/images/destination/312x380.svg",
         "images": [
-            "assets/images/destination/312x381.svg",
+            "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg"
         ],
-        "price": 699,
-        "currency": "USD",
-        "durationDays": 7,
-        "durationNights": 6,
-        "rating": 5,
-        "reviews": 167,
-        "featured": true
+        "durationDays": 12,
+        "durationNights": 11,
+        "minGroupSize": 6,
+        "maxGroupSize": 15,
+        "featured": true,
+        "popular": true,
+        "content": {
+            "ru": "Тур проходит на юго-западе Китая, в живописном регионе Дали-Бай, уезда Эрюань, на берегу озера Эрхай. В течение 12 дней участники проходят программу отдыха, восстановления и оздоровления под наблюдением специалистов традиционной китайской медицины. Проживание организовано в уютном спа-доме у подножья горы Цаншань. На территории комплекса расположены 24 термальных бассейна с богатым минеральным составом, способствующим расслаблению, восстановлению сил и поддержанию здоровья.",
+            "en": "This wellness journey takes place in Southwest China, in the scenic Dali Bai region of Eryuan County, on the shores of Erhai Lake. Over 12 days, participants follow a carefully designed program of relaxation, recovery, and rejuvenation under the guidance of experienced Traditional Chinese Medicine specialists. Accommodation is provided in a comfortable wellness retreat at the foot of Cangshan Mountain. The resort features 24 mineral-rich hot spring pools designed to promote relaxation, restore energy, and support overall well-being.",
+            "zh-Hans": "本次康养之旅位于中国西南部云南省大理地区洱源县的洱海湖畔。在为期12天的行程中，参与者将在资深中医专家的指导下体验休养、调理与康复项目。入住环境优雅的温泉康养中心，坐落于苍山脚下。园区内拥有24个富含矿物质的天然温泉池，有助于放松身心、恢复活力并促进整体健康。"
+        },
+        "contentSecond": {
+            "ru": "Каждому участнику проводится индивидуальная диагностика и формируется персональная программа восстановления. Помимо лечебных процедур гостей ждут чайные церемонии, оздоровительные практики, восточная терапия, экскурсии по историческим достопримечательностям и отдых среди высокогорной природы провинции Юньнань.",
+            "en": "Each participant receives a personalized health assessment and a customized recovery plan. In addition to therapeutic treatments, guests can enjoy traditional tea ceremonies, wellness practices, Eastern healing therapies, cultural excursions to historic landmarks, and peaceful relaxation in the stunning mountain landscapes of Yunnan Province.",
+            "zh-Hans": "每位参与者都将接受个性化健康评估，并制定专属康养方案。除中医调理项目外，游客还可体验茶道、养生课程、传统东方疗法，以及参观当地历史文化景点，在云南壮丽的高原自然风光中放松身心。"
+        },
+        "facts": [
+            {
+                "icon": "pi pi-map-marker",
+                "title": {
+                    "ru": "Регион",
+                    "en": "Location",
+                    "zh-Hans": "地区"
+                },
+                "value": {
+                    "ru": "Эрюань, Дали-Бай",
+                    "en": "Eryuan, Dali",
+                    "zh-Hans": "洱源 · 大理"
+                }
+            },
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Размер группы",
+                    "en": "Group Size",
+                    "zh-Hans": "团队规模"
+                },
+                "value": {
+                    "ru": "До 15 человек",
+                    "en": "Up to 15 Guests",
+                    "zh-Hans": "最多15人"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Продолжительность",
+                    "en": "Duration",
+                    "zh-Hans": "行程时长"
+                },
+                "value": {
+                    "ru": "12 дней / 11 ночей",
+                    "en": "12 Days / 11 Nights",
+                    "zh-Hans": "12天11晚"
+                }
+            },
+            {
+                "icon": "pi pi-heart",
+                "title": {
+                    "ru": "Формат",
+                    "en": "Program Type",
+                    "zh-Hans": "项目类型"
+                },
+                "value": {
+                    "ru": "Оздоровительный ретрит",
+                    "en": "Wellness Retreat",
+                    "zh-Hans": "康养之旅"
+                }
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "24 термальных бассейна на территории комплекса",
+                "en": "24 Hot Spring Pools Throughout the Resort",
+                "zh-Hans": "园区内拥有24个天然温泉池"
+            },
+            {
+                "ru": "Индивидуальная программа восстановления организма",
+                "en": "Personalized Recovery Program",
+                "zh-Hans": "个性化康复调理方案"
+            },
+            {
+                "ru": "Сопровождение врача традиционной китайской медицины",
+                "en": "Guidance from Traditional Chinese Medicine Specialists",
+                "zh-Hans": "资深中医专家全程指导"
+            },
+            {
+                "ru": "Проживание у подножья горы Цаншань",
+                "en": "Accommodation at the Foot of Cangshan Mountain",
+                "zh-Hans": "入住苍山脚下温泉康养中心"
+            },
+            {
+                "ru": "Практики Тайцзицюань и Бадуаньцзинь",
+                "en": "Tai Chi and Baduanjin Wellness Practices",
+                "zh-Hans": "太极拳与八段锦养生课程"
+            },
+            {
+                "ru": "Чайные церемонии и лечебные травы",
+                "en": "Tea Ceremonies and Medicinal Herbs",
+                "zh-Hans": "茶道体验与传统草药调理"
+            },
+            {
+                "ru": "Небольшая группа единомышленников",
+                "en": "Small Group Experience",
+                "zh-Hans": "精品小团深度体验"
+            },
+            {
+                "ru": "Гибкая программа под пожелания участников",
+                "en": "Flexible Program Tailored to Participants",
+                "zh-Hans": "根据需求灵活调整行程"
+            }
+        ],
+        "features": [
+            {
+                "ru": "24 термальных бассейна",
+                "en": "24 Hot Spring Pools",
+                "zh-Hans": "24个天然温泉池"
+            },
+            {
+                "ru": "Температура воды от 40 до 90°C",
+                "en": "Water Temperature from 40°C to 90°C",
+                "zh-Hans": "温泉水温40°C至90°C"
+            },
+            {
+                "ru": "Щелочной уровень pH 8.1",
+                "en": "Alkaline pH Level of 8.1",
+                "zh-Hans": "弱碱性水质（pH值8.1）"
+            },
+            {
+                "ru": "Кальций, магний и фториды в составе воды",
+                "en": "Rich in Calcium, Magnesium, and Fluorides",
+                "zh-Hans": "富含钙、镁和氟化物等矿物质"
+            },
+            {
+                "ru": "Высокогорная природа региона Дали",
+                "en": "Highland Nature of the Dali Region",
+                "zh-Hans": "大理高原自然风光"
+            },
+            {
+                "ru": "Мягкий климат юго-запада Китая",
+                "en": "Mild Climate of Southwest China",
+                "zh-Hans": "中国西南地区温和宜人的气候"
+            }
+        ],
+        "locations": [
+            {
+                "ru": "Озеро Эрхай",
+                "en": "Erhai Lake",
+                "zh-Hans": "洱海"
+            },
+            {
+                "ru": "Гора Цаншань",
+                "en": "Cangshan Mountain",
+                "zh-Hans": "苍山"
+            },
+            {
+                "ru": "Древний город Дали",
+                "en": "Dali Ancient Town",
+                "zh-Hans": "大理古城"
+            },
+            {
+                "ru": "Храм Чуншэнсы",
+                "en": "Chongsheng Temple",
+                "zh-Hans": "崇圣寺"
+            },
+            {
+                "ru": "Термальные источники Эрюань",
+                "en": "Eryuan Hot Springs",
+                "zh-Hans": "洱源温泉"
+            }
+        ],
+        "included": [
+            {
+                "ru": "Проживание в спа-доме у подножья горы Цаншань",
+                "en": "Accommodation at a Wellness Retreat at the Foot of Cangshan Mountain",
+                "zh-Hans": "入住苍山脚下温泉康养中心"
+            },
+            {
+                "ru": "Первичная диагностика врача традиционной китайской медицины",
+                "en": "Initial Consultation and Diagnosis by a Traditional Chinese Medicine Doctor",
+                "zh-Hans": "中医专家初步诊断与健康评估"
+            },
+            {
+                "ru": "Индивидуальная программа восстановления",
+                "en": "Personalized Recovery Program",
+                "zh-Hans": "个性化康复调理方案"
+            },
+            {
+                "ru": "Сопровождение врача традиционной китайской медицины",
+                "en": "Guidance and Support from Traditional Chinese Medicine Specialists",
+                "zh-Hans": "资深中医专家全程指导"
+            },
+            {
+                "ru": "Ежедневный доступ к термальным источникам",
+                "en": "Daily Access to Hot Springs",
+                "zh-Hans": "每日不限次温泉体验"
+            },
+            {
+                "ru": "Питание по рекомендациям врача",
+                "en": "Meals Based on Doctor's Recommendations",
+                "zh-Hans": "根据中医建议定制养生膳食"
+            },
+            {
+                "ru": "Оздоровительные чаи и травяные сборы",
+                "en": "Wellness Teas and Herbal Remedies",
+                "zh-Hans": "养生茶饮及草本调理"
+            },
+            {
+                "ru": "Моксотерапия и ароматерапия",
+                "en": "Moxibustion and Aromatherapy",
+                "zh-Hans": "艾灸疗法与芳香疗法"
+            },
+            {
+                "ru": "Звуковая терапия",
+                "en": "Sound Healing Therapy",
+                "zh-Hans": "音疗放松课程"
+            },
+            {
+                "ru": "Практики Тайцзицюань",
+                "en": "Tai Chi Practice",
+                "zh-Hans": "太极拳课程"
+            },
+            {
+                "ru": "Практики Бадуаньцзинь",
+                "en": "Baduanjin Wellness Exercises",
+                "zh-Hans": "八段锦养生课程"
+            }
+        ],
+        "excluded": [
+            {
+                "ru": "Международный перелет",
+                "en": "International Flights",
+                "zh-Hans": "国际往返机票"
+            },
+            {
+                "ru": "Виза в Китай",
+                "en": "China Visa",
+                "zh-Hans": "中国签证费用"
+            },
+            {
+                "ru": "Медицинская страховка",
+                "en": "Travel Medical Insurance",
+                "zh-Hans": "旅行医疗保险"
+            },
+            {
+                "ru": "Личные расходы",
+                "en": "Personal Expenses",
+                "zh-Hans": "个人消费"
+            },
+            {
+                "ru": "Дополнительные экскурсии по желанию",
+                "en": "Optional Excursions and Activities",
+                "zh-Hans": "自选活动及额外观光项目"
+            }
+        ],
+        "treatments": [
+            {
+                "title": {
+                    "ru": "Пульсовая диагностика",
+                    "en": "Pulse Diagnosis",
+                    "zh-Hans": "中医脉诊"
+                },
+                "description": {
+                    "ru": "Позволяет оценить состояние внутренних органов, баланс энергий и общее состояние организма. На основе результатов врач формирует индивидуальную программу восстановления.",
+                    "en": "A traditional diagnostic method used to evaluate organ function, energy balance, and overall health. Based on the results, the doctor develops a personalized recovery plan.",
+                    "zh-Hans": "通过中医脉诊评估脏腑功能、气血平衡及整体健康状况，并据此制定个性化康养方案。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Акупунктура и рефлексотерапия",
+                    "en": "Acupuncture and Reflexology",
+                    "zh-Hans": "针灸与反射疗法"
+                },
+                "description": {
+                    "ru": "Один из самых древних методов восточной медицины, способствующий улучшению кровообращения, снижению напряжения и восстановлению жизненных сил.",
+                    "en": "One of the oldest methods of Eastern medicine, helping improve circulation, reduce tension, and restore vitality.",
+                    "zh-Hans": "传统东方疗法，有助于促进血液循环、缓解压力并恢复身体活力。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Моксотерапия и ароматерапия",
+                    "en": "Moxibustion and Aromatherapy",
+                    "zh-Hans": "艾灸疗法与芳香疗法"
+                },
+                "description": {
+                    "ru": "Комплекс процедур для расслабления, восстановления энергии и гармонизации эмоционального состояния.",
+                    "en": "A combination of therapies designed to promote relaxation, restore energy, and improve emotional well-being.",
+                    "zh-Hans": "结合艾灸与芳香疗法，帮助放松身心、恢复能量并改善情绪状态。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Практики восстановления организма",
+                    "en": "Traditional Wellness Practices",
+                    "zh-Hans": "传统养生课程"
+                },
+                "description": {
+                    "ru": "Традиционные методы, направленные на снижение стресса, укрепление здоровья и достижение внутренней гармонии.",
+                    "en": "Traditional wellness techniques focused on stress reduction, health improvement, and achieving inner balance.",
+                    "zh-Hans": "通过传统养生方法减轻压力、增强体质并促进身心平衡。"
+                }
+            }
+        ],
+        "dailySchedule": [
+            {
+                "time": "07:00 - 08:30",
+                "title": {
+                    "ru": "Консультации и лечебные процедуры",
+                    "en": "Consultations and Therapeutic Treatments",
+                    "zh-Hans": "健康咨询与康复治疗"
+                },
+                "description": {
+                    "ru": "Обследование состояния организма и назначенные процедуры.",
+                    "en": "Health assessments and personalized therapeutic treatments.",
+                    "zh-Hans": "进行健康评估并接受个性化康复治疗。"
+                }
+            },
+            {
+                "time": "07:30 - 09:00",
+                "title": {
+                    "ru": "Завтрак",
+                    "en": "Breakfast",
+                    "zh-Hans": "早餐"
+                },
+                "description": {
+                    "ru": "Шведский стол и блюда традиционной кухни юго-запада Китая.",
+                    "en": "Buffet breakfast featuring local specialties from Southwest China.",
+                    "zh-Hans": "享用自助早餐及中国西南地区特色美食。"
+                }
+            },
+            {
+                "time": "09:30 - 11:00",
+                "title": {
+                    "ru": "Оздоровительные практики",
+                    "en": "Wellness Practices",
+                    "zh-Hans": "养生课程"
+                },
+                "description": {
+                    "ru": "Традиционная китайская медицина, массажи и восточные техники восстановления.",
+                    "en": "Traditional Chinese Medicine therapies, massages, and recovery practices.",
+                    "zh-Hans": "体验中医调理、按摩及传统养生项目。"
+                }
+            },
+            {
+                "time": "11:00 - 12:00",
+                "title": {
+                    "ru": "Чайная церемония",
+                    "en": "Tea Ceremony",
+                    "zh-Hans": "茶道体验"
+                },
+                "description": {
+                    "ru": "Лечебные травы и традиции чаепития региона Юньнань.",
+                    "en": "Discover medicinal herbs and tea traditions of Yunnan Province.",
+                    "zh-Hans": "了解云南传统茶文化及养生草本知识。"
+                }
+            },
+            {
+                "time": "12:00 - 13:00",
+                "title": {
+                    "ru": "Оздоровительный обед",
+                    "en": "Wellness Lunch",
+                    "zh-Hans": "养生午餐"
+                },
+                "description": {
+                    "ru": "Питание по рекомендациям специалистов.",
+                    "en": "Nutritious meals prepared according to wellness recommendations.",
+                    "zh-Hans": "根据专家建议提供健康养生餐食。"
+                }
+            },
+            {
+                "time": "13:30 - 14:30",
+                "title": {
+                    "ru": "Экскурсии и отдых",
+                    "en": "Excursions and Leisure Time",
+                    "zh-Hans": "观光与休闲活动"
+                },
+                "description": {
+                    "ru": "Программы подбираются с учетом пожеланий участников.",
+                    "en": "Activities and excursions tailored to participants' preferences.",
+                    "zh-Hans": "根据参与者需求安排观光与休闲活动。"
+                }
+            },
+            {
+                "time": "18:00 - 19:00",
+                "title": {
+                    "ru": "Ужин",
+                    "en": "Dinner",
+                    "zh-Hans": "晚餐"
+                },
+                "description": {
+                    "ru": "Легкий вечерний прием пищи.",
+                    "en": "A light and balanced evening meal.",
+                    "zh-Hans": "享用轻松健康的晚餐。"
+                }
+            }
+        ],
+        "questions": [
+            {
+                "title": {
+                    "ru": "Нужен ли опыт занятий восточными практиками?",
+                    "en": "Do I Need Previous Experience with Eastern Practices?",
+                    "zh-Hans": "需要有东方养生课程经验吗？"
+                },
+                "description": {
+                    "ru": "Нет. Все занятия подходят как новичкам, так и участникам с опытом.",
+                    "en": "No. All activities are suitable for both beginners and experienced participants.",
+                    "zh-Hans": "不需要。所有课程均适合初学者和有经验的参与者。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Какая максимальная группа?",
+                    "en": "What Is the Maximum Group Size?",
+                    "zh-Hans": "团队最多多少人？"
+                },
+                "description": {
+                    "ru": "До 15 участников для сохранения комфортной атмосферы и индивидуального подхода.",
+                    "en": "Up to 15 participants to ensure a comfortable atmosphere and personalized attention.",
+                    "zh-Hans": "最多15人，以保证舒适的体验和个性化服务。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Подходит ли программа для восстановления после стресса?",
+                    "en": "Is This Program Suitable for Stress Recovery?",
+                    "zh-Hans": "该项目适合缓解压力和恢复身心吗？"
+                },
+                "description": {
+                    "ru": "Да. Программа ориентирована на восстановление физических и эмоциональных ресурсов организма.",
+                    "en": "Yes. The program is designed to restore both physical vitality and emotional well-being.",
+                    "zh-Hans": "是的。本项目旨在帮助恢复身体活力并改善心理状态。"
+                }
+            }
+        ]
+    },
+    {
+        "id": "tour-erhai-tcm-retreat",
+        "slug": "erhai-tcm-retreat",
+        "destinationSlug": "beijing",
+        "title": {
+            "ru": "Восстановление и отдых с традиционной китайской медициной",
+            "en": "Wellness and Recovery with Traditional Chinese Medicine",
+            "zh-Hans": "中医养生与康复之旅"
+        },
+        "titleHeader": {
+            "ru": "12 дней восстановления на термальных источниках Эрхай",
+            "en": "12 Days of Recovery at the Erhai Hot Springs",
+            "zh-Hans": "洱海温泉12天康养之旅"
+        },
+        "tourHeader": {
+            "ru": "Консультации врача традиционной китайской медицины для индивидуальной работы и восстановления организма",
+            "en": "Consultations with a Traditional Chinese Medicine Doctor for Personalized Wellness and Recovery",
+            "zh-Hans": "由资深中医师提供个性化诊疗与康复调理服务"
+        },
+        "seoTitle": {
+            "en": "12-Day Traditional Chinese Medicine Wellness Tour in Yunnan",
+            "ru": "12-дневный оздоровительный тур традиционной китайской медицины в Юньнани",
+            "zh-Hans": "云南12天中医养生康复之旅"
+        },
+        "seoDescription": {
+            "en": "Join a 12-day wellness retreat in Yunnan with traditional Chinese medicine, hot springs, acupuncture, Tai Chi and personalized recovery programs.",
+            "ru": "12-дневная программа восстановления в Юньнани с традиционной китайской медициной, термальными источниками, акупунктурой и индивидуальной программой оздоровления.",
+            "zh-Hans": "体验云南12天中医养生之旅，包含温泉、针灸、太极和个性化康复计划。"
+        },
+        "seoKeywords": [
+            {
+                "en": "traditional chinese medicine"
+            },
+            {
+                "en": "wellness retreat china"
+            },
+            {
+                "en": "hot springs yunnan"
+            }
+        ],
+        "country": {
+            "ru": "Китай",
+            "en": "China",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "ru": "Эрюань",
+            "en": "Eryuan",
+            "zh-Hans": "洱源县"
+        },
+        "region": {
+            "ru": "Дали-Бай",
+            "en": "Dali Bai Autonomous Prefecture",
+            "zh-Hans": "大理白族自治州"
+        },
+        "tags": [
+            {
+                "ru": "Традиционная китайская медицина",
+                "en": "Traditional Chinese Medicine",
+                "zh-Hans": "中医"
+            },
+            {
+                "ru": "Термальные источники",
+                "en": "Hot Springs",
+                "zh-Hans": "温泉"
+            },
+            {
+                "ru": "Оздоровительный тур",
+                "en": "Wellness Tour",
+                "zh-Hans": "康养之旅"
+            },
+            {
+                "ru": "Ретрит",
+                "en": "Retreat",
+                "zh-Hans": "养生营"
+            },
+            {
+                "ru": "Восстановление организма",
+                "en": "Body Recovery",
+                "zh-Hans": "身体调理"
+            },
+            {
+                "ru": "Wellness",
+                "en": "Wellness",
+                "zh-Hans": "健康养生"
+            }
+        ],
+        "coordinates": [
+            99.9493,
+            26.1148
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": {
+                    "ru": "Прибытие в Эрюань и знакомство с программой",
+                    "en": "Arrival in Eryuan and Program Introduction",
+                    "zh-Hans": "抵达洱源并了解康养计划"
+                },
+                "description": {
+                    "ru": "Встреча участников, размещение в спа-доме у подножья горы Цаншань, знакомство с врачами традиционной китайской медицины и программой восстановления. Вечерний отдых на термальных источниках.",
+                    "en": "Arrival and welcome meeting, accommodation at the wellness retreat near Cangshan Mountain, introduction to Traditional Chinese Medicine specialists and the recovery program. Evening relaxation at the hot springs.",
+                    "zh-Hans": "抵达后入住苍山脚下的温泉康养中心，与中医专家见面并了解康养计划。晚上体验天然温泉放松身心。"
+                }
+            },
+            {
+                "day": 2,
+                "title": {
+                    "ru": "Первичная диагностика",
+                    "en": "Initial Diagnosis",
+                    "zh-Hans": "初步健康诊断"
+                },
+                "description": {
+                    "ru": "Пульсовая диагностика, консультации специалистов и составление индивидуальной программы оздоровления. Первые лечебные процедуры и знакомство с практиками восстановления.",
+                    "en": "Pulse diagnosis, specialist consultations, and creation of a personalized wellness plan. Introduction to therapeutic treatments and recovery practices.",
+                    "zh-Hans": "进行脉诊和健康评估，与专家咨询并制定个性化康养方案，开始体验中医调理项目。"
+                }
+            },
+            {
+                "day": 3,
+                "title": {
+                    "ru": "Начало программы восстановления",
+                    "en": "Beginning of the Recovery Program",
+                    "zh-Hans": "康复计划正式开始"
+                },
+                "description": {
+                    "ru": "Индивидуальные процедуры, акупунктура, рефлексотерапия, чайная церемония и занятия Тайцзицюань.",
+                    "en": "Personalized treatments, acupuncture, reflexology, tea ceremony, and Tai Chi practice.",
+                    "zh-Hans": "开始个性化调理，包括针灸、反射疗法、茶道体验及太极练习。"
+                }
+            },
+            {
+                "day": 4,
+                "title": {
+                    "ru": "Термальные источники и восточные практики",
+                    "en": "Hot Springs and Eastern Practices",
+                    "zh-Hans": "温泉疗养与东方养生"
+                },
+                "description": {
+                    "ru": "Работа по индивидуальным программам восстановления, посещение термальных бассейнов и практики Бадуаньцзинь.",
+                    "en": "Personal recovery sessions, thermal pools, and Baduanjin wellness exercises.",
+                    "zh-Hans": "继续个性化调理，体验温泉疗养及八段锦养生功法。"
+                }
+            },
+            {
+                "day": 5,
+                "title": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海之旅"
+                },
+                "description": {
+                    "ru": "Экскурсия к озеру Эрхай — одному из самых живописных мест провинции Юньнань. Возвращение в комплекс и вечерние процедуры.",
+                    "en": "Excursion to Erhai Lake, one of Yunnan’s most scenic attractions, followed by evening wellness treatments.",
+                    "zh-Hans": "游览云南著名景点洱海，欣赏自然风光，晚上返回康养中心继续调理。"
+                }
+            },
+            {
+                "day": 6,
+                "title": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山体验"
+                },
+                "description": {
+                    "ru": "Поездка в горный район Цаншань, прогулки на свежем воздухе и восстановительные практики среди высокогорной природы.",
+                    "en": "Visit to Cangshan Mountain with scenic walks and wellness activities in the alpine environment.",
+                    "zh-Hans": "前往苍山地区，体验高山自然环境中的徒步与养生活动。"
+                }
+            },
+            {
+                "day": 7,
+                "title": {
+                    "ru": "День глубокого восстановления",
+                    "en": "Deep Recovery Day",
+                    "zh-Hans": "深度康复日"
+                },
+                "description": {
+                    "ru": "Комплекс лечебных процедур, моксотерапия, ароматерапия и работа с поющими чашами.",
+                    "en": "Comprehensive therapies including moxibustion, aromatherapy, and sound healing with singing bowls.",
+                    "zh-Hans": "体验艾灸、芳香疗法及颂钵音疗等深度康复项目。"
+                }
+            },
+            {
+                "day": 8,
+                "title": {
+                    "ru": "Храм Чуншэнсы",
+                    "en": "Chongsheng Temple",
+                    "zh-Hans": "崇圣寺三塔"
+                },
+                "description": {
+                    "ru": "Посещение знаменитого храмового комплекса Чуншэнсы и Трёх пагод — одного из символов региона Дали.",
+                    "en": "Visit to the famous Chongsheng Temple and the Three Pagodas, symbols of the Dali region.",
+                    "zh-Hans": "参观大理著名地标崇圣寺三塔，了解当地历史文化。"
+                }
+            },
+            {
+                "day": 9,
+                "title": {
+                    "ru": "Традиции Юньнани",
+                    "en": "Yunnan Traditions",
+                    "zh-Hans": "云南传统文化"
+                },
+                "description": {
+                    "ru": "Знакомство с культурой региона, чайными традициями и лечебными травами юго-запада Китая.",
+                    "en": "Explore local culture, tea traditions, and medicinal herbs of Southwest China.",
+                    "zh-Hans": "了解云南文化、茶文化以及中国西南地区传统草药知识。"
+                }
+            },
+            {
+                "day": 10,
+                "title": {
+                    "ru": "Закрепление результатов",
+                    "en": "Consolidating Results",
+                    "zh-Hans": "巩固康复成果"
+                },
+                "description": {
+                    "ru": "Продолжение персональной программы восстановления и повторная диагностика для оценки промежуточных результатов.",
+                    "en": "Continuation of personalized treatments and follow-up diagnosis to evaluate progress.",
+                    "zh-Hans": "继续个性化调理，并进行复查评估康复效果。"
+                }
+            },
+            {
+                "day": 11,
+                "title": {
+                    "ru": "Финальные процедуры",
+                    "en": "Final Treatments",
+                    "zh-Hans": "最终调理阶段"
+                },
+                "description": {
+                    "ru": "Завершающие консультации врачей, рекомендации по поддержанию здоровья после возвращения домой и свободное время для отдыха.",
+                    "en": "Final consultations, health maintenance recommendations, and free time for relaxation.",
+                    "zh-Hans": "完成最后阶段调理，获得健康建议并享受自由休闲时间。"
+                }
+            },
+            {
+                "day": 12,
+                "title": {
+                    "ru": "Завершение программы",
+                    "en": "Program Completion",
+                    "zh-Hans": "康养计划圆满结束"
+                },
+                "description": {
+                    "ru": "Подведение итогов оздоровительной программы, рекомендации специалистов и трансфер к месту отправления.",
+                    "en": "Summary of the wellness program, final recommendations, and transfer to the departure point.",
+                    "zh-Hans": "总结康养成果，获得专家建议并安排送站或送机服务。"
+                }
+            }
+        ],
+        "image": "assets/images/destination/312x380.svg",
+        "images": [
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg",
+            "assets/images/destination/312x380.svg"
+        ],
+        "durationDays": 12,
+        "durationNights": 11,
+        "minGroupSize": 6,
+        "maxGroupSize": 15,
+        "featured": true,
+        "popular": true,
+        "content": {
+            "ru": "Тур проходит на юго-западе Китая, в живописном регионе Дали-Бай, уезда Эрюань, на берегу озера Эрхай. В течение 12 дней участники проходят программу отдыха, восстановления и оздоровления под наблюдением специалистов традиционной китайской медицины. Проживание организовано в уютном спа-доме у подножья горы Цаншань. На территории комплекса расположены 24 термальных бассейна с богатым минеральным составом, способствующим расслаблению, восстановлению сил и поддержанию здоровья.",
+            "en": "This wellness journey takes place in Southwest China, in the scenic Dali Bai region of Eryuan County, on the shores of Erhai Lake. Over 12 days, participants follow a carefully designed program of relaxation, recovery, and rejuvenation under the guidance of experienced Traditional Chinese Medicine specialists. Accommodation is provided in a comfortable wellness retreat at the foot of Cangshan Mountain. The resort features 24 mineral-rich hot spring pools designed to promote relaxation, restore energy, and support overall well-being.",
+            "zh-Hans": "本次康养之旅位于中国西南部云南省大理地区洱源县的洱海湖畔。在为期12天的行程中，参与者将在资深中医专家的指导下体验休养、调理与康复项目。入住环境优雅的温泉康养中心，坐落于苍山脚下。园区内拥有24个富含矿物质的天然温泉池，有助于放松身心、恢复活力并促进整体健康。"
+        },
+        "contentSecond": {
+            "ru": "Каждому участнику проводится индивидуальная диагностика и формируется персональная программа восстановления. Помимо лечебных процедур гостей ждут чайные церемонии, оздоровительные практики, восточная терапия, экскурсии по историческим достопримечательностям и отдых среди высокогорной природы провинции Юньнань.",
+            "en": "Each participant receives a personalized health assessment and a customized recovery plan. In addition to therapeutic treatments, guests can enjoy traditional tea ceremonies, wellness practices, Eastern healing therapies, cultural excursions to historic landmarks, and peaceful relaxation in the stunning mountain landscapes of Yunnan Province.",
+            "zh-Hans": "每位参与者都将接受个性化健康评估，并制定专属康养方案。除中医调理项目外，游客还可体验茶道、养生课程、传统东方疗法，以及参观当地历史文化景点，在云南壮丽的高原自然风光中放松身心。"
+        },
+        "facts": [
+            {
+                "icon": "pi pi-map-marker",
+                "title": {
+                    "ru": "Регион",
+                    "en": "Location",
+                    "zh-Hans": "地区"
+                },
+                "value": {
+                    "ru": "Эрюань, Дали-Бай",
+                    "en": "Eryuan, Dali",
+                    "zh-Hans": "洱源 · 大理"
+                }
+            },
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Размер группы",
+                    "en": "Group Size",
+                    "zh-Hans": "团队规模"
+                },
+                "value": {
+                    "ru": "До 15 человек",
+                    "en": "Up to 15 Guests",
+                    "zh-Hans": "最多15人"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Продолжительность",
+                    "en": "Duration",
+                    "zh-Hans": "行程时长"
+                },
+                "value": {
+                    "ru": "12 дней / 11 ночей",
+                    "en": "12 Days / 11 Nights",
+                    "zh-Hans": "12天11晚"
+                }
+            },
+            {
+                "icon": "pi pi-heart",
+                "title": {
+                    "ru": "Формат",
+                    "en": "Program Type",
+                    "zh-Hans": "项目类型"
+                },
+                "value": {
+                    "ru": "Оздоровительный ретрит",
+                    "en": "Wellness Retreat",
+                    "zh-Hans": "康养之旅"
+                }
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "24 термальных бассейна на территории комплекса",
+                "en": "24 Hot Spring Pools Throughout the Resort",
+                "zh-Hans": "园区内拥有24个天然温泉池"
+            },
+            {
+                "ru": "Индивидуальная программа восстановления организма",
+                "en": "Personalized Recovery Program",
+                "zh-Hans": "个性化康复调理方案"
+            },
+            {
+                "ru": "Сопровождение врача традиционной китайской медицины",
+                "en": "Guidance from Traditional Chinese Medicine Specialists",
+                "zh-Hans": "资深中医专家全程指导"
+            },
+            {
+                "ru": "Проживание у подножья горы Цаншань",
+                "en": "Accommodation at the Foot of Cangshan Mountain",
+                "zh-Hans": "入住苍山脚下温泉康养中心"
+            },
+            {
+                "ru": "Практики Тайцзицюань и Бадуаньцзинь",
+                "en": "Tai Chi and Baduanjin Wellness Practices",
+                "zh-Hans": "太极拳与八段锦养生课程"
+            },
+            {
+                "ru": "Чайные церемонии и лечебные травы",
+                "en": "Tea Ceremonies and Medicinal Herbs",
+                "zh-Hans": "茶道体验与传统草药调理"
+            },
+            {
+                "ru": "Небольшая группа единомышленников",
+                "en": "Small Group Experience",
+                "zh-Hans": "精品小团深度体验"
+            },
+            {
+                "ru": "Гибкая программа под пожелания участников",
+                "en": "Flexible Program Tailored to Participants",
+                "zh-Hans": "根据需求灵活调整行程"
+            }
+        ],
+        "features": [
+            {
+                "ru": "24 термальных бассейна",
+                "en": "24 Hot Spring Pools",
+                "zh-Hans": "24个天然温泉池"
+            },
+            {
+                "ru": "Температура воды от 40 до 90°C",
+                "en": "Water Temperature from 40°C to 90°C",
+                "zh-Hans": "温泉水温40°C至90°C"
+            },
+            {
+                "ru": "Щелочной уровень pH 8.1",
+                "en": "Alkaline pH Level of 8.1",
+                "zh-Hans": "弱碱性水质（pH值8.1）"
+            },
+            {
+                "ru": "Кальций, магний и фториды в составе воды",
+                "en": "Rich in Calcium, Magnesium, and Fluorides",
+                "zh-Hans": "富含钙、镁和氟化物等矿物质"
+            },
+            {
+                "ru": "Высокогорная природа региона Дали",
+                "en": "Highland Nature of the Dali Region",
+                "zh-Hans": "大理高原自然风光"
+            },
+            {
+                "ru": "Мягкий климат юго-запада Китая",
+                "en": "Mild Climate of Southwest China",
+                "zh-Hans": "中国西南地区温和宜人的气候"
+            }
+        ],
+        "locations": [
+            {
+                "ru": "Озеро Эрхай",
+                "en": "Erhai Lake",
+                "zh-Hans": "洱海"
+            },
+            {
+                "ru": "Гора Цаншань",
+                "en": "Cangshan Mountain",
+                "zh-Hans": "苍山"
+            },
+            {
+                "ru": "Древний город Дали",
+                "en": "Dali Ancient Town",
+                "zh-Hans": "大理古城"
+            },
+            {
+                "ru": "Храм Чуншэнсы",
+                "en": "Chongsheng Temple",
+                "zh-Hans": "崇圣寺"
+            },
+            {
+                "ru": "Термальные источники Эрюань",
+                "en": "Eryuan Hot Springs",
+                "zh-Hans": "洱源温泉"
+            }
+        ],
+        "included": [
+            {
+                "ru": "Проживание в спа-доме у подножья горы Цаншань",
+                "en": "Accommodation at a Wellness Retreat at the Foot of Cangshan Mountain",
+                "zh-Hans": "入住苍山脚下温泉康养中心"
+            },
+            {
+                "ru": "Первичная диагностика врача традиционной китайской медицины",
+                "en": "Initial Consultation and Diagnosis by a Traditional Chinese Medicine Doctor",
+                "zh-Hans": "中医专家初步诊断与健康评估"
+            },
+            {
+                "ru": "Индивидуальная программа восстановления",
+                "en": "Personalized Recovery Program",
+                "zh-Hans": "个性化康复调理方案"
+            },
+            {
+                "ru": "Сопровождение врача традиционной китайской медицины",
+                "en": "Guidance and Support from Traditional Chinese Medicine Specialists",
+                "zh-Hans": "资深中医专家全程指导"
+            },
+            {
+                "ru": "Ежедневный доступ к термальным источникам",
+                "en": "Daily Access to Hot Springs",
+                "zh-Hans": "每日不限次温泉体验"
+            },
+            {
+                "ru": "Питание по рекомендациям врача",
+                "en": "Meals Based on Doctor's Recommendations",
+                "zh-Hans": "根据中医建议定制养生膳食"
+            },
+            {
+                "ru": "Оздоровительные чаи и травяные сборы",
+                "en": "Wellness Teas and Herbal Remedies",
+                "zh-Hans": "养生茶饮及草本调理"
+            },
+            {
+                "ru": "Моксотерапия и ароматерапия",
+                "en": "Moxibustion and Aromatherapy",
+                "zh-Hans": "艾灸疗法与芳香疗法"
+            },
+            {
+                "ru": "Звуковая терапия",
+                "en": "Sound Healing Therapy",
+                "zh-Hans": "音疗放松课程"
+            },
+            {
+                "ru": "Практики Тайцзицюань",
+                "en": "Tai Chi Practice",
+                "zh-Hans": "太极拳课程"
+            },
+            {
+                "ru": "Практики Бадуаньцзинь",
+                "en": "Baduanjin Wellness Exercises",
+                "zh-Hans": "八段锦养生课程"
+            }
+        ],
+        "excluded": [
+            {
+                "ru": "Международный перелет",
+                "en": "International Flights",
+                "zh-Hans": "国际往返机票"
+            },
+            {
+                "ru": "Виза в Китай",
+                "en": "China Visa",
+                "zh-Hans": "中国签证费用"
+            },
+            {
+                "ru": "Медицинская страховка",
+                "en": "Travel Medical Insurance",
+                "zh-Hans": "旅行医疗保险"
+            },
+            {
+                "ru": "Личные расходы",
+                "en": "Personal Expenses",
+                "zh-Hans": "个人消费"
+            },
+            {
+                "ru": "Дополнительные экскурсии по желанию",
+                "en": "Optional Excursions and Activities",
+                "zh-Hans": "自选活动及额外观光项目"
+            }
+        ],
+        "treatments": [
+            {
+                "title": {
+                    "ru": "Пульсовая диагностика",
+                    "en": "Pulse Diagnosis",
+                    "zh-Hans": "中医脉诊"
+                },
+                "description": {
+                    "ru": "Позволяет оценить состояние внутренних органов, баланс энергий и общее состояние организма. На основе результатов врач формирует индивидуальную программу восстановления.",
+                    "en": "A traditional diagnostic method used to evaluate organ function, energy balance, and overall health. Based on the results, the doctor develops a personalized recovery plan.",
+                    "zh-Hans": "通过中医脉诊评估脏腑功能、气血平衡及整体健康状况，并据此制定个性化康养方案。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Акупунктура и рефлексотерапия",
+                    "en": "Acupuncture and Reflexology",
+                    "zh-Hans": "针灸与反射疗法"
+                },
+                "description": {
+                    "ru": "Один из самых древних методов восточной медицины, способствующий улучшению кровообращения, снижению напряжения и восстановлению жизненных сил.",
+                    "en": "One of the oldest methods of Eastern medicine, helping improve circulation, reduce tension, and restore vitality.",
+                    "zh-Hans": "传统东方疗法，有助于促进血液循环、缓解压力并恢复身体活力。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Моксотерапия и ароматерапия",
+                    "en": "Moxibustion and Aromatherapy",
+                    "zh-Hans": "艾灸疗法与芳香疗法"
+                },
+                "description": {
+                    "ru": "Комплекс процедур для расслабления, восстановления энергии и гармонизации эмоционального состояния.",
+                    "en": "A combination of therapies designed to promote relaxation, restore energy, and improve emotional well-being.",
+                    "zh-Hans": "结合艾灸与芳香疗法，帮助放松身心、恢复能量并改善情绪状态。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Практики восстановления организма",
+                    "en": "Traditional Wellness Practices",
+                    "zh-Hans": "传统养生课程"
+                },
+                "description": {
+                    "ru": "Традиционные методы, направленные на снижение стресса, укрепление здоровья и достижение внутренней гармонии.",
+                    "en": "Traditional wellness techniques focused on stress reduction, health improvement, and achieving inner balance.",
+                    "zh-Hans": "通过传统养生方法减轻压力、增强体质并促进身心平衡。"
+                }
+            }
+        ],
+        "dailySchedule": [
+            {
+                "time": "07:00 - 08:30",
+                "title": {
+                    "ru": "Консультации и лечебные процедуры",
+                    "en": "Consultations and Therapeutic Treatments",
+                    "zh-Hans": "健康咨询与康复治疗"
+                },
+                "description": {
+                    "ru": "Обследование состояния организма и назначенные процедуры.",
+                    "en": "Health assessments and personalized therapeutic treatments.",
+                    "zh-Hans": "进行健康评估并接受个性化康复治疗。"
+                }
+            },
+            {
+                "time": "07:30 - 09:00",
+                "title": {
+                    "ru": "Завтрак",
+                    "en": "Breakfast",
+                    "zh-Hans": "早餐"
+                },
+                "description": {
+                    "ru": "Шведский стол и блюда традиционной кухни юго-запада Китая.",
+                    "en": "Buffet breakfast featuring local specialties from Southwest China.",
+                    "zh-Hans": "享用自助早餐及中国西南地区特色美食。"
+                }
+            },
+            {
+                "time": "09:30 - 11:00",
+                "title": {
+                    "ru": "Оздоровительные практики",
+                    "en": "Wellness Practices",
+                    "zh-Hans": "养生课程"
+                },
+                "description": {
+                    "ru": "Традиционная китайская медицина, массажи и восточные техники восстановления.",
+                    "en": "Traditional Chinese Medicine therapies, massages, and recovery practices.",
+                    "zh-Hans": "体验中医调理、按摩及传统养生项目。"
+                }
+            },
+            {
+                "time": "11:00 - 12:00",
+                "title": {
+                    "ru": "Чайная церемония",
+                    "en": "Tea Ceremony",
+                    "zh-Hans": "茶道体验"
+                },
+                "description": {
+                    "ru": "Лечебные травы и традиции чаепития региона Юньнань.",
+                    "en": "Discover medicinal herbs and tea traditions of Yunnan Province.",
+                    "zh-Hans": "了解云南传统茶文化及养生草本知识。"
+                }
+            },
+            {
+                "time": "12:00 - 13:00",
+                "title": {
+                    "ru": "Оздоровительный обед",
+                    "en": "Wellness Lunch",
+                    "zh-Hans": "养生午餐"
+                },
+                "description": {
+                    "ru": "Питание по рекомендациям специалистов.",
+                    "en": "Nutritious meals prepared according to wellness recommendations.",
+                    "zh-Hans": "根据专家建议提供健康养生餐食。"
+                }
+            },
+            {
+                "time": "13:30 - 14:30",
+                "title": {
+                    "ru": "Экскурсии и отдых",
+                    "en": "Excursions and Leisure Time",
+                    "zh-Hans": "观光与休闲活动"
+                },
+                "description": {
+                    "ru": "Программы подбираются с учетом пожеланий участников.",
+                    "en": "Activities and excursions tailored to participants' preferences.",
+                    "zh-Hans": "根据参与者需求安排观光与休闲活动。"
+                }
+            },
+            {
+                "time": "18:00 - 19:00",
+                "title": {
+                    "ru": "Ужин",
+                    "en": "Dinner",
+                    "zh-Hans": "晚餐"
+                },
+                "description": {
+                    "ru": "Легкий вечерний прием пищи.",
+                    "en": "A light and balanced evening meal.",
+                    "zh-Hans": "享用轻松健康的晚餐。"
+                }
+            }
+        ],
+        "questions": [
+            {
+                "title": {
+                    "ru": "Нужен ли опыт занятий восточными практиками?",
+                    "en": "Do I Need Previous Experience with Eastern Practices?",
+                    "zh-Hans": "需要有东方养生课程经验吗？"
+                },
+                "description": {
+                    "ru": "Нет. Все занятия подходят как новичкам, так и участникам с опытом.",
+                    "en": "No. All activities are suitable for both beginners and experienced participants.",
+                    "zh-Hans": "不需要。所有课程均适合初学者和有经验的参与者。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Какая максимальная группа?",
+                    "en": "What Is the Maximum Group Size?",
+                    "zh-Hans": "团队最多多少人？"
+                },
+                "description": {
+                    "ru": "До 15 участников для сохранения комфортной атмосферы и индивидуального подхода.",
+                    "en": "Up to 15 participants to ensure a comfortable atmosphere and personalized attention.",
+                    "zh-Hans": "最多15人，以保证舒适的体验和个性化服务。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Подходит ли программа для восстановления после стресса?",
+                    "en": "Is This Program Suitable for Stress Recovery?",
+                    "zh-Hans": "该项目适合缓解压力和恢复身心吗？"
+                },
+                "description": {
+                    "ru": "Да. Программа ориентирована на восстановление физических и эмоциональных ресурсов организма.",
+                    "en": "Yes. The program is designed to restore both physical vitality and emotional well-being.",
+                    "zh-Hans": "是的。本项目旨在帮助恢复身体活力并改善心理状态。"
+                }
+            }
+        ]
     }
 ]

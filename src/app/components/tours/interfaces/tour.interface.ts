@@ -1,7 +1,9 @@
 import { ILocalizedText } from "../../../interfaces/localized-text.interface";
 import { IDailyScheduleItem } from "./daily-schedule-Item.interface";
 import { IItineraryDay } from "./itinerary-day.interface";
+import { ITourFact } from "./tour-fact.interface";
 import { ITourQuestion } from "./tour-questions.interface";
+import { ITourTreatment } from "./tour-treatment.interface";
 
 export interface ITour {
 
@@ -11,12 +13,17 @@ export interface ITour {
     description?: ILocalizedText;
     titleHeader?: ILocalizedText;
     tourHeader?: ILocalizedText;
+    seoTitle?: ILocalizedText;
+    seoDescription?: ILocalizedText;
+    seoKeywords?: ILocalizedText[];
     destinationSlug?: string;
     country?: ILocalizedText;
-    tags?: string[];
+    tags?: ILocalizedText[];
+    facts?: ITourFact[];
     included?: ILocalizedText[];
     excluded?: ILocalizedText[];
     city?: ILocalizedText;
+    region?: ILocalizedText;
     coordinates?: [number, number];
     categorySlug?: string;
     image: string;
@@ -36,6 +43,9 @@ export interface ITour {
     content?: ILocalizedText;
     contentSecond?: ILocalizedText;
     questions?: ITourQuestion[];
+    locations?: ILocalizedText[];
+    features?: ILocalizedText[];
+    treatments?: ITourTreatment[];
     itinerary?: IItineraryDay[];
     dailySchedule?: IDailyScheduleItem[];
     createdAt?: string;

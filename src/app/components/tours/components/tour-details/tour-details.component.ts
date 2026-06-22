@@ -14,6 +14,9 @@ import { point } from "@turf/helpers";
 import { CommonModule } from "@angular/common";
 import { GalleriaComponent } from "../../../galleria/galleria.component";
 import { LayoutService } from "../../../../services/layout.service";
+import { AccordionModule } from "primeng/accordion";
+import { TranslateModule } from "@ngx-translate/core";
+import { SeoService } from "../../../../services/seo.service";
 @Component({
     selector: "app-tour-details",
     standalone: true,
@@ -27,7 +30,9 @@ import { LayoutService } from "../../../../services/layout.service";
         FooterComponent,
         GoogleMapsModule,
         MapAdvancedMarker,
-        GalleriaComponent
+        GalleriaComponent,
+        AccordionModule,
+        TranslateModule
     ],
 })
 export class TourDetailsComponent {
@@ -68,6 +73,7 @@ export class TourDetailsComponent {
         private toursService: ToursService,
         public localization: LocalizationService,
         private _googleMapsLoader: GoogleMapsLoaderService,
+        private seoService: SeoService,
     ) { }
 
     public ngOnInit(): void {
@@ -99,7 +105,27 @@ export class TourDetailsComponent {
                         this.tour.tourHeader ??
                         this.tour.description
                     );
+
+                this.updateLocalizedContent();
                 this.onInit();
+
+            });
+
+
+
+        this.localization.languageChanged$
+            .pipe(
+                map(event => event.lang),
+                takeUntil(this._destroy$)
+            )
+            .subscribe(lang => {
+
+                this._googleMapsLoader
+                    .reloadWithNewLanguage(lang);
+
+                if (this.tour) {
+                    this.updateLocalizedContent();
+                }
 
             });
 
@@ -177,25 +203,74 @@ export class TourDetailsComponent {
 
         const marker = this.buildMarker(point(this.tour?.coordinates as any, { name: ' ' }) as any, '', '');
         this.markers.push(marker);
-
-
-        this.localization.languageChanged$
-            .pipe(
-                map(event => event.lang),
-                takeUntil(this._destroy$)
-            )
-            .subscribe(lang => {
-
-                this._googleMapsLoader
-                    .reloadWithNewLanguage(lang);
-
-            });
     }
 
     public ngOnDestroy(): void {
 
         this._destroy$.next();
         this._destroy$.complete();
+    }
+
+
+    private updateSeo(): void {
+
+        if (!this.tour) {
+            return;
+        }
+
+        const title =
+            this.localization.getText(
+                this.tour.seoTitle ??
+                this.tour.titleHeader ??
+                this.tour.title
+            );
+
+        const description =
+            this.localization.getText(
+                this.tour.seoDescription ??
+                this.tour.tourHeader ??
+                this.tour.description
+            );
+
+        const keywords =
+            this.tour.seoKeywords?.length
+                ? this.tour.seoKeywords
+                    .map(tag =>
+                        this.localization.getText(tag)
+                    )
+                    .join(', ')
+                : undefined;
+
+        this.seoService.update({
+            title,
+            description,
+            keywords,
+            image: this.tour.image,
+            lang: this.localization.getCurrentLanguage(),
+            type: 'article'
+        });
+    }
+
+
+    private updateLocalizedContent(): void {
+
+        if (!this.tour) {
+            return;
+        }
+
+        this.title =
+            this.localization.getText(
+                this.tour.titleHeader ??
+                this.tour.title
+            );
+
+        this.description =
+            this.localization.getText(
+                this.tour.tourHeader ??
+                this.tour.description
+            );
+
+        this.updateSeo();
     }
 
     public openGallery(
