@@ -486,7 +486,7 @@
 
                                     <span class="font-medium">
 
-                                        {{ localization.getText(item) }}
+                                        {{ localization.getText(item.name) }}
 
                                     </span>
 
@@ -730,6 +730,7 @@
                             <google-map
                                 height="476px"
                                 width="100%"
+                                (mapInitialized)="onMapInitialized($event)"
                                 [options]="mapOptions"
                             >
 

@@ -1,4 +1,5 @@
 import { ILocalizedText } from "../../../interfaces/localized-text.interface";
+import { ITourLocation } from "../../../interfaces/location.interface";
 import { IDailyScheduleItem } from "./daily-schedule-Item.interface";
 import { IItineraryDay } from "./itinerary-day.interface";
 import { ITourFact } from "./tour-fact.interface";
@@ -43,7 +44,7 @@ export interface ITour {
     content?: ILocalizedText;
     contentSecond?: ILocalizedText;
     questions?: ITourQuestion[];
-    locations?: ILocalizedText[];
+    locations?: ITourLocation[];
     features?: ILocalizedText[];
     treatments?: ITourTreatment[];
     itinerary?: IItineraryDay[];

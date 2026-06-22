@@ -403,29 +403,59 @@
         ],
         "locations": [
             {
-                "ru": "Озеро Эрхай",
-                "en": "Erhai Lake",
-                "zh-Hans": "洱海"
+                "name": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海"
+                },
+                "coordinates": [
+                    100.1786,
+                    25.8247
+                ]
             },
             {
-                "ru": "Гора Цаншань",
-                "en": "Cangshan Mountain",
-                "zh-Hans": "苍山"
+                "name": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山"
+                },
+                "coordinates": [
+                    100.1057,
+                    25.6903
+                ]
             },
             {
-                "ru": "Древний город Дали",
-                "en": "Dali Ancient Town",
-                "zh-Hans": "大理古城"
+                "name": {
+                    "ru": "Древний город Дали",
+                    "en": "Dali Ancient Town",
+                    "zh-Hans": "大理古城"
+                },
+                "coordinates": [
+                    100.1634,
+                    25.6947
+                ]
             },
             {
-                "ru": "Храм Чуншэнсы",
-                "en": "Chongsheng Temple",
-                "zh-Hans": "崇圣寺"
+                "name": {
+                    "ru": "Храм Чуншэнсы",
+                    "en": "Chongsheng Temple",
+                    "zh-Hans": "崇圣寺"
+                },
+                "coordinates": [
+                    100.1515,
+                    25.7056
+                ]
             },
             {
-                "ru": "Термальные источники Эрюань",
-                "en": "Eryuan Hot Springs",
-                "zh-Hans": "洱源温泉"
+                "name": {
+                    "ru": "Термальные источники Эрюань",
+                    "en": "Eryuan Hot Springs",
+                    "zh-Hans": "洱源温泉"
+                },
+                "coordinates": [
+                    99.9493,
+                    26.1148
+                ]
             }
         ],
         "included": [

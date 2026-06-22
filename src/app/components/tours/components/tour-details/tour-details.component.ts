@@ -1,4 +1,4 @@
-import { Component, computed, inject, ViewChild } from "@angular/core";
+import { ChangeDetectorRef, Component, computed, inject, ViewChild } from "@angular/core";
 import { AnimatedContainer } from "../../../animatedcontainer";
 import { MenuComponent } from "../../../menu/components/menu.component";
 import { HeaderComponent } from "../../../header/header.component";
@@ -7,7 +7,7 @@ import { ActivatedRoute } from "@angular/router";
 import { ToursService } from "../../services/tours.service";
 import { LocalizationService } from "../../../../services/localization.service";
 import { GoogleMapsLoaderService } from "../../../../services/google-maps-loader.service";
-import { GoogleMapsModule, MapAdvancedMarker } from "@angular/google-maps";
+import { GoogleMap, GoogleMapsModule, MapAdvancedMarker } from "@angular/google-maps";
 import { Feature, Point } from "geojson";
 import { BehaviorSubject, debounceTime, map, Observable, Subject, takeUntil, timer } from "rxjs";
 import { point } from "@turf/helpers";
@@ -17,6 +17,7 @@ import { LayoutService } from "../../../../services/layout.service";
 import { AccordionModule } from "primeng/accordion";
 import { TranslateModule } from "@ngx-translate/core";
 import { SeoService } from "../../../../services/seo.service";
+import { ITourLocation } from "../../../../interfaces/location.interface";
 @Component({
     selector: "app-tour-details",
     standalone: true,
@@ -36,7 +37,9 @@ import { SeoService } from "../../../../services/seo.service";
     ],
 })
 export class TourDetailsComponent {
-    @ViewChild(GalleriaComponent)
+
+    @ViewChild(GoogleMap)
+    public map!: any;
 
     public galleria!: GalleriaComponent;
     public tour: any = null;
@@ -50,6 +53,7 @@ export class TourDetailsComponent {
     }[] = [];
 
     public markers: any[] = [];
+    locations?: ITourLocation[];
     public _destroy$ = new Subject<void>();
     private _showMapSubject = new BehaviorSubject<boolean>(false);
     public layoutService = inject(LayoutService);
@@ -74,6 +78,7 @@ export class TourDetailsComponent {
         public localization: LocalizationService,
         private _googleMapsLoader: GoogleMapsLoaderService,
         private seoService: SeoService,
+        private _cdr: ChangeDetectorRef,
     ) { }
 
     public ngOnInit(): void {
@@ -200,15 +205,43 @@ export class TourDetailsComponent {
             center: { lat, lng }
         };
 
-
+        this.markers = [];
         const marker = this.buildMarker(point(this.tour?.coordinates as any, { name: ' ' }) as any, '', '');
         this.markers.push(marker);
+
+        if (this.tour.locations?.length) {
+
+            const locationMarkers =
+                this.tour.locations
+                    .filter(location => location.coordinates?.length)
+                    .map(location =>
+                        this.buildLocationMarker(
+                            point(location.coordinates as any, {
+                                name: this.localization.getText(location.name)
+                            }) as any
+                        )
+                    );
+
+            this.markers.push(...locationMarkers);
+            this._cdr.detectChanges();
+        }
+
+
     }
 
     public ngOnDestroy(): void {
-
+        this.markers = [];
+        this.tour = null;
         this._destroy$.next();
         this._destroy$.complete();
+    }
+
+    public onMapInitialized(
+        map: google.maps.Map
+    ): void {
+
+        this.map = map;
+        this.fitBounds();
     }
 
 
@@ -249,6 +282,67 @@ export class TourDetailsComponent {
             lang: this.localization.getCurrentLanguage(),
             type: 'article'
         });
+    }
+
+    private fitBounds(): void {
+
+        if (!this.map || !this.markers.length) {
+            return;
+        }
+
+        const bounds =
+            new google.maps.LatLngBounds();
+
+        this.markers.forEach(marker => {
+
+            bounds.extend(
+                marker.position
+            );
+
+        });
+
+        this.map.fitBounds(
+            bounds,
+            {
+                top: 80,
+                right: 80,
+                bottom: 80,
+                left: 80
+            }
+        );
+    }
+
+
+    private buildLocationMarker(
+        feature: Feature<Point>
+    ): any {
+
+        const [lng, lat] =
+            feature.geometry.coordinates;
+
+        return {
+            feature,
+            position: { lat, lng },
+            content: this.createCircleMarkerContent()
+        };
+    }
+
+
+    private createCircleMarkerContent(): HTMLElement {
+
+        const el =
+            document.createElement('div');
+
+        Object.assign(el.style, {
+            width: '16px',
+            height: '16px',
+            borderRadius: '50%',
+            backgroundColor: '#F8931F',
+            border: '4px solid white',
+            boxShadow: '0 2px 8px rgba(0,0,0,.25)'
+        });
+
+        return el;
     }
 
 
