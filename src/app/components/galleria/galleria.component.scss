@@ -58,7 +58,6 @@
         background: var(--p-surface-950);
     }
 
-
     .p-galleria-thumbnails-content {
         background: var(--p-surface-0);
     }
@@ -71,22 +70,20 @@
         background: var(--p-surface-950);
     }
 
-
     .p-galleria-close-button {
         color: var(--p-primary-color);
         background: rgb(28 188 156 / 13%);
-
     }
 
     .p-galleria-thumbnail-nav-button {
         color: var(--p-primary-color);
-
     }
 
     .p-galleria-nav-button {
-
         color: var(--p-primary-color);
+    }
 
-
+    .p-galleria-nav-button:not(.p-disabled):hover {
+        background: rgb(28 188 156 / 13%);
     }
 }
