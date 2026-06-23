@@ -316,12 +316,12 @@
                 "title": {
                     "ru": "Формат",
                     "en": "Program Type",
-                    "zh-Hans": "项目类型"
+                    "zh-Hans": "项目形式"
                 },
                 "value": {
-                    "ru": "Оздоровительный ретрит",
-                    "en": "Wellness Retreat",
-                    "zh-Hans": "康养之旅"
+                    "ru": "Групповые и индивидуальные программы",
+                    "en": "Group & Private Programs",
+                    "zh-Hans": "团体及私人定制项目"
                 }
             }
         ],
@@ -365,6 +365,80 @@
                 "ru": "Гибкая программа под пожелания участников",
                 "en": "Flexible Program Tailored to Participants",
                 "zh-Hans": "根据需求灵活调整行程"
+            }
+        ],
+        "excursions": [
+            {
+                "title": {
+                    "ru": "Цыби-Ху — Цветы на берегу",
+                    "en": "Cibi Lake – Flowers by the Shore",
+                    "zh-Hans": "茈碧湖花海"
+                },
+                "description": {
+                    "ru": "Живописное озеро с цветущими берегами и традиционной природой региона Дали. Включает транспорт, организацию программы и обед.",
+                    "en": "A picturesque lake surrounded by blooming landscapes and natural beauty. Includes transportation, guided program, and lunch.",
+                    "zh-Hans": "游览风景秀丽的茈碧湖，欣赏花海景观。包含交通、活动安排及午餐。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Три Пагоды Чуншэн",
+                    "en": "Three Pagodas of Chongsheng",
+                    "zh-Hans": "崇圣寺三塔"
+                },
+                "description": {
+                    "ru": "Посещение главного символа региона Дали. Включает транспорт, входные билеты и ужин.",
+                    "en": "Visit the iconic landmark of Dali. Includes transportation, entrance tickets, and dinner.",
+                    "zh-Hans": "参观大理地标崇圣寺三塔。包含交通、门票及晚餐。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Цзяньчуань — родина резьбы по дереву",
+                    "en": "Jianchuan – Home of Traditional Woodcarving",
+                    "zh-Hans": "剑川木雕之乡"
+                },
+                "description": {
+                    "ru": "Знакомство с традиционным ремеслом Юньнани, мастер-класс и национальный обед.",
+                    "en": "Discover Yunnan's traditional woodcarving heritage with a workshop and local lunch.",
+                    "zh-Hans": "体验云南传统木雕文化，参加手工课程并享用特色午餐。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山"
+                },
+                "description": {
+                    "ru": "Подъём по канатной дороге к вершинам Цаншань, прогулки и панорамные виды на озеро Эрхай.",
+                    "en": "Cable car ride to the peaks of Cangshan Mountain with panoramic views over Erhai Lake.",
+                    "zh-Hans": "乘坐缆车登上苍山，俯瞰洱海壮丽景色。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Идеальный сад — Очарование цветов Юньнани",
+                    "en": "Ideal Garden – The Beauty of Yunnan Flowers",
+                    "zh-Hans": "理想花园"
+                },
+                "description": {
+                    "ru": "Посещение цветочного сада, фотосессия и знакомство с флорой Юньнани.",
+                    "en": "Explore a flower garden, enjoy a professional photo session, and discover Yunnan's floral diversity.",
+                    "zh-Hans": "游览花园景区，拍摄纪念照片，感受云南花卉魅力。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Древний город Шуанлан",
+                    "en": "Shuanglang Ancient Town",
+                    "zh-Hans": "双廊古镇"
+                },
+                "description": {
+                    "ru": "Прогулка по древнему городу на берегу озера Эрхай, прощальный ужин и праздничный вечер.",
+                    "en": "Explore the historic lakeside town of Shuanglang followed by a farewell dinner and celebration.",
+                    "zh-Hans": "游览洱海湖畔双廊古镇，并参加告别晚宴。"
+                }
             }
         ],
         "features": [
@@ -511,6 +585,31 @@
                 "ru": "Практики Бадуаньцзинь",
                 "en": "Baduanjin Wellness Exercises",
                 "zh-Hans": "八段锦养生课程"
+            },
+            {
+                "ru": "Иглорефлексотерапия",
+                "en": "Acupuncture Therapy",
+                "zh-Hans": "针灸疗法"
+            },
+            {
+                "ru": "Баночный массаж",
+                "en": "Cupping Massage",
+                "zh-Hans": "拔罐疗法"
+            },
+            {
+                "ru": "Точечный массаж по традиционной китайской медицине",
+                "en": "Traditional Chinese Acupressure Massage",
+                "zh-Hans": "中医穴位按摩"
+            },
+            {
+                "ru": "SPA-процедуры с эфирными маслами",
+                "en": "Therapeutic Essential Oil SPA Treatments",
+                "zh-Hans": "精油理疗SPA"
+            },
+            {
+                "ru": "Страхование от несчастных случаев",
+                "en": "Accident Insurance",
+                "zh-Hans": "意外保险"
             }
         ],
         "excluded": [
@@ -1035,12 +1134,12 @@
                 "title": {
                     "ru": "Формат",
                     "en": "Program Type",
-                    "zh-Hans": "项目类型"
+                    "zh-Hans": "项目形式"
                 },
                 "value": {
-                    "ru": "Оздоровительный ретрит",
-                    "en": "Wellness Retreat",
-                    "zh-Hans": "康养之旅"
+                    "ru": "Групповые и индивидуальные программы",
+                    "en": "Group & Private Programs",
+                    "zh-Hans": "团体及私人定制项目"
                 }
             }
         ],

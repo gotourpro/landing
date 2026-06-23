@@ -485,7 +485,7 @@
 
                             }
 
-                            <h3 class="tours-details__title mt-9! dark:text-surface-0!">
+                            <!-- <h3 class="tours-details__title mt-9! dark:text-surface-0!">
                                 {{ 'components.tour.locations' | translate }}
                             </h3>
 
@@ -514,6 +514,61 @@
                                 }
 
                             </div>
+
+                            } -->
+
+                            <h3 class="tours-details__title mt-9! dark:text-surface-0!">
+                                {{ 'components.tour.excursions' | translate }}
+                            </h3>
+
+                            @if (tour?.excursions?.length) {
+
+                            <p-accordion
+                                class="flex flex-col gap-4"
+                                expandIcon="pi pi-plus"
+                                collapseIcon="pi pi-minus"
+                            >
+
+                                @for (
+                                item of tour.excursions;
+                                track $index
+                                ) {
+
+                                <p-accordion-panel
+                                    [value]="localization.getText(item.title)"
+                                    class="rounded-3xl px-1 overflow-hidden shadow-stroke dark:shadow-none border-0! dark:border! dark:border-white/12"
+                                >
+
+                                    <p-accordion-header class="py-6! bg-surface-0! dark:bg-surface-950!">
+
+                                        <div class="flex items-center gap-3 flex-1">
+
+                                            <i class="pi pi-map-marker text-[var(--p-primary-color)]"></i>
+
+                                            <h3
+                                                class="text-xl! m-0! font-semibold text-surface-950 dark:text-surface-0!">
+                                                {{ localization.getText(item.title) }}
+                                            </h3>
+
+                                        </div>
+
+                                    </p-accordion-header>
+
+                                    <p-accordion-content>
+
+                                        <p class="pb-6 text-lg font-medium text-surface-500 dark:text-white/64">
+
+                                            {{ localization.getText(item.description) }}
+
+                                        </p>
+
+                                    </p-accordion-content>
+
+                                </p-accordion-panel>
+
+                                }
+
+                            </p-accordion>
 
                             }
 

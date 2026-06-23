@@ -164,7 +164,8 @@
             "seeMap": "Карта",
             "tourGuaranteed": "Тур гарантирован",
             "daysNights": "{{days}} дней / {{nights}} ночей",
-            "day": "День"
+            "day": "День",
+            "excursions": "Экскурсионная программа"
         },
         "destination": {
             "title": "Направления в Китае",

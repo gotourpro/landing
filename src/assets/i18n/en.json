@@ -164,7 +164,8 @@
             "seeMap": "See Map",
             "tourGuaranteed": "Tour Guaranteed",
             "daysNights": "{{days}} days / {{nights}} nights",
-            "day": "Day"
+            "day": "Day",
+            "excursions": "Excursion Program"
         },
         "destination": {
             "title": "Destinations in China",

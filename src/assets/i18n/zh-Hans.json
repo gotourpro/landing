@@ -164,7 +164,8 @@
             "seeMap": "查看地图",
             "tourGuaranteed": "保证成团",
             "daysNights": "{{days}}天 / {{nights}}晚",
-            "day": "第"
+            "day": "第",
+            "excursions": "游览项目"
         },
         "destination": {
             "title": "中国旅游目的地",
