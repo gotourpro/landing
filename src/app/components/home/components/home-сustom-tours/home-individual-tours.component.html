@@ -1,0 +1,65 @@
+<section class="testimonials-two">
+    <div class="sec-title text-center">
+        <div class="sec-title__tagline bw-split-in-right"> {{ 'components.homeIndividualTours.tagline' | translate }}
+        </div>
+        <h3 class="sec-title__title bw-split-in-left"> {{ 'components.homeIndividualTours.title' | translate }}</h3>
+        <p class="sec-title__text bw-split-in-up-fast">
+            {{ 'components.homeIndividualTours.description' | translate }}
+        </p>
+    </div>
+
+    <div class="container">
+
+        <div class="testimonials-two__inner">
+
+
+
+            <div class="grid grid-cols-1 mt-6">
+                <div
+                    #mapContainer
+                    style="width: 100%; height: 540px;"
+                ></div>
+                <div class="py-10">
+                    <div class="max-w-7xl mx-auto flex justify-around">
+
+                        @for (stat of companyStats; track stat.text) {
+
+                        <div class="counter-one__funfact__item count-box">
+
+                            <h3 class="counter-one__funfact__count">
+
+                                <span
+                                    [countUp]="stat.value"
+                                    [options]="{
+                        enableScrollSpy: true,
+                        separator: '',
+                        suffix: stat.suffix ?? ''
+                    }"
+                                ></span>
+
+                            </h3>
+
+                            <p class="counter-one__funfact__text">
+                                {{ stat.textKey | translate }}
+                            </p>
+
+                        </div>
+
+                        }
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="how-to-work__shape2"><img
+                    alt="shape-image"
+                    width="1165"
+                    height="87"
+                    decoding="async"
+                    src="assets/images/shapes/line-how-to.svg"
+                    style="color: transparent;"
+                ></div>
+        </div>
+
+    </div>
+</section>

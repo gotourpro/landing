@@ -9,6 +9,12 @@
 @import "assets/layout/styles/layout/layout.scss";
 
 
+text.jvm-element.jvm-label {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+
 .container {
   margin-inline: auto;
   max-width: 1152px;

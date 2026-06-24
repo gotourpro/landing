@@ -16,6 +16,7 @@ import { MenuComponent } from "../../../menu/components/menu.component";
 import { HomeCtaComponent } from "../home-offer/home-cta.component";
 import { SeoService } from "../../../../services/seo.service";
 import { TranslateService } from "@ngx-translate/core";
+import { HometeIndividualToursComponent } from "../home-сustom-tours/home-individual-tours.component";
 
 @Component({
     selector: 'app-home',
@@ -33,7 +34,8 @@ import { TranslateService } from "@ngx-translate/core";
         HomeWhyChooseComponent,
         HomeHowToWorkComponent,
         MenuComponent,
-        HomeCtaComponent
+        HomeCtaComponent,
+        HometeIndividualToursComponent
 
     ],
     providers: [DialogDrawerService, {

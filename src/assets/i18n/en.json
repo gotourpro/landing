@@ -68,7 +68,8 @@
         "homeOrganizers": {
             "tagline": "Our Partners",
             "title": "Creating Unique Tours Together",
-            "description": "We collaborate with trusted local partners to design authentic travel experiences, combining expertise, comfort, and unforgettable adventures across China."
+            "description": "We collaborate with trusted local partners to design authentic travel experiences, combining expertise, comfort, and unforgettable adventures across China.",
+            "note": "* Each itinerary is customized based on the season, selected region, and your personal preferences."
         },
         "homeBlog": {
             "tagline": "Blog Posts",
@@ -166,6 +167,26 @@
             "daysNights": "{{days}} days / {{nights}} nights",
             "day": "Day",
             "excursions": "Excursion Program"
+        },
+        "homeIndividualTours": {
+            "tagline": "Tailor-Made Tours",
+            "title": "Tailor-Made Tours Across China",
+            "description": "We create personalized itineraries tailored to your interests, budget, and travel goals.",
+            "destinations": {
+                "yunnan": "Yunnan",
+                "beijing": "Beijing",
+                "shanghai": "Shanghai",
+                "chengdu": "Chengdu",
+                "harbin": "Harbin",
+                "shenzhen": "Shenzhen",
+                "hainan": "Hainan"
+            },
+            "stats": {
+                "experience": "Years of Team Experience",
+                "tours": "Tours",
+                "destinations": "Destinations",
+                "completedTours": "Completed Tours"
+            }
         },
         "destination": {
             "title": "Destinations in China",

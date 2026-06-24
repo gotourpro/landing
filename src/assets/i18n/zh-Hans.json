@@ -68,7 +68,8 @@
         "homeOrganizers": {
             "tagline": "合作伙伴",
             "title": "携手打造独特旅行体验",
-            "description": "我们与值得信赖的本地合作伙伴共同设计真实而难忘的旅行路线，为您带来舒适且丰富的中国探索之旅。"
+            "description": "我们与值得信赖的本地合作伙伴共同设计真实而难忘的旅行路线，为您带来舒适且丰富的中国探索之旅。",
+            "note": "* 每个行程都会根据季节、所选地区及您的个人需求进行个性化定制。"
         },
         "homeBlog": {
             "tagline": "博客文章",
@@ -166,6 +167,26 @@
             "daysNights": "{{days}}天 / {{nights}}晚",
             "day": "第",
             "excursions": "游览项目"
+        },
+        "homeIndividualTours": {
+            "tagline": "定制旅游",
+            "title": "定制中国专属之旅",
+            "description": "根据您的兴趣、预算和旅行目标，量身定制专属行程。",
+            "destinations": {
+                "yunnan": "云南",
+                "beijing": "北京",
+                "shanghai": "上海",
+                "chengdu": "成都",
+                "harbin": "哈尔滨",
+                "shenzhen": "深圳",
+                "hainan": "海南"
+            },
+            "stats": {
+                "experience": "团队经验",
+                "tours": "旅游线路",
+                "destinations": "旅游目的地",
+                "completedTours": "已完成行程"
+            }
         },
         "destination": {
             "title": "中国旅游目的地",
