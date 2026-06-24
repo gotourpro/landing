@@ -17,16 +17,16 @@
             <div class="grid grid-cols-1 mt-6">
                 <div
                     #mapContainer
-                    style="width: 100%; height: 540px;"
+                    class="w-full h-[540px]! max-md:h-[380px]! max-sm:h-[300px]!"
                 ></div>
                 <div class="py-10">
                     <div class="max-w-7xl mx-auto flex justify-around">
 
-                        @for (stat of companyStats; track stat.text) {
+                        @for (stat of companyStats; track stat.textKey) {
 
                         <div class="counter-one__funfact__item count-box">
 
-                            <h3 class="counter-one__funfact__count">
+                            <h3 class="counter-one__funfact__count text-3xl! md:text-5xl! lg:text-6xl!">
 
                                 <span
                                     [countUp]="stat.value"
@@ -39,7 +39,7 @@
 
                             </h3>
 
-                            <p class="counter-one__funfact__text">
+                            <p class="counter-one__funfact__text text-sm md:text-base!">
                                 {{ stat.textKey | translate }}
                             </p>
 
