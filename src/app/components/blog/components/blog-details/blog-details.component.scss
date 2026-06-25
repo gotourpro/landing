@@ -10,6 +10,33 @@
     }
 }
 
+
+.blog-section__images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.blog-section__image {
+    margin: 0;
+}
+
+.blog-section__image img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.blog-section__image figcaption {
+    margin-top: .75rem;
+    text-align: center;
+    opacity: .75;
+    font-size: .875rem;
+}
+
 // .blog-details__thumb {
 //     position: relative;
 //     margin: 0 0 26px;

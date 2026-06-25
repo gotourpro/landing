@@ -133,12 +133,8 @@ export class FooterComponent implements OnInit {
                     route: '/tours/category/men-wellness'
                 },
                 {
-                    label: t['components.footer.educationalTours'],
-                    route: '/tours/category/educational'
-                },
-                {
                     label: t['components.footer.airportTransfer'],
-                    route: '/transfer'
+                    route: '/blog/airport-meet-and-greet-china'
                 }
             ];
 

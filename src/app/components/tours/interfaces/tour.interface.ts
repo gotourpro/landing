@@ -1,5 +1,6 @@
 import { ILocalizedText } from "../../../interfaces/localized-text.interface";
 import { ITourLocation } from "../../../interfaces/location.interface";
+import { ISeo } from "../../../interfaces/seo.interface";
 import { IDailyScheduleItem } from "./daily-schedule-Item.interface";
 import { IItineraryDay } from "./itinerary-day.interface";
 import { ITourFact } from "./tour-fact.interface";
@@ -14,9 +15,7 @@ export interface ITour {
     description?: ILocalizedText;
     titleHeader?: ILocalizedText;
     tourHeader?: ILocalizedText;
-    seoTitle?: ILocalizedText;
-    seoDescription?: ILocalizedText;
-    seoKeywords?: ILocalizedText[];
+    seo?: ISeo;
     destinationSlugs?: string[];
     country?: ILocalizedText;
     district?: ILocalizedText;

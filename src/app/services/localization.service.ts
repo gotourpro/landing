@@ -4,7 +4,6 @@ import { PrimeNG } from 'primeng/config';
 import { LOCALES } from '../constants/locales.constants';
 import { isPlatformBrowser, DOCUMENT } from '@angular/common';
 import { GoogleMapsConfigService } from './google-maps-config.service';
-import { GoogleMapsLoaderService } from './google-maps-loader.service';
 import { ILocalizedText } from '../interfaces/localized-text.interface';
 import { Observable } from 'rxjs';
 

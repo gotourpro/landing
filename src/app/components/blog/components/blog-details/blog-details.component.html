@@ -1,50 +1,116 @@
 <animated-container>
     <app-menu [styleClass]="'relative! w-full! p-0! border-0 rounded-none! bg-transparent'"></app-menu>
     <div class="pt-20">
+
+
         <section class="blog-details">
+
+            @if (post; as post) {
+
             <div class="container">
                 <div class="flex justify-center">
                     <div class="w-full">
+
+                        <!-- Hero -->
                         <div class="blog-details__thumb">
+
                             <img
-                                src="assets/images/blog/1320x417.svg"
-                                alt="travhub"
+                                [src]="post.hero.image"
+                                [alt]="post.hero.alt ? localization.getText(post.hero.alt) : ''"
                             >
-                            <div class="blog-details__date">18<span>June</span></div>
+
+                            @if (post.publishedAt) {
+                            <div class="blog-details__date">
+                                {{ post.publishedAt | date:'dd' }}
+                                <span>{{ post.publishedAt | date:'MMM' }}</span>
+                            </div>
+                            }
+
                         </div>
+
+                        <!-- Meta -->
                         <ul class="blog-details__meta">
-                            <li class="dark:text-surface-0!"><i class="pi pi-user"></i>Wade Warren</li>
-                            <li class="dark:text-surface-0!"><i class=" pi pi-eye"></i>240</li>
+
+                            @if (post.author) {
+                            <li class="dark:text-surface-0!">
+                                <i class="pi pi-user"></i>
+                                {{ post.author }}
+                            </li>
+                            }
+
+                            @if (post.views) {
+                            <li class="dark:text-surface-0!">
+                                <i class="pi pi-eye"></i>
+                                {{ post.views }}
+                            </li>
+                            }
+
+                            @if (post.readingTime) {
+                            <li class="dark:text-surface-0!">
+                                <i class="pi pi-clock"></i>
+                                {{ post.readingTime }} min
+                            </li>
+                            }
+
                         </ul>
-                        <h3 class="blog-details__title dark:text-surface-0!">Katie Stewart Your charity may be net zero
+
+                        <!-- Title -->
+                        <h3 class="blog-details__title dark:text-surface-0!">
+                            {{ localization.getText(post.title) }}
                         </h3>
 
                         <div class="blog-details__content">
+
+                            @for (block of post.blocks; track block.id ?? $index) {
+
+                            @if (isSection(block)) {
+
+                            @if (block.title) {
+                            <h4 class="blog-carousel__content__title dark:text-surface-0!">
+                                {{ localization.getText(block.title) }}
+                            </h4>
+                            }
+
+                            @if (block.images?.length) {
+
+                            <div class="blog-section__images">
+
+                                @for (image of block.images; track image.src) {
+
+                                <figure class="blog-section__image">
+
+                                    <img
+                                        [src]="image.src"
+                                        [alt]="image.alt ? localization.getText(image.alt) : ''"
+                                    >
+
+                                    @if (image.caption) {
+                                    <figcaption>
+                                        {{ localization.getText(image.caption) }}
+                                    </figcaption>
+                                    }
+
+                                </figure>
+
+                                }
+
+                            </div>
+
+                            }
+
+                            @for (paragraph of block.paragraphs; track $index) {
+
                             <p class="blog-details__text dark:text-surface-0!">
-                                You’ve switched your charity’s office to renewable energy. You’ve cut most flights. The
-                                office fridge is stacked high with
-                                oat milk, and lycra-clad staff are proudly showing off their subsidised bicycles. On
-                                your
-                                way to net-zero, right? But
-                                operational emissions are just one part of the net-zero picture: your money, too, has a
-                                carbon cost attached.
-                            </p>
-                            <p class="blog-details__text dark:text-surface-0!">
-                                Cras varius. Donec vitae orci sed dolor rutrum auctor. Fusce egestas elit eget lorem.
-                                Suspendisse nisl elit, rhoncus eget
-                                elementum acondimentum eget, diam. Nam at tortor in tellus interdum sagitliquam
-                                lobortis.
-                                Donec orci lectus, aliquam ut,
-                                faucibus non, euismod id, nulla. Curabitur blandit mollis lacus. Nam adipiscing.
-                                Vestibulum
-                                eu odio. Vivamus laoreet.
-                                mavailable market standard dummy text available market industry Lorem Ipsum simply dummy
-                                text of free available market.
-                                There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration
+                                {{ localization.getText(paragraph) }}
                             </p>
 
+                            }
+
+                            <!-- Quote после первого текстового блока -->
+                            @if ($index === 0 && firstQuote) {
+
                             <blockquote class="blog-details__blockquote">
+
                                 <svg
                                     width="32"
                                     height="32"
@@ -62,59 +128,98 @@
                                     />
                                 </svg>
 
+                                {{ localization.getText(firstQuote.text) }}
 
-                                Feeling adventurous? Explore the beauty of Shapla Beels.
+                                @if (firstQuote.author) {
+                                <footer>
+
+
+                                    — {{ localization.getText(firstQuote.author) }}
+
+                                </footer>
+                                }
 
                             </blockquote>
-                            <p class="blog-details__text dark:text-surface-0">
-                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-                                dis
-                                parturient montes, nascetur ridiculus mus.
-                                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
-                                massa
-                                quis enim. Donec pede justo, fringilla vel,
-                                aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
-                                vitae,
-                                justo. Nullam dictum felis eu pede mollis
-                                pretium. Integer tincidunt.
-                            </p>
-                            <h4 class="blog-carousel__content__title dark:text-surface-0!">
-                                There's something undeniably captivating about coral islands
-                            </h4>
-                            <p class="blog-details__text">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-                                dolor.
-                                Aenean massa. Cum sociis natoque penatibus
-                                etmagnis disparturient montesnascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                pellentesque eu, pretium quis, sem. Nulla consequat
-                                massa quis enim. Donec pede justo, fringilla vel aliquet nec, vulputate eget, arcu. In
-                                enim
-                                justo rhoncus utimperdiet a venenatis vitae justo.
-                            </p>
 
-                            <p class="blog-details__text">
-                                Pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                                fringilla vel, aliquet nec, vulputate eget, arcu.
-                                In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu
-                                pede
-                                mollis pretium. Integer tincidunt pretium quis,
-                                sem. Nulla consequat massa quis enim. Aenean commodo ligula eget dolor. Aenean massa.
-                                Cum
-                                sociis natoque penatibus et magnis dis parturient
-                                montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                            </p>
+                            }
+
+                            }
+
+                            }
+
                         </div>
+
+
+                        <!-- FAQ -->
+
+                        @if (getFaqBlock(); as faq) {
+
+                        <div class="mt-16">
+
+                            @if (faq.title) {
+
+                            <h3 class="blog-details__title dark:text-surface-0! mb-8">
+                                {{ localization.getText(faq.title) }}
+                            </h3>
+
+                            }
+
+                            <p-accordion
+                                value=""
+                                class="flex flex-col gap-5"
+                            >
+
+                                @for (item of faq.items; track item.id ?? $index) {
+
+                                <p-accordion-panel
+                                    [value]="item.id ?? $index"
+                                    class="rounded-3xl px-1 overflow-hidden shadow-stroke dark:shadow-none border-0! dark:border! dark:border-white/12"
+                                >
+
+                                    <p-accordion-header class="py-6! bg-surface-0! dark:bg-surface-950!">
+
+                                        <div class="flex items-center gap-3 flex-1">
+
+                                            <i class="pi pi-question-circle text-[var(--p-primary-color)]"></i>
+
+                                            <h3
+                                                class="text-xl! m-0! font-semibold text-surface-950 dark:text-surface-0!">
+                                                {{ localization.getText(item.title) }}
+                                            </h3>
+
+                                        </div>
+
+                                    </p-accordion-header>
+
+                                    <p-accordion-content>
+
+                                        <p class="pb-6 text-lg font-medium text-surface-500 dark:text-white/64">
+                                            {{ localization.getText(item.description) }}
+                                        </p>
+
+                                    </p-accordion-content>
+
+                                </p-accordion-panel>
+
+                                }
+
+                            </p-accordion>
+
+                        </div>
+
+                        }
+
+                        <!-- Tags -->
                         <div class="blog-details__post-meta">
+
                             <div class="blog-details__tags">
-
-
 
                                 <div class="flex flex-wrap gap-2">
 
-                                    @for (tag of tags; track tag) {
+                                    @for (tag of tags; track tag.slug) {
 
                                     <p-tag
-                                        [value]="tag"
+                                        [value]="localization.getText(tag.title)"
                                         [rounded]="true"
                                         severity="contrast"
                                         styleClass="bg-primary text-primary-contrast"
@@ -125,41 +230,39 @@
                                 </div>
 
                             </div>
+
                             <div class="blog-details__social">
-                                <a href="https://facebook.com">
-                                    <i
-                                        class="pi pi-telegram"
-                                        aria-hidden="true"
-                                    ></i>
-                                    <span class="sr-only">Facebook</span>
-                                </a>
-                                <a href="https://twitter.com">
-                                    <i
-                                        class="pi pi-whatsapp"
-                                        aria-hidden="true"
-                                    ></i>
-                                    <span class="sr-only">Twitter</span>
-                                </a>
-                                <a href="https://linkedin.com">
-                                    <i
-                                        class="fab fa-linkedin-in"
-                                        aria-hidden="true"
-                                    ></i>
-                                    <span class="sr-only">Linkedin</span>
-                                </a>
-                                <a href="https://instagram.com">
-                                    <i
-                                        class="fab fa-instagram"
-                                        aria-hidden="true"
-                                    ></i>
-                                    <span class="sr-only">Instagram</span>
-                                </a>
+
+                                <p-button
+                                    [rounded]="true"
+                                    icon="pi pi-telegram"
+                                    (click)="onShare('telegram')"
+                                >
+                                </p-button>
+
+
+                                <p-button
+                                    [rounded]="true"
+                                    icon="pi pi-whatsapp"
+                                    (click)="onShare('whatsapp')"
+                                >
+                                </p-button>
+
+
+
                             </div>
+
                         </div>
+
                     </div>
                 </div>
             </div>
+
+            }
+
         </section>
+
+
         <app-footer />
     </div>
 </animated-container>

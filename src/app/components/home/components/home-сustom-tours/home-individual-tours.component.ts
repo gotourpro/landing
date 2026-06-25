@@ -8,12 +8,12 @@ import { ParallaxDirective } from "../../../../directives/parallax.directive";
 import { UICarousel } from "../../../UI/carousel";
 import { UICarouselItem } from "../../../UI/carousel-item";
 import { ITestimonial } from "../../../testimonials/interfaces/itestimonial.interface";
-import { TestimonialsService } from "../../../testimonials/services/testimonials.service";
 import jsVectorMap from 'jsvectormap'
 import '../../../../../assets/data/maps/china.js';
 import { merge, of, Subject, takeUntil, timer } from "rxjs";
 import { CountUpModule } from 'ngx-countup';
 import { TranslateModule, TranslateService } from "@ngx-translate/core";
+import { Router } from "@angular/router";
 @Component({
     selector: "app-home-individual-tours",
     standalone: true,
@@ -62,17 +62,56 @@ export class HometeIndividualToursComponent {
         }
     ];
 
-    constructor(private translateService: TranslateService) { }
+    constructor(private translateService: TranslateService,
+        private router: Router
+    ) { }
 
     public readonly destinations = [
-        { key: 'components.homeIndividualTours.destinations.yunnan', coords: [25.0438, 102.7100] },
-        { key: 'components.homeIndividualTours.destinations.beijing', coords: [39.9042, 116.4074] },
-        { key: 'components.homeIndividualTours.destinations.shanghai', coords: [31.2304, 121.4737] },
-        { key: 'components.homeIndividualTours.destinations.chengdu', coords: [30.5728, 104.0668] },
-        { key: 'components.homeIndividualTours.destinations.harbin', coords: [45.8038, 126.5350] },
-        { key: 'components.homeIndividualTours.destinations.shenzhen', coords: [22.5431, 114.0579] },
-        { key: 'components.homeIndividualTours.destinations.hainan', coords: [20.0442, 110.1999] }
+        {
+            key: 'components.homeIndividualTours.destinations.dali',
+            coords: [25.6065, 100.2676],
+            slug: 'dali'
+
+        },
+        {
+            key: 'components.homeIndividualTours.destinations.chengdu',
+            coords: [30.5728, 104.0668],
+            slug: 'chengdu'
+
+        },
+        {
+            key: 'components.homeIndividualTours.destinations.beijing',
+            coords: [39.9042, 116.4074],
+            slug: 'beijing'
+
+        },
+        {
+            key: 'components.homeIndividualTours.destinations.harbin',
+            coords: [45.7560, 126.6424],
+            slug: 'harbin'
+
+        },
+        {
+            key: 'components.homeIndividualTours.destinations.guangzhou',
+            coords: [23.1291, 113.2644],
+            offsets: [-105, -1],
+            slug: 'guangzhou'
+        },
+        {
+            key: 'components.homeIndividualTours.destinations.shenzhen',
+            coords: [22.5431, 114.0579],
+            offsets: [0, 4],
+            slug: 'shenzhen'
+        },
+        {
+            key: 'components.homeIndividualTours.destinations.sanya',
+            coords: [19.2000, 109.5119],
+            offsets: [0, 4],
+            slug: 'hainan'
+        }
     ];
+
+
 
     public ngOnInit(): void { }
 
@@ -130,8 +169,15 @@ export class HometeIndividualToursComponent {
                     selector: this.mapContainer.nativeElement,
                     map: 'china_merc_en',
                     showTooltip: false,
+                    zoomMin: 3,
                     zoomButtons: false,
                     zoomOnScroll: false,
+                    onMarkerClick: (event: any, index: number) => {
+                        const destination = this.destinations[index];
+                        if (destination && destination.slug) {
+                            this.router.navigate(['/destinations', destination.slug]);
+                        }
+                    },
                     regionStyle: {
                         initial: { fill: '#d5f4ed', stroke: '#8ee0cf', strokeWidth: 1.2 },
                         hover: { fill: '#c7f1e8', stroke: '#27c7a8' },
@@ -139,17 +185,40 @@ export class HometeIndividualToursComponent {
                     },
                     markerStyle: {
                         initial: { fill: '#ffb84d', stroke: '#ffffff', strokeWidth: 3, r: 7 },
-                        hover: { fill: '#ffb84d', stroke: '#ffffff', strokeWidth: 3, r: 9 }
+                        hover: { fill: '#ed9107', stroke: '#ffffff', strokeWidth: 3, r: 9 }
                     },
                     markers: this.destinations.map(destination => ({
                         coords: destination.coords,
                         name: translations[destination.key],
-                        style: { initial: { fill: '#F8931F' } }
+                        style: {
+                            initial: {
+                                fill: '#F8931F'
+                            }
+                        }
                     })),
+
                     labels: {
                         markers: {
                             render(marker: any) {
                                 return marker.name;
+                            },
+                            offsets: (index: number) => {
+                                const destination = this.destinations[index];
+
+
+                                if (destination.key === 'components.homeIndividualTours.destinations.guangzhou') {
+                                    const currentLang = this.translateService.currentLang;
+
+
+                                    if (currentLang === 'ru') {
+                                        return [-105, -1];
+                                    } else if (currentLang === 'en') {
+                                        return [-114, -1];
+                                    } else {
+                                        return [-50, -1];
+                                    }
+                                }
+                                return destination.offsets ?? [0, 0];
                             }
                         }
                     }

@@ -4,6 +4,10 @@ export interface ISeoConfig {
     keywords?: string;
     image?: string;
     url?: string;
-    type?: string;
+    type?: 'website' | 'article';
     lang?: string;
+    author?: string;
+    publishedTime?: string;
+    modifiedTime?: string;
+
 }

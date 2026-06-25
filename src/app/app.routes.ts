@@ -95,7 +95,7 @@ export const routes: Routes = [
         loadComponent: () =>
           import(
             "./components/blog/components/blog-details/blog-details.component"
-          ).then(c => c.BlogDetaislComponent)
+          ).then(c => c.BlogDetailsComponent)
       }
     ]
   },

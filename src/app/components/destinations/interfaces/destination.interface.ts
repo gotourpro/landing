@@ -1,5 +1,6 @@
 import { ILocalizedText } from "../../../interfaces/localized-text.interface";
 import { ITourLocation } from "../../../interfaces/location.interface";
+import { ISeo } from "../../../interfaces/seo.interface";
 import { ITourFact } from "../../tours/interfaces/tour-fact.interface";
 import { DestinationType } from "../types/destination.type";
 import { IDestinationQuestion } from "./destination-question.interface";
@@ -13,9 +14,7 @@ export interface IDestination {
     description?: ILocalizedText;
     titleHeader?: ILocalizedText;
     destinationHeader?: ILocalizedText;
-    seoTitle?: ILocalizedText;
-    seoDescription?: ILocalizedText;
-    seoKeywords?: ILocalizedText[];
+    seo?: ISeo;
     facts?: ITourFact[];
     tags?: ILocalizedText[];
     locations?: ITourLocation[];

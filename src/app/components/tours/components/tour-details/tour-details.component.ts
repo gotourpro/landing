@@ -250,42 +250,58 @@ export class TourDetailsComponent {
             return;
         }
 
-        const title =
-            this.localization.getText(
-                this.tour.seoTitle ??
+        this.seoService.update({
+
+            title: this.localization.getText(
+                this.tour.seo?.title ??
                 this.tour.titleHeader ??
                 this.tour.title
-            );
+            ),
 
-        const description =
-            this.localization.getText(
-                this.tour.seoDescription ??
+            description: this.localization.getText(
+                this.tour.seo?.description ??
                 this.tour.tourHeader ??
                 this.tour.description
-            );
+            ),
 
-        const keywords =
-            this.tour.seoKeywords?.length
-                ? this.tour.seoKeywords
-                    .map(tag =>
-                        this.localization.getText(tag)
-                    )
-                    .join(', ')
-                : undefined;
+            keywords: this.tour.seo?.keywords
+                ? this.localization.getText(
+                    this.tour.seo.keywords
+                )
+                : undefined,
 
-        this.seoService.update({
-            title,
-            description,
-            keywords,
-            image: this.tour.image,
-            lang: this.localization.getCurrentLanguage(),
-            type: 'article'
+            image:
+                this.tour.seo?.image ??
+                this.tour.image,
+
+            type:
+                this.tour.seo?.type ??
+                'article',
+
+            url: window.location.href,
+
+            lang:
+                this.localization.getCurrentLanguage(),
+
         });
+
     }
 
     private fitBounds(): void {
 
         if (!this.map || !this.markers.length) {
+            return;
+        }
+
+        // Один маркер
+        if (this.markers.length === 1) {
+
+            this.map.setCenter(
+                this.markers[0].position
+            );
+
+            this.map.setZoom(12); // например 12-14
+
             return;
         }
 
@@ -309,6 +325,7 @@ export class TourDetailsComponent {
                 left: 80
             }
         );
+
     }
 
 

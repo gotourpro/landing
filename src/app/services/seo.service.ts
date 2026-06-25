@@ -11,8 +11,6 @@ import { ISeoConfig } from '../interfaces/seo-config.interface';
 import { TranslateService } from '@ngx-translate/core';
 import { merge, of, Subscription } from 'rxjs';
 
-
-
 @Injectable({
     providedIn: 'root'
 })
@@ -68,6 +66,7 @@ export class SeoService {
                 'og:image',
                 config.image
             );
+
         }
 
         if (config.url) {
@@ -76,8 +75,37 @@ export class SeoService {
                 'og:url',
                 config.url
             );
+
         }
 
+        // Article
+
+        if (config.author) {
+
+            this.updateProperty(
+                'article:author',
+                config.author
+            );
+
+        }
+
+        if (config.publishedTime) {
+
+            this.updateProperty(
+                'article:published_time',
+                config.publishedTime
+            );
+
+        }
+
+        if (config.modifiedTime) {
+
+            this.updateProperty(
+                'article:modified_time',
+                config.modifiedTime
+            );
+
+        }
         // Twitter
 
         this.updateTag(

@@ -356,10 +356,7 @@
 
                 }
                 <div class="mt-[25px] flex justify-center">
-                    <div
-                        class="col-lg-8 wow fadeInUp"
-                        data-wow-delay="200ms"
-                    >
+                    <div class="">
 
                         <div class="tours-details__content">
                             <h3 class="tours-details__title dark:text-surface-0!"> {{ 'components.tour.overview' |
@@ -374,9 +371,12 @@
 
 
 
-                            <h3 class="tours-details__title mt-9! dark:text-surface-0!">{{
-                                'components.tour.includedExcluded' |
-                                translate }}</h3>
+                            @if (tour?.included?.length || tour?.excluded?.length) {
+
+                            <h3 class="tours-details__title mt-9! dark:text-surface-0!">
+                                {{ 'components.tour.includedExcluded' | translate }}
+                            </h3>
+                            }
 
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
@@ -436,11 +436,13 @@
 
 
 
+                            @if (tour?.treatments?.length) {
+
                             <h3 class="tours-details__title mt-9! dark:text-surface-0!">
                                 {{ 'components.tour.treatments' | translate }}
                             </h3>
 
-                            @if (tour?.treatments?.length) {
+
 
                             <p-accordion
                                 class="flex flex-col gap-4"
@@ -485,43 +487,13 @@
 
                             }
 
-                            <!-- <h3 class="tours-details__title mt-9! dark:text-surface-0!">
-                                {{ 'components.tour.locations' | translate }}
-                            </h3>
 
-                            @if (tour?.locations?.length) {
-
-                            <div class="flex flex-wrap gap-3">
-
-                                @for (
-                                item of tour.locations;
-                                track $index
-                                ) {
-
-                                <div
-                                    class="flex items-center gap-2 px-5 py-3 rounded-full border border-[var(--p-surface-200)]">
-
-                                    <i class="pi pi-map-marker text-[var(--p-primary-color)]"></i>
-
-                                    <span class="font-medium">
-
-                                        {{ localization.getText(item.name) }}
-
-                                    </span>
-
-                                </div>
-
-                                }
-
-                            </div>
-
-                            } -->
-
+                            @if (tour?.excursions?.length) {
                             <h3 class="tours-details__title mt-9! dark:text-surface-0!">
                                 {{ 'components.tour.excursions' | translate }}
                             </h3>
 
-                            @if (tour?.excursions?.length) {
+
 
                             <p-accordion
                                 class="flex flex-col gap-4"
@@ -572,11 +544,12 @@
 
                             }
 
+                            @if (tour?.dailySchedule?.length) {
                             <h3 class="tours-details__title mt-9!  dark:text-surface-0!">
                                 {{ 'components.tour.dailySchedule' | translate }}
                             </h3>
 
-                            @if (tour?.dailySchedule?.length) {
+
 
                             <p-accordion
                                 class="flex flex-col gap-4"
@@ -627,12 +600,13 @@
 
                             }
 
+                            @if (tour?.highlights?.length) {
 
                             <h3 class="tours-details__title mt-9! dark:text-surface-0!"> {{
                                 'components.tour.topHighlights' |
                                 translate }}</h3>
 
-                            @if (tour?.highlights?.length) {
+
 
                             <ul class="tours-details__list">
 
@@ -659,11 +633,12 @@
                             }
 
 
+                            @if (tour?.itinerary?.length) {
                             <h3 class="tours-details__title mt-9! dark:text-surface-0!">
                                 {{ 'components.tour.itinerary' | translate }}
                             </h3>
 
-                            @if (tour?.itinerary?.length) {
+
 
                             <p-accordion
                                 class="flex flex-col gap-4"

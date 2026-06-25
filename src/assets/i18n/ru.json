@@ -97,7 +97,10 @@
                 "chengdu": "Чэнду",
                 "harbin": "Харбин",
                 "shenzhen": "Шэньчжэнь",
-                "hainan": "Хайнань"
+                "hainan": "Хайнань",
+                "dali": "Дали",
+                "sanya": "Санья",
+                "guangzhou": "Гуанчжоу"
             },
             "stats": {
                 "experience": "Опыт работы",

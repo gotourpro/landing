@@ -179,7 +179,10 @@
                 "chengdu": "Chengdu",
                 "harbin": "Harbin",
                 "shenzhen": "Shenzhen",
-                "hainan": "Hainan"
+                "hainan": "Hainan",
+                "dali": "Dali",
+                "sanya": "Sanya",
+                "guangzhou": "Guangzhou"
             },
             "stats": {
                 "experience": "Years of Team Experience",

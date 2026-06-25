@@ -1,92 +1,2330 @@
 [
     {
         "id": "1",
-        "slug": "best-time-to-visit-china",
+        "slug": "traditional-eastern-medicine-for-recovery",
         "categorySlugs": [
-            "travel-guide",
-            "wellness"
+            "wellness",
+            "medical-tourism"
+        ],
+        "tagSlugs": [
+            "wellness",
+            "traditional-medicine",
+            "acupuncture",
+            "china"
         ],
         "title": {
-            "en": "Best Time to Visit China",
-            "ru": "Лучшее время для посещения Китая",
-            "zh-Hans": "游览中国的最佳时间"
+            "ru": "Традиционная восточная медицина: комплексное восстановление организма",
+            "en": "Traditional Eastern Medicine: A Comprehensive Approach to Wellness Recovery",
+            "zh-Hans": "传统东方医学：全面身心康养恢复"
         },
         "description": {
-            "en": "Discover the best seasons to explore China's most famous destinations.",
-            "ru": "Узнайте, в какое время года лучше всего посещать самые популярные места Китая.",
-            "zh-Hans": "了解游览中国著名景点的最佳季节。"
+            "ru": "Познакомьтесь с традиционной восточной медициной и узнайте, как пульсовая диагностика, акупунктура, моксотерапия и другие методы помогают восстановить организм, укрепить здоровье и вернуть внутреннюю гармонию.",
+            "en": "Discover the principles of Traditional Eastern Medicine and learn how pulse diagnosis, acupuncture, moxibustion, and other time-tested therapies help restore the body, strengthen overall health, and bring back inner balance.",
+            "zh-Hans": "了解传统东方医学，探索脉诊、针灸、艾灸等传统疗法如何帮助恢复身体机能、增强健康并重建身心平衡。"
         },
         "excerpt": {
-            "en": "Planning a trip to China? Here's everything you need to know about weather and seasons.",
-            "ru": "Планируете поездку в Китай? Рассказываем всё о погоде и сезонах.",
-            "zh-Hans": "计划前往中国旅行？了解天气和季节信息。"
+            "ru": "Комплексный подход к восстановлению организма с использованием традиционных методов восточной медицины, проверенных многовековой практикой.",
+            "en": "A comprehensive wellness approach using traditional Eastern medicine techniques that have been refined and trusted for centuries.",
+            "zh-Hans": "采用历经数百年实践验证的东方传统医学方法，为身体提供全面的康养恢复方案。"
         },
-        "image": "assets/images/blog/424x292.svg",
-        "category": "travel-tips",
-        "author": "TravHub Team",
-        "publishedAt": "2026-01-15",
-        "readingTime": 5,
+        "hero": {
+            "image": "assets/images/blog/1320x417.svg",
+            "alt": {
+                "ru": "Традиционная восточная медицина",
+                "en": "Traditional Eastern Medicine",
+                "zh-Hans": "传统东方医学"
+            }
+        },
+        "blocks": [
+            {
+                "id": "introduction",
+                "type": "section",
+                "title": {
+                    "ru": "Традиционная восточная медицина — комплексный подход к восстановлению здоровья",
+                    "en": "Traditional Eastern Medicine — A Comprehensive Approach to Restoring Health",
+                    "zh-Hans": "传统东方医学——全面恢复健康的方法"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Традиционная восточная медицина представляет собой уникальную систему оздоровления, история которой насчитывает несколько тысячелетий. Ее главная особенность заключается в комплексном подходе к человеку: организм рассматривается как единая взаимосвязанная система, где физическое здоровье, эмоциональное состояние и образ жизни оказывают влияние друг на друга.",
+                        "en": "Traditional Eastern Medicine is a unique healthcare system with a history spanning thousands of years. Its defining feature is a holistic approach to the human body, viewing it as a single interconnected system in which physical health, emotional well-being, and lifestyle continuously influence one another.",
+                        "zh-Hans": "传统东方医学是一套拥有数千年历史的独特健康养生体系。其核心理念是整体观，将人体视为一个相互联系的整体，身体健康、情绪状态和生活方式彼此影响、密不可分。"
+                    },
+                    {
+                        "ru": "В отличие от подхода, направленного исключительно на устранение симптомов, восточная медицина стремится выявить причину нарушений и помочь организму самостоятельно восстановить естественное равновесие. Именно поэтому программы оздоровления всегда подбираются индивидуально и включают различные методы диагностики и восстановления.",
+                        "en": "Rather than focusing solely on relieving symptoms, Eastern Medicine aims to identify the underlying causes of imbalance and help the body restore its natural equilibrium. This is why every wellness program is individually tailored and combines various diagnostic and therapeutic methods.",
+                        "zh-Hans": "与仅关注缓解症状的方法不同，东方医学致力于寻找失衡的根本原因，并帮助人体恢复自然平衡。因此，每一项康养方案都会根据个人情况量身定制，并结合多种诊断与调理方法。"
+                    },
+                    {
+                        "ru": "Современные клиники традиционной китайской медицины успешно сочетают многовековой опыт с современными медицинскими знаниями, предлагая эффективные программы профилактики, реабилитации и общего укрепления здоровья.",
+                        "en": "Modern Traditional Chinese Medicine clinics successfully combine centuries of medical experience with contemporary healthcare knowledge, offering effective programs for disease prevention, rehabilitation, and overall health improvement.",
+                        "zh-Hans": "现代中医医疗机构将数百年的医学经验与现代医学知识相结合，为游客提供有效的疾病预防、康复治疗以及全面健康提升方案。"
+                    }
+                ]
+            },
+            {
+                "id": "quote-balance",
+                "type": "quote",
+                "text": {
+                    "ru": "Настоящее здоровье начинается с гармонии тела, разума и внутренней энергии.",
+                    "en": "True health begins with harmony between the body, the mind, and inner energy.",
+                    "zh-Hans": "真正的健康始于身体、心灵与内在能量的和谐统一。"
+                },
+                "author": {
+                    "ru": "Восточная мудрость",
+                    "en": "Eastern Wisdom",
+                    "zh-Hans": "东方智慧"
+                }
+            },
+            {
+                "id": "pulse-diagnostics",
+                "type": "section",
+                "title": {
+                    "ru": "Пульсовая диагностика — первый шаг к восстановлению организма",
+                    "en": "Pulse Diagnosis — The First Step Toward Wellness Recovery",
+                    "zh-Hans": "脉诊——身体康养恢复的第一步"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Пульсовая диагностика",
+                            "en": "Pulse Diagnosis",
+                            "zh-Hans": "脉诊"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Консультация врача",
+                            "en": "Doctor Consultation",
+                            "zh-Hans": "医生问诊"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Диагностика пациента",
+                            "en": "Patient Diagnosis",
+                            "zh-Hans": "患者诊断"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "Любая программа восстановления начинается с консультации специалиста и проведения пульсовой диагностики. Это один из важнейших методов традиционной китайской медицины, позволяющий комплексно оценить состояние организма.",
+                        "en": "Every wellness program begins with a consultation and pulse diagnosis. It is one of the most important methods of Traditional Chinese Medicine, allowing specialists to evaluate the body's overall condition comprehensively.",
+                        "zh-Hans": "每一项康养恢复项目都始于中医专家问诊和脉诊。这是中医最重要的诊断方法之一，可全面评估人体整体健康状况。"
+                    },
+                    {
+                        "ru": "Во время обследования врач анализирует особенности пульса на обеих руках. Согласно традиционной китайской медицине различные характеристики пульса отражают состояние внутренних органов, баланс жизненной энергии, особенности обменных процессов и общее состояние здоровья человека.",
+                        "en": "During the examination, the physician carefully analyzes the pulse on both wrists. According to Traditional Chinese Medicine, different pulse characteristics reflect the condition of internal organs, the balance of vital energy, metabolic processes, and overall health.",
+                        "zh-Hans": "检查过程中，医生会分析双手腕部的脉象。根据中医理论，不同的脉象能够反映内脏功能、气血平衡、新陈代谢以及整体健康状况。"
+                    },
+                    {
+                        "ru": "Пульсовая диагностика помогает выявить скрытые нарушения еще до появления выраженных симптомов, определить наиболее уязвимые системы организма и подобрать наиболее эффективную программу восстановления.",
+                        "en": "Pulse diagnosis helps detect hidden imbalances before obvious symptoms appear, identify the body's most vulnerable systems, and determine the most effective recovery program.",
+                        "zh-Hans": "脉诊能够在明显症状出现之前发现潜在失衡，找出身体最需要调理的系统，并制定最有效的康养恢复方案。"
+                    },
+                    {
+                        "ru": "На основании полученных результатов специалист составляет индивидуальный план оздоровления, который учитывает возраст пациента, образ жизни, особенности организма и поставленные цели лечения.",
+                        "en": "Based on the examination results, the specialist develops a personalized wellness plan that takes into account the patient's age, lifestyle, physical condition, and treatment goals.",
+                        "zh-Hans": "根据诊断结果，中医专家会制定个性化康养方案，综合考虑患者年龄、生活方式、身体状况及康养目标。"
+                    }
+                ]
+            },
+            {
+                "id": "acupuncture",
+                "type": "section",
+                "title": {
+                    "ru": "Акупунктура и рефлексотерапия",
+                    "en": "Acupuncture and Reflex Therapy",
+                    "zh-Hans": "针灸与反射疗法"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Акупунктура",
+                            "en": "Acupuncture",
+                            "zh-Hans": "针灸治疗"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Рефлексотерапия",
+                            "en": "Reflex Therapy",
+                            "zh-Hans": "反射疗法"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Процедура восстановления",
+                            "en": "Wellness Treatment",
+                            "zh-Hans": "康养治疗过程"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "Акупунктура является одним из наиболее известных методов традиционной восточной медицины. Воздействие на биологически активные точки способствует активации естественных механизмов восстановления организма, улучшению кровообращения и снятию мышечного напряжения.",
+                        "en": "Acupuncture is one of the best-known methods of Traditional Eastern Medicine. Stimulating biologically active points activates the body's natural healing mechanisms, improves blood circulation, and relieves muscle tension.",
+                        "zh-Hans": "针灸是传统东方医学最著名的疗法之一。通过刺激人体穴位，可激活身体自我修复机制，改善血液循环，并缓解肌肉紧张。"
+                    },
+                    {
+                        "ru": "Рефлексотерапия дополняет лечение, помогая нормализовать работу внутренних органов, уменьшить болевой синдром, улучшить сон, повысить уровень энергии и ускорить восстановление после физических и эмоциональных нагрузок.",
+                        "en": "Reflex therapy complements treatment by helping normalize the function of internal organs, reduce pain, improve sleep quality, increase energy levels, and accelerate recovery after physical and emotional stress.",
+                        "zh-Hans": "反射疗法能够辅助整体治疗，有助于调节内脏功能、缓解疼痛、改善睡眠、提升精力，并加快身体在体力和精神压力后的恢复。"
+                    },
+                    {
+                        "ru": "Комплексное применение этих методик особенно эффективно при хронической усталости, заболеваниях позвоночника и суставов, головных болях, последствиях стрессов и в период реабилитации после перенесенных заболеваний.",
+                        "en": "The combined use of these therapies is particularly effective for chronic fatigue, spinal and joint disorders, headaches, stress-related conditions, and rehabilitation after illness.",
+                        "zh-Hans": "这些疗法结合使用，对于慢性疲劳、脊柱和关节疾病、头痛、压力引起的不适以及疾病康复阶段尤为有效。"
+                    }
+                ]
+            },
+            {
+                "id": "moxa",
+                "type": "section",
+                "title": {
+                    "ru": "Моксотерапия и ароматерапия",
+                    "en": "Moxibustion and Aromatherapy",
+                    "zh-Hans": "艾灸疗法与芳香疗法"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Моксотерапия",
+                            "en": "Moxibustion Therapy",
+                            "zh-Hans": "艾灸疗法"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Ароматерапия",
+                            "en": "Aromatherapy",
+                            "zh-Hans": "芳香疗法"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Оздоровительные процедуры",
+                            "en": "Wellness Treatments",
+                            "zh-Hans": "康养疗程"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "Моксотерапия основана на мягком прогревании биологически активных точек с использованием специальных полынных сигар. Процедура способствует улучшению циркуляции энергии и крови, укреплению иммунитета и общему оздоровлению организма.",
+                        "en": "Moxibustion is based on gently warming specific acupuncture points using traditional mugwort sticks. The treatment helps improve the circulation of qi and blood, strengthen the immune system, and promote overall well-being.",
+                        "zh-Hans": "艾灸疗法通过艾条温和刺激人体穴位，促进气血循环，增强免疫力，并改善整体健康状况。"
+                    },
+                    {
+                        "ru": "Ароматерапия гармонично дополняет программу восстановления, помогая снять эмоциональное напряжение, улучшить качество сна, расслабиться после процедур и создать благоприятное психологическое состояние.",
+                        "en": "Aromatherapy complements the wellness program by relieving emotional stress, improving sleep quality, promoting relaxation after treatments, and creating a positive emotional balance.",
+                        "zh-Hans": "芳香疗法能够有效辅助康养计划，缓解情绪压力，改善睡眠质量，帮助身体放松，并营造积极平衡的心理状态。"
+                    },
+                    {
+                        "ru": "Сочетание этих методов позволяет почувствовать прилив сил, восстановить внутренний баланс и повысить устойчивость организма к ежедневным нагрузкам.",
+                        "en": "The combination of these therapies helps restore inner balance, boost energy levels, and improve the body's resilience to everyday physical and emotional stress.",
+                        "zh-Hans": "将艾灸与芳香疗法结合使用，有助于恢复身心平衡，增强活力，提高身体应对日常压力和疲劳的能力。"
+                    }
+                ]
+            },
+            {
+                "id": "recovery",
+                "type": "section",
+                "title": {
+                    "ru": "Традиционные практики восстановления организма",
+                    "en": "Traditional Wellness and Recovery Practices",
+                    "zh-Hans": "传统养生与身体恢复疗法"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Оздоровительная программа",
+                            "en": "Wellness Program",
+                            "zh-Hans": "康养计划"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Традиционные практики",
+                            "en": "Traditional Practices",
+                            "zh-Hans": "传统养生疗法"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Восстановление организма",
+                            "en": "Body Recovery",
+                            "zh-Hans": "身体恢复"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "Комплексная программа восстановления может включать лечебный массаж, дыхательные практики, рекомендации по питанию, упражнения для улучшения подвижности и другие методы традиционной восточной медицины.",
+                        "en": "A comprehensive recovery program may include therapeutic massage, breathing exercises, dietary recommendations, mobility training, and other methods of Traditional Eastern Medicine.",
+                        "zh-Hans": "综合康养计划可包括治疗性按摩、呼吸训练、饮食指导、改善身体灵活性的练习以及其他传统东方医学疗法。"
+                    },
+                    {
+                        "ru": "Все процедуры направлены на достижение внутренней гармонии, снижение уровня хронического стресса, улучшение психоэмоционального состояния и укрепление естественных защитных механизмов организма.",
+                        "en": "All treatments are designed to restore inner balance, reduce chronic stress, improve emotional well-being, and strengthen the body's natural defense mechanisms.",
+                        "zh-Hans": "所有疗法都旨在恢复身心平衡，缓解长期压力，改善心理状态，并增强人体的自然防御能力。"
+                    },
+                    {
+                        "ru": "Регулярное прохождение подобных оздоровительных программ помогает повысить уровень энергии, улучшить качество жизни, укрепить иммунитет и сохранить хорошее самочувствие на долгие годы.",
+                        "en": "Regular participation in such wellness programs helps increase energy levels, improve quality of life, strengthen the immune system, and maintain long-term health and well-being.",
+                        "zh-Hans": "定期参加此类康养项目有助于提升精力、改善生活质量、增强免疫力，并长期保持良好的身体状态。"
+                    }
+                ]
+            },
+            {
+                "id": "faq",
+                "type": "faq",
+                "title": {
+                    "ru": "Часто задаваемые вопросы",
+                    "en": "Frequently Asked Questions",
+                    "zh-Hans": "常见问题"
+                },
+                "items": [
+                    {
+                        "id": "duration",
+                        "title": {
+                            "ru": "Сколько длится оздоровительный тур?",
+                            "en": "How long does a wellness tour last?",
+                            "zh-Hans": "康养之旅通常持续多久？"
+                        },
+                        "description": {
+                            "ru": "Большинство программ рассчитано примерно на 12 дней, однако продолжительность может быть изменена в зависимости от ваших целей, состояния здоровья и выбранной программы восстановления.",
+                            "en": "Most wellness programs last about 12 days, although the duration can be adjusted depending on your health condition, personal goals, and the selected recovery program.",
+                            "zh-Hans": "大多数康养项目为期约12天，但可根据您的健康状况、个人目标及所选康养方案进行调整。"
+                        }
+                    },
+                    {
+                        "id": "diagnostics",
+                        "title": {
+                            "ru": "Зачем проводится пульсовая диагностика?",
+                            "en": "Why is pulse diagnosis performed?",
+                            "zh-Hans": "为什么要进行脉诊？"
+                        },
+                        "description": {
+                            "ru": "Пульсовая диагностика является одним из основных методов традиционной китайской медицины. Она позволяет врачу комплексно оценить состояние организма, определить возможные нарушения и подобрать индивидуальную программу оздоровления.",
+                            "en": "Pulse diagnosis is one of the fundamental methods of Traditional Chinese Medicine. It allows the physician to evaluate your overall condition, identify potential imbalances, and create a personalized wellness program.",
+                            "zh-Hans": "脉诊是中医最重要的诊断方法之一，可帮助医生全面评估身体状况，发现潜在失衡，并制定个性化康养方案。"
+                        }
+                    },
+                    {
+                        "id": "procedures",
+                        "title": {
+                            "ru": "Какие процедуры входят в программу?",
+                            "en": "What treatments are included in the program?",
+                            "zh-Hans": "康养项目包含哪些疗法？"
+                        },
+                        "description": {
+                            "ru": "В программу могут входить пульсовая диагностика, акупунктура, рефлексотерапия, моксотерапия, лечебный массаж, фитотерапия, ароматерапия и другие методы традиционной восточной медицины. Состав процедур определяется индивидуально после консультации специалиста.",
+                            "en": "Depending on your individual needs, the program may include pulse diagnosis, acupuncture, reflex therapy, moxibustion, therapeutic massage, herbal medicine, aromatherapy, and other Traditional Eastern Medicine treatments. The exact treatment plan is determined after consultation with a specialist.",
+                            "zh-Hans": "根据个人情况，康养方案可能包括脉诊、针灸、反射疗法、艾灸、治疗按摩、中草药疗法、芳香疗法及其他传统东方医学疗法。具体内容将在专家咨询后确定。"
+                        }
+                    },
+                    {
+                        "id": "individual",
+                        "title": {
+                            "ru": "Подбирается ли программа индивидуально?",
+                            "en": "Is the wellness program personalized?",
+                            "zh-Hans": "康养方案是否为个性化定制？"
+                        },
+                        "description": {
+                            "ru": "Да. После первичной консультации врач учитывает возраст, образ жизни, общее состояние здоровья и цели пациента, чтобы составить наиболее эффективную программу восстановления.",
+                            "en": "Yes. After the initial consultation, the physician considers your age, lifestyle, health condition, and personal goals to create the most effective recovery program.",
+                            "zh-Hans": "是的。初诊后，医生会综合考虑您的年龄、生活方式、健康状况及康养目标，为您制定最合适的恢复方案。"
+                        }
+                    },
+                    {
+                        "id": "who",
+                        "title": {
+                            "ru": "Кому подходят такие оздоровительные туры?",
+                            "en": "Who are these wellness tours suitable for?",
+                            "zh-Hans": "哪些人适合参加康养之旅？"
+                        },
+                        "description": {
+                            "ru": "Оздоровительные программы подходят людям любого возраста, которые хотят укрепить здоровье, снизить уровень стресса, восстановиться после физических или эмоциональных нагрузок, повысить уровень энергии и улучшить общее самочувствие.",
+                            "en": "These wellness programs are suitable for people of all ages who want to improve their health, reduce stress, recover from physical or emotional fatigue, increase energy levels, and enhance their overall well-being.",
+                            "zh-Hans": "康养项目适合各年龄段人士，尤其适合希望增强健康、缓解压力、恢复身心状态、提升精力和改善整体健康水平的人群。"
+                        }
+                    },
+                    {
+                        "id": "translator",
+                        "title": {
+                            "ru": "Предоставляется ли сопровождение и переводчик?",
+                            "en": "Do you provide assistance and interpreter services?",
+                            "zh-Hans": "是否提供陪同服务和翻译？"
+                        },
+                        "description": {
+                            "ru": "Да. Мы организуем поездку полностью: помогаем с подбором программы, сопровождаем во время консультаций и процедур, организуем трансферы и обеспечиваем поддержку русскоязычного переводчика.",
+                            "en": "Yes. We fully organize your trip, including selecting the right wellness program, accompanying you during consultations and treatments, arranging transfers, and providing the support of a Russian-speaking interpreter.",
+                            "zh-Hans": "是的。我们提供全程服务，包括制定康养方案、陪同就诊和治疗、安排接送服务，并提供俄语翻译支持。"
+                        }
+                    }
+                ]
+            }
+        ],
+        "author": "GoTour Team",
+        "publishedAt": "2026-02-12",
+        "updatedAt": "2026-02-12",
+        "readingTime": 10,
+        "views": 0,
         "featured": true,
-        "popular": true
+        "popular": false,
+        "status": "published",
+        "seo": {
+            "title": {
+                "ru": "Традиционная восточная медицина: комплексное восстановление организма | GoTour",
+                "en": "Traditional Eastern Medicine: A Comprehensive Approach to Wellness Recovery | GoTour",
+                "zh-Hans": "传统东方医学：全面身心康复方案 | GoTour"
+            },
+            "description": {
+                "ru": "Пульсовая диагностика, акупунктура, рефлексотерапия, моксотерапия и другие методы традиционной восточной медицины для комплексного восстановления организма.",
+                "en": "Discover pulse diagnosis, acupuncture, reflex therapy, moxibustion, and other Traditional Eastern Medicine techniques designed to restore health, improve well-being, and achieve long-term balance.",
+                "zh-Hans": "了解脉诊、针灸、反射疗法、艾灸等传统东方医学疗法，通过综合康养方案改善健康、恢复活力，实现身心平衡。"
+            }
+        },
+        "relatedSlugs": [
+            "best-time-to-visit-china",
+            "china-medical-tourism-guide"
+        ]
     },
     {
-        "id": "1",
-        "slug": "best-time-to-visit-china",
+        "id": "3",
+        "slug": "beauty-wellness-tour-dali",
         "categorySlugs": [
-            "travel-guide",
-            "wellness"
+            "wellness",
+            "travel-tips"
+        ],
+        "tagSlugs": [
+            "wellness",
+            "traditional-medicine",
+            "acupuncture",
+            "china"
         ],
         "title": {
-            "en": "Best Time to Visit China",
-            "ru": "Лучшее время для посещения Китая",
-            "zh-Hans": "游览中国的最佳时间"
+            "ru": "Туры красоты для женщин в Дали — отдых, гармония и забота о себе",
+            "en": "Women's Beauty Tours in Dali — Relaxation, Harmony and Self-Care",
+            "zh-Hans": "大理女性美丽之旅——放松身心、寻找平衡与关爱自己"
         },
         "description": {
-            "en": "Discover the best seasons to explore China's most famous destinations.",
-            "ru": "Узнайте, в какое время года лучше всего посещать самые популярные места Китая.",
-            "zh-Hans": "了解游览中国著名景点的最佳季节。"
+            "ru": "Откройте для себя Дали — одно из самых красивых мест провинции Юньнань, где отдых, SPA, традиционная китайская медицина и потрясающая природа помогают восстановить силы, обрести внутреннюю гармонию и позаботиться о себе.",
+            "en": "Discover Dali, one of Yunnan's most beautiful destinations, where relaxation, spa treatments, Traditional Chinese Medicine, and breathtaking nature help restore your energy, inner balance, and well-being.",
+            "zh-Hans": "探索云南最美丽的目的地之一——大理。在这里，休闲度假、水疗、中医养生与壮丽自然风光相结合，帮助您恢复活力、找回内心平衡，尽享身心呵护。"
         },
         "excerpt": {
-            "en": "Planning a trip to China? Here's everything you need to know about weather and seasons.",
-            "ru": "Планируете поездку в Китай? Рассказываем всё о погоде и сезонах.",
-            "zh-Hans": "计划前往中国旅行？了解天气和季节信息。"
+            "ru": "Beauty & Wellness Tour в Дали — это путешествие, которое объединяет отдых, процедуры красоты, восточную медицину, прогулки у озера Эрхай и атмосферу полного расслабления.",
+            "en": "The Beauty & Wellness Tour in Dali combines relaxation, beauty treatments, Traditional Chinese Medicine, walks along Erhai Lake, and an atmosphere of complete tranquility.",
+            "zh-Hans": "大理美丽与健康之旅融合休闲度假、美容护理、中医养生、洱海漫步以及宁静放松的氛围。"
         },
-        "image": "assets/images/blog/424x292.svg",
-        "category": "travel-tips",
-        "author": "TravHub Team",
-        "publishedAt": "2026-01-15",
-        "readingTime": 5,
+        "hero": {
+            "image": "assets/images/blog/1320x417.svg",
+            "alt": {
+                "ru": "Beauty Tour в Дали",
+                "en": "Beauty Tour in Dali",
+                "zh-Hans": "大理美丽之旅"
+            }
+        },
+        "blocks": [
+            {
+                "id": "intro",
+                "type": "section",
+                "title": {
+                    "ru": "Дали — идеальное место для женского отдыха",
+                    "en": "Dali — The Perfect Destination for Women's Retreats",
+                    "zh-Hans": "大理——女性度假的理想目的地"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Дали — один из самых живописных городов провинции Юньнань, расположенный у берегов озера Эрхай и окруженный величественными горами Цаншань. Здесь царит спокойная атмосфера, чистый воздух и размеренный ритм жизни, благодаря чему город считается одним из лучших мест Китая для восстановления сил.",
+                        "en": "Dali is one of the most picturesque cities in Yunnan Province, located on the shores of Erhai Lake and surrounded by the majestic Cangshan Mountains. Its peaceful atmosphere, clean air, and relaxed lifestyle make it one of China's best destinations for rejuvenation.",
+                        "zh-Hans": "大理坐落于洱海之滨，背靠苍山，是云南最迷人的城市之一。这里空气清新、节奏舒缓、环境宁静，被誉为中国最适合身心疗愈的目的地之一。"
+                    },
+                    {
+                        "ru": "Многие женщины приезжают сюда, чтобы на несколько дней забыть о ежедневной суете, посвятить время себе, восстановить внутреннее равновесие и совместить путешествие с оздоровительными и SPA-программами.",
+                        "en": "Many women come here to escape everyday stress, dedicate time to themselves, restore inner balance, and combine their vacation with wellness and spa experiences.",
+                        "zh-Hans": "许多女性来到这里，远离日常忙碌，为自己留出时间，通过养生与水疗项目恢复身心平衡。"
+                    },
+                    {
+                        "ru": "Beauty & Wellness Tour в Дали — это не просто отдых, а возможность почувствовать себя обновленной, наполниться энергией и получить удовольствие от каждого дня путешествия.",
+                        "en": "A Beauty & Wellness Tour in Dali is more than just a vacation—it's an opportunity to feel renewed, regain your energy, and truly enjoy every day of your journey.",
+                        "zh-Hans": "大理美丽与健康之旅不仅是一场旅行，更是一次焕新身心、重获能量、享受每一天美好时光的体验。"
+                    }
+                ]
+            },
+            {
+                "id": "quote-beauty",
+                "type": "quote",
+                "text": {
+                    "ru": "Настоящая красота начинается тогда, когда тело отдыхает, разум успокаивается, а душа наполняется гармонией.",
+                    "en": "True beauty begins when the body relaxes, the mind becomes calm, and the soul is filled with harmony.",
+                    "zh-Hans": "真正的美丽始于身体放松、心灵平静、内心充满和谐。"
+                },
+                "author": {
+                    "ru": "GoTour",
+                    "en": "GoTour",
+                    "zh-Hans": "GoTour"
+                }
+            },
+            {
+                "id": "beauty-program",
+                "type": "section",
+                "title": {
+                    "ru": "Что входит в тур красоты",
+                    "en": "What's Included in the Beauty Tour",
+                    "zh-Hans": "美丽之旅包含哪些内容"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "SPA в Дали",
+                            "en": "Spa in Dali",
+                            "zh-Hans": "大理水疗"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Озеро Эрхай",
+                            "en": "Erhai Lake",
+                            "zh-Hans": "洱海"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Отдых в Юньнани",
+                            "en": "Relaxation in Yunnan",
+                            "zh-Hans": "云南休闲度假"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "Каждая программа составляется индивидуально и может включать проживание в уютном бутик-отеле, SPA-процедуры, расслабляющий массаж, уход за лицом и телом, посещение термальных источников, чайные церемонии и прогулки по самым красивым местам Дали.",
+                        "en": "Each program is individually designed and may include accommodation in a charming boutique hotel, spa treatments, relaxing massages, facial and body care, visits to hot springs, traditional tea ceremonies, and walks through Dali's most beautiful locations.",
+                        "zh-Hans": "每一项行程都会根据个人需求量身定制，可包含精品酒店住宿、水疗护理、放松按摩、面部与身体护理、温泉体验、传统茶道以及游览大理最美丽的风景。"
+                    },
+                    {
+                        "ru": "Во время путешествия вы сможете неспешно гулять вдоль озера Эрхай, любоваться горными пейзажами, наслаждаться местной кухней, открывать для себя атмосферу Старого города и делать красивые фотографии в самых живописных уголках Юньнани.",
+                        "en": "During your journey, you can take leisurely walks along Erhai Lake, admire the mountain scenery, enjoy local cuisine, explore the charming Old Town, and capture unforgettable photos in Yunnan's most picturesque locations.",
+                        "zh-Hans": "旅行期间，您可以悠闲漫步洱海湖畔，欣赏苍山美景，品尝云南特色美食，探索大理古城的独特魅力，并在云南最迷人的风景中留下美好的回忆。"
+                    }
+                ]
+            },
+            {
+                "id": "eastern-medicine",
+                "type": "section",
+                "title": {
+                    "ru": "Восточная медицина для красоты и внутреннего баланса",
+                    "en": "Traditional Chinese Medicine for Beauty and Inner Balance",
+                    "zh-Hans": "中医养生——美丽与身心平衡"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Важной частью программы является знакомство с традиционной китайской медициной. Здесь красота рассматривается как отражение общего состояния организма, поэтому специалисты уделяют внимание не только внешнему уходу, но и восстановлению внутренних ресурсов.",
+                        "en": "An important part of the program is discovering Traditional Chinese Medicine. Here, beauty is seen as a reflection of overall health, so specialists focus not only on external care but also on restoring the body's internal balance.",
+                        "zh-Hans": "本项目的重要组成部分是体验中医养生理念。在中医看来，美丽源于健康，因此专家不仅关注外在护理，更注重恢复身体内部的平衡与活力。"
+                    },
+                    {
+                        "ru": "Во время программы можно пройти пульсовую диагностику, которая позволяет оценить состояние внутренних органов, баланс энергий и общее самочувствие. На основании результатов врач разрабатывает индивидуальные рекомендации по восстановлению организма.",
+                        "en": "During the program, you can undergo traditional pulse diagnosis to assess the condition of internal organs, energy balance, and overall well-being. Based on the results, the physician develops personalized recommendations for recovery.",
+                        "zh-Hans": "在项目期间，您可以接受中医脉诊，以评估内脏功能、人体能量平衡及整体健康状况。医生将根据诊断结果制定个性化的调理方案。"
+                    },
+                    {
+                        "ru": "Также доступны процедуры акупунктуры и рефлексотерапии, которые помогают снять напряжение, улучшить кровообращение, уменьшить хроническую усталость и активизировать естественные процессы восстановления.",
+                        "en": "Acupuncture and reflexology treatments are also available to relieve tension, improve circulation, reduce chronic fatigue, and stimulate the body's natural healing processes.",
+                        "zh-Hans": "此外，还可体验针灸和经络疗法，有助于缓解紧张、改善血液循环、减轻慢性疲劳，并促进人体自然修复能力。"
+                    },
+                    {
+                        "ru": "Дополнить программу можно моксотерапией, фитотерапией, ароматерапией и расслабляющим массажем Туйна, которые помогают восстановить внутреннюю гармонию, снизить уровень стресса и почувствовать прилив энергии.",
+                        "en": "The program can also include moxibustion, herbal therapy, aromatherapy, and relaxing Tui Na massage, helping restore inner harmony, reduce stress, and boost vitality.",
+                        "zh-Hans": "项目还可结合艾灸、中草药调理、芳香疗法以及推拿按摩，帮助恢复身心和谐、缓解压力，并焕发新的活力。"
+                    }
+                ]
+            },
+            {
+                "id": "atmosphere",
+                "type": "section",
+                "title": {
+                    "ru": "Атмосфера, которая помогает восстановиться",
+                    "en": "An Atmosphere That Helps You Recharge",
+                    "zh-Hans": "让身心得到恢复的独特氛围"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Старый город Дали",
+                            "en": "Dali Old Town",
+                            "zh-Hans": "大理古城"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Озеро Эрхай",
+                            "en": "Erhai Lake",
+                            "zh-Hans": "洱海"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Горы Цаншань",
+                            "en": "Cangshan Mountains",
+                            "zh-Hans": "苍山"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "Особенность Дали заключается не только в оздоровительных программах, но и в самой атмосфере города. Здесь время словно замедляется, позволяя полностью переключиться с привычных забот и насладиться каждым моментом.",
+                        "en": "What makes Dali truly special is not only its wellness programs but also the unique atmosphere of the city. Time seems to slow down here, allowing you to leave everyday worries behind and fully enjoy every moment.",
+                        "zh-Hans": "大理的独特魅力不仅在于丰富的养生项目，更在于这座城市宁静悠然的氛围。在这里，时间仿佛放慢了脚步，让人远离日常压力，尽情享受每一个美好瞬间。"
+                    },
+                    {
+                        "ru": "Прогулки по Старому городу, велосипедные маршруты вдоль озера Эрхай, посещение чайных домов, мастерских ремесленников и уютных кафе становятся частью путешествия, которое помогает восстановить эмоциональное равновесие.",
+                        "en": "Walking through the Old Town, cycling along Erhai Lake, visiting traditional tea houses, artisan workshops, and cozy cafés all become part of a journey that helps restore emotional balance.",
+                        "zh-Hans": "漫步大理古城、骑行洱海湖畔、探访茶馆、手工艺作坊和温馨咖啡馆，都将成为旅程的一部分，帮助您放松心情，重获内心平衡。"
+                    },
+                    {
+                        "ru": "Именно сочетание природы, восточной философии, качественного сервиса и заботы о здоровье делает Дали одним из лучших направлений Китая для женского отдыха.",
+                        "en": "The combination of beautiful nature, Eastern philosophy, excellent service, and a focus on well-being makes Dali one of China's finest destinations for women's wellness retreats.",
+                        "zh-Hans": "壮丽的自然风光、东方养生理念、高品质服务以及对健康的关注，共同造就了大理成为中国最受欢迎的女性疗愈度假目的地之一。"
+                    }
+                ]
+            },
+            {
+                "id": "who",
+                "type": "section",
+                "title": {
+                    "ru": "Кому подойдет такой тур",
+                    "en": "Who Is This Tour For?",
+                    "zh-Hans": "这趟旅程适合哪些人？"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Beauty & Wellness Tour идеально подойдет женщинам, которые хотят восстановить силы после напряженной работы, снизить уровень стресса, уделить внимание своему здоровью, познакомиться с традиционной китайской медициной или просто провести несколько дней в атмосфере красоты, спокойствия и гармонии.",
+                        "en": "The Beauty & Wellness Tour is perfect for women who want to recover after a demanding work schedule, reduce stress, focus on their well-being, explore Traditional Chinese Medicine, or simply spend a few days surrounded by beauty, tranquility, and harmony.",
+                        "zh-Hans": "美丽与健康之旅非常适合希望在繁忙工作后恢复身心、缓解压力、关注自身健康、体验中医养生，或只是想在宁静优美的环境中度过几天放松时光的女性。"
+                    },
+                    {
+                        "ru": "Такая поездка станет прекрасным подарком самой себе, возможностью перезагрузиться, получить новые впечатления и вернуться домой с ощущением легкости, вдохновения и внутреннего обновления.",
+                        "en": "This journey is a wonderful gift to yourself—an opportunity to recharge, gain new experiences, and return home feeling refreshed, inspired, and full of renewed energy.",
+                        "zh-Hans": "这将是一份送给自己的美好礼物，让您彻底放松、收获难忘体验，并带着轻松、灵感与焕然一新的心情回到生活中。"
+                    }
+                ]
+            }
+        ],
+        "author": "GoTour Team",
+        "publishedAt": "2026-02-18",
+        "updatedAt": "2026-02-18",
+        "readingTime": 10,
+        "views": 0,
         "featured": true,
-        "popular": true
+        "popular": false,
+        "status": "published",
+        "seo": {
+            "title": {
+                "ru": "Туры красоты для женщин в Дали | GoTour",
+                "en": "Women's Beauty Tours in Dali | GoTour",
+                "zh-Hans": "大理女性美丽之旅 | GoTour"
+            },
+            "description": {
+                "ru": "Beauty & Wellness Tour в Дали: SPA, восточная медицина, отдых у озера Эрхай, традиционная китайская медицина, расслабление и гармония в провинции Юньнань.",
+                "en": "Discover the Beauty & Wellness Tour in Dali with spa treatments, Traditional Chinese Medicine, relaxation by Erhai Lake, and a rejuvenating retreat in Yunnan Province.",
+                "zh-Hans": "探索大理美丽与健康之旅：水疗护理、中医养生、洱海休闲度假，在云南体验身心放松与和谐。"
+            }
+        },
+        "relatedSlugs": [
+            "traditional-eastern-medicine-for-recovery",
+            "best-time-to-visit-china"
+        ]
     },
     {
-        "id": "1",
-        "slug": "best-time-to-visit-china",
+        "id": "4",
+        "slug": "mens-wellness-tour-dali",
         "categorySlugs": [
-            "travel-guide",
-            "wellness"
+            "wellness",
+            "medical-tourism"
+        ],
+        "tagSlugs": [
+            "wellness",
+            "traditional-medicine",
+            "acupuncture",
+            "china"
         ],
         "title": {
-            "en": "Best Time to Visit China",
-            "ru": "Лучшее время для посещения Китая",
-            "zh-Hans": "游览中国的最佳时间"
+            "ru": "Оздоровительные туры для мужчин в Дали — восстановление энергии и здоровья",
+            "en": "Men's Wellness Tours in Dali — Restore Your Energy and Health",
+            "zh-Hans": "大理男士养生之旅——恢复活力与健康"
         },
         "description": {
-            "en": "Discover the best seasons to explore China's most famous destinations.",
-            "ru": "Узнайте, в какое время года лучше всего посещать самые популярные места Китая.",
-            "zh-Hans": "了解游览中国著名景点的最佳季节。"
+            "ru": "Комплексные программы восстановления для мужчин, объединяющие традиционную китайскую медицину, отдых, SPA, диагностику и природные красоты провинции Юньнань.",
+            "en": "Comprehensive wellness programs for men combining Traditional Chinese Medicine, relaxation, spa treatments, health diagnostics, and the breathtaking landscapes of Yunnan Province.",
+            "zh-Hans": "专为男性打造的综合养生项目，融合中医调理、水疗放松、健康诊断以及云南壮丽的自然风光。"
         },
         "excerpt": {
-            "en": "Planning a trip to China? Here's everything you need to know about weather and seasons.",
-            "ru": "Планируете поездку в Китай? Рассказываем всё о погоде и сезонах.",
-            "zh-Hans": "计划前往中国旅行？了解天气和季节信息。"
+            "ru": "Отдохните от напряженного ритма жизни, восстановите силы и позаботьтесь о своем здоровье в одном из самых красивых регионов Китая.",
+            "en": "Take a break from the demands of everyday life, restore your energy, and invest in your health in one of China's most beautiful regions.",
+            "zh-Hans": "远离繁忙生活，在中国最美丽的地区之一放松身心，恢复活力，关注健康。"
         },
-        "image": "assets/images/blog/424x292.svg",
-        "category": "travel-tips",
-        "author": "TravHub Team",
-        "publishedAt": "2026-01-15",
-        "readingTime": 5,
+        "hero": {
+            "image": "assets/images/blog/1320x417.svg",
+            "alt": {
+                "ru": "Оздоровительный тур для мужчин",
+                "en": "Men's Wellness Tour",
+                "zh-Hans": "男士养生之旅"
+            }
+        },
+        "blocks": [
+            {
+                "id": "intro",
+                "type": "section",
+                "title": {
+                    "ru": "Время восстановить силы и позаботиться о себе",
+                    "en": "Time to Restore Your Strength and Take Care of Yourself",
+                    "zh-Hans": "是时候恢复活力，关爱自己"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Современный ритм жизни требует постоянной концентрации, высокой ответственности и умения быстро принимать решения. Постепенно это приводит к накоплению усталости, стрессу, ухудшению сна и снижению уровня энергии.",
+                        "en": "Modern life demands constant focus, high responsibility, and the ability to make quick decisions. Over time, this often leads to accumulated fatigue, stress, poor sleep, and reduced energy levels.",
+                        "zh-Hans": "现代生活节奏要求持续保持专注、承担高度责任并快速做出决策。随着时间推移，这往往会导致疲劳积累、压力增加、睡眠质量下降以及精力不足。"
+                    },
+                    {
+                        "ru": "Оздоровительный тур в Дали создан для мужчин, которые хотят сделать паузу, восстановить физические силы, улучшить самочувствие и вернуться домой с новым зарядом энергии.",
+                        "en": "The wellness tour in Dali is designed for men who want to take a break, regain their physical strength, improve their well-being, and return home with renewed energy.",
+                        "zh-Hans": "大理男士养生之旅专为希望暂时放慢脚步、恢复体力、改善健康状态，并以充沛活力重新投入生活的男士打造。"
+                    },
+                    {
+                        "ru": "Уникальная природа Юньнани, мягкий климат, традиционная китайская медицина и комфортная атмосфера делают Дали идеальным местом для полноценного восстановления.",
+                        "en": "Yunnan's unique natural landscapes, mild climate, Traditional Chinese Medicine, and relaxing atmosphere make Dali the perfect destination for complete recovery.",
+                        "zh-Hans": "云南独特的自然风光、宜人的气候、中医养生理念以及舒适宁静的环境，使大理成为全面恢复身心健康的理想目的地。"
+                    }
+                ]
+            },
+            {
+                "id": "quote-energy",
+                "type": "quote",
+                "text": {
+                    "ru": "Настоящая сила начинается с крепкого здоровья, внутреннего спокойствия и гармонии.",
+                    "en": "True strength begins with good health, inner peace, and harmony.",
+                    "zh-Hans": "真正的力量始于健康的身体、内心的平静与和谐。"
+                },
+                "author": {
+                    "ru": "GoTour",
+                    "en": "GoTour",
+                    "zh-Hans": "GoTour"
+                }
+            },
+            {
+                "id": "diagnostics",
+                "type": "section",
+                "title": {
+                    "ru": "Комплексная диагностика организма",
+                    "en": "Comprehensive Health Assessment",
+                    "zh-Hans": "全面健康诊断"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Консультация специалиста",
+                            "en": "Consultation with a specialist",
+                            "zh-Hans": "专家咨询"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Пульсовая диагностика",
+                            "en": "Pulse diagnosis",
+                            "zh-Hans": "脉诊"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Традиционная китайская медицина",
+                            "en": "Traditional Chinese Medicine",
+                            "zh-Hans": "中医"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "Программа начинается с консультации специалиста и проведения пульсовой диагностики. Это один из основных методов традиционной китайской медицины, позволяющий комплексно оценить состояние организма.",
+                        "en": "The program begins with a consultation with a specialist and pulse diagnosis. This is one of the fundamental methods of Traditional Chinese Medicine, allowing a comprehensive assessment of the body's condition.",
+                        "zh-Hans": "疗程从专家咨询和脉诊开始。脉诊是中医最重要的诊断方法之一，可全面评估身体状况。"
+                    },
+                    {
+                        "ru": "Врач анализирует особенности пульса, оценивает работу внутренних органов, уровень жизненной энергии и общее состояние здоровья, после чего формирует индивидуальную программу восстановления.",
+                        "en": "The physician analyzes the characteristics of the pulse, evaluates the function of internal organs, the level of vital energy, and overall health before creating a personalized recovery program.",
+                        "zh-Hans": "医生会分析脉象，评估内脏功能、生命能量水平以及整体健康状况，并据此制定个性化康复方案。"
+                    },
+                    {
+                        "ru": "Такой подход помогает уделить внимание не только существующим симптомам, но и причинам их возникновения.",
+                        "en": "This approach focuses not only on existing symptoms but also on identifying and addressing their underlying causes.",
+                        "zh-Hans": "这种方法不仅关注现有症状，更重视寻找并解决其根本原因。"
+                    }
+                ]
+            },
+            {
+                "id": "recovery",
+                "type": "section",
+                "title": {
+                    "ru": "Восстановление после физических и эмоциональных нагрузок",
+                    "en": "Recovery After Physical and Emotional Stress",
+                    "zh-Hans": "缓解身心压力，恢复健康"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Комплекс оздоровительных процедур помогает снять хроническое напряжение, улучшить качество сна, уменьшить мышечную усталость и восстановить силы после интенсивной работы или активных занятий спортом.",
+                        "en": "A comprehensive wellness program helps relieve chronic tension, improve sleep quality, reduce muscle fatigue, and restore energy after intensive work or physical activity.",
+                        "zh-Hans": "综合康养疗程有助于缓解长期紧张情绪，改善睡眠质量，减轻肌肉疲劳，并帮助身体在高强度工作或运动后恢复活力。"
+                    },
+                    {
+                        "ru": "В программу могут входить акупунктура, лечебный массаж Туйна, рефлексотерапия, моксотерапия, фитотерапия и расслабляющие SPA-процедуры.",
+                        "en": "The program may include acupuncture, therapeutic Tuina massage, reflexology, moxibustion, herbal therapy, and relaxing SPA treatments.",
+                        "zh-Hans": "疗程可包括针灸、推拿、反射疗法、艾灸、中草药疗法以及放松身心的SPA护理。"
+                    },
+                    {
+                        "ru": "Все процедуры подбираются индивидуально в зависимости от состояния здоровья и целей восстановления.",
+                        "en": "All treatments are tailored individually according to your health condition and recovery goals.",
+                        "zh-Hans": "所有治疗项目都会根据个人健康状况和康复目标进行个性化制定。"
+                    }
+                ]
+            },
+            {
+                "id": "nature",
+                "type": "section",
+                "title": {
+                    "ru": "Природа Дали как часть программы восстановления",
+                    "en": "Dali's Nature as Part of the Recovery Experience",
+                    "zh-Hans": "大理自然风光——康养疗程的重要组成部分"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Озеро Эрхай",
+                            "en": "Erhai Lake",
+                            "zh-Hans": "洱海"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Горы Цаншань",
+                            "en": "Cangshan Mountains",
+                            "zh-Hans": "苍山"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Прогулка по Дали",
+                            "en": "Walking in Dali",
+                            "zh-Hans": "漫步大理"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "Дали — это место, где сама природа способствует восстановлению. Прогулки вдоль озера Эрхай, чистый горный воздух и спокойная атмосфера помогают отвлечься от ежедневных забот и почувствовать настоящее расслабление.",
+                        "en": "Dali is a place where nature itself promotes recovery. Walks along Erhai Lake, fresh mountain air, and a peaceful atmosphere help you disconnect from daily stress and experience true relaxation.",
+                        "zh-Hans": "大理是一座大自然本身就能帮助身心恢复的城市。漫步洱海湖畔、呼吸清新的山间空气、感受宁静的氛围，都能让您远离日常压力，真正放松身心。"
+                    },
+                    {
+                        "ru": "В свободное время можно отправиться на велосипедную прогулку, посетить Старый город Дали, попробовать местную кухню, принять участие в чайной церемонии или просто насладиться красивыми видами Юньнани.",
+                        "en": "During your free time, you can enjoy a cycling tour, explore Dali Ancient Town, taste local cuisine, join a traditional tea ceremony, or simply admire the breathtaking landscapes of Yunnan.",
+                        "zh-Hans": "闲暇时间，您可以骑行环游、游览大理古城、品尝当地美食、参加传统茶艺体验，或静静欣赏云南壮丽的自然风光。"
+                    }
+                ]
+            },
+            {
+                "id": "benefits",
+                "type": "section",
+                "title": {
+                    "ru": "Почему мужчины выбирают оздоровительные туры",
+                    "en": "Why Men Choose Wellness Tours",
+                    "zh-Hans": "为什么越来越多的男士选择康养之旅"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Такие поездки позволяют совместить полноценный отдых с заботой о здоровье. После нескольких дней в Дали многие отмечают улучшение сна, снижение уровня стресса, восстановление работоспособности и прилив жизненной энергии.",
+                        "en": "These journeys combine quality relaxation with comprehensive health care. After just a few days in Dali, many guests notice better sleep, lower stress levels, renewed productivity, and increased energy.",
+                        "zh-Hans": "这样的旅行将高品质休闲与健康管理相结合。许多游客在大理停留几天后，都会感受到睡眠改善、压力减轻、工作状态恢复以及精力明显提升。"
+                    },
+                    {
+                        "ru": "Оздоровительный тур станет отличным выбором для предпринимателей, руководителей, специалистов с высокой нагрузкой, спортсменов и всех, кто хочет поддерживать свое здоровье и качество жизни.",
+                        "en": "A wellness tour is an excellent choice for entrepreneurs, executives, professionals with demanding careers, athletes, and anyone who wants to maintain good health and a high quality of life.",
+                        "zh-Hans": "康养之旅非常适合企业家、管理者、高强度工作的专业人士、运动员，以及所有希望保持健康和提升生活品质的人士。"
+                    },
+                    {
+                        "ru": "Это возможность остановиться, восстановить внутренние ресурсы и вернуться к привычным делам с новыми силами.",
+                        "en": "It is an opportunity to pause, restore your inner resources, and return to everyday life with renewed strength and motivation.",
+                        "zh-Hans": "这是一次放慢脚步、恢复身心能量，并以全新的活力和动力重新投入工作与生活的机会。"
+                    }
+                ]
+            }
+        ],
+        "author": "GoTour Team",
+        "publishedAt": "2026-02-20",
+        "updatedAt": "2026-02-20",
+        "readingTime": 9,
+        "views": 0,
         "featured": true,
-        "popular": true
+        "popular": true,
+        "status": "published",
+        "seo": {
+            "title": {
+                "ru": "Оздоровительные туры для мужчин в Дали | GoTour",
+                "en": "Men's Wellness Tours in Dali | GoTour",
+                "zh-Hans": "大理男士康养之旅 | GoTour"
+            },
+            "description": {
+                "ru": "Программы восстановления для мужчин: традиционная китайская медицина, диагностика, SPA, отдых и оздоровление в Дали, провинция Юньнань.",
+                "en": "Wellness programs for men featuring Traditional Chinese Medicine, health diagnostics, SPA treatments, relaxation, and recovery in Dali, Yunnan Province.",
+                "zh-Hans": "专为男士打造的康养计划：结合中医诊疗、健康检查、SPA护理、休闲度假与身心恢复，在云南大理享受全面健康体验。"
+            }
+        },
+        "relatedSlugs": [
+            "beauty-wellness-tour-dali",
+            "traditional-eastern-medicine-for-recovery"
+        ]
+    },
+    {
+        "id": "5",
+        "slug": "healing-and-cultural-journey-through-china",
+        "categorySlugs": [
+            "medical-tourism",
+            "travel-tips"
+        ],
+        "tagSlugs": [
+            "china",
+            "traditional-medicine",
+            "culture",
+            "wellness",
+            "travel"
+        ],
+        "title": {
+            "ru": "Лечение, путешествие и культура Китая — полное погружение в традиции Поднебесной",
+            "en": "Healing, Travel, and Chinese Culture — A Complete Immersion into the Traditions of China",
+            "zh-Hans": "疗养、旅行与中国文化——沉浸式体验中华传统"
+        },
+        "description": {
+            "ru": "Узнайте, как совместить оздоровление методами традиционной китайской медицины с путешествием по Китаю, знакомством с древней культурой, философией, традициями и образом жизни Поднебесной.",
+            "en": "Discover how to combine wellness treatments based on Traditional Chinese Medicine with a journey through China, exploring its ancient culture, philosophy, traditions, and way of life.",
+            "zh-Hans": "了解如何将中医康养与中国之旅相结合，深入体验中华悠久的文化、哲学、传统与生活方式。"
+        },
+        "excerpt": {
+            "ru": "Поездка в Китай — это не только лечение, но и возможность прикоснуться к многовековой культуре, познакомиться с традициями и открыть для себя совершенно иной взгляд на здоровье и жизнь.",
+            "en": "A trip to China is more than medical treatment—it's an opportunity to experience centuries-old culture, discover local traditions, and gain a completely new perspective on health and life.",
+            "zh-Hans": "前往中国不仅是一次康养之旅，更是一次感受数千年文化、了解传统，并重新认识健康与生活方式的难忘体验。"
+        },
+        "hero": {
+            "image": "assets/images/blog/1320x417.svg",
+            "alt": {
+                "ru": "Лечение и путешествие по Китаю",
+                "en": "Healing and Traveling Across China",
+                "zh-Hans": "中国康养与旅行"
+            }
+        },
+        "blocks": [
+            {
+                "id": "intro",
+                "type": "section",
+                "title": {
+                    "ru": "Китай — место, где лечение становится путешествием",
+                    "en": "China — Where Healing Becomes a Journey",
+                    "zh-Hans": "中国——让疗养成为一场旅行的地方"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Медицинский туризм в Китае давно перестал ограничиваться только посещением клиник. Для многих путешественников это возможность не только пройти курс восстановления, но и познакомиться с культурой страны, история которой насчитывает несколько тысячелетий.",
+                        "en": "Medical tourism in China has long gone beyond simply visiting clinics. For many travelers, it is an opportunity not only to complete a wellness program but also to discover a country whose history spans thousands of years.",
+                        "zh-Hans": "中国医疗旅游早已不仅仅是前往医院治疗。对于许多游客来说，这不仅是一次康养之旅，更是深入了解拥有数千年历史文化的中国的机会。"
+                    },
+                    {
+                        "ru": "Традиционная китайская медицина неразрывно связана с философией, природой, образом жизни и отношением человека к собственному здоровью. Именно поэтому поездка в Китай становится гораздо глубже обычного лечения — это настоящее путешествие в мир древних традиций.",
+                        "en": "Traditional Chinese Medicine is deeply connected with philosophy, nature, daily lifestyle, and one's attitude toward health. That is why a trip to China becomes much more than medical treatment—it is a journey into the world of ancient traditions.",
+                        "zh-Hans": "中医与中国哲学、自然环境、生活方式以及人们对健康的理解密不可分。因此，来到中国不仅仅是接受治疗，更是一场探索古老传统文化的深度之旅。"
+                    },
+                    {
+                        "ru": "Каждый день сочетает медицинские процедуры, отдых и знакомство с уникальной культурой Поднебесной, превращая оздоровительную программу в яркое и запоминающееся путешествие.",
+                        "en": "Each day combines wellness treatments, relaxation, and cultural exploration, transforming the recovery program into an inspiring and unforgettable journey through China.",
+                        "zh-Hans": "每天都将康养治疗、休闲放松与中华文化体验相结合，使整个康复疗程成为一次丰富而难忘的中国之旅。"
+                    }
+                ]
+            },
+            {
+                "id": "quote",
+                "type": "quote",
+                "text": {
+                    "ru": "Настоящее восстановление начинается тогда, когда меняется не только тело, но и взгляд на жизнь.",
+                    "en": "True recovery begins when not only the body changes, but also your perspective on life.",
+                    "zh-Hans": "真正的康复，不仅源于身体的改变，更源于对生活全新的理解。"
+                },
+                "author": {
+                    "ru": "GoTour",
+                    "en": "GoTour",
+                    "zh-Hans": "GoTour"
+                }
+            },
+            {
+                "id": "culture",
+                "type": "section",
+                "title": {
+                    "ru": "Погружение в культуру и традиции Китая",
+                    "en": "Discovering China's Culture and Traditions",
+                    "zh-Hans": "沉浸式体验中国文化与传统"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Старинный город Китая",
+                            "en": "Ancient Chinese Town",
+                            "zh-Hans": "中国古城"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Китайская архитектура",
+                            "en": "Chinese Architecture",
+                            "zh-Hans": "中国传统建筑"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Традиционная культура Китая",
+                            "en": "Traditional Chinese Culture",
+                            "zh-Hans": "中国传统文化"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "Свободное время между процедурами можно посвятить прогулкам по древним улицам, посещению храмов, знакомству с историческими кварталами и традиционной архитектурой Китая.",
+                        "en": "Your free time between treatments can be spent strolling through ancient streets, visiting temples, exploring historic neighborhoods, and admiring China's traditional architecture.",
+                        "zh-Hans": "在治疗间隙，您可以漫步于古老街巷，参观寺庙，探索历史街区，欣赏中国传统建筑之美。"
+                    },
+                    {
+                        "ru": "Такие прогулки позволяют почувствовать атмосферу страны, познакомиться с местными традициями, ремеслами и укладом жизни, который формировался на протяжении многих веков.",
+                        "en": "These experiences allow you to immerse yourself in the country's atmosphere, discover local traditions, traditional crafts, and a way of life shaped over centuries.",
+                        "zh-Hans": "这样的体验能够让您真正感受中国的文化氛围，了解当地传统、手工艺以及历经数百年形成的生活方式。"
+                    },
+                    {
+                        "ru": "Именно сочетание отдыха, лечения и культурного знакомства делает подобные туры особенно ценными и насыщенными впечатлениями.",
+                        "en": "It is this combination of relaxation, wellness treatments, and cultural exploration that makes these journeys truly meaningful and unforgettable.",
+                        "zh-Hans": "正是休闲度假、康养治疗与文化体验的结合，使这样的旅行更加充实、难忘且意义非凡。"
+                    }
+                ]
+            },
+            {
+                "id": "philosophy",
+                "type": "section",
+                "title": {
+                    "ru": "Философия здоровья как часть повседневной жизни",
+                    "en": "The Philosophy of Health as a Way of Life",
+                    "zh-Hans": "健康哲学——融入日常生活的生活方式"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "В Китае забота о здоровье воспринимается как естественная часть ежедневной жизни. Здесь большое внимание уделяют правильному питанию, режиму дня, прогулкам, умеренной физической активности и внутреннему эмоциональному равновесию.",
+                        "en": "In China, taking care of one's health is considered a natural part of everyday life. Great importance is placed on balanced nutrition, a healthy daily routine, regular walks, moderate physical activity, and emotional well-being.",
+                        "zh-Hans": "在中国，关注健康被视为日常生活中自然而重要的一部分。人们十分重视均衡饮食、规律作息、日常散步、适度运动以及内心的情绪平衡。"
+                    },
+                    {
+                        "ru": "Во время путешествия гости знакомятся с чайной культурой, традициями здорового питания, дыхательными практиками и философией гармоничной жизни, которая лежит в основе традиционной китайской медицины.",
+                        "en": "During the journey, guests discover Chinese tea culture, healthy eating traditions, breathing exercises, and the philosophy of harmonious living that forms the foundation of Traditional Chinese Medicine.",
+                        "zh-Hans": "在旅途中，游客将体验中国茶文化、健康饮食传统、呼吸养生练习，以及构成中医理论基础的和谐生活哲学。"
+                    },
+                    {
+                        "ru": "Такой опыт помогает не только лучше понять культуру страны, но и перенять полезные привычки, которые можно применять и после возвращения домой.",
+                        "en": "This experience not only provides a deeper understanding of Chinese culture but also helps you adopt healthy habits that can become part of your daily life after returning home.",
+                        "zh-Hans": "这样的体验不仅能帮助您更深入地了解中国文化，还能让您养成有益健康的生活习惯，并在回国后继续实践。"
+                    }
+                ]
+            },
+            {
+                "id": "journey",
+                "type": "section",
+                "title": {
+                    "ru": "Путешествие, которое остается в памяти",
+                    "en": "A Journey That Stays with You",
+                    "zh-Hans": "一段令人难忘的旅程"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Озеро Эрхай",
+                            "en": "Erhai Lake",
+                            "zh-Hans": "洱海"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Горы Юньнани",
+                            "en": "Yunnan Mountains",
+                            "zh-Hans": "云南群山"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Путешествие по Китаю",
+                            "en": "Traveling Across China",
+                            "zh-Hans": "中国之旅"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "Помимо медицинских процедур путешественников ждут живописные природные ландшафты, прогулки вдоль озера Эрхай, древние города, национальная кухня, чайные церемонии и знакомство с традициями народов Юньнани.",
+                        "en": "In addition to wellness treatments, travelers will enjoy breathtaking natural scenery, walks along Erhai Lake, ancient towns, authentic local cuisine, traditional tea ceremonies, and an introduction to the rich cultural traditions of Yunnan's ethnic communities.",
+                        "zh-Hans": "除了健康疗程外，游客还将欣赏壮丽的自然风光，漫步洱海湖畔，探访古城，品尝云南特色美食，体验中国茶艺，并深入了解云南各民族的传统文化。"
+                    },
+                    {
+                        "ru": "Каждый день наполнен новыми открытиями, красивыми пейзажами и возможностью увидеть настоящий Китай — не туристический, а живой и многогранный.",
+                        "en": "Every day brings new discoveries, magnificent landscapes, and the opportunity to experience the authentic China—not just its famous attractions, but its vibrant everyday life and rich cultural diversity.",
+                        "zh-Hans": "旅程中的每一天都充满新的发现、壮美的风景，以及深入体验真实中国的机会——不仅是著名景点，更是充满活力、多姿多彩的日常生活。"
+                    },
+                    {
+                        "ru": "Именно поэтому многие гости возвращаются домой не только с улучшенным самочувствием, но и с совершенно новым взглядом на отдых, здоровье и образ жизни.",
+                        "en": "That is why many guests return home not only feeling healthier and more energized, but also with a completely new perspective on wellness, travel, and a balanced way of life.",
+                        "zh-Hans": "正因如此，许多游客回国时不仅拥有更好的身体状态和充沛的精力，也对健康、旅行以及平衡的生活方式有了全新的理解。"
+                    }
+                ]
+            },
+            {
+                "id": "result",
+                "type": "section",
+                "title": {
+                    "ru": "Больше, чем медицинский тур",
+                    "en": "More Than a Medical Tour",
+                    "zh-Hans": "不仅仅是一次医疗之旅"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Такая поездка позволяет объединить профессиональную медицинскую помощь, отдых, культурное развитие и новые впечатления. Это возможность не просто пройти курс оздоровления, а полностью сменить обстановку, восстановить внутреннее равновесие и открыть для себя богатое культурное наследие Китая.",
+                        "en": "This journey combines professional medical care, relaxation, cultural discovery, and unforgettable experiences. It is an opportunity not only to complete a wellness program but also to change your surroundings, restore inner balance, and discover China's rich cultural heritage.",
+                        "zh-Hans": "这样的旅程将专业医疗、休闲度假、文化体验与全新感受融为一体。这不仅是一次健康疗养，更是一次改变生活节奏、恢复身心平衡、探索中国深厚文化遗产的难忘体验。"
+                    },
+                    {
+                        "ru": "Именно сочетание традиционной китайской медицины, древней философии, исторических памятников, национальных традиций и великолепной природы делает подобные путешествия уникальными и незабываемыми.",
+                        "en": "The unique combination of Traditional Chinese Medicine, ancient philosophy, historic landmarks, cultural traditions, and breathtaking natural landscapes makes these journeys truly exceptional and unforgettable.",
+                        "zh-Hans": "中医、古老哲学、历史遗迹、民族传统以及壮丽自然风光的完美结合，使这样的旅程独具特色，令人终生难忘。"
+                    }
+                ]
+            },
+            {
+                "id": "faq",
+                "type": "faq",
+                "title": {
+                    "ru": "Часто задаваемые вопросы",
+                    "en": "Frequently Asked Questions",
+                    "zh-Hans": "常见问题"
+                },
+                "items": [
+                    {
+                        "id": "combine",
+                        "title": {
+                            "ru": "Можно ли совместить лечение с экскурсиями?",
+                            "en": "Can I combine medical treatment with sightseeing?",
+                            "zh-Hans": "可以将治疗与观光结合吗？"
+                        },
+                        "description": {
+                            "ru": "Да. Программа строится таким образом, чтобы после медицинских процедур оставалось время для знакомства с достопримечательностями, культурой и природой Китая.",
+                            "en": "Yes. The program is designed so that after your medical treatments, you have enough time to explore China's landmarks, culture, and natural beauty.",
+                            "zh-Hans": "可以。行程经过精心安排，在完成治疗后，您仍有充足时间游览中国的名胜古迹、体验当地文化并欣赏自然风光。"
+                        }
+                    },
+                    {
+                        "id": "culture",
+                        "title": {
+                            "ru": "Нужно ли специально интересоваться культурой Китая?",
+                            "en": "Do I need to have a special interest in Chinese culture?",
+                            "zh-Hans": "需要提前了解中国文化吗？"
+                        },
+                        "description": {
+                            "ru": "Нет. Во время поездки знакомство с культурой происходит естественно — через прогулки, посещение исторических мест, чайные церемонии, национальную кухню и общение с местными жителями.",
+                            "en": "No. During the trip, you'll naturally discover Chinese culture through city walks, visits to historical sites, tea ceremonies, local cuisine, and interactions with local people.",
+                            "zh-Hans": "不需要。在旅途中，您将通过漫步古城、参观历史景点、体验茶文化、品尝当地美食以及与当地人交流，自然而然地了解中国文化。"
+                        }
+                    },
+                    {
+                        "id": "translator",
+                        "title": {
+                            "ru": "Будет ли сопровождение переводчика?",
+                            "en": "Will an interpreter be available?",
+                            "zh-Hans": "会提供翻译陪同服务吗？"
+                        },
+                        "description": {
+                            "ru": "Да. Мы обеспечиваем сопровождение русскоязычного переводчика во время консультаций, процедур и при необходимости во время экскурсий.",
+                            "en": "Yes. We provide a Russian-speaking interpreter during medical consultations, treatments, and, if necessary, during excursions.",
+                            "zh-Hans": "会。我们将在医疗咨询、治疗期间提供俄语翻译陪同，如有需要，游览期间也可安排翻译服务。"
+                        }
+                    },
+                    {
+                        "id": "family",
+                        "title": {
+                            "ru": "Можно ли приехать вместе с семьей?",
+                            "en": "Can I travel with my family?",
+                            "zh-Hans": "可以与家人一起前来吗？"
+                        },
+                        "description": {
+                            "ru": "Конечно. Мы можем составить программу, которая объединит оздоровительные процедуры для одного участника и экскурсионный отдых для остальных членов семьи.",
+                            "en": "Absolutely. We can create a personalized itinerary that combines wellness treatments for one participant with sightseeing and leisure activities for accompanying family members.",
+                            "zh-Hans": "当然可以。我们可以为您定制行程，让一位成员接受健康疗养，同时其他家庭成员享受观光和休闲活动。"
+                        }
+                    },
+                    {
+                        "id": "experience",
+                        "title": {
+                            "ru": "Что обычно отмечают путешественники после поездки?",
+                            "en": "What do travelers usually say after the trip?",
+                            "zh-Hans": "游客在旅行结束后通常有哪些感受？"
+                        },
+                        "description": {
+                            "ru": "Большинство гостей отмечают улучшение самочувствия, снижение уровня стресса, новые впечатления, знакомство с культурой Китая и желание вновь вернуться в Поднебесную.",
+                            "en": "Most guests report feeling healthier, less stressed, inspired by new experiences, and fascinated by Chinese culture. Many express a strong desire to return to China again.",
+                            "zh-Hans": "大多数游客表示，旅行结束后身体状况有所改善，压力减轻，收获了丰富的新体验，并深入了解了中国文化，许多人都希望再次来到中国。"
+                        }
+                    }
+                ]
+            }
+        ],
+        "author": "GoTour Team",
+        "publishedAt": "2026-02-24",
+        "updatedAt": "2026-02-24",
+        "readingTime": 9,
+        "views": 0,
+        "featured": false,
+        "popular": true,
+        "status": "published",
+        "seo": {
+            "title": {
+                "ru": "Лечение, путешествие и культура Китая | GoTour"
+            },
+            "description": {
+                "ru": "Совместите традиционную китайскую медицину с путешествием по Китаю, познакомьтесь с историей, культурой, философией и традициями Поднебесной."
+            }
+        },
+        "relatedSlugs": [
+            "traditional-eastern-medicine-for-recovery",
+            "beauty-wellness-tour-dali",
+            "mens-wellness-tour-dali"
+        ]
+    },
+    {
+        "id": "6",
+        "slug": "half-day-healing-half-day-discovery",
+        "categorySlugs": [
+            "medical-tourism",
+            "travel-tips",
+            "wellness"
+        ],
+        "tagSlugs": [
+            "china",
+            "wellness",
+            "medical-tourism",
+            "culture",
+            "travel"
+        ],
+        "title": {
+            "ru": "Полдня здоровья, полдня открытий — идеальный формат оздоровительных туров по Китаю",
+            "en": "Half a Day for Wellness, Half a Day for Discovery — The Perfect Medical Tour Experience in China",
+            "zh-Hans": "半天疗养，半天探索——中国康养之旅的理想模式"
+        },
+        "description": {
+            "ru": "Совместите эффективное восстановление организма с путешествием по Китаю. Утром — медицинские процедуры, днем — индивидуально подобранные экскурсии, знакомство с культурой, природой и традициями Поднебесной.",
+            "en": "Combine effective wellness treatments with an unforgettable journey through China. Spend your mornings on personalized medical therapies and your afternoons exploring China's culture, nature, and timeless traditions.",
+            "zh-Hans": "将高效健康疗养与中国之旅完美结合。上午进行个性化医疗与康复疗程，下午探索中国的文化、自然风光与悠久传统。"
+        },
+        "excerpt": {
+            "ru": "Современный оздоровительный тур — это не только лечение. Это гармоничное сочетание заботы о здоровье, отдыха, путешествий и знакомства с настоящим Китаем.",
+            "en": "A modern wellness tour is much more than medical treatment. It is a harmonious blend of healthcare, relaxation, travel, and authentic experiences across China.",
+            "zh-Hans": "现代康养之旅不仅仅是治疗，更是健康管理、休闲度假、旅行探索与体验真实中国文化的完美结合。"
+        },
+        "hero": {
+            "image": "assets/images/blog/1320x417.svg",
+            "alt": {
+                "ru": "Оздоровительный тур по Китаю",
+                "en": "Wellness Tour in China",
+                "zh-Hans": "中国康养之旅"
+            }
+        },
+        "blocks": [
+            {
+                "id": "intro",
+                "type": "section",
+                "title": {
+                    "ru": "Новый формат медицинского туризма",
+                    "en": "A New Approach to Medical Tourism",
+                    "zh-Hans": "医疗旅游的新模式"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Многие представляют оздоровительные программы как длительное пребывание в клинике, однако современный медицинский туризм предлагает совершенно иной подход. В наших турах забота о здоровье гармонично сочетается с отдыхом, путешествиями и знакомством с богатой культурой Китая.",
+                        "en": "Many people imagine wellness programs as spending weeks in a clinic, but modern medical tourism offers a completely different experience. Our tours combine professional healthcare with relaxation, travel, and the opportunity to discover China's rich cultural heritage.",
+                        "zh-Hans": "许多人认为健康疗养意味着长时间待在医院，但现代医疗旅游提供了完全不同的体验。在我们的行程中，专业医疗、休闲度假、旅行探索以及中国丰富文化的体验完美结合。"
+                    },
+                    {
+                        "ru": "Каждый день программы разделен на две части. Первая половина посвящена диагностике и восстановительным процедурам, а вторая — экскурсиям, прогулкам и знакомству с уникальными достопримечательностями региона.",
+                        "en": "Each day is divided into two parts. The first half is dedicated to medical consultations, diagnostics, and wellness treatments, while the second half is reserved for sightseeing, walks, and exploring the region's unique attractions.",
+                        "zh-Hans": "每天的行程分为两个部分：上午进行医疗咨询、健康评估和康复疗程；下午则安排观光、漫步以及探索当地独特的自然与文化景点。"
+                    },
+                    {
+                        "ru": "Такой формат позволяет получить максимальную пользу от лечения, не отказываясь от ярких впечатлений и полноценного путешествия.",
+                        "en": "This balanced approach allows you to benefit from effective treatment while still enjoying an inspiring and memorable journey.",
+                        "zh-Hans": "这种安排既能充分发挥治疗效果，又能让您享受充实而难忘的旅行体验。"
+                    }
+                ]
+            },
+            {
+                "id": "quote",
+                "type": "quote",
+                "text": {
+                    "ru": "Когда организм получает лечение, а разум — новые впечатления, восстановление становится по-настоящему гармоничным.",
+                    "en": "When the body receives healing and the mind embraces new experiences, recovery becomes truly harmonious.",
+                    "zh-Hans": "当身体得到疗愈、心灵收获新的体验时，真正和谐的康复便由此开始。"
+                },
+                "author": {
+                    "ru": "GoTour",
+                    "en": "GoTour",
+                    "zh-Hans": "GoTour"
+                }
+            },
+            {
+                "id": "morning",
+                "type": "section",
+                "title": {
+                    "ru": "Первая половина дня — восстановление здоровья",
+                    "en": "Morning — Focus on Health and Recovery",
+                    "zh-Hans": "上午——健康恢复时间"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Диагностика в клинике",
+                            "en": "Medical Diagnostics at the Clinic",
+                            "zh-Hans": "医疗诊断"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Процедуры традиционной китайской медицины",
+                            "en": "Traditional Chinese Medicine Treatments",
+                            "zh-Hans": "中医治疗"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Консультация специалиста",
+                            "en": "Consultation with a Specialist",
+                            "zh-Hans": "专家咨询"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "После завтрака гости отправляются в клинику, где проходят консультации специалистов, диагностику и индивидуально подобранные процедуры. В зависимости от программы это могут быть пульсовая диагностика, акупунктура, лечебный массаж, рефлексотерапия, фитотерапия и другие методы традиционной китайской медицины.",
+                        "en": "After breakfast, guests visit the clinic for consultations, diagnostic examinations, and personalized treatments. Depending on the program, these may include pulse diagnosis, acupuncture, therapeutic massage, reflexology, herbal medicine, and other Traditional Chinese Medicine therapies.",
+                        "zh-Hans": "早餐后，游客前往医疗中心接受专家咨询、健康评估以及个性化康复治疗。根据个人方案，疗程可能包括脉诊、针灸、推拿、反射疗法、中草药疗法及其他中医治疗方式。"
+                    },
+                    {
+                        "ru": "Каждая программа составляется индивидуально, поэтому процедуры подбираются с учетом состояния здоровья, рекомендаций врача и целей поездки.",
+                        "en": "Every wellness program is tailored individually, with treatments selected according to your health condition, the doctor's recommendations, and your personal wellness goals.",
+                        "zh-Hans": "每位游客都会获得专属康养方案，所有治疗项目均根据健康状况、医生建议以及个人疗养目标量身定制。"
+                    },
+                    {
+                        "ru": "Процедуры проходят в комфортной атмосфере без спешки, позволяя организму постепенно восстанавливаться и накапливать силы.",
+                        "en": "All treatments are carried out in a calm and comfortable environment, allowing your body to recover naturally and restore its energy step by step.",
+                        "zh-Hans": "所有疗程均在轻松舒适的环境中进行，让身体循序渐进地恢复健康，重新积蓄活力。"
+                    }
+                ]
+            },
+            {
+                "id": "afternoon",
+                "type": "section",
+                "title": {
+                    "ru": "Вторая половина дня — путешествие по настоящему Китаю",
+                    "en": "Afternoon — Discover the Real China",
+                    "zh-Hans": "下午——探索真正的中国"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Экскурсии по Китаю",
+                            "en": "Excursions Across China",
+                            "zh-Hans": "中国观光之旅"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Исторические достопримечательности",
+                            "en": "Historic Landmarks",
+                            "zh-Hans": "历史名胜古迹"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Природа провинции Юньнань",
+                            "en": "Nature of Yunnan Province",
+                            "zh-Hans": "云南自然风光"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "После завершения процедур начинается вторая часть дня — знакомство с Китаем. Экскурсионная программа никогда не бывает одинаковой и подбирается индивидуально для каждой группы или путешественника.",
+                        "en": "After the treatments, the second part of the day begins — discovering China. Every sightseeing program is unique and is individually designed for each group or traveler.",
+                        "zh-Hans": "治疗结束后，便开启一天的第二部分——探索中国。每一条参观路线都会根据团队或游客的需求量身定制，因此每次旅程都独一无二。"
+                    },
+                    {
+                        "ru": "Маршруты зависят от времени года, региона, погодных условий, физического состояния после процедур и личных интересов гостей. Это могут быть прогулки по древним городам, посещение храмов, чайные церемонии, природные парки, живописные озера, национальные деревни или исторические памятники.",
+                        "en": "The itinerary depends on the season, destination, weather, your physical condition after the treatments, and your personal interests. It may include walks through ancient towns, visits to temples, tea ceremonies, nature parks, scenic lakes, ethnic villages, or historical landmarks.",
+                        "zh-Hans": "行程将根据季节、地区、天气、治疗后的身体状况以及游客的兴趣爱好安排。您可能会漫步古城、参观寺庙、体验茶艺、游览国家公园、欣赏湖泊风光、探访民族村寨或历史遗址。"
+                    },
+                    {
+                        "ru": "Мы стремимся показать не туристический Китай, а настоящую жизнь страны, ее традиции, культуру и атмосферу.",
+                        "en": "Our goal is to introduce you not to the tourist version of China, but to the country's authentic life, traditions, culture, and atmosphere.",
+                        "zh-Hans": "我们的目标并非带您走马观花地游览景点，而是让您深入体验中国真实的生活、传统文化与独特的人文氛围。"
+                    }
+                ]
+            },
+            {
+                "id": "personal",
+                "type": "section",
+                "title": {
+                    "ru": "Каждая программа создается индивидуально",
+                    "en": "Every Program Is Tailor-Made",
+                    "zh-Hans": "每一套康养方案都量身定制"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Мы не используем шаблонные маршруты. Каждый тур адаптируется под сезон, продолжительность поездки, пожелания путешественников и рекомендации лечащего врача.",
+                        "en": "We do not use standard itineraries. Every tour is customized according to the season, trip duration, travelers' preferences, and the recommendations of the attending physician.",
+                        "zh-Hans": "我们不采用固定行程。每一次旅行都会根据季节、行程天数、游客需求以及主治医生的建议进行个性化定制。"
+                    },
+                    {
+                        "ru": "Весной особой популярностью пользуются цветущие парки и ботанические сады, летом — прогулки у озер и в горах, осенью — древние города и рисовые террасы, зимой — термальные источники и культурные мероприятия.",
+                        "en": "In spring, blooming parks and botanical gardens are especially popular; in summer, scenic lakes and mountain walks; in autumn, ancient towns and rice terraces; and in winter, hot springs and cultural events.",
+                        "zh-Hans": "春季可欣赏盛开的花园和植物园；夏季适合湖畔漫步和山间徒步；秋季可探访古镇与梯田；冬季则可享受温泉和丰富的文化活动。"
+                    },
+                    {
+                        "ru": "Благодаря такому подходу каждое путешествие становится уникальным и непохожим на предыдущие.",
+                        "en": "This personalized approach ensures that every journey is unique and unlike any previous experience.",
+                        "zh-Hans": "正因如此，每一次旅程都独一无二，为每位游客带来专属而难忘的体验。"
+                    }
+                ]
+            },
+            {
+                "id": "benefits",
+                "type": "section",
+                "title": {
+                    "ru": "Почему такой формат особенно эффективен",
+                    "en": "Why This Format Is So Effective",
+                    "zh-Hans": "为什么这种模式效果尤为显著"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Во время путешествия человек не сосредоточен исключительно на лечении. Новые впечатления, красивые пейзажи, прогулки на свежем воздухе и положительные эмоции помогают быстрее восстанавливаться и значительно снижают уровень стресса.",
+                        "en": "During the journey, guests are not focused solely on medical treatment. New experiences, beautiful landscapes, outdoor walks, and positive emotions promote faster recovery and significantly reduce stress levels.",
+                        "zh-Hans": "在整个旅程中，游客并不会只专注于治疗。全新的体验、优美的风景、户外散步以及积极愉悦的心情，有助于加快身体恢复并显著减轻压力。"
+                    },
+                    {
+                        "ru": "Именно сочетание медицинских процедур, полноценного отдыха и культурного знакомства с Китаем позволяет добиться более выраженного оздоровительного эффекта и сделать поездку действительно незабываемой.",
+                        "en": "The combination of professional medical treatments, quality relaxation, and immersion in Chinese culture creates a stronger wellness effect and turns the trip into a truly unforgettable experience.",
+                        "zh-Hans": "专业医疗康复、充分休闲放松以及深入体验中国文化三者相结合，不仅能够带来更加显著的康养效果，也让整个旅程成为难忘的人生体验。"
+                    }
+                ]
+            },
+            {
+                "id": "included",
+                "type": "section",
+                "title": {
+                    "ru": "Что входит в программу",
+                    "en": "What's Included in the Program",
+                    "zh-Hans": "项目包含内容"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Каждый тур включает индивидуально подобранную медицинскую программу, сопровождение переводчика, организацию трансферов, помощь координатора, а также экскурсионную программу, адаптированную под ваши интересы, сезон и место пребывания.",
+                        "en": "Every tour includes a personalized medical program, interpreter support, transfer arrangements, assistance from a dedicated coordinator, and a sightseeing program tailored to your interests, the season, and your destination.",
+                        "zh-Hans": "每一次行程均包含个性化医疗康养方案、专业翻译陪同、接送服务、专属协调员支持，以及根据您的兴趣、季节和目的地量身定制的观光体验。"
+                    },
+                    {
+                        "ru": "Мы берем на себя организационные вопросы, чтобы вы могли полностью сосредоточиться на отдыхе, восстановлении здоровья и новых впечатлениях.",
+                        "en": "We take care of all organizational details so that you can focus entirely on relaxation, improving your health, and enjoying unforgettable experiences.",
+                        "zh-Hans": "我们负责所有行程安排与组织工作，让您能够全身心投入休闲度假、健康恢复以及探索中国的美好体验。"
+                    }
+                ]
+            },
+            {
+                "id": "faq",
+                "type": "faq",
+                "title": {
+                    "ru": "Часто задаваемые вопросы",
+                    "en": "Frequently Asked Questions",
+                    "zh-Hans": "常见问题"
+                },
+                "items": [
+                    {
+                        "id": "everyday",
+                        "title": {
+                            "ru": "Экскурсии проводятся каждый день?",
+                            "en": "Are excursions organized every day?",
+                            "zh-Hans": "每天都会安排观光活动吗？"
+                        },
+                        "description": {
+                            "ru": "Да, однако программа всегда составляется индивидуально. Если после процедур вы захотите отдохнуть, экскурсионная часть может быть скорректирована.",
+                            "en": "Yes, but every itinerary is personalized. If you prefer to rest after your treatments, the sightseeing schedule can be adjusted accordingly.",
+                            "zh-Hans": "是的，但所有行程都会根据个人情况定制。如果治疗后您希望休息，观光安排可以灵活调整。"
+                        }
+                    },
+                    {
+                        "id": "custom",
+                        "title": {
+                            "ru": "Можно ли изменить экскурсионную программу?",
+                            "en": "Can the sightseeing program be customized?",
+                            "zh-Hans": "可以调整观光行程吗？"
+                        },
+                        "description": {
+                            "ru": "Конечно. Мы подбираем маршруты с учетом ваших интересов, времени года, физического состояния и пожеланий.",
+                            "en": "Absolutely. We tailor every itinerary to your interests, the season, your physical condition, and personal preferences.",
+                            "zh-Hans": "当然可以。我们会根据您的兴趣、季节、身体状况以及个人需求量身定制观光路线。"
+                        }
+                    },
+                    {
+                        "id": "season",
+                        "title": {
+                            "ru": "Почему экскурсии зависят от сезона?",
+                            "en": "Why do excursions depend on the season?",
+                            "zh-Hans": "为什么观光行程会根据季节调整？"
+                        },
+                        "description": {
+                            "ru": "В разные времена года природа и культурные мероприятия Китая сильно меняются. Мы всегда стараемся предложить самые интересные места именно в период вашего путешествия.",
+                            "en": "China's landscapes and cultural events vary greatly throughout the year. We always recommend the most rewarding experiences for the season of your visit.",
+                            "zh-Hans": "中国四季风景与文化活动各具特色，因此我们会根据您旅行的季节推荐最值得体验的景点和活动。"
+                        }
+                    },
+                    {
+                        "id": "family",
+                        "title": {
+                            "ru": "Подходит ли такой тур для семейных поездок?",
+                            "en": "Is this type of tour suitable for families?",
+                            "zh-Hans": "这种行程适合家庭出游吗？"
+                        },
+                        "description": {
+                            "ru": "Да. Пока один участник проходит процедуры, остальные могут посещать экскурсии или отдыхать. Также можно составить общую программу для всей семьи.",
+                            "en": "Yes. While one family member attends treatments, the others can enjoy sightseeing or relax. We can also create a shared itinerary for the entire family.",
+                            "zh-Hans": "当然适合。当一位家庭成员接受治疗时，其他成员可以参加观光或自由休闲。我们也可以为整个家庭制定统一的旅行计划。"
+                        }
+                    },
+                    {
+                        "id": "translator",
+                        "title": {
+                            "ru": "Будет ли сопровождение переводчика?",
+                            "en": "Will an interpreter be provided?",
+                            "zh-Hans": "会提供翻译陪同服务吗？"
+                        },
+                        "description": {
+                            "ru": "Да. Русскоязычный координатор и переводчик сопровождают вас во время медицинских консультаций и при необходимости во время экскурсионной программы.",
+                            "en": "Yes. A Russian-speaking coordinator and interpreter will accompany you during medical consultations and, when needed, during sightseeing activities as well.",
+                            "zh-Hans": "会的。俄语协调员和专业翻译将在医疗咨询期间陪同您，并可根据需要陪同参加观光活动。"
+                        }
+                    },
+                    {
+                        "id": "balance",
+                        "title": {
+                            "ru": "Почему совмещение лечения и экскурсий считается эффективным?",
+                            "en": "Why is combining treatment with sightseeing considered effective?",
+                            "zh-Hans": "为什么将治疗与观光结合效果更好？"
+                        },
+                        "description": {
+                            "ru": "После медицинских процедур спокойные прогулки, красивые природные ландшафты, новые впечатления и положительные эмоции способствуют снижению стресса и помогают организму быстрее восстанавливаться.",
+                            "en": "After medical treatments, gentle walks, beautiful scenery, new experiences, and positive emotions help reduce stress and support the body's natural recovery process.",
+                            "zh-Hans": "治疗结束后，轻松散步、欣赏自然风光、体验新的文化以及保持愉悦的心情，有助于减轻压力并促进身体更快恢复。"
+                        }
+                    }
+                ]
+            }
+        ],
+        "author": "GoTour Team",
+        "publishedAt": "2026-02-26",
+        "updatedAt": "2026-02-26",
+        "readingTime": 10,
+        "views": 0,
+        "featured": true,
+        "popular": true,
+        "status": "published",
+        "seo": {
+            "title": {
+                "ru": "Полдня здоровья, полдня открытий — оздоровительные туры по Китаю | GoTour",
+                "en": "Half a Day for Wellness, Half a Day for Discovery | Wellness Tours in China | GoTour",
+                "zh-Hans": "半天疗养，半天探索——中国康养之旅 | GoTour"
+            },
+            "description": {
+                "ru": "Уникальный формат медицинских туров: первая половина дня посвящена восстановлению здоровья, вторая — экскурсиям, знакомству с культурой и природой Китая.",
+                "en": "A unique wellness travel concept: spend your mornings on personalized medical treatments and your afternoons exploring China's culture, history, and breathtaking landscapes.",
+                "zh-Hans": "独特的康养旅行模式：上午进行个性化医疗康复，下午探索中国丰富的文化、历史与自然风光。"
+            }
+        },
+        "relatedSlugs": [
+            "traditional-eastern-medicine-for-recovery",
+            "healing-and-cultural-journey-through-china",
+            "mens-wellness-tour-dali"
+        ]
+    },
+    {
+        "id": "7",
+        "slug": "individual-tours-across-china",
+        "categorySlugs": [
+            "travel-tips"
+        ],
+        "tagSlugs": [
+            "china",
+            "travel",
+            "individual-tour",
+            "hainan",
+            "beijing"
+        ],
+        "title": {
+            "ru": "Индивидуальные туры по Китаю — маршруты, созданные специально для вас",
+            "en": "Private Tours in China — Tailor-Made Journeys Designed Just for You",
+            "zh-Hans": "中国私人定制旅行——专属于您的个性化旅程"
+        },
+        "description": {
+            "ru": "Организуем индивидуальные путешествия по Китаю с учетом ваших интересов, бюджета, продолжительности поездки и целей путешествия. От морского отдыха на Хайнане до древних городов Юньнани и современных мегаполисов.",
+            "en": "We create personalized journeys across China based on your interests, budget, travel duration, and goals. From tropical beaches in Hainan to the ancient towns of Yunnan and China's modern megacities.",
+            "zh-Hans": "我们根据您的兴趣、预算、旅行时长和目标，为您量身打造中国之旅。从海南的热带海滨，到云南的古城，再到中国充满活力的现代都市。"
+        },
+        "excerpt": {
+            "ru": "Создаем уникальные маршруты по Китаю, объединяя отдых, культуру, природу, гастрономию и современные города в одном путешествии.",
+            "en": "We design unique itineraries across China that combine relaxation, culture, nature, cuisine, and vibrant modern cities into one unforgettable journey.",
+            "zh-Hans": "我们打造独一无二的中国旅行路线，将休闲度假、文化体验、自然风光、美食探索与现代都市完美融合。"
+        },
+        "hero": {
+            "image": "assets/images/blog/1320x417.svg",
+            "alt": {
+                "ru": "Индивидуальные путешествия по Китаю",
+                "en": "Private Tours Across China",
+                "zh-Hans": "中国私人定制旅行"
+            }
+        },
+        "blocks": [
+            {
+                "id": "intro",
+                "type": "section",
+                "title": {
+                    "ru": "Китай, который создан именно для вас",
+                    "en": "China, Designed Especially for You",
+                    "zh-Hans": "专属于您的中国之旅"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Китай — одна из самых разнообразных стран мира. Здесь древние города соседствуют с ультрасовременными мегаполисами, высокие горы сменяются тропическими пляжами, а многовековые традиции гармонично сочетаются с инновациями.",
+                        "en": "China is one of the most diverse countries in the world. Ancient cities stand alongside ultra-modern megacities, towering mountains give way to tropical beaches, and centuries-old traditions exist in perfect harmony with innovation.",
+                        "zh-Hans": "中国是世界上最丰富多彩的国家之一。这里既有历史悠久的古城，也有现代化国际都市；巍峨群山与热带海滩交相辉映，悠久传统与现代创新和谐共存。"
+                    },
+                    {
+                        "ru": "Именно поэтому невозможно создать универсальный маршрут, который подойдет каждому путешественнику. Мы разрабатываем индивидуальные туры, полностью адаптированные под ваши интересы, бюджет, продолжительность поездки и цели путешествия.",
+                        "en": "That is why there is no universal itinerary suitable for everyone. We design fully personalized tours tailored to your interests, budget, travel duration, and personal travel goals.",
+                        "zh-Hans": "正因如此，没有一种固定行程能够满足所有游客。我们根据您的兴趣、预算、旅行时长以及出行目标，为您量身打造专属旅行方案。"
+                    },
+                    {
+                        "ru": "Каждое путешествие становится уникальным. Кто-то выбирает отдых у моря, кто-то мечтает увидеть древний Китай, а кто-то хочет познакомиться с современной жизнью крупнейших городов страны.",
+                        "en": "Every journey is unique. Some travelers choose a relaxing beach vacation, others dream of exploring ancient China, while many wish to experience the vibrant life of the country's modern cities.",
+                        "zh-Hans": "每一段旅程都独一无二。有人向往海滨度假，有人梦想探访古老中国，也有人希望感受中国现代化大都市的活力与魅力。"
+                    }
+                ]
+            },
+            {
+                "id": "quote",
+                "type": "quote",
+                "text": {
+                    "ru": "Лучшее путешествие — это маршрут, который создан именно для вас.",
+                    "en": "The best journey is the one designed especially for you.",
+                    "zh-Hans": "最好的旅行，就是专为您量身打造的旅程。"
+                },
+                "author": {
+                    "ru": "GoTour",
+                    "en": "GoTour",
+                    "zh-Hans": "GoTour"
+                }
+            },
+            {
+                "id": "planning",
+                "type": "section",
+                "title": {
+                    "ru": "Мы создаем маршрут с учетом ваших пожеланий",
+                    "en": "We Design Your Journey Around Your Preferences",
+                    "zh-Hans": "根据您的需求量身定制旅行路线"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Перед составлением программы мы подробно обсуждаем цели поездки. Для кого-то важно увидеть исторические достопримечательности, для других — провести отпуск на море, познакомиться с местной кухней, отправиться в горы или совместить отдых с оздоровительными программами.",
+                        "en": "Before creating your itinerary, we carefully discuss your travel goals. Some travelers dream of exploring historical landmarks, while others prefer a beach holiday, discovering local cuisine, hiking in the mountains, or combining their vacation with wellness programs.",
+                        "zh-Hans": "在制定行程之前，我们会详细了解您的旅行目标。有些游客希望探索历史名胜，有些人向往海滨度假、品尝当地美食、徒步山间，或将休闲旅行与健康疗养相结合。"
+                    },
+                    {
+                        "ru": "Мы учитываем продолжительность путешествия, состав группы, возраст участников, уровень активности, сезон, бюджет и ваши личные предпочтения.",
+                        "en": "We take into account the length of your trip, group composition, travelers' ages, activity level, season, budget, and your personal preferences.",
+                        "zh-Hans": "我们会综合考虑旅行天数、同行人数、年龄结构、活动强度、季节、预算以及您的个人喜好，为您规划最合适的行程。"
+                    },
+                    {
+                        "ru": "В результате вы получаете маршрут, который полностью соответствует вашим ожиданиям.",
+                        "en": "The result is a personalized itinerary that perfectly matches your expectations.",
+                        "zh-Hans": "最终，您将获得一份完全符合您期待和需求的专属旅行方案。"
+                    }
+                ]
+            },
+            {
+                "id": "hainan",
+                "type": "section",
+                "title": {
+                    "ru": "Хайнань (Санья) — тропический отдых круглый год",
+                    "en": "Hainan (Sanya) — A Tropical Escape All Year Round",
+                    "zh-Hans": "海南（三亚）——四季皆宜的热带度假胜地"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Пляжи Саньи",
+                            "en": "Sanya Beaches",
+                            "zh-Hans": "三亚海滩"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Побережье острова Хайнань",
+                            "en": "Hainan Island Coastline",
+                            "zh-Hans": "海南岛海岸风光"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Отдых в Санье",
+                            "en": "Vacation in Sanya",
+                            "zh-Hans": "三亚度假"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "Остров Хайнань — одно из самых популярных мест для отдыха в Китае. Теплое море, песчаные пляжи, тропическая природа, современные курорты и оздоровительные центры делают Санью идеальным направлением для семейного отдыха и восстановления сил.",
+                        "en": "Hainan Island is one of China's most popular holiday destinations. Warm seas, sandy beaches, tropical landscapes, modern resorts, and wellness centers make Sanya an ideal place for family vacations and rejuvenation.",
+                        "zh-Hans": "海南岛是中国最受欢迎的度假胜地之一。温暖的海水、洁白的沙滩、热带自然风光、现代化度假酒店以及康养中心，使三亚成为家庭度假和身心恢复的理想目的地。"
+                    },
+                    {
+                        "ru": "Здесь можно совместить пляжный отдых, SPA-программы, экскурсии и прогулки по живописным природным паркам.",
+                        "en": "Here you can combine beach relaxation with spa treatments, sightseeing, and walks through beautiful tropical nature parks.",
+                        "zh-Hans": "在这里，您可以将海滨度假、SPA疗养、观光旅行以及热带自然公园漫步完美结合，享受轻松惬意的假期。"
+                    }
+                ]
+            },
+            {
+                "id": "yunnan",
+                "type": "section",
+                "title": {
+                    "ru": "Дали (Юньнань) — гармония природы и традиций",
+                    "en": "Dali (Yunnan) — Where Nature Meets Tradition",
+                    "zh-Hans": "大理（云南）——自然与传统的完美融合"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Дали — один из самых красивых городов провинции Юньнань. Здесь гостей ждут древний город, озеро Эрхай, величественные горы Цаншань, уютные улочки, традиционная архитектура народа Бай и удивительно спокойная атмосфера.",
+                        "en": "Dali is one of the most picturesque cities in Yunnan Province. Visitors are welcomed by its ancient town, Erhai Lake, the majestic Cangshan Mountains, charming streets, traditional Bai architecture, and an atmosphere of remarkable tranquility.",
+                        "zh-Hans": "大理是云南省最美丽的城市之一。这里拥有古城、洱海、雄伟的苍山、宁静的小巷、白族传统建筑，以及令人放松的悠闲氛围。"
+                    },
+                    {
+                        "ru": "Этот регион идеально подходит тем, кто хочет познакомиться с настоящим Китаем, насладиться природой и неспешным ритмом жизни.",
+                        "en": "This region is perfect for travelers who want to experience authentic China, immerse themselves in nature, and enjoy a slower, more peaceful pace of life.",
+                        "zh-Hans": "这里非常适合希望深入了解真实中国、亲近自然，并享受悠闲生活节奏的旅行者。"
+                    }
+                ]
+            },
+            {
+                "id": "chengdu",
+                "type": "section",
+                "title": {
+                    "ru": "Чэнду — столица больших панд",
+                    "en": "Chengdu — The Home of Giant Pandas",
+                    "zh-Hans": "成都——大熊猫的故乡"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Чэнду известен во всем мире благодаря исследовательскому центру больших панд, богатой гастрономической культуре и знаменитой сычуаньской кухне. Здесь можно посетить древние храмы, природные заповедники и почувствовать особую атмосферу юго-западного Китая.",
+                        "en": "Chengdu is world-famous for its Giant Panda Research Base, rich culinary traditions, and legendary Sichuan cuisine. Visitors can explore ancient temples, scenic nature reserves, and experience the unique atmosphere of southwestern China.",
+                        "zh-Hans": "成都因大熊猫繁育研究基地、丰富的美食文化和闻名世界的川菜而享誉全球。在这里，您可以参观古老寺庙、自然保护区，感受中国西南地区独特的文化魅力。"
+                    }
+                ]
+            },
+            {
+                "id": "cities",
+                "type": "section",
+                "title": {
+                    "ru": "Современный Китай: Шэньчжэнь и Гуанчжоу",
+                    "en": "Modern China: Shenzhen and Guangzhou",
+                    "zh-Hans": "现代中国：深圳与广州"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Шэньчжэнь",
+                            "en": "Shenzhen",
+                            "zh-Hans": "深圳"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Гуанчжоу",
+                            "en": "Guangzhou",
+                            "zh-Hans": "广州"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Современный Китай",
+                            "en": "Modern China",
+                            "zh-Hans": "现代中国"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "Шэньчжэнь — один из самых современных городов Азии, центр инноваций, технологий и впечатляющей архитектуры.",
+                        "en": "Shenzhen is one of Asia's most modern cities, renowned for innovation, advanced technology, and impressive contemporary architecture.",
+                        "zh-Hans": "深圳是亚洲最现代化的城市之一，以科技创新、先进产业和令人惊叹的现代建筑闻名。"
+                    },
+                    {
+                        "ru": "Гуанчжоу сочетает богатую историю, знаменитую кантонскую кухню, современные деловые районы и традиционные кварталы, создавая неповторимую атмосферу южного Китая.",
+                        "en": "Guangzhou blends a rich history, world-famous Cantonese cuisine, modern business districts, and traditional neighborhoods, creating the unique atmosphere of southern China.",
+                        "zh-Hans": "广州融合了悠久的历史、闻名世界的粤菜、现代商务区与传统街区，展现出中国南方独具魅力的城市风貌。"
+                    }
+                ]
+            },
+            {
+                "id": "beijing",
+                "type": "section",
+                "title": {
+                    "ru": "Пекин — сердце китайской цивилизации",
+                    "en": "Beijing — The Heart of Chinese Civilization",
+                    "zh-Hans": "北京——中华文明的心脏"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Путешествие в Китай невозможно представить без посещения столицы. Великая Китайская стена, Запретный город, Храм Неба, Летний дворец и многочисленные музеи позволяют прикоснуться к многовековой истории страны.",
+                        "en": "No journey to China is complete without visiting its capital. The Great Wall, the Forbidden City, the Temple of Heaven, the Summer Palace, and countless museums offer an unforgettable glimpse into China's thousands of years of history.",
+                        "zh-Hans": "来到中国，首都北京是不可错过的一站。长城、故宫、天坛、颐和园以及众多博物馆，让游客深入了解中国数千年的悠久历史与灿烂文明。"
+                    },
+                    {
+                        "ru": "Пекин одинаково интересен как тем, кто приезжает впервые, так и опытным путешественникам.",
+                        "en": "Beijing fascinates both first-time visitors and experienced travelers, offering something new with every visit.",
+                        "zh-Hans": "无论是第一次来到中国，还是多次到访的旅行者，北京都能带来独特而难忘的体验。"
+                    }
+                ]
+            },
+            {
+                "id": "harbin",
+                "type": "section",
+                "title": {
+                    "ru": "Харбин — зимняя сказка Китая",
+                    "en": "Harbin — China's Winter Wonderland",
+                    "zh-Hans": "哈尔滨——中国的冰雪童话世界"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Зимой Харбин превращается в настоящую ледяную столицу Азии. Всемирно известный фестиваль льда и снега, огромные ледяные дворцы, световые инсталляции и необычная архитектура делают этот город одним из самых ярких зимних направлений Китая.",
+                        "en": "In winter, Harbin transforms into the ice capital of Asia. Its world-famous Ice and Snow Festival, magnificent ice palaces, dazzling light installations, and distinctive architecture make it one of China's most spectacular winter destinations.",
+                        "zh-Hans": "冬季的哈尔滨化身为亚洲的冰雪之都。闻名世界的冰雪大世界、壮观的冰雕宫殿、绚丽的灯光艺术以及独特的城市建筑，使这里成为中国最具魅力的冬季旅游目的地之一。"
+                    }
+                ]
+            },
+            {
+                "id": "services",
+                "type": "section",
+                "title": {
+                    "ru": "Мы берем организацию путешествия на себя",
+                    "en": "We Take Care of Every Detail of Your Journey",
+                    "zh-Hans": "您的旅行安排，交给我们"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Мы помогаем подобрать маршрут, организуем бронирование гостиниц, трансферы, сопровождение переводчика, экскурсионную программу и оказываем поддержку на протяжении всего путешествия.",
+                        "en": "We help you choose the ideal itinerary, arrange hotel reservations, airport and local transfers, interpreter services, personalized sightseeing programs, and provide support throughout your entire journey.",
+                        "zh-Hans": "我们将协助您规划最适合的行程，安排酒店预订、接送服务、专业翻译陪同、个性化观光活动，并在整个旅程中为您提供全程支持。"
+                    },
+                    {
+                        "ru": "Вам остается только наслаждаться поездкой и открывать для себя удивительный Китай.",
+                        "en": "All you have to do is relax, enjoy your trip, and discover the incredible beauty and diversity of China.",
+                        "zh-Hans": "您只需放松身心，尽情享受旅程，探索中国丰富多彩的文化与壮丽风光。"
+                    }
+                ]
+            },
+            {
+                "id": "faq",
+                "type": "faq",
+                "title": {
+                    "ru": "Часто задаваемые вопросы",
+                    "en": "Frequently Asked Questions",
+                    "zh-Hans": "常见问题"
+                },
+                "items": [
+                    {
+                        "id": "cities",
+                        "title": {
+                            "ru": "Можно ли посетить несколько городов за одну поездку?",
+                            "en": "Can I visit several cities during one trip?",
+                            "zh-Hans": "一次旅行可以游览多个城市吗？"
+                        },
+                        "description": {
+                            "ru": "Да. Мы можем объединить несколько регионов Китая в одном путешествии и составить оптимальный маршрут с учетом времени и ваших интересов.",
+                            "en": "Yes. We can combine several regions of China into a single itinerary and create the most efficient route based on your schedule and interests.",
+                            "zh-Hans": "当然可以。我们可以将中国多个地区安排在同一次旅程中，并根据您的时间安排和兴趣定制最佳路线。"
+                        }
+                    },
+                    {
+                        "id": "custom",
+                        "title": {
+                            "ru": "Можно ли изменить маршрут после бронирования?",
+                            "en": "Can I change my itinerary after booking?",
+                            "zh-Hans": "预订后可以修改行程吗？"
+                        },
+                        "description": {
+                            "ru": "Да. Если это возможно технически, мы скорректируем программу путешествия в соответствии с вашими пожеланиями.",
+                            "en": "Yes. Whenever possible, we will adjust your itinerary to accommodate your requests.",
+                            "zh-Hans": "可以。在条件允许的情况下，我们会根据您的需求调整旅行计划。"
+                        }
+                    },
+                    {
+                        "id": "season",
+                        "title": {
+                            "ru": "Как выбрать лучший регион для путешествия?",
+                            "en": "How do I choose the best region to visit?",
+                            "zh-Hans": "如何选择最适合旅行的地区？"
+                        },
+                        "description": {
+                            "ru": "Мы поможем подобрать маршрут с учетом сезона, погоды, ваших интересов и продолжительности поездки.",
+                            "en": "We'll help you select the ideal destination based on the season, weather, your interests, and the length of your trip.",
+                            "zh-Hans": "我们会根据季节、天气、您的兴趣以及旅行时长，为您推荐最适合的目的地和路线。"
+                        }
+                    },
+                    {
+                        "id": "family",
+                        "title": {
+                            "ru": "Подходят ли индивидуальные туры для семей?",
+                            "en": "Are private tours suitable for families?",
+                            "zh-Hans": "私人定制旅行适合家庭出游吗？"
+                        },
+                        "description": {
+                            "ru": "Да. Мы разрабатываем маршруты как для семей с детьми, так и для небольших компаний друзей или индивидуальных путешественников.",
+                            "en": "Absolutely. We create itineraries for families with children, groups of friends, couples, and solo travelers alike.",
+                            "zh-Hans": "当然适合。我们可为亲子家庭、朋友小团体、情侣以及个人旅行者量身设计专属行程。"
+                        }
+                    },
+                    {
+                        "id": "guide",
+                        "title": {
+                            "ru": "Будет ли русскоязычный гид или переводчик?",
+                            "en": "Will a Russian-speaking guide or interpreter be available?",
+                            "zh-Hans": "会提供俄语导游或翻译吗？"
+                        },
+                        "description": {
+                            "ru": "По вашему желанию мы организуем сопровождение русскоязычного переводчика или гида на протяжении всего путешествия.",
+                            "en": "Yes. Upon request, we can arrange a Russian-speaking guide or interpreter to accompany you throughout your journey.",
+                            "zh-Hans": "可以。根据您的需求，我们可以安排俄语导游或专业翻译全程陪同您的旅行。"
+                        }
+                    },
+                    {
+                        "id": "budget",
+                        "title": {
+                            "ru": "Можно ли подобрать маршрут под определенный бюджет?",
+                            "en": "Can you create a tour within my budget?",
+                            "zh-Hans": "可以根据预算定制行程吗？"
+                        },
+                        "description": {
+                            "ru": "Конечно. Мы предлагаем различные варианты путешествий — от комфортных экскурсионных программ до премиальных индивидуальных туров.",
+                            "en": "Of course. We offer travel options ranging from comfortable sightseeing tours to premium tailor-made luxury experiences.",
+                            "zh-Hans": "当然可以。我们提供多种旅行方案，从舒适的观光之旅到高端私人定制旅行，都可根据您的预算进行安排。"
+                        }
+                    }
+                ]
+            }
+        ],
+        "author": "GoTour Team",
+        "publishedAt": "2026-03-01",
+        "updatedAt": "2026-03-01",
+        "readingTime": 11,
+        "views": 0,
+        "featured": true,
+        "popular": true,
+        "status": "published",
+        "seo": {
+            "title": {
+                "ru": "Индивидуальные туры по Китаю | GoTour",
+                "en": "Private Tours in China | GoTour",
+                "zh-Hans": "中国私人定制旅行 | GoTour"
+            },
+            "description": {
+                "ru": "Создаем индивидуальные маршруты по Китаю с учетом ваших интересов, бюджета и целей путешествия. Хайнань, Дали, Чэнду, Шэньчжэнь, Гуанчжоу, Пекин, Харбин и другие регионы.",
+                "en": "Discover China your way with tailor-made itineraries designed around your interests, budget, and travel goals. Explore Hainan, Dali, Chengdu, Shenzhen, Guangzhou, Beijing, Harbin, and many more destinations.",
+                "zh-Hans": "根据您的兴趣、预算和旅行目标，为您量身定制中国之旅。探索海南、大理、成都、深圳、广州、北京、哈尔滨等众多精彩目的地。"
+            }
+        },
+        "relatedSlugs": [
+            "half-day-healing-half-day-discovery",
+            "healing-and-cultural-journey-through-china",
+            "traditional-eastern-medicine-for-recovery"
+        ]
+    },
+    {
+        "id": "8",
+        "slug": "airport-meet-and-greet-china",
+        "categorySlugs": [
+            "travel-tips",
+            "transport"
+        ],
+        "tagSlugs": [
+            "china",
+            "airport-transfer",
+            "travel",
+            "transfer"
+        ],
+        "title": {
+            "ru": "Встреча в аэропорту Китая — путешествуйте с комфортом с первых минут",
+            "en": "Airport Meet & Greet in China — Enjoy a Comfortable Arrival from the Very First Minute",
+            "zh-Hans": "中国机场接机服务——从抵达第一刻开始轻松出行"
+        },
+        "description": {
+            "ru": "Организуем встречу в аэропорту Китая, помощь с багажом и комфортный трансфер до отеля в любое время суток. Русскоязычное сопровождение и индивидуальный подход.",
+            "en": "We provide airport meet-and-greet services across China, assist with your luggage, and arrange comfortable transfers to your hotel at any time of day or night. Russian-speaking support and personalized service included.",
+            "zh-Hans": "我们提供中国各大机场接机服务，协助搬运行李，并安排舒适的酒店接送，无论白天或夜晚均可提供服务。配备俄语陪同，享受贴心的个性化服务。"
+        },
+        "excerpt": {
+            "ru": "Мы встретим вас в аэропорту, поможем с багажом, организуем комфортный трансфер и сделаем начало путешествия максимально спокойным и приятным.",
+            "en": "We'll meet you at the airport, help with your luggage, arrange a comfortable transfer, and ensure your journey begins smoothly and stress-free.",
+            "zh-Hans": "我们将在机场迎接您，协助搬运行李，安排舒适的接送服务，让您的中国之旅从第一刻起便轻松愉快。"
+        },
+        "hero": {
+            "image": "assets/images/blog/1320x417.svg",
+            "alt": {
+                "ru": "Встреча в аэропорту Китая",
+                "en": "Airport Meet & Greet in China",
+                "zh-Hans": "中国机场接机服务"
+            }
+        },
+        "blocks": [
+            {
+                "id": "intro",
+                "type": "section",
+                "title": {
+                    "ru": "Начните путешествие без стресса",
+                    "en": "Start Your Journey Stress-Free",
+                    "zh-Hans": "轻松开启您的中国之旅"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "После длительного перелета особенно хочется, чтобы все организационные вопросы были уже решены. Именно поэтому мы предлагаем услугу встречи в аэропорту, которая позволит вам сразу почувствовать себя спокойно и уверенно.",
+                        "en": "After a long flight, the last thing you want is to worry about transportation or logistics. That's why we offer a professional airport meet-and-greet service, allowing you to feel relaxed and confident from the moment you arrive.",
+                        "zh-Hans": "长途飞行后，您最不希望再为交通和行程安排操心。因此，我们提供专业的机场接机服务，让您从抵达中国的第一刻起便感到安心、轻松。"
+                    },
+                    {
+                        "ru": "Наш представитель встретит вас в зоне прилета, поможет сориентироваться в аэропорту, окажет помощь с багажом и сопроводит до автомобиля.",
+                        "en": "Our representative will meet you in the arrivals hall, help you navigate the airport, assist with your luggage, and escort you directly to your waiting vehicle.",
+                        "zh-Hans": "我们的工作人员将在到达大厅迎接您，协助您熟悉机场环境、搬运行李，并陪同您前往已安排好的专车。"
+                    },
+                    {
+                        "ru": "Вам не придется искать такси, разбираться с общественным транспортом или преодолевать языковой барьер.",
+                        "en": "There's no need to search for a taxi, navigate public transportation, or worry about language barriers.",
+                        "zh-Hans": "您无需寻找出租车、研究公共交通路线，也不用担心语言沟通问题。"
+                    }
+                ]
+            },
+            {
+                "id": "quote",
+                "type": "quote",
+                "text": {
+                    "ru": "Хорошее путешествие начинается с комфортной встречи.",
+                    "en": "A great journey begins with a warm welcome.",
+                    "zh-Hans": "美好的旅程，从一次贴心的迎接开始。"
+                },
+                "author": {
+                    "ru": "GoTour",
+                    "en": "GoTour",
+                    "zh-Hans": "GoTour"
+                }
+            },
+            {
+                "id": "meeting",
+                "type": "section",
+                "title": {
+                    "ru": "Мы встречаем вас в любое время суток",
+                    "en": "We're Here to Meet You at Any Time of Day or Night",
+                    "zh-Hans": "无论何时抵达，我们都会迎接您"
+                },
+                "images": [
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Встреча в аэропорту",
+                            "en": "Airport Meet and Greet",
+                            "zh-Hans": "机场接机"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Помощь с багажом",
+                            "en": "Luggage Assistance",
+                            "zh-Hans": "行李协助"
+                        }
+                    },
+                    {
+                        "src": "assets/images/blog/424x292.svg",
+                        "alt": {
+                            "ru": "Комфортный трансфер",
+                            "en": "Comfortable Transfer",
+                            "zh-Hans": "舒适接送服务"
+                        }
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "ru": "Независимо от времени прилета — ранним утром, поздней ночью или в праздничные дни — водитель и сопровождающий будут ждать вас в аэропорту.",
+                        "en": "No matter when your flight arrives—early in the morning, late at night, or during public holidays—our driver and representative will be waiting for you at the airport.",
+                        "zh-Hans": "无论您的航班是在清晨、深夜还是节假日抵达，我们的司机和接待人员都会提前在机场等候您的到来。"
+                    },
+                    {
+                        "ru": "Мы заранее отслеживаем статус рейса и при необходимости корректируем время встречи, если самолет прибывает раньше или позже расписания.",
+                        "en": "We monitor your flight in advance and automatically adjust the pickup time if your flight arrives earlier or later than scheduled.",
+                        "zh-Hans": "我们会实时关注您的航班动态，如遇航班提前或延误，将自动调整接机时间，确保您抵达后即可顺利与我们会合。"
+                    }
+                ]
+            },
+            {
+                "id": "transfer",
+                "type": "section",
+                "title": {
+                    "ru": "Комфортный трансфер до отеля",
+                    "en": "Comfortable Transfer to Your Hotel",
+                    "zh-Hans": "舒适接送至酒店"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "После встречи вас ожидает современный автомобиль с кондиционером, который доставит вас непосредственно в гостиницу или любое другое место назначения.",
+                        "en": "After meeting you at the airport, we'll escort you to a modern, air-conditioned vehicle that will take you directly to your hotel or any other destination of your choice.",
+                        "zh-Hans": "接机后，您将乘坐配备空调的现代化车辆，直接前往酒店或您指定的目的地，享受轻松舒适的旅程。"
+                    },
+                    {
+                        "ru": "Мы предлагаем автомобили различных классов — от комфортных седанов до минивэнов и микроавтобусов для семей и туристических групп.",
+                        "en": "We offer a wide range of vehicles, from comfortable sedans to spacious minivans and minibuses for families and travel groups.",
+                        "zh-Hans": "我们提供多种车型，包括舒适轿车、商务车以及适合家庭和旅游团队的小型巴士，满足不同出行需求。"
+                    },
+                    {
+                        "ru": "Во время поездки вы сможете отдохнуть после перелета и получить ответы на любые вопросы о предстоящем путешествии.",
+                        "en": "During the drive, you can relax after your flight while receiving helpful information and answers to any questions about your upcoming journey.",
+                        "zh-Hans": "在前往酒店的途中，您可以放松休息，同时向我们的工作人员咨询有关行程的任何问题，为接下来的旅行做好准备。"
+                    }
+                ]
+            },
+            {
+                "id": "cities",
+                "type": "section",
+                "title": {
+                    "ru": "Встречаем в крупнейших аэропортах Китая",
+                    "en": "Airport Meet & Greet Services Across China's Major Cities",
+                    "zh-Hans": "中国主要城市机场接机服务"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Мы организуем встречи и трансферы в аэропортах Пекина, Шанхая, Гуанчжоу, Шэньчжэня, Чэнду, Харбина, Куньмина, Дали, Лицзяна, Саньи и других городов Китая.",
+                        "en": "We provide airport meet-and-greet services and private transfers in Beijing, Shanghai, Guangzhou, Shenzhen, Chengdu, Harbin, Kunming, Dali, Lijiang, Sanya, and many other cities across China.",
+                        "zh-Hans": "我们在北京、上海、广州、深圳、成都、哈尔滨、昆明、大理、丽江、三亚以及中国其他主要城市提供机场接机和私人接送服务。"
+                    },
+                    {
+                        "ru": "Если ваше путешествие включает несколько городов, мы можем организовать трансферы на каждом этапе маршрута.",
+                        "en": "If your itinerary includes multiple destinations, we can arrange transfers at every stage of your journey to ensure a smooth and seamless travel experience.",
+                        "zh-Hans": "如果您的旅行涉及多个城市，我们可以在整个行程的每一站安排接送服务，让您的旅途更加轻松顺畅。"
+                    }
+                ]
+            },
+            {
+                "id": "why",
+                "type": "section",
+                "title": {
+                    "ru": "Почему путешественники выбирают нас",
+                    "en": "Why Travelers Choose Us",
+                    "zh-Hans": "为什么旅行者选择我们"
+                },
+                "paragraphs": [
+                    {
+                        "ru": "Мы заранее согласовываем все детали поездки, отслеживаем рейсы, организуем встречу без задержек и подбираем автомобиль, соответствующий количеству пассажиров и багажа.",
+                        "en": "We coordinate every detail of your trip in advance, monitor your flight status, arrange timely airport pickup, and provide a vehicle that perfectly matches the number of passengers and the amount of luggage.",
+                        "zh-Hans": "我们会提前确认行程的每一个细节，实时关注航班动态，准时安排接机，并根据乘客人数和行李数量提供最合适的车辆。"
+                    },
+                    {
+                        "ru": "Наши клиенты ценят индивидуальный подход, безопасность, комфорт и возможность начать путешествие без лишних волнений.",
+                        "en": "Our guests appreciate our personalized service, reliability, comfort, and the peace of mind that comes with starting their journey without unnecessary stress.",
+                        "zh-Hans": "我们的客户信赖我们贴心的个性化服务、安全可靠的安排以及舒适的出行体验，让每一次旅程都能从容开启，无忧无虑。"
+                    }
+                ]
+            },
+            {
+                "id": "faq",
+                "type": "faq",
+                "title": {
+                    "ru": "Часто задаваемые вопросы",
+                    "en": "Frequently Asked Questions",
+                    "zh-Hans": "常见问题"
+                },
+                "items": [
+                    {
+                        "id": "delay",
+                        "title": {
+                            "ru": "Что делать, если рейс задерживается?",
+                            "en": "What if my flight is delayed?",
+                            "zh-Hans": "如果航班延误怎么办？"
+                        },
+                        "description": {
+                            "ru": "Мы отслеживаем информацию о прилете и автоматически корректируем время встречи. Дополнительно сообщать о задержке обычно не требуется.",
+                            "en": "We monitor your flight status in real time and automatically adjust the pickup time if necessary. In most cases, you don't need to notify us about a delay.",
+                            "zh-Hans": "我们会实时关注您的航班动态，并自动调整接机时间。大多数情况下，您无需额外通知我们航班延误。"
+                        }
+                    },
+                    {
+                        "id": "night",
+                        "title": {
+                            "ru": "Можно ли заказать встречу ночью?",
+                            "en": "Can I book an airport pickup at night?",
+                            "zh-Hans": "可以预约夜间接机服务吗？"
+                        },
+                        "description": {
+                            "ru": "Да. Мы встречаем пассажиров круглосуточно независимо от времени прилета.",
+                            "en": "Yes. Our airport meet-and-greet service is available 24 hours a day, regardless of your arrival time.",
+                            "zh-Hans": "当然可以。我们提供全天候24小时机场接机服务，无论您的航班何时抵达。"
+                        }
+                    },
+                    {
+                        "id": "language",
+                        "title": {
+                            "ru": "Будет ли русскоязычное сопровождение?",
+                            "en": "Will Russian-speaking assistance be available?",
+                            "zh-Hans": "是否提供俄语陪同服务？"
+                        },
+                        "description": {
+                            "ru": "При необходимости мы организуем встречу с русскоязычным координатором или переводчиком.",
+                            "en": "Yes. Upon request, we can arrange for a Russian-speaking coordinator or interpreter to meet and assist you.",
+                            "zh-Hans": "可以。如有需要，我们可安排俄语协调员或专业翻译为您提供接机和陪同服务。"
+                        }
+                    },
+                    {
+                        "id": "group",
+                        "title": {
+                            "ru": "Можно ли организовать трансфер для группы?",
+                            "en": "Can you arrange transfers for groups?",
+                            "zh-Hans": "可以为团队安排接送服务吗？"
+                        },
+                        "description": {
+                            "ru": "Да. Мы предоставляем автомобили различных классов, минивэны и микроавтобусы для туристических групп.",
+                            "en": "Absolutely. We offer a variety of vehicles, including sedans, minivans, and minibuses for travel groups of all sizes.",
+                            "zh-Hans": "当然可以。我们提供轿车、商务车以及小型巴士，可满足不同规模旅游团队的接送需求。"
+                        }
+                    },
+                    {
+                        "id": "hotel",
+                        "title": {
+                            "ru": "Можно ли сразу поехать не в отель?",
+                            "en": "Can I go somewhere other than my hotel?",
+                            "zh-Hans": "可以直接前往酒店以外的地点吗？"
+                        },
+                        "description": {
+                            "ru": "Конечно. Мы можем доставить вас в клинику, офис, на вокзал, в апартаменты или по любому другому адресу.",
+                            "en": "Of course. We can take you directly to a clinic, office, railway station, apartment, or any other destination you choose.",
+                            "zh-Hans": "当然可以。我们可以直接送您前往医院、办公室、火车站、公寓或您指定的任何地点。"
+                        }
+                    },
+                    {
+                        "id": "booking",
+                        "title": {
+                            "ru": "Когда лучше заказать встречу?",
+                            "en": "When should I book the airport pickup?",
+                            "zh-Hans": "什么时候预订接机服务比较合适？"
+                        },
+                        "description": {
+                            "ru": "Рекомендуем оформить заказ заранее, чтобы мы успели подготовить автомобиль, водителя и при необходимости переводчика.",
+                            "en": "We recommend booking in advance so we can reserve the appropriate vehicle, assign your driver, and arrange an interpreter if needed.",
+                            "zh-Hans": "建议您提前预订，以便我们提前安排合适的车辆、司机，并在需要时安排翻译人员。"
+                        }
+                    }
+                ]
+            }
+        ],
+        "author": "GoTour Team",
+        "publishedAt": "2026-03-02",
+        "updatedAt": "2026-03-02",
+        "readingTime": 8,
+        "views": 0,
+        "featured": false,
+        "popular": true,
+        "status": "published",
+        "seo": {
+            "title": {
+                "ru": "Встреча в аэропорту Китая и трансфер до отеля | GoTour",
+                "en": "China Airport Meet & Greet and Hotel Transfer | GoTour",
+                "zh-Hans": "中国机场接机及酒店接送服务 | GoTour"
+            },
+            "description": {
+                "ru": "Организуем встречу в аэропорту, помощь с багажом и индивидуальный трансфер до отеля в любом городе Китая.",
+                "en": "Professional airport meet-and-greet service in China with luggage assistance and private hotel transfers available in cities across the country.",
+                "zh-Hans": "提供中国各大城市机场接机、行李协助及私人酒店接送服务，让您的旅程轻松无忧。"
+            },
+            "keywords": {
+                "ru": "встреча в аэропорту Китай, трансфер Китай, аэропорт Санья, трансфер Пекин, встреча Гуанчжоу",
+                "en": "China airport transfer, airport meet and greet China, hotel transfer China, Beijing airport transfer, Guangzhou airport pickup, Sanya airport transfer",
+                "zh-Hans": "中国机场接机, 中国机场接送, 酒店接送服务, 北京机场接机, 广州机场接机, 三亚机场接送"
+            }
+        },
+        "relatedSlugs": [
+            "individual-tours-across-china",
+            "half-day-healing-half-day-discovery"
+        ]
     }
 ]

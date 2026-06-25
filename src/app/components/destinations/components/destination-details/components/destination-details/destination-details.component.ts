@@ -310,43 +310,46 @@ export class DestinationDetailsComponent {
 
     private updateSeo(): void {
 
-        if (!this.description) {
+        if (!this.destination) {
             return;
         }
 
-        const title =
-            this.localization.getText(
-                this.destination?.seoTitle ??
-                this.destination?.titleHeader ??
-                this.destination?.title
-            );
-
-        const description =
-            this.localization.getText(
-                this.destination?.seoDescription ??
-                this.destination?.destinationHeader ??
-                this.destination?.description
-            );
-
-        const keywords =
-            this.destination?.seoKeywords?.length
-                ? this.destination.seoKeywords
-                    .map(tag =>
-                        this.localization.getText(tag)
-                    )
-                    .join(', ')
-                : undefined;
-
         this.seoService.update({
-            title,
-            description,
-            keywords,
-            image: this.destination?.image,
-            lang: this.localization.getCurrentLanguage(),
-            type: 'article'
-        });
-    }
 
+            title: this.localization.getText(
+                this.destination.seo?.title ??
+                this.destination.titleHeader ??
+                this.destination.title
+            ),
+
+            description: this.localization.getText(
+                this.destination.seo?.description ??
+                this.destination.destinationHeader ??
+                this.destination.description
+            ),
+
+            keywords: this.destination.seo?.keywords
+                ? this.localization.getText(
+                    this.destination.seo.keywords
+                )
+                : undefined,
+
+            image:
+                this.destination.seo?.image ??
+                this.destination.image,
+
+            type:
+                this.destination.seo?.type ??
+                'article',
+
+            url: window.location.href,
+
+            lang:
+                this.localization.getCurrentLanguage(),
+
+        });
+
+    }
 
     private fitBounds(): void {
 

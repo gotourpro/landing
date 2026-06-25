@@ -179,7 +179,10 @@
                 "chengdu": "成都",
                 "harbin": "哈尔滨",
                 "shenzhen": "深圳",
-                "hainan": "海南"
+                "hainan": "海南",
+                "dali": "大理",
+                "sanya": "三亚",
+                "guangzhou": "广州"
             },
             "stats": {
                 "experience": "团队经验",
