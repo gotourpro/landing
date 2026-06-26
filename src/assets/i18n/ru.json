@@ -104,9 +104,12 @@
             },
             "stats": {
                 "experience": "Опыт работы",
-                "tours": "Туров",
                 "destinations": "Направлений",
-                "completedTours": "Выполненных туров"
+                "completedTours": "Выполненных туров",
+                "travelers": "Довольных путешественников",
+                "tours": "Подобранных туров",
+                "rating": "Средний рейтинг",
+                "reviews": "Реальных отзывов"
             }
         },
         "notFound": {
@@ -189,7 +192,9 @@
             "tourGuaranteed": "Тур гарантирован",
             "daysNights": "{{days}} дней / {{nights}} ночей",
             "day": "День",
-            "excursions": "Экскурсионная программа"
+            "excursions": "Экскурсионная программа",
+            "days": "{{days}} дней",
+            "fromDays": "От {{days}} дней"
         },
         "destination": {
             "title": "Направления в Китае",

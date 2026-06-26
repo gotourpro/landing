@@ -132,7 +132,12 @@
                                 @if (item.durationDays) {
                                 <li>
                                     <i class="pi pi-calendar-clock mr-2"></i>
-                                    {{ item.durationDays }} Days
+
+                                    @if (item.isDurationFrom) {
+                                    {{ 'components.tour.fromDays' | translate:{ days: item.durationDays } }}
+                                    } @else {
+                                    {{ 'components.tour.days' | translate:{ days: item.durationDays } }}
+                                    }
                                 </li>
                                 }
 
@@ -153,13 +158,13 @@
                                 <i class="pi pi-camera"></i>
                             </a>
 
-                            <a
+                            <!-- <a
                                 *ngIf="item.video"
                                 [href]="item.video"
                                 target="_blank"
                             >
                                 <i class="pi pi-video"></i>
-                            </a>
+                            </a> -->
 
                         </div>
 

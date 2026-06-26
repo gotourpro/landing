@@ -166,7 +166,9 @@
             "tourGuaranteed": "保证成团",
             "daysNights": "{{days}}天 / {{nights}}晚",
             "day": "第",
-            "excursions": "游览项目"
+            "excursions": "游览项目",
+            "days": "{{days}} 天",
+            "fromDays": "不少于 {{days}} 天"
         },
         "homeIndividualTours": {
             "tagline": "定制旅游",
@@ -187,6 +189,7 @@
             "stats": {
                 "experience": "团队经验",
                 "tours": "旅游线路",
+                "travelers": "满意游客",
                 "destinations": "旅游目的地",
                 "completedTours": "已完成行程"
             }

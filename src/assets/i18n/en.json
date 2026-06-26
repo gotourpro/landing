@@ -166,7 +166,9 @@
             "tourGuaranteed": "Tour Guaranteed",
             "daysNights": "{{days}} days / {{nights}} nights",
             "day": "Day",
-            "excursions": "Excursion Program"
+            "excursions": "Excursion Program",
+            "days": "{{days}} days",
+            "fromDays": "From {{days}} days"
         },
         "homeIndividualTours": {
             "tagline": "Tailor-Made Tours",
@@ -187,6 +189,7 @@
             "stats": {
                 "experience": "Years of Team Experience",
                 "tours": "Tours",
+                "travelers": "Happy Travelers",
                 "destinations": "Destinations",
                 "completedTours": "Completed Tours"
             }

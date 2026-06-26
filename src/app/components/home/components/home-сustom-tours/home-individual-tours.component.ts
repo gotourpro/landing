@@ -46,9 +46,9 @@ export class HometeIndividualToursComponent {
 
     public readonly companyStats = [
         {
-            value: 5,
+            value: 2700,
             suffix: '+',
-            textKey: 'components.homeIndividualTours.stats.experience'
+            textKey: 'components.homeIndividualTours.stats.travelers'
         },
         {
             value: 50,
@@ -56,7 +56,7 @@ export class HometeIndividualToursComponent {
             textKey: 'components.homeIndividualTours.stats.destinations'
         },
         {
-            value: 2000,
+            value: 3400,
             suffix: '+',
             textKey: 'components.homeIndividualTours.stats.completedTours'
         }

@@ -931,6 +931,7 @@
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg"
         ],
+        "isDurationFrom": true,
         "durationDays": 12,
         "durationNights": 11,
         "minGroupSize": 6,
@@ -1250,6 +1251,7 @@
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg"
         ],
+        "isDurationFrom": true,
         "durationDays": 12,
         "durationNights": 11,
         "minGroupSize": 6,
@@ -1569,6 +1571,7 @@
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg"
         ],
+        "isDurationFrom": true,
         "durationDays": 12,
         "durationNights": 11,
         "minGroupSize": 6,
@@ -1888,6 +1891,7 @@
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg"
         ],
+        "isDurationFrom": true,
         "durationDays": 12,
         "durationNights": 11,
         "minGroupSize": 6,
@@ -2207,6 +2211,7 @@
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg"
         ],
+        "isDurationFrom": true,
         "durationDays": 12,
         "durationNights": 11,
         "minGroupSize": 6,
@@ -2526,6 +2531,7 @@
             "assets/images/destination/312x380.svg",
             "assets/images/destination/312x380.svg"
         ],
+        "isDurationFrom": true,
         "durationDays": 12,
         "durationNights": 11,
         "minGroupSize": 6,

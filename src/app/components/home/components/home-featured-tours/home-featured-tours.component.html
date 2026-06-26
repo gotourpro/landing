@@ -53,7 +53,11 @@
                         <ul class="tours-one__item__meta">
                             <li>
                                 <i class="pi pi-calendar-clock"></i>
-                                {{ tour.durationDays }} Days
+                                @if (tour.isDurationFrom) {
+                                {{ 'components.tour.fromDays' | translate:{ days: tour.durationDays } }}
+                                } @else {
+                                {{ 'components.tour.days' | translate:{ days: tour.durationDays } }}
+                                }
                             </li>
 
                             <li>

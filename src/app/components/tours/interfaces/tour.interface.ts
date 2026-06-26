@@ -35,6 +35,7 @@ export interface ITour {
     oldPrice?: number;
     currency?: string;
     durationDays?: number;
+    isDurationFrom?: boolean;
     durationNights?: number;
     rating?: number;
     reviews?: number;
