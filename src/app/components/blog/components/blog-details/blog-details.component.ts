@@ -162,7 +162,6 @@ export class BlogDetailsComponent {
                         this.localization.getText(tag.title)
                     )
                     .join(', '),
-
             image: this.image.getImage(
                 this.post.hero.image,
                 1600
