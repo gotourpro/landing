@@ -11,9 +11,15 @@
                         <div class="tours-one__item h-[400px]">
 
                             <img
-                                [src]="item.image"
+                                [src]="image.getImage(item.image)"
+                                [srcset]="image.getSrcSet(item.image)"
+                                sizes="(max-width: 768px) 100vw,
+           (max-width: 1200px) 50vw,
+           33vw"
                                 class="w-full! h-[500px]! object-cover shrink-0"
                                 [alt]="localization.getText(item.title)"
+                                loading="lazy"
+                                decoding="async"
                             >
 
                             <div class="tours-one__item__content">

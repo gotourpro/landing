@@ -28,7 +28,7 @@
             "zh-Hans": "采用历经数百年实践验证的东方传统医学方法，为身体提供全面的康养恢复方案。"
         },
         "hero": {
-            "image": "assets/images/blog/1320x417.svg",
+            "image": "blog/15",
             "alt": {
                 "ru": "Традиционная восточная медицина",
                 "en": "Traditional Eastern Medicine",
@@ -86,7 +86,7 @@
                 },
                 "images": [
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/2",
                         "alt": {
                             "ru": "Пульсовая диагностика",
                             "en": "Pulse Diagnosis",
@@ -94,7 +94,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/3",
                         "alt": {
                             "ru": "Консультация врача",
                             "en": "Doctor Consultation",
@@ -102,7 +102,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/4",
                         "alt": {
                             "ru": "Диагностика пациента",
                             "en": "Patient Diagnosis",
@@ -143,7 +143,7 @@
                 },
                 "images": [
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/12",
                         "alt": {
                             "ru": "Акупунктура",
                             "en": "Acupuncture",
@@ -151,7 +151,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/32",
                         "alt": {
                             "ru": "Рефлексотерапия",
                             "en": "Reflex Therapy",
@@ -159,7 +159,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/33",
                         "alt": {
                             "ru": "Процедура восстановления",
                             "en": "Wellness Treatment",
@@ -195,7 +195,7 @@
                 },
                 "images": [
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/9",
                         "alt": {
                             "ru": "Моксотерапия",
                             "en": "Moxibustion Therapy",
@@ -203,7 +203,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/10",
                         "alt": {
                             "ru": "Ароматерапия",
                             "en": "Aromatherapy",
@@ -211,7 +211,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/11",
                         "alt": {
                             "ru": "Оздоровительные процедуры",
                             "en": "Wellness Treatments",
@@ -247,7 +247,7 @@
                 },
                 "images": [
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/5",
                         "alt": {
                             "ru": "Оздоровительная программа",
                             "en": "Wellness Program",
@@ -255,7 +255,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/6",
                         "alt": {
                             "ru": "Традиционные практики",
                             "en": "Traditional Practices",
@@ -263,7 +263,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/7",
                         "alt": {
                             "ru": "Восстановление организма",
                             "en": "Body Recovery",
@@ -433,7 +433,7 @@
             "zh-Hans": "大理美丽与健康之旅融合休闲度假、美容护理、中医养生、洱海漫步以及宁静放松的氛围。"
         },
         "hero": {
-            "image": "assets/images/blog/1320x417.svg",
+            "image": "blog/17",
             "alt": {
                 "ru": "Beauty Tour в Дали",
                 "en": "Beauty Tour in Dali",
@@ -491,7 +491,7 @@
                 },
                 "images": [
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/28",
                         "alt": {
                             "ru": "SPA в Дали",
                             "en": "Spa in Dali",
@@ -499,7 +499,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/19",
                         "alt": {
                             "ru": "Озеро Эрхай",
                             "en": "Erhai Lake",
@@ -507,7 +507,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/14",
                         "alt": {
                             "ru": "Отдых в Юньнани",
                             "en": "Relaxation in Yunnan",
@@ -567,32 +567,6 @@
                     "en": "An Atmosphere That Helps You Recharge",
                     "zh-Hans": "让身心得到恢复的独特氛围"
                 },
-                "images": [
-                    {
-                        "src": "assets/images/blog/424x292.svg",
-                        "alt": {
-                            "ru": "Старый город Дали",
-                            "en": "Dali Old Town",
-                            "zh-Hans": "大理古城"
-                        }
-                    },
-                    {
-                        "src": "assets/images/blog/424x292.svg",
-                        "alt": {
-                            "ru": "Озеро Эрхай",
-                            "en": "Erhai Lake",
-                            "zh-Hans": "洱海"
-                        }
-                    },
-                    {
-                        "src": "assets/images/blog/424x292.svg",
-                        "alt": {
-                            "ru": "Горы Цаншань",
-                            "en": "Cangshan Mountains",
-                            "zh-Hans": "苍山"
-                        }
-                    }
-                ],
                 "paragraphs": [
                     {
                         "ru": "Особенность Дали заключается не только в оздоровительных программах, но и в самой атмосфере города. Здесь время словно замедляется, позволяя полностью переключиться с привычных забот и насладиться каждым моментом.",
@@ -687,7 +661,7 @@
             "zh-Hans": "远离繁忙生活，在中国最美丽的地区之一放松身心，恢复活力，关注健康。"
         },
         "hero": {
-            "image": "assets/images/blog/1320x417.svg",
+            "image": "blog/20",
             "alt": {
                 "ru": "Оздоровительный тур для мужчин",
                 "en": "Men's Wellness Tour",
@@ -745,7 +719,7 @@
                 },
                 "images": [
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/26",
                         "alt": {
                             "ru": "Консультация специалиста",
                             "en": "Consultation with a specialist",
@@ -753,7 +727,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/29",
                         "alt": {
                             "ru": "Пульсовая диагностика",
                             "en": "Pulse diagnosis",
@@ -761,7 +735,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/16",
                         "alt": {
                             "ru": "Традиционная китайская медицина",
                             "en": "Traditional Chinese Medicine",
@@ -823,7 +797,7 @@
                 },
                 "images": [
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/36",
                         "alt": {
                             "ru": "Озеро Эрхай",
                             "en": "Erhai Lake",
@@ -831,7 +805,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/35",
                         "alt": {
                             "ru": "Горы Цаншань",
                             "en": "Cangshan Mountains",
@@ -839,7 +813,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/37",
                         "alt": {
                             "ru": "Прогулка по Дали",
                             "en": "Walking in Dali",
@@ -942,7 +916,7 @@
             "zh-Hans": "前往中国不仅是一次康养之旅，更是一次感受数千年文化、了解传统，并重新认识健康与生活方式的难忘体验。"
         },
         "hero": {
-            "image": "assets/images/blog/1320x417.svg",
+            "image": "blog/38",
             "alt": {
                 "ru": "Лечение и путешествие по Китаю",
                 "en": "Healing and Traveling Across China",
@@ -998,32 +972,6 @@
                     "en": "Discovering China's Culture and Traditions",
                     "zh-Hans": "沉浸式体验中国文化与传统"
                 },
-                "images": [
-                    {
-                        "src": "assets/images/blog/424x292.svg",
-                        "alt": {
-                            "ru": "Старинный город Китая",
-                            "en": "Ancient Chinese Town",
-                            "zh-Hans": "中国古城"
-                        }
-                    },
-                    {
-                        "src": "assets/images/blog/424x292.svg",
-                        "alt": {
-                            "ru": "Китайская архитектура",
-                            "en": "Chinese Architecture",
-                            "zh-Hans": "中国传统建筑"
-                        }
-                    },
-                    {
-                        "src": "assets/images/blog/424x292.svg",
-                        "alt": {
-                            "ru": "Традиционная культура Китая",
-                            "en": "Traditional Chinese Culture",
-                            "zh-Hans": "中国传统文化"
-                        }
-                    }
-                ],
                 "paragraphs": [
                     {
                         "ru": "Свободное время между процедурами можно посвятить прогулкам по древним улицам, посещению храмов, знакомству с историческими кварталами и традиционной архитектурой Китая.",
@@ -1078,7 +1026,7 @@
                 },
                 "images": [
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/35",
                         "alt": {
                             "ru": "Озеро Эрхай",
                             "en": "Erhai Lake",
@@ -1086,7 +1034,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/36",
                         "alt": {
                             "ru": "Горы Юньнани",
                             "en": "Yunnan Mountains",
@@ -1094,7 +1042,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/37",
                         "alt": {
                             "ru": "Путешествие по Китаю",
                             "en": "Traveling Across China",
@@ -1271,7 +1219,7 @@
             "zh-Hans": "现代康养之旅不仅仅是治疗，更是健康管理、休闲度假、旅行探索与体验真实中国文化的完美结合。"
         },
         "hero": {
-            "image": "assets/images/blog/1320x417.svg",
+            "image": "blog/47",
             "alt": {
                 "ru": "Оздоровительный тур по Китаю",
                 "en": "Wellness Tour in China",
@@ -1329,7 +1277,7 @@
                 },
                 "images": [
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/15",
                         "alt": {
                             "ru": "Диагностика в клинике",
                             "en": "Medical Diagnostics at the Clinic",
@@ -1337,7 +1285,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/13",
                         "alt": {
                             "ru": "Процедуры традиционной китайской медицины",
                             "en": "Traditional Chinese Medicine Treatments",
@@ -1345,7 +1293,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/4",
                         "alt": {
                             "ru": "Консультация специалиста",
                             "en": "Consultation with a Specialist",
@@ -1381,7 +1329,7 @@
                 },
                 "images": [
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/39",
                         "alt": {
                             "ru": "Экскурсии по Китаю",
                             "en": "Excursions Across China",
@@ -1389,7 +1337,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/46",
                         "alt": {
                             "ru": "Исторические достопримечательности",
                             "en": "Historic Landmarks",
@@ -1397,7 +1345,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/42",
                         "alt": {
                             "ru": "Природа провинции Юньнань",
                             "en": "Nature of Yunnan Province",
@@ -1636,7 +1584,7 @@
             "zh-Hans": "我们打造独一无二的中国旅行路线，将休闲度假、文化体验、自然风光、美食探索与现代都市完美融合。"
         },
         "hero": {
-            "image": "assets/images/blog/1320x417.svg",
+            "image": "blog/45",
             "alt": {
                 "ru": "Индивидуальные путешествия по Китаю",
                 "en": "Private Tours Across China",
@@ -1720,7 +1668,7 @@
                 },
                 "images": [
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/51",
                         "alt": {
                             "ru": "Пляжи Саньи",
                             "en": "Sanya Beaches",
@@ -1728,7 +1676,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/48",
                         "alt": {
                             "ru": "Побережье острова Хайнань",
                             "en": "Hainan Island Coastline",
@@ -1736,7 +1684,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/49",
                         "alt": {
                             "ru": "Отдых в Санье",
                             "en": "Vacation in Sanya",
@@ -1804,7 +1752,7 @@
                 },
                 "images": [
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/60",
                         "alt": {
                             "ru": "Шэньчжэнь",
                             "en": "Shenzhen",
@@ -1812,7 +1760,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/61",
                         "alt": {
                             "ru": "Гуанчжоу",
                             "en": "Guangzhou",
@@ -1820,7 +1768,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/62",
                         "alt": {
                             "ru": "Современный Китай",
                             "en": "Modern China",
@@ -2044,7 +1992,7 @@
             "zh-Hans": "我们将在机场迎接您，协助搬运行李，安排舒适的接送服务，让您的中国之旅从第一刻起便轻松愉快。"
         },
         "hero": {
-            "image": "assets/images/blog/1320x417.svg",
+            "image": "blog/70",
             "alt": {
                 "ru": "Встреча в аэропорту Китая",
                 "en": "Airport Meet & Greet in China",
@@ -2102,7 +2050,7 @@
                 },
                 "images": [
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/71",
                         "alt": {
                             "ru": "Встреча в аэропорту",
                             "en": "Airport Meet and Greet",
@@ -2110,7 +2058,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/72",
                         "alt": {
                             "ru": "Помощь с багажом",
                             "en": "Luggage Assistance",
@@ -2118,7 +2066,7 @@
                         }
                     },
                     {
-                        "src": "assets/images/blog/424x292.svg",
+                        "src": "blog/73",
                         "alt": {
                             "ru": "Комфортный трансфер",
                             "en": "Comfortable Transfer",

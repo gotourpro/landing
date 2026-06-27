@@ -22,6 +22,7 @@ import { ITour } from "../../../../../tours/interfaces/tour.interface";
 import { ToursService } from "../../../../../tours/services/tours.service";
 import { UICarousel } from "../../../../../UI/carousel";
 import { UICarouselItem } from "../../../../../UI/carousel-item";
+import { ImageService } from "../../../../../../services/image-service";
 @Component({
     selector: "app-destination-details",
     standalone: true,
@@ -103,6 +104,7 @@ export class DestinationDetailsComponent {
         private seoService: SeoService,
         private _cdr: ChangeDetectorRef,
         private toursService: ToursService,
+        public image: ImageService,
     ) { }
 
     public ngOnInit(): void {
@@ -398,13 +400,18 @@ export class DestinationDetailsComponent {
     }
 
     public get galleryImages(): string[] {
+
         if (!this.destination) {
             return [];
         }
 
-        return this.destination.images?.length
+        const images = this.destination.images?.length
             ? this.destination.images
             : [this.destination.image];
+
+        return images.map(image =>
+            this.image.getImage(image, 1600)
+        );
     }
 
 

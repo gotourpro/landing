@@ -1,0 +1,2507 @@
+[
+    {
+        "id": "dali",
+        "slug": "dali",
+        "title": {
+            "ru": "Дали",
+            "en": "Dali",
+            "zh-Hans": "大理"
+        },
+        "description": {
+            "ru": "Один из самых живописных городов провинции Юньнань, расположенный между озером Эрхай и горами Цаншань.",
+            "en": "One of the most picturesque cities in Yunnan Province, located between Erhai Lake and the Cangshan Mountains.",
+            "zh-Hans": "大理是云南省最风景如画的城市之一，坐落于洱海与苍山之间。"
+        },
+        "titleHeader": {
+            "ru": "Дали — древний город между озером Эрхай и горами Цаншань",
+            "en": "Dali — An Ancient City Between Erhai Lake and the Cangshan Mountains",
+            "zh-Hans": "大理——坐落于洱海与苍山之间的千年古城"
+        },
+        "destinationHeader": {
+            "ru": "Откройте для себя уникальное направление на юго-западе Китая, где древняя культура народа Бай, величественные горы и чистейшие озёра создают идеальные условия для путешествий и отдыха.",
+            "en": "Discover a unique destination in southwest China, where the ancient culture of the Bai people, majestic mountains, and crystal-clear lakes create the perfect setting for travel and relaxation.",
+            "zh-Hans": "探索中国西南部这一独特目的地，在这里，白族悠久的文化、壮丽的群山与清澈的湖泊共同营造出理想的旅行与度假环境。"
+        },
+        "seo": {
+            "title": {
+                "ru": "Дали, Юньнань — достопримечательности, отдых и путешествия по Китаю",
+                "en": "Dali, Yunnan — Attractions, Travel, and Experiences in China",
+                "zh-Hans": "大理，云南——中国旅游、景点与度假体验"
+            },
+            "description": {
+                "ru": "Узнайте больше о Дали — одном из самых красивых туристических направлений Китая. Озеро Эрхай, горы Цаншань, древний город и культура народа Бай.",
+                "en": "Discover Dali, one of China's most beautiful travel destinations. Explore Erhai Lake, the Cangshan Mountains, the ancient town of Dali, and the rich culture of the Bai people.",
+                "zh-Hans": "了解大理——中国最迷人的旅游目的地之一。探索洱海、苍山、大理古城以及独具特色的白族文化。"
+            },
+            "keywords": {
+                "ru": "Дали, Юньнань, Озеро Эрхай, Гора Цаншань, Китай, отдых в Китае",
+                "en": "Dali, Yunnan, Erhai Lake, Cangshan Mountain, China, Travel in China",
+                "zh-Hans": "大理, 云南, 洱海, 苍山, 中国, 中国旅游"
+            },
+            "type": "website"
+        },
+        "country": {
+            "ru": "Китай",
+            "en": "China",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "ru": "Дали",
+            "en": "Dali",
+            "zh-Hans": "大理"
+        },
+        "region": {
+            "ru": "Юньнань",
+            "en": "Yunnan",
+            "zh-Hans": "云南"
+        },
+        "coordinates": [
+            100.1634,
+            25.6947
+        ],
+        "image": "assets/images/destination/350x380.svg",
+        "images": [
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg"
+        ],
+        "rating": 4.9,
+        "views": 12500,
+        "featured": true,
+        "popular": true,
+        "facts": [
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Население",
+                    "en": "Population",
+                    "zh-Hans": "人口"
+                },
+                "value": {
+                    "ru": "Около 700 000 человек",
+                    "en": "Approximately 700,000 people",
+                    "zh-Hans": "约70万人"
+                }
+            },
+            {
+                "icon": "pi pi-sun",
+                "title": {
+                    "ru": "Климат",
+                    "en": "Climate",
+                    "zh-Hans": "气候"
+                },
+                "value": {
+                    "ru": "Мягкий круглый год",
+                    "en": "Mild all year round",
+                    "zh-Hans": "全年气候温和"
+                }
+            },
+            {
+                "icon": "pi pi-language",
+                "title": {
+                    "ru": "Основной язык",
+                    "en": "Primary Language",
+                    "zh-Hans": "主要语言"
+                },
+                "value": {
+                    "ru": "Китайский (путунхуа)",
+                    "en": "Chinese (Mandarin)",
+                    "zh-Hans": "普通话"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Лучшее время для посещения",
+                    "en": "Best Time to Visit",
+                    "zh-Hans": "最佳旅游时间"
+                },
+                "value": {
+                    "ru": "Март — ноябрь",
+                    "en": "March – November",
+                    "zh-Hans": "3月至11月"
+                }
+            }
+        ],
+        "tags": [
+            {
+                "ru": "Юньнань",
+                "en": "Yunnan",
+                "zh-Hans": "云南"
+            },
+            {
+                "ru": "Озеро Эрхай",
+                "en": "Erhai Lake",
+                "zh-Hans": "洱海"
+            },
+            {
+                "ru": "Горы Цаншань",
+                "en": "Cangshan Mountains",
+                "zh-Hans": "苍山"
+            },
+            {
+                "ru": "Культура Бай",
+                "en": "Bai Culture",
+                "zh-Hans": "白族文化"
+            },
+            {
+                "ru": "Древний город",
+                "en": "Ancient Town",
+                "zh-Hans": "古城"
+            },
+            {
+                "ru": "Природа Китая",
+                "en": "Nature of China",
+                "zh-Hans": "中国自然风光"
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "Озеро Эрхай — одно из крупнейших пресноводных озёр Китая",
+                "en": "Erhai Lake — one of the largest freshwater lakes in China",
+                "zh-Hans": "洱海——中国最大的淡水湖之一"
+            },
+            {
+                "ru": "Горный массив Цаншань",
+                "en": "The Cangshan Mountain Range",
+                "zh-Hans": "苍山山脉"
+            },
+            {
+                "ru": "Исторический центр Дали",
+                "en": "The Historic Center of Dali",
+                "zh-Hans": "大理古城"
+            },
+            {
+                "ru": "Три пагоды храма Чуншэнсы",
+                "en": "The Three Pagodas of Chongsheng Temple",
+                "zh-Hans": "崇圣寺三塔"
+            },
+            {
+                "ru": "Культура и традиции народа Бай",
+                "en": "The Culture and Traditions of the Bai People",
+                "zh-Hans": "白族文化与传统"
+            },
+            {
+                "ru": "Чайные плантации и местная гастрономия",
+                "en": "Tea Plantations and Local Cuisine",
+                "zh-Hans": "茶园与当地美食"
+            },
+            {
+                "ru": "Комфортный климат круглый год",
+                "en": "A Pleasant Climate Throughout the Year",
+                "zh-Hans": "全年舒适宜人的气候"
+            },
+            {
+                "ru": "Одно из лучших направлений Юньнани",
+                "en": "One of Yunnan's Top Travel Destinations",
+                "zh-Hans": "云南最受欢迎的旅游目的地之一"
+            }
+        ],
+        "locations": [
+            {
+                "name": {
+                    "ru": "Озеро Эрхай",
+                    "en": "Erhai Lake",
+                    "zh-Hans": "洱海"
+                },
+                "coordinates": [
+                    100.1786,
+                    25.8247
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Гора Цаншань",
+                    "en": "Cangshan Mountain",
+                    "zh-Hans": "苍山"
+                },
+                "coordinates": [
+                    100.1057,
+                    25.6903
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Древний город Дали",
+                    "en": "Dali Ancient Town",
+                    "zh-Hans": "大理古城"
+                },
+                "coordinates": [
+                    100.1634,
+                    25.6947
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Храм Чуншэнсы и Три пагоды",
+                    "en": "Chongsheng Temple and the Three Pagodas",
+                    "zh-Hans": "崇圣寺与三塔"
+                },
+                "coordinates": [
+                    100.1515,
+                    25.7056
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Деревни народа Бай",
+                    "en": "Bai Ethnic Villages",
+                    "zh-Hans": "白族村落"
+                },
+                "coordinates": [
+                    100.22,
+                    25.78
+                ]
+            }
+        ],
+        "content": {
+            "ru": "Дали расположен на западе провинции Юньнань и считается одним из самых красивых туристических направлений Китая. Город находится между живописным озером Эрхай и горным массивом Цаншань, благодаря чему здесь сформировался мягкий климат и уникальные природные ландшафты. На протяжении многих веков Дали был столицей одноимённого королевства и важным центром торговли на юго-западе Китая.",
+            "en": "Located in western Yunnan Province, Dali is considered one of China's most beautiful travel destinations. The city lies between the picturesque Erhai Lake and the Cangshan Mountains, creating a mild climate and breathtaking natural scenery. For centuries, Dali served as the capital of the ancient Dali Kingdom and was an important trade center in southwestern China.",
+            "zh-Hans": "大理位于云南省西部，被誉为中国最美丽的旅游目的地之一。城市坐落于风景秀丽的洱海与苍山之间，拥有温和宜人的气候和独特的自然景观。数百年来，大理曾是大理国的都城，也是中国西南地区重要的贸易中心。"
+        },
+        "contentSecond": {
+            "ru": "Сегодня Дали привлекает путешественников древней архитектурой, культурой народа Бай, многочисленными храмами, традиционными рынками и великолепными природными пейзажами. Здесь можно прогуляться по старинным улочкам древнего города, отправиться на прогулку по озеру Эрхай, подняться в горы Цаншань или познакомиться с богатой чайной культурой региона.",
+            "en": "Today, Dali attracts travelers with its ancient architecture, rich Bai ethnic culture, numerous temples, traditional markets, and stunning natural landscapes. Visitors can stroll through the narrow streets of the ancient town, take a scenic trip around Erhai Lake, hike in the Cangshan Mountains, or discover the region's renowned tea culture.",
+            "zh-Hans": "如今，大理以其古老的建筑、独特的白族文化、众多寺庙、传统集市以及壮丽的自然风光吸引着来自世界各地的游客。游客可以漫步于大理古城的街巷之间，环游洱海，登临苍山，或深入体验云南丰富的茶文化传统。"
+        },
+        "questions": [
+            {
+                "title": {
+                    "ru": "Когда лучше всего посещать Дали?",
+                    "en": "When Is the Best Time to Visit Dali?",
+                    "zh-Hans": "什么时候是游览大理的最佳时间？"
+                },
+                "description": {
+                    "ru": "Наиболее комфортный период для путешествий — с марта по ноябрь, когда устанавливается тёплая и сухая погода.",
+                    "en": "The most comfortable time to visit is from March to November, when the weather is generally warm and dry.",
+                    "zh-Hans": "每年3月至11月是游览大理最舒适的时期，此时气候温暖且降雨较少。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Сколько дней рекомендуется провести в Дали?",
+                    "en": "How Many Days Should I Spend in Dali?",
+                    "zh-Hans": "建议在大理停留几天？"
+                },
+                "description": {
+                    "ru": "Для знакомства с основными достопримечательностями обычно достаточно 3–5 дней.",
+                    "en": "Three to five days are usually enough to explore the main attractions of Dali.",
+                    "zh-Hans": "通常3至5天即可充分游览大理的主要景点。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Можно ли купаться в озере Эрхай?",
+                    "en": "Can You Swim in Erhai Lake?",
+                    "zh-Hans": "可以在洱海游泳吗？"
+                },
+                "description": {
+                    "ru": "Озеро является важным природным объектом региона. Основной интерес представляют прогулки, экскурсии и фотосъёмка.",
+                    "en": "Erhai Lake is an important natural landmark. Most visitors come for sightseeing, boat trips, and photography.",
+                    "zh-Hans": "洱海是当地重要的自然景观，大多数游客前来观光、乘船游览和拍照。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Чем известен Дали?",
+                    "en": "What Is Dali Famous For?",
+                    "zh-Hans": "大理因什么而闻名？"
+                },
+                "description": {
+                    "ru": "Дали известен древним городом, культурой народа Бай, озером Эрхай, горой Цаншань и храмом Чуншэнсы с Тремя пагодами.",
+                    "en": "Dali is famous for its ancient town, Bai ethnic culture, Erhai Lake, Cangshan Mountain, and the Three Pagodas of Chongsheng Temple.",
+                    "zh-Hans": "大理以其古城、白族文化、洱海、苍山以及崇圣寺三塔而闻名。"
+                }
+            }
+        ]
+    },
+    {
+        "id": "hainan",
+        "slug": "hainan",
+        "title": {
+            "ru": "Санья",
+            "en": "Sanya",
+            "zh-Hans": "三亚"
+        },
+        "description": {
+            "ru": "Главный тропический курорт Китая, известный белоснежными пляжами, теплым Южно-Китайским морем, современными отелями, термальными источниками и оздоровительными центрами.",
+            "en": "China's premier tropical island resort, famous for its white sandy beaches, warm South China Sea, luxury resorts, hot springs, and wellness centers.",
+            "zh-Hans": "海南岛是中国著名的热带度假胜地，以洁白沙滩、温暖海水、豪华度假酒店、温泉和康养中心闻名。"
+        },
+        "titleHeader": {
+            "ru": "Остров Хайнань (Санья) — тропический рай Китая",
+            "en": "Hainan Island (Sanya) — China's Tropical Paradise",
+            "zh-Hans": "海南（三亚）——中国的热带天堂"
+        },
+        "destinationHeader": {
+            "ru": "Откройте для себя крупнейший тропический курорт Китая, где круглый год царит лето. Белоснежные пляжи, лазурное море, современные курорты, природные парки и оздоровительные программы делают Хайнань идеальным местом для отдыха, восстановления здоровья и путешествий.",
+            "en": "Discover China's premier tropical destination, where summer lasts all year. White sandy beaches, crystal-clear waters, luxury resorts, nature parks, and wellness programs make Hainan an ideal destination for vacations and recovery.",
+            "zh-Hans": "探索中国最受欢迎的热带度假胜地——海南岛。这里全年温暖，拥有洁白沙滩、碧蓝海水、豪华度假村、自然公园和丰富的康养项目。"
+        },
+        "seo": {
+            "title": {
+                "ru": "Остров Хайнань (Санья) — отдых, лечение и путешествия по Китаю",
+                "en": "Hainan Island (Sanya) — Travel, Wellness and Vacations in China",
+                "zh-Hans": "海南（三亚）——中国旅游、度假与康养"
+            },
+            "description": {
+                "ru": "Узнайте больше об острове Хайнань — главном морском курорте Китая. Пляжи Саньи, термальные источники, тропическая природа, экскурсии и оздоровительные программы.",
+                "en": "Discover Hainan Island, China's leading tropical resort. Explore Sanya beaches, hot springs, tropical nature, sightseeing tours, and wellness programs.",
+                "zh-Hans": "探索海南岛——中国最受欢迎的海滨度假胜地。体验三亚海滩、温泉、热带自然风光以及康养项目。"
+            },
+            "keywords": {
+                "ru": "Хайнань, Санья, отдых в Китае, море, пляжи, тропический курорт, лечение, оздоровление",
+                "en": "Hainan, Sanya, China travel, tropical resort, beaches, wellness, vacation",
+                "zh-Hans": "海南, 三亚, 中国旅游, 热带度假, 海滩, 康养"
+            },
+            "type": "website"
+        },
+        "country": {
+            "ru": "Китай",
+            "en": "China",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "ru": "Санья",
+            "en": "Sanya",
+            "zh-Hans": "三亚"
+        },
+        "region": {
+            "ru": "Хайнань",
+            "en": "Hainan",
+            "zh-Hans": "海南岛"
+        },
+        "coordinates": [
+            109.5119,
+            18.2528
+        ],
+        "image": "assets/images/destination/350x380.svg",
+        "images": [
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg"
+        ],
+        "rating": 4.9,
+        "views": 12500,
+        "featured": true,
+        "popular": true,
+        "facts": [
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Население",
+                    "en": "Population",
+                    "zh-Hans": "人口"
+                },
+                "value": {
+                    "ru": "Около 1 миллиона человек",
+                    "en": "About 1 million people",
+                    "zh-Hans": "约100万人"
+                }
+            },
+            {
+                "icon": "pi pi-sun",
+                "title": {
+                    "ru": "Климат",
+                    "en": "Climate",
+                    "zh-Hans": "气候"
+                },
+                "value": {
+                    "ru": "Тропический круглый год",
+                    "en": "Tropical all year round",
+                    "zh-Hans": "全年热带气候"
+                }
+            },
+            {
+                "icon": "pi pi-language",
+                "title": {
+                    "ru": "Основной язык",
+                    "en": "Primary Language",
+                    "zh-Hans": "主要语言"
+                },
+                "value": {
+                    "ru": "Китайский (путунхуа)",
+                    "en": "Chinese (Mandarin)",
+                    "zh-Hans": "普通话"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Лучшее время для посещения",
+                    "en": "Best Time to Visit",
+                    "zh-Hans": "最佳旅游时间"
+                },
+                "value": {
+                    "ru": "Круглый год",
+                    "en": "All year round",
+                    "zh-Hans": "全年皆宜"
+                }
+            }
+        ],
+        "tags": [
+            {
+                "ru": "Хайнань",
+                "en": "Hainan",
+                "zh-Hans": "海南"
+            },
+            {
+                "ru": "Санья",
+                "en": "Sanya",
+                "zh-Hans": "三亚"
+            },
+            {
+                "ru": "Пляжи",
+                "en": "Beaches",
+                "zh-Hans": "海滩"
+            },
+            {
+                "ru": "Тропический отдых",
+                "en": "Tropical Vacation",
+                "zh-Hans": "热带度假"
+            },
+            {
+                "ru": "Оздоровление",
+                "en": "Wellness",
+                "zh-Hans": "康养"
+            },
+            {
+                "ru": "Море",
+                "en": "Sea",
+                "zh-Hans": "大海"
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "Белоснежные пляжи Саньи",
+                "en": "White Sandy Beaches of Sanya",
+                "zh-Hans": "三亚洁白沙滩"
+            },
+            {
+                "ru": "Теплое Южно-Китайское море",
+                "en": "Warm South China Sea",
+                "zh-Hans": "温暖的南海"
+            },
+            {
+                "ru": "Термальные источники",
+                "en": "Natural Hot Springs",
+                "zh-Hans": "天然温泉"
+            },
+            {
+                "ru": "Парк Ялонг Бэй",
+                "en": "Yalong Bay",
+                "zh-Hans": "亚龙湾"
+            },
+            {
+                "ru": "Парк Наньшань и статуя богини Гуаньинь",
+                "en": "Nanshan Park and Guanyin Statue",
+                "zh-Hans": "南山文化旅游区和观音像"
+            },
+            {
+                "ru": "Остров Учжичжоу",
+                "en": "Wuzhizhou Island",
+                "zh-Hans": "蜈支洲岛"
+            },
+            {
+                "ru": "Тропическая природа",
+                "en": "Tropical Nature",
+                "zh-Hans": "热带自然风光"
+            },
+            {
+                "ru": "Лучший морской курорт Китая",
+                "en": "China's Premier Beach Resort",
+                "zh-Hans": "中国最佳海滨度假胜地"
+            }
+        ],
+        "locations": [
+            {
+                "name": {
+                    "ru": "Бухта Ялунвань",
+                    "en": "Yalong Bay",
+                    "zh-Hans": "亚龙湾"
+                },
+                "coordinates": [
+                    109.6280,
+                    18.2245
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Пляж Дадунхай",
+                    "en": "Dadonghai Beach",
+                    "zh-Hans": "大东海"
+                },
+                "coordinates": [
+                    109.5213,
+                    18.2202
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Бухта Хайтан",
+                    "en": "Haitang Bay",
+                    "zh-Hans": "海棠湾"
+                },
+                "coordinates": [
+                    109.7668,
+                    18.3970
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Парк Наньшань и статуя богини Гуаньинь",
+                    "en": "Nanshan Cultural Tourism Zone & Guanyin Statue",
+                    "zh-Hans": "南山文化旅游区和海上观音"
+                },
+                "coordinates": [
+                    109.2065,
+                    18.2984
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Остров Учжичжоу",
+                    "en": "Wuzhizhou Island",
+                    "zh-Hans": "蜈支洲岛"
+                },
+                "coordinates": [
+                    109.7604,
+                    18.3132
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Тропический лесной парк Янода",
+                    "en": "Yanoda Rainforest Cultural Tourism Zone",
+                    "zh-Hans": "呀诺达雨林文化旅游区"
+                },
+                "coordinates": [
+                    109.6704,
+                    18.4315
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Термальные источники Наньтянь",
+                    "en": "Nantian Hot Springs",
+                    "zh-Hans": "南田温泉"
+                },
+                "coordinates": [
+                    109.6664,
+                    18.3617
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Парк «Край света» (Тянья Хайцзяо)",
+                    "en": "Tianya Haijiao Scenic Area",
+                    "zh-Hans": "天涯海角"
+                },
+                "coordinates": [
+                    109.3298,
+                    18.2987
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Парк Лухуэйтоу",
+                    "en": "Luhuitou Park",
+                    "zh-Hans": "鹿回头公园"
+                },
+                "coordinates": [
+                    109.4917,
+                    18.2077
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Лесной парк Ялунвань",
+                    "en": "Yalong Bay Tropical Paradise Forest Park",
+                    "zh-Hans": "亚龙湾热带天堂森林公园"
+                },
+                "coordinates": [
+                    109.6308,
+                    18.2434
+                ]
+            }
+        ],
+        "content": {
+            "ru": "Остров Хайнань — крупнейший тропический остров Китая, расположенный в Южно-Китайском море. Благодаря теплому климату, чистым пляжам и современной туристической инфраструктуре он считается главным морским курортом страны. Центром отдыха является город Санья, где круглый год можно наслаждаться солнцем, морем, тропической природой и высоким уровнем сервиса.",
+            "en": "Hainan Island is China's largest tropical island, located in the South China Sea. With its warm climate, pristine beaches, and modern tourism infrastructure, it has become the country's premier beach destination. The city of Sanya serves as the island's main resort, offering year-round sunshine, tropical scenery, and world-class hospitality.",
+            "zh-Hans": "海南岛位于中国南海，是中国最大的热带岛屿。这里拥有温暖的气候、洁净的海滩和完善的旅游设施，被誉为中国最著名的滨海度假胜地。三亚是海南最重要的旅游城市，全年阳光充足，拥有热带风光和高品质的度假体验。"
+        },
+        "contentSecond": {
+            "ru": "Сегодня Хайнань привлекает путешественников великолепными бухтами Ялунвань, Дадунхай и Хайтан, живописными островами, термальными источниками, национальными парками и современными оздоровительными курортами. Здесь можно заняться дайвингом, отправиться на морские экскурсии, посетить парк Наньшань со знаменитой статуей богини Гуаньинь, прогуляться по тропическим лесам или просто насладиться отдыхом на лучших пляжах Китая.",
+            "en": "Today, Hainan attracts visitors with the stunning bays of Yalong Bay, Dadonghai, and Haitang Bay, tropical islands, natural hot springs, national parks, and luxury wellness resorts. Guests can enjoy diving, island excursions, visit Nanshan Park and its iconic Guanyin statue, explore tropical rainforests, or simply relax on some of China's finest beaches.",
+            "zh-Hans": "如今，海南以亚龙湾、大东海、海棠湾等美丽海湾、热带岛屿、天然温泉、国家公园以及高端康养度假村吸引着世界各地的游客。游客可以潜水、参加海岛游、参观南山文化旅游区和海上观音、探索热带雨林，或在中国最美丽的海滩上悠闲度假。"
+        },
+        "questions": [
+            {
+                "title": {
+                    "ru": "Когда лучше всего отдыхать на Хайнане?",
+                    "en": "When Is the Best Time to Visit Hainan?",
+                    "zh-Hans": "什么时候是游览海南的最佳时间？"
+                },
+                "description": {
+                    "ru": "Хайнань подходит для отдыха круглый год. Наиболее комфортная погода наблюдается с октября по апрель, когда температура воздуха составляет +24…+29°C, а влажность ниже.",
+                    "en": "Hainan is a year-round destination. The most comfortable season is from October to April, with temperatures between 24°C and 29°C and lower humidity.",
+                    "zh-Hans": "海南全年都适合旅游，其中10月至次年4月气候最舒适，气温约24°C至29°C，湿度较低。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Сколько дней рекомендуется провести на Хайнане?",
+                    "en": "How Many Days Should I Spend in Hainan?",
+                    "zh-Hans": "建议在海南停留几天？"
+                },
+                "description": {
+                    "ru": "Для полноценного отдыха рекомендуется провести на острове от 7 до 10 дней. Этого времени достаточно для пляжного отдыха, экскурсий и посещения природных достопримечательностей.",
+                    "en": "A stay of 7–10 days is ideal for enjoying the beaches, sightseeing, and exploring the island's natural attractions.",
+                    "zh-Hans": "建议停留7至10天，可充分体验海滩度假、观光和海南丰富的自然景点。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Можно ли купаться в море круглый год?",
+                    "en": "Can You Swim in the Sea All Year Round?",
+                    "zh-Hans": "全年都可以下海游泳吗？"
+                },
+                "description": {
+                    "ru": "Да. Температура воды у побережья Саньи обычно составляет от +23°C зимой до +29°C летом, поэтому купальный сезон продолжается практически весь год.",
+                    "en": "Yes. Sea temperatures around Sanya range from about 23°C in winter to 29°C in summer, making swimming possible throughout the year.",
+                    "zh-Hans": "可以。三亚海水全年温暖，冬季约23°C，夏季可达29°C，因此几乎全年都适合游泳。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Чем знаменит остров Хайнань?",
+                    "en": "What Is Hainan Famous For?",
+                    "zh-Hans": "海南因什么而闻名？"
+                },
+                "description": {
+                    "ru": "Хайнань известен белоснежными пляжами Саньи, бухтами Ялунвань и Дадунхай, островом Учжичжоу, парком Наньшань со статуей богини Гуаньинь, термальными источниками и современными оздоровительными курортами.",
+                    "en": "Hainan is famous for Sanya's white-sand beaches, Yalong Bay, Dadonghai, Wuzhizhou Island, Nanshan Park with the Guanyin statue, hot springs, and world-class wellness resorts.",
+                    "zh-Hans": "海南以三亚洁白沙滩、亚龙湾、大东海、蜈支洲岛、南山海上观音、天然温泉以及高品质康养度假村而闻名。"
+                }
+            }
+        ]
+    },
+    {
+        "id": "chengdu",
+        "slug": "chengdu",
+        "title": {
+            "ru": "Чэнду",
+            "en": "Chengdu",
+            "zh-Hans": "成都"
+        },
+        "description": {
+            "ru": "Столица провинции Сычуань, известная гигантскими пандами, богатой историей, традиционной кухней и уникальной культурой юго-западного Китая.",
+            "en": "The capital of Sichuan Province, famous for giant pandas, rich history, traditional cuisine, and the unique culture of southwest China.",
+            "zh-Hans": "成都是四川省省会，以大熊猫、悠久历史、川菜和独特的巴蜀文化闻名。"
+        },
+        "titleHeader": {
+            "ru": "Чэнду — столица панд и культурное сердце провинции Сычуань",
+            "en": "Chengdu — Home of the Giant Pandas and the Cultural Heart of Sichuan",
+            "zh-Hans": "成都——大熊猫的故乡与四川文化中心"
+        },
+        "destinationHeader": {
+            "ru": "Откройте для себя один из самых интересных городов Китая. Чэнду сочетает многовековую историю, знаменитую кухню, древние храмы, современные районы и уникальную возможность увидеть гигантских панд в естественной среде.",
+            "en": "Discover one of China's most fascinating cities. Chengdu combines centuries of history, world-famous cuisine, ancient temples, modern districts, and the unique opportunity to see giant pandas.",
+            "zh-Hans": "探索中国最具魅力的城市之一。成都融合了悠久历史、世界闻名的川菜、古老寺庙、现代都市与近距离观赏大熊猫的独特体验。"
+        },
+        "seo": {
+            "title": {
+                "ru": "Чэнду, Сычуань — достопримечательности, панды и путешествия по Китаю",
+                "en": "Chengdu, Sichuan — Attractions, Giant Pandas and Travel in China",
+                "zh-Hans": "成都，四川——景点、大熊猫与中国旅行"
+            },
+            "description": {
+                "ru": "Узнайте больше о Чэнду — столице провинции Сычуань. Центр разведения больших панд, древние храмы, знаменитая кухня и богатое культурное наследие.",
+                "en": "Discover Chengdu, the capital of Sichuan Province. Visit the Giant Panda Base, ancient temples, world-famous Sichuan cuisine, and cultural landmarks.",
+                "zh-Hans": "了解四川省会成都，参观大熊猫繁育基地、古老寺庙、体验正宗川菜和丰富的历史文化。"
+            },
+            "keywords": {
+                "ru": "Чэнду, Сычуань, панды, Китай, храм Ухоу, улица Цзиньли, путешествие по Китаю",
+                "en": "Chengdu, Sichuan, Giant Panda, China, Jinli Street, Wuhou Shrine",
+                "zh-Hans": "成都, 四川, 大熊猫, 中国旅游, 锦里, 武侯祠"
+            },
+            "type": "website"
+        },
+        "country": {
+            "ru": "Китай",
+            "en": "China",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "ru": "Чэнду",
+            "en": "Chengdu",
+            "zh-Hans": "成都"
+        },
+        "region": {
+            "ru": "Сычуань",
+            "en": "Sichuan",
+            "zh-Hans": "四川"
+        },
+        "coordinates": [
+            104.0665,
+            30.5728
+        ],
+        "image": "assets/images/destination/350x380.svg",
+        "images": [
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg"
+        ],
+        "rating": 4.9,
+        "views": 18400,
+        "featured": true,
+        "popular": true,
+        "content": {
+            "ru": "Чэнду — столица провинции Сычуань и один из самых комфортных для жизни городов Китая. Он известен как родина гигантских панд, центр традиционной сычуаньской кухни и важнейший культурный центр юго-западного Китая. Здесь гармонично сочетаются древние храмы, исторические кварталы, современные небоскребы и знаменитая неспешная атмосфера жизни.",
+            "en": "Chengdu, the capital of Sichuan Province, is one of China's most livable cities. It is famous as the home of the giant panda, the birthplace of authentic Sichuan cuisine, and the cultural heart of southwest China. Ancient temples, historic streets, modern skyscrapers, and a relaxed lifestyle coexist in perfect harmony.",
+            "zh-Hans": "成都是四川省省会，也是中国最宜居的城市之一。这里是大熊猫的故乡、正宗川菜的发源地，也是中国西南地区重要的文化中心。古老寺庙、历史街区、现代摩天大楼与悠闲的生活方式在这里完美融合。"
+        },
+        "contentSecond": {
+            "ru": "Сегодня Чэнду ежегодно принимает миллионы туристов, желающих увидеть больших панд, прогуляться по историческим улицам Цзиньли и Куаньчжай, посетить храм Ухоу и попробовать знаменитый сычуаньский хот-пот. Недалеко от города находятся ирригационная система Дуцзянъянь и гора Цинчэн, включенные в список Всемирного наследия ЮНЕСКО, а также уникальный музей древней цивилизации Саньсиндуй.",
+            "en": "Today, Chengdu welcomes millions of visitors every year who come to see giant pandas, stroll through Jinli Ancient Street and Kuanzhai Alleys, visit Wuhou Shrine, and enjoy authentic Sichuan hot pot. Nearby are the UNESCO World Heritage Site of Dujiangyan Irrigation System and Mount Qingcheng, as well as the remarkable Sanxingdui Museum.",
+            "zh-Hans": "如今，成都每年吸引数百万游客前来参观大熊猫繁育研究基地，漫步锦里古街和宽窄巷子，游览武侯祠，并品尝正宗四川火锅。距离市区不远还有世界文化遗产都江堰和青城山，以及著名的三星堆博物馆。"
+        },
+        "questions": [
+            {
+                "title": {
+                    "ru": "Когда лучше всего посещать Чэнду?",
+                    "en": "When Is the Best Time to Visit Chengdu?",
+                    "zh-Hans": "什么时候是游览成都的最佳时间？"
+                },
+                "description": {
+                    "ru": "Лучшее время для путешествия — весна (март–май) и осень (сентябрь–ноябрь), когда устанавливается комфортная температура и меньше осадков.",
+                    "en": "The best seasons to visit are spring (March–May) and autumn (September–November), when the weather is mild and pleasant.",
+                    "zh-Hans": "每年3月至5月和9月至11月是游览成都的最佳季节，气候舒适，降雨较少。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Сколько дней рекомендуется провести в Чэнду?",
+                    "en": "How Many Days Should I Spend in Chengdu?",
+                    "zh-Hans": "建议在成都停留几天？"
+                },
+                "description": {
+                    "ru": "Для знакомства с городом обычно достаточно 3–5 дней. Если планируются поездки в Дуцзянъянь, на гору Цинчэн или к другим достопримечательностям провинции Сычуань, стоит выделить 5–7 дней.",
+                    "en": "Three to five days are enough to explore the city, while five to seven days are recommended if you also plan excursions around Sichuan.",
+                    "zh-Hans": "游览成都市区通常需要3至5天，如计划前往都江堰、青城山等周边景点，建议安排5至7天。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Где можно увидеть больших панд?",
+                    "en": "Where Can I See Giant Pandas?",
+                    "zh-Hans": "在哪里可以看到大熊猫？"
+                },
+                "description": {
+                    "ru": "Самое известное место — Исследовательская база разведения больших панд в Чэнду. Лучше приезжать утром, когда животные наиболее активны.",
+                    "en": "The best place is the Chengdu Research Base of Giant Panda Breeding. Morning visits are recommended because the pandas are most active then.",
+                    "zh-Hans": "最著名的地点是成都大熊猫繁育研究基地。建议上午参观，因为熊猫在早晨最活跃。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Чем знаменит Чэнду?",
+                    "en": "What Is Chengdu Famous For?",
+                    "zh-Hans": "成都因什么而闻名？"
+                },
+                "description": {
+                    "ru": "Чэнду знаменит гигантскими пандами, кухней Сычуани, историческими кварталами Цзиньли и Куаньчжай, храмом Ухоу, чайными домами и расслабленным образом жизни.",
+                    "en": "Chengdu is famous for giant pandas, authentic Sichuan cuisine, Jinli Ancient Street, Kuanzhai Alleys, Wuhou Shrine, traditional tea houses, and its relaxed lifestyle.",
+                    "zh-Hans": "成都以大熊猫、正宗川菜、锦里古街、宽窄巷子、武侯祠、传统茶馆以及悠闲的生活方式闻名。"
+                }
+            }
+        ],
+        "facts": [
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Население",
+                    "en": "Population",
+                    "zh-Hans": "人口"
+                },
+                "value": {
+                    "ru": "Более 21 миллиона человек",
+                    "en": "More than 21 million people",
+                    "zh-Hans": "超过2100万人"
+                }
+            },
+            {
+                "icon": "pi pi-sun",
+                "title": {
+                    "ru": "Климат",
+                    "en": "Climate",
+                    "zh-Hans": "气候"
+                },
+                "value": {
+                    "ru": "Субтропический, мягкий",
+                    "en": "Humid subtropical",
+                    "zh-Hans": "亚热带湿润气候"
+                }
+            },
+            {
+                "icon": "pi pi-language",
+                "title": {
+                    "ru": "Основной язык",
+                    "en": "Primary Language",
+                    "zh-Hans": "主要语言"
+                },
+                "value": {
+                    "ru": "Китайский (путунхуа)",
+                    "en": "Chinese (Mandarin)",
+                    "zh-Hans": "普通话"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Лучшее время для посещения",
+                    "en": "Best Time to Visit",
+                    "zh-Hans": "最佳旅游时间"
+                },
+                "value": {
+                    "ru": "Март — май и сентябрь — ноябрь",
+                    "en": "March–May and September–November",
+                    "zh-Hans": "3月至5月、9月至11月"
+                }
+            }
+        ],
+        "locations": [
+            {
+                "name": {
+                    "ru": "Исследовательская база разведения больших панд",
+                    "en": "Chengdu Research Base of Giant Panda Breeding",
+                    "zh-Hans": "成都大熊猫繁育研究基地"
+                },
+                "coordinates": [
+                    104.1515,
+                    30.7338
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Историческая улица Цзиньли",
+                    "en": "Jinli Ancient Street",
+                    "zh-Hans": "锦里古街"
+                },
+                "coordinates": [
+                    104.0497,
+                    30.6505
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Храм Ухоу",
+                    "en": "Wuhou Shrine",
+                    "zh-Hans": "武侯祠"
+                },
+                "coordinates": [
+                    104.0489,
+                    30.6508
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Широкая и Узкая аллеи (Куаньчжай)",
+                    "en": "Kuanzhai Alleys",
+                    "zh-Hans": "宽窄巷子"
+                },
+                "coordinates": [
+                    104.0556,
+                    30.6677
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Площадь Тяньфу",
+                    "en": "Tianfu Square",
+                    "zh-Hans": "天府广场"
+                },
+                "coordinates": [
+                    104.0668,
+                    30.6572
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Монастырь Вэньшу",
+                    "en": "Wenshu Monastery",
+                    "zh-Hans": "文殊院"
+                },
+                "coordinates": [
+                    104.0727,
+                    30.6779
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Народный парк Чэнду",
+                    "en": "Chengdu People's Park",
+                    "zh-Hans": "成都人民公园"
+                },
+                "coordinates": [
+                    104.0583,
+                    30.6638
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Музей Саньсиндуй",
+                    "en": "Sanxingdui Museum",
+                    "zh-Hans": "三星堆博物馆"
+                },
+                "coordinates": [
+                    104.2819,
+                    30.9934
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Ирригационная система Дуцзянъянь",
+                    "en": "Dujiangyan Irrigation System",
+                    "zh-Hans": "都江堰"
+                },
+                "coordinates": [
+                    103.6146,
+                    31.0012
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Гора Цинчэн",
+                    "en": "Mount Qingcheng",
+                    "zh-Hans": "青城山"
+                },
+                "coordinates": [
+                    103.5674,
+                    30.9048
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "ru": "Сычуань",
+                "en": "Sichuan",
+                "zh-Hans": "四川"
+            },
+            {
+                "ru": "Панды",
+                "en": "Giant Pandas",
+                "zh-Hans": "大熊猫"
+            },
+            {
+                "ru": "Чэнду",
+                "en": "Chengdu",
+                "zh-Hans": "成都"
+            },
+            {
+                "ru": "Кухня Сычуани",
+                "en": "Sichuan Cuisine",
+                "zh-Hans": "川菜"
+            },
+            {
+                "ru": "История Китая",
+                "en": "Chinese History",
+                "zh-Hans": "中国历史"
+            },
+            {
+                "ru": "Путешествие по Китаю",
+                "en": "Travel in China",
+                "zh-Hans": "中国旅游"
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "Исследовательская база больших панд",
+                "en": "Chengdu Research Base of Giant Panda Breeding",
+                "zh-Hans": "成都大熊猫繁育研究基地"
+            },
+            {
+                "ru": "Историческая улица Цзиньли",
+                "en": "Jinli Ancient Street",
+                "zh-Hans": "锦里古街"
+            },
+            {
+                "ru": "Храм Ухоу",
+                "en": "Wuhou Shrine",
+                "zh-Hans": "武侯祠"
+            },
+            {
+                "ru": "Широкая и Узкая аллеи",
+                "en": "Kuanzhai Alleys",
+                "zh-Hans": "宽窄巷子"
+            },
+            {
+                "ru": "Настоящая кухня Сычуани",
+                "en": "Authentic Sichuan Cuisine",
+                "zh-Hans": "正宗川菜"
+            },
+            {
+                "ru": "Чайные дома и традиционная культура",
+                "en": "Traditional Tea Houses",
+                "zh-Hans": "传统茶馆"
+            },
+            {
+                "ru": "Современный мегаполис с древней историей",
+                "en": "Modern City with Ancient Heritage",
+                "zh-Hans": "现代都市与历史文化"
+            },
+            {
+                "ru": "Одно из самых популярных направлений Китая",
+                "en": "One of China's Top Destinations",
+                "zh-Hans": "中国最受欢迎的旅游城市之一"
+            }
+        ]
+    },
+    {
+        "id": "shenzhen",
+        "slug": "shenzhen",
+        "title": {
+            "ru": "Шэньчжэнь",
+            "en": "Shenzhen",
+            "zh-Hans": "深圳"
+        },
+        "description": {
+            "ru": "Современный мегаполис на юге Китая, известный своими небоскрёбами, технологическими компаниями, парками развлечений, морским побережьем и близостью к Гонконгу.",
+            "en": "A modern metropolis in southern China, famous for its skyscrapers, technology companies, theme parks, coastal scenery, and proximity to Hong Kong.",
+            "zh-Hans": "深圳是中国南方的现代化都市，以摩天大楼、高科技产业、主题公园、海滨风光和毗邻香港而闻名。"
+        },
+        "titleHeader": {
+            "ru": "Шэньчжэнь — инновационная столица Китая",
+            "en": "Shenzhen — China's Innovation Capital",
+            "zh-Hans": "深圳——中国创新之都"
+        },
+        "destinationHeader": {
+            "ru": "Познакомьтесь с одним из самых современных городов Азии. Шэньчжэнь сочетает ультрасовременную архитектуру, ведущие мировые технологические компании, зеленые парки, песчаные пляжи и насыщенную культурную жизнь.",
+            "en": "Discover one of Asia's most modern cities. Shenzhen combines futuristic architecture, world-leading technology companies, beautiful parks, sandy beaches, and a vibrant cultural scene.",
+            "zh-Hans": "探索亚洲最现代化的城市之一。深圳融合了未来感建筑、世界领先的科技企业、优美的公园、海滩以及丰富的文化生活。"
+        },
+        "seo": {
+            "title": {
+                "ru": "Шэньчжэнь, Гуандун — достопримечательности и путешествия по Китаю",
+                "en": "Shenzhen, Guangdong — Attractions and Travel in China",
+                "zh-Hans": "深圳，广东——景点与中国旅游"
+            },
+            "description": {
+                "ru": "Узнайте больше о Шэньчжэне — современном городе Китая, где находятся крупнейшие технологические компании, парки развлечений, небоскрёбы и живописное морское побережье.",
+                "en": "Discover Shenzhen, China's modern innovation hub with world-famous technology companies, theme parks, skyscrapers, and beautiful coastline.",
+                "zh-Hans": "了解深圳——中国现代科技中心，拥有世界知名企业、主题公园、摩天大楼和美丽海岸线。"
+            },
+            "keywords": {
+                "ru": "Шэньчжэнь, Гуандун, Китай, технологии, небоскрёбы, путешествие по Китаю",
+                "en": "Shenzhen, Guangdong, China, technology, skyscrapers, travel",
+                "zh-Hans": "深圳, 广东, 中国, 科技, 摩天大楼, 中国旅游"
+            },
+            "type": "website"
+        },
+        "country": {
+            "ru": "Китай",
+            "en": "China",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "ru": "Шэньчжэнь",
+            "en": "Shenzhen",
+            "zh-Hans": "深圳"
+        },
+        "region": {
+            "ru": "Гуандун",
+            "en": "Guangdong",
+            "zh-Hans": "广东"
+        },
+        "coordinates": [
+            114.0579,
+            22.5431
+        ],
+        "image": "assets/images/destination/350x380.svg",
+        "images": [
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg"
+        ],
+        "rating": 4.9,
+        "views": 18400,
+        "featured": true,
+        "popular": true,
+        "content": {
+            "ru": "Шэньчжэнь — один из самых молодых и быстроразвивающихся мегаполисов Китая, расположенный на побережье Южно-Китайского моря рядом с Гонконгом. Всего за несколько десятилетий небольшой рыбацкий поселок превратился в мировой центр высоких технологий, инноваций и современного городского развития. Сегодня здесь находятся штаб-квартиры крупнейших китайских компаний, футуристические небоскрёбы, современные торговые районы и многочисленные парки.",
+            "en": "Shenzhen is one of China's youngest and fastest-growing megacities, located on the coast of the South China Sea next to Hong Kong. In just a few decades, it transformed from a small fishing village into a global center of technology, innovation, and modern urban development. Today, the city is home to the headquarters of China's leading technology companies, futuristic skyscrapers, modern shopping districts, and beautiful parks.",
+            "zh-Hans": "深圳位于中国南海之滨，毗邻香港，是中国最年轻、发展最快的现代化大都市之一。短短几十年间，这座昔日的小渔村已发展成为全球科技创新中心，拥有众多世界知名科技企业总部、现代化摩天大楼、繁华商业区以及优美的城市公园。"
+        },
+        "contentSecond": {
+            "ru": "Сегодня Шэньчжэнь привлекает путешественников современными небоскрёбами, панорамными смотровыми площадками, тематическими парками Window of the World и Splendid China Folk Village, морским побережьем Дамэйша и Сяомэйша, а также многочисленными музеями и культурными пространствами. Благодаря удобному транспортному сообщению отсюда легко отправиться в Гонконг, Макао или другие города региона Большого залива.",
+            "en": "Today, Shenzhen attracts visitors with its impressive skyline, observation decks, theme parks such as Window of the World and Splendid China Folk Village, the beaches of Dameisha and Xiaomeisha, and a growing number of museums and cultural venues. Excellent transport connections also make it easy to travel to Hong Kong, Macau, and other cities in the Greater Bay Area.",
+            "zh-Hans": "如今，深圳以现代化天际线、观景平台、世界之窗、锦绣中华民俗村、大梅沙和小梅沙海滩，以及丰富的博物馆和文化设施吸引着来自世界各地的游客。便捷的交通网络还可轻松前往香港、澳门及粤港澳大湾区其他城市。"
+        },
+        "questions": [
+            {
+                "title": {
+                    "ru": "Когда лучше всего посещать Шэньчжэнь?",
+                    "en": "When Is the Best Time to Visit Shenzhen?",
+                    "zh-Hans": "什么时候是游览深圳的最佳时间？"
+                },
+                "description": {
+                    "ru": "Наиболее комфортный период — с октября по апрель, когда стоит тёплая погода с невысокой влажностью. Летом климат жаркий и влажный.",
+                    "en": "The best time to visit is from October to April, when the weather is warm with lower humidity. Summers are hot and humid.",
+                    "zh-Hans": "每年10月至次年4月气候最舒适，天气温暖且湿度较低；夏季炎热潮湿。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Сколько дней рекомендуется провести в Шэньчжэне?",
+                    "en": "How Many Days Should I Spend in Shenzhen?",
+                    "zh-Hans": "建议在深圳停留几天？"
+                },
+                "description": {
+                    "ru": "Для знакомства с основными достопримечательностями обычно достаточно 2–4 дней. Если вы планируете поездку в Гонконг или посещение нескольких тематических парков, стоит выделить 5–6 дней.",
+                    "en": "Two to four days are enough to explore the city's highlights. If you also plan to visit Hong Kong or several theme parks, allow five to six days.",
+                    "zh-Hans": "游览深圳主要景点通常需要2至4天，如计划前往香港或多个主题公园，建议安排5至6天。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Чем знаменит Шэньчжэнь?",
+                    "en": "What Is Shenzhen Famous For?",
+                    "zh-Hans": "深圳因什么而闻名？"
+                },
+                "description": {
+                    "ru": "Шэньчжэнь известен как центр китайских технологий и инноваций, современными небоскрёбами, парками развлечений, красивыми пляжами и удобным расположением рядом с Гонконгом.",
+                    "en": "Shenzhen is famous for its technology industry, modern skyline, theme parks, beautiful beaches, and its close proximity to Hong Kong.",
+                    "zh-Hans": "深圳以科技创新产业、现代化摩天大楼、主题公园、优美海滩以及毗邻香港而闻名。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Можно ли посетить Гонконг из Шэньчжэня?",
+                    "en": "Can I Visit Hong Kong from Shenzhen?",
+                    "zh-Hans": "可以从深圳前往香港吗？"
+                },
+                "description": {
+                    "ru": "Да. Между городами действует развитое железнодорожное сообщение и несколько пограничных переходов. Для поездки необходимо соблюдать актуальные визовые и иммиграционные требования.",
+                    "en": "Yes. Shenzhen and Hong Kong are connected by high-speed rail, metro, and several border crossings. Be sure to check current visa and immigration requirements before traveling.",
+                    "zh-Hans": "可以。深圳与香港之间拥有高速铁路、地铁及多个口岸连接，但出行前请确认最新的签证及入境要求。"
+                }
+            }
+        ],
+        "facts": [
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Население"
+                },
+                "value": {
+                    "ru": "Около 18 миллионов человек"
+                }
+            },
+            {
+                "icon": "pi pi-sun",
+                "title": {
+                    "ru": "Климат"
+                },
+                "value": {
+                    "ru": "Субтропический"
+                }
+            },
+            {
+                "icon": "pi pi-language",
+                "title": {
+                    "ru": "Основной язык"
+                },
+                "value": {
+                    "ru": "Китайский (путунхуа)"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Лучшее время для посещения"
+                },
+                "value": {
+                    "ru": "Октябрь — апрель"
+                }
+            }
+        ],
+        "locations": [
+            {
+                "name": {
+                    "ru": "Ping An Finance Centre"
+                },
+                "coordinates": [
+                    114.0555,
+                    22.5333
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Window of the World"
+                },
+                "coordinates": [
+                    113.9734,
+                    22.5370
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Splendid China Folk Village"
+                },
+                "coordinates": [
+                    113.9721,
+                    22.5360
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Древний город Наньтоу"
+                },
+                "coordinates": [
+                    113.9288,
+                    22.5335
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Парк Ляньхуашань"
+                },
+                "coordinates": [
+                    114.0505,
+                    22.5538
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Пляж Дамэйша"
+                },
+                "coordinates": [
+                    114.3175,
+                    22.6020
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Пляж Сяомэйша"
+                },
+                "coordinates": [
+                    114.3338,
+                    22.6035
+                ]
+            },
+            {
+                "name": {
+                    "ru": "OCT Harbour"
+                },
+                "coordinates": [
+                    113.9843,
+                    22.5305
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Шэньчжэньский музей"
+                },
+                "coordinates": [
+                    114.0572,
+                    22.5439
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Парк OCT East"
+                },
+                "coordinates": [
+                    114.3068,
+                    22.6297
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "ru": "Шэньчжэнь",
+                "en": "Shenzhen",
+                "zh-Hans": "深圳"
+            },
+            {
+                "ru": "Гуандун",
+                "en": "Guangdong",
+                "zh-Hans": "广东"
+            },
+            {
+                "ru": "Технологии",
+                "en": "Technology",
+                "zh-Hans": "科技"
+            },
+            {
+                "ru": "Небоскрёбы",
+                "en": "Skyscrapers",
+                "zh-Hans": "摩天大楼"
+            },
+            {
+                "ru": "Пляжи",
+                "en": "Beaches",
+                "zh-Hans": "海滩"
+            },
+            {
+                "ru": "Гонконг",
+                "en": "Hong Kong",
+                "zh-Hans": "香港"
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "Небоскрёб Ping An Finance Centre"
+            },
+            {
+                "ru": "Парк Window of the World"
+            },
+            {
+                "ru": "Древний город Наньтоу"
+            },
+            {
+                "ru": "Морское побережье Дамэйша"
+            },
+            {
+                "ru": "Парк OCT East"
+            },
+            {
+                "ru": "Высокотехнологичный центр Китая"
+            },
+            {
+                "ru": "Современная архитектура"
+            },
+            {
+                "ru": "Удобный доступ в Гонконг"
+            }
+        ]
+    },
+    {
+        "id": "guangzhou",
+        "slug": "guangzhou",
+        "title": {
+            "ru": "Гуанчжоу",
+            "en": "Guangzhou",
+            "zh-Hans": "广州"
+        },
+        "description": {
+            "ru": "Столица провинции Гуандун — один из крупнейших городов Китая, известный своей многовековой историей, кантонской кухней, современной архитектурой и международной торговлей.",
+            "en": "The capital of Guangdong Province, one of China's largest cities, famous for its long history, Cantonese cuisine, modern architecture, and international trade.",
+            "zh-Hans": "广州是广东省省会，以悠久历史、粤菜、现代建筑和国际商贸闻名。"
+        },
+        "titleHeader": {
+            "ru": "Гуанчжоу — исторический и деловой центр южного Китая",
+            "en": "Guangzhou — The Historic and Business Center of Southern China",
+            "zh-Hans": "广州——中国南方的历史与商业中心"
+        },
+        "destinationHeader": {
+            "ru": "Откройте для себя один из древнейших городов Китая. Гуанчжоу объединяет богатое культурное наследие, знаменитую кантонскую кухню, современные небоскрёбы, живописные набережные и крупнейшие международные выставки.",
+            "en": "Discover one of China's oldest cities. Guangzhou combines rich cultural heritage, world-famous Cantonese cuisine, modern skyscrapers, scenic riverside views, and major international exhibitions.",
+            "zh-Hans": "探索中国历史最悠久的城市之一。广州融合了深厚的文化底蕴、世界闻名的粤菜、现代摩天大楼以及繁荣的国际商贸。"
+        },
+        "seo": {
+            "title": {
+                "ru": "Гуанчжоу, Гуандун — достопримечательности и путешествия по Китаю",
+                "en": "Guangzhou, Guangdong — Attractions and Travel in China",
+                "zh-Hans": "广州，广东——景点与中国旅游"
+            },
+            "description": {
+                "ru": "Узнайте больше о Гуанчжоу — крупнейшем городе южного Китая. История, кантонская кухня, современные районы и знаменитая Кантонская башня.",
+                "en": "Discover Guangzhou, southern China's largest city, famous for Cantonese cuisine, history, modern architecture, and the Canton Tower.",
+                "zh-Hans": "了解广州——中国南方最大的城市，以粤菜、历史文化和广州塔闻名。"
+            },
+            "keywords": {
+                "ru": "Гуанчжоу, Гуандун, Китай, кантонская кухня, Canton Tower, путешествие по Китаю",
+                "en": "Guangzhou, Guangdong, China, Canton Tower, Cantonese cuisine",
+                "zh-Hans": "广州, 广东, 中国, 广州塔, 粤菜"
+            },
+            "type": "website"
+        },
+        "country": {
+            "ru": "Китай"
+        },
+        "city": {
+            "ru": "Гуанчжоу"
+        },
+        "region": {
+            "ru": "Гуандун"
+        },
+        "coordinates": [
+            113.2644,
+            23.1291
+        ],
+        "image": "assets/images/destination/350x380.svg",
+        "images": [
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg"
+        ],
+        "rating": 4.9,
+        "views": 18400,
+        "featured": true,
+        "popular": true,
+        "content": {
+            "ru": "Гуанчжоу — столица провинции Гуандун и один из старейших городов Китая с более чем двухтысячелетней историей. На протяжении веков он был важнейшим морским портом и отправной точкой Морского Шёлкового пути, а сегодня остается крупнейшим экономическим, торговым и культурным центром южного Китая. Здесь гармонично сочетаются древние храмы, исторические кварталы, современные небоскрёбы и оживлённые торговые районы.",
+            "en": "Guangzhou, the capital of Guangdong Province, is one of China's oldest cities with a history spanning more than 2,000 years. For centuries it served as a major seaport and an important gateway of the Maritime Silk Road. Today it remains the economic, commercial, and cultural center of southern China, where ancient temples, historic neighborhoods, modern skyscrapers, and vibrant shopping districts coexist.",
+            "zh-Hans": "广州是广东省省会，拥有两千多年的悠久历史。作为海上丝绸之路的重要起点和中国最重要的港口城市之一，广州至今仍是华南地区的经济、商贸和文化中心。这里既有古老寺庙和历史街区，也有现代化摩天大楼和繁华商业区。"
+        },
+        "contentSecond": {
+            "ru": "Сегодня Гуанчжоу привлекает путешественников знаменитой Кантонской башней, историческим островом Шамянь, храмом семьи Чэнь, живописной Жемчужной рекой и традиционной кантонской кухней, считающейся одной из лучших в Китае. Город также известен крупнейшей в Азии Кантонской ярмаркой, многочисленными музеями, современными архитектурными проектами и удобным транспортным сообщением с Шэньчжэнем, Гонконгом и Макао.",
+            "en": "Today, Guangzhou attracts visitors with the iconic Canton Tower, historic Shamian Island, Chen Clan Ancestral Hall, scenic Pearl River, and authentic Cantonese cuisine, regarded as one of China's finest culinary traditions. The city is also famous for the Canton Fair, one of Asia's largest trade exhibitions, as well as its museums, striking modern architecture, and excellent transport connections to Shenzhen, Hong Kong, and Macau.",
+            "zh-Hans": "如今，广州以广州塔、沙面岛、陈家祠、珠江夜景以及享誉世界的粤菜吸引着来自全球的游客。这里还是广交会举办地，拥有众多博物馆、现代建筑，并与深圳、香港和澳门之间交通十分便利。"
+        },
+        "questions": [
+            {
+                "title": {
+                    "ru": "Когда лучше всего посещать Гуанчжоу?",
+                    "en": "When Is the Best Time to Visit Guangzhou?",
+                    "zh-Hans": "什么时候是游览广州的最佳时间？"
+                },
+                "description": {
+                    "ru": "Самое комфортное время для поездки — с октября по декабрь, когда устанавливается тёплая и сухая погода. Весна также подходит для путешествий, хотя возможны дожди.",
+                    "en": "The best time to visit is from October to December, when the weather is warm and dry. Spring is also pleasant, although rain is more common.",
+                    "zh-Hans": "每年10月至12月是游览广州最舒适的季节，天气温暖干爽；春季也适合旅行，但降雨较多。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Сколько дней рекомендуется провести в Гуанчжоу?",
+                    "en": "How Many Days Should I Spend in Guangzhou?",
+                    "zh-Hans": "建议在广州停留几天？"
+                },
+                "description": {
+                    "ru": "Для знакомства с основными достопримечательностями обычно достаточно 2–4 дней. Если вы планируете посещение Кантонской ярмарки или поездки в соседние города, рекомендуется выделить 5–6 дней.",
+                    "en": "Two to four days are enough to explore the city's main attractions. If you plan to attend the Canton Fair or visit nearby cities, consider staying five to six days.",
+                    "zh-Hans": "游览广州主要景点通常需要2至4天，如计划参加广交会或前往周边城市，建议安排5至6天。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Чем знаменит Гуанчжоу?",
+                    "en": "What Is Guangzhou Famous For?",
+                    "zh-Hans": "广州因什么而闻名？"
+                },
+                "description": {
+                    "ru": "Гуанчжоу известен кантонской кухней, Кантонской башней, богатой историей, Жемчужной рекой, крупнейшей торговой выставкой Canton Fair и статусом одного из важнейших деловых центров Китая.",
+                    "en": "Guangzhou is famous for Cantonese cuisine, the Canton Tower, its rich history, the Pearl River, the world-renowned Canton Fair, and its role as one of China's leading business hubs.",
+                    "zh-Hans": "广州以粤菜、广州塔、悠久历史、珠江、广交会以及中国重要商业中心的地位而闻名。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Стоит ли отправляться в круиз по Жемчужной реке?",
+                    "en": "Is a Pearl River Cruise Worth It?",
+                    "zh-Hans": "值得乘船游览珠江吗？"
+                },
+                "description": {
+                    "ru": "Да. Вечерние круизы позволяют увидеть современный центр Гуанчжоу, Кантонскую башню и городскую панораму в красивой ночной подсветке.",
+                    "en": "Absolutely. Evening cruises offer spectacular views of Guangzhou's skyline, the illuminated Canton Tower, and the city's waterfront.",
+                    "zh-Hans": "非常值得。夜游珠江可以欣赏广州现代天际线、广州塔以及璀璨的城市夜景。"
+                }
+            }
+        ],
+        "facts": [
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Население",
+                    "en": "Population",
+                    "zh-Hans": "人口"
+                },
+                "value": {
+                    "ru": "Более 18 миллионов человек",
+                    "en": "More than 18 million people",
+                    "zh-Hans": "超过1800万人"
+                }
+            },
+            {
+                "icon": "pi pi-sun",
+                "title": {
+                    "ru": "Климат",
+                    "en": "Climate",
+                    "zh-Hans": "气候"
+                },
+                "value": {
+                    "ru": "Субтропический",
+                    "en": "Humid Subtropical",
+                    "zh-Hans": "亚热带湿润气候"
+                }
+            },
+            {
+                "icon": "pi pi-language",
+                "title": {
+                    "ru": "Основной язык",
+                    "en": "Primary Language",
+                    "zh-Hans": "主要语言"
+                },
+                "value": {
+                    "ru": "Китайский (путунхуа), кантонский",
+                    "en": "Chinese (Mandarin), Cantonese",
+                    "zh-Hans": "普通话、粤语"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Лучшее время для посещения",
+                    "en": "Best Time to Visit",
+                    "zh-Hans": "最佳旅游时间"
+                },
+                "value": {
+                    "ru": "Октябрь — декабрь",
+                    "en": "October–December",
+                    "zh-Hans": "10月至12月"
+                }
+            }
+        ],
+        "locations": [
+            {
+                "name": {
+                    "ru": "Кантонская башня",
+                    "en": "Canton Tower",
+                    "zh-Hans": "广州塔"
+                },
+                "coordinates": [
+                    113.3307,
+                    23.1122
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Остров Шамянь",
+                    "en": "Shamian Island",
+                    "zh-Hans": "沙面岛"
+                },
+                "coordinates": [
+                    113.2388,
+                    23.1088
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Храм семьи Чэнь",
+                    "en": "Chen Clan Ancestral Hall",
+                    "zh-Hans": "陈家祠"
+                },
+                "coordinates": [
+                    113.2448,
+                    23.1254
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Гора Байюнь",
+                    "en": "Baiyun Mountain",
+                    "zh-Hans": "白云山"
+                },
+                "coordinates": [
+                    113.2962,
+                    23.1887
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Парк Юэсю",
+                    "en": "Yuexiu Park",
+                    "zh-Hans": "越秀公园"
+                },
+                "coordinates": [
+                    113.2646,
+                    23.1469
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Мавзолей царя Наньюэ",
+                    "en": "Museum of the Mausoleum of the Nanyue King",
+                    "zh-Hans": "南越王博物院"
+                },
+                "coordinates": [
+                    113.2573,
+                    23.1373
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Пешеходная улица Бэйцзин Лу",
+                    "en": "Beijing Road Pedestrian Street",
+                    "zh-Hans": "北京路步行街"
+                },
+                "coordinates": [
+                    113.2696,
+                    23.1298
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Жемчужная река",
+                    "en": "Pearl River",
+                    "zh-Hans": "珠江"
+                },
+                "coordinates": [
+                    113.2744,
+                    23.1115
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Международный выставочный комплекс Canton Fair",
+                    "en": "Canton Fair Complex",
+                    "zh-Hans": "广交会展馆"
+                },
+                "coordinates": [
+                    113.3668,
+                    23.1033
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Оперный театр Гуанчжоу",
+                    "en": "Guangzhou Opera House",
+                    "zh-Hans": "广州大剧院"
+                },
+                "coordinates": [
+                    113.3245,
+                    23.1170
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "ru": "Гуанчжоу",
+                "en": "Guangzhou",
+                "zh-Hans": "广州"
+            },
+            {
+                "ru": "Гуандун",
+                "en": "Guangdong",
+                "zh-Hans": "广东"
+            },
+            {
+                "ru": "Кантонская кухня",
+                "en": "Cantonese Cuisine",
+                "zh-Hans": "粤菜"
+            },
+            {
+                "ru": "История Китая",
+                "en": "Chinese History",
+                "zh-Hans": "中国历史"
+            },
+            {
+                "ru": "Международная торговля",
+                "en": "International Trade",
+                "zh-Hans": "国际贸易"
+            },
+            {
+                "ru": "Кантонская башня",
+                "en": "Canton Tower",
+                "zh-Hans": "广州塔"
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "Кантонская башня",
+                "en": "Canton Tower",
+                "zh-Hans": "广州塔"
+            },
+            {
+                "ru": "Остров Шамянь",
+                "en": "Shamian Island",
+                "zh-Hans": "沙面岛"
+            },
+            {
+                "ru": "Храм семьи Чэнь",
+                "en": "Chen Clan Ancestral Hall",
+                "zh-Hans": "陈家祠"
+            },
+            {
+                "ru": "Гора Байюнь",
+                "en": "Baiyun Mountain",
+                "zh-Hans": "白云山"
+            },
+            {
+                "ru": "Круизы по Жемчужной реке",
+                "en": "Pearl River Cruises",
+                "zh-Hans": "珠江游船"
+            },
+            {
+                "ru": "Традиционная кантонская кухня",
+                "en": "Authentic Cantonese Cuisine",
+                "zh-Hans": "正宗粤菜"
+            },
+            {
+                "ru": "Кантонская ярмарка",
+                "en": "Canton Fair",
+                "zh-Hans": "中国进出口商品交易会（广交会）"
+            },
+            {
+                "ru": "Один из крупнейших торговых центров Азии",
+                "en": "One of Asia's Largest Commercial Hubs",
+                "zh-Hans": "亚洲最大的商业中心之一"
+            }
+        ]
+    },
+    {
+        "id": "beijing",
+        "slug": "beijing",
+        "title": {
+            "ru": "Пекин",
+            "en": "Beijing",
+            "zh-Hans": "北京"
+        },
+        "description": {
+            "ru": "Столица Китая, где многовековая история гармонично сочетается с современной архитектурой. Пекин известен императорскими дворцами, храмами, Великой Китайской стеной и богатым культурным наследием.",
+            "en": "The capital of China, where centuries of history blend with modern architecture. Beijing is famous for its imperial palaces, temples, the Great Wall, and rich cultural heritage.",
+            "zh-Hans": "北京是中国首都，以故宫、长城、皇家园林和悠久的历史文化闻名于世。"
+        },
+        "titleHeader": {
+            "ru": "Пекин — сердце истории и культуры Китая",
+            "en": "Beijing — The Heart of China's History and Culture",
+            "zh-Hans": "北京——中国历史与文化的中心"
+        },
+        "destinationHeader": {
+            "ru": "Познакомьтесь со столицей Китая — городом, где расположены самые известные исторические памятники страны. Здесь древние императорские дворцы соседствуют с современными кварталами, а традиции органично переплетаются с динамичной жизнью мегаполиса.",
+            "en": "Explore China's capital, home to the country's most iconic historical landmarks. Ancient imperial palaces stand alongside modern districts, where tradition meets the vibrant rhythm of a global metropolis.",
+            "zh-Hans": "探索中国首都北京，这里拥有中国最具代表性的历史古迹。古老的皇家宫殿与现代都市交相辉映，传统文化与现代生活完美融合。"
+        },
+        "seo": {
+            "title": {
+                "ru": "Пекин — достопримечательности, Великая Китайская стена и путешествия по Китаю",
+                "en": "Beijing — Attractions, Great Wall and Travel in China",
+                "zh-Hans": "北京——长城、景点与中国旅游"
+            },
+            "description": {
+                "ru": "Откройте для себя Пекин — столицу Китая, где находятся Запретный город, площадь Тяньаньмэнь, Великая Китайская стена, Храм Неба и Летний дворец.",
+                "en": "Discover Beijing, China's capital, home to the Forbidden City, Tiananmen Square, the Great Wall, the Temple of Heaven, and the Summer Palace.",
+                "zh-Hans": "探索北京，参观故宫、天安门广场、长城、天坛和颐和园等世界著名景点。"
+            },
+            "keywords": {
+                "ru": "Пекин, Китай, Великая Китайская стена, Запретный город, Храм Неба, путешествие",
+                "en": "Beijing, Great Wall, Forbidden City, Temple of Heaven, China travel",
+                "zh-Hans": "北京, 长城, 故宫, 天坛, 中国旅游"
+            },
+            "type": "website"
+        },
+        "country": {
+            "ru": "Китай",
+            "en": "China",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "ru": "Пекин",
+            "en": "Beijing",
+            "zh-Hans": "北京"
+        },
+        "region": {
+            "ru": "Пекин",
+            "en": "Beijing Municipality",
+            "zh-Hans": "北京市"
+        },
+        "coordinates": [
+            116.4074,
+            39.9042
+        ],
+        "image": "assets/images/destination/350x380.svg",
+        "images": [
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg"
+        ],
+        "rating": 4.9,
+        "views": 18400,
+        "featured": true,
+        "popular": true,
+        "content": {
+            "ru": "Пекин — столица Китайской Народной Республики и один из древнейших городов мира с историей более трёх тысяч лет. На протяжении веков город служил столицей нескольких китайских династий и стал политическим, культурным и историческим центром страны. Сегодня Пекин сочетает величественные императорские дворцы, древние храмы, современные деловые районы и одну из самых развитых транспортных систем Азии.",
+            "en": "Beijing, the capital of the People's Republic of China, is one of the world's oldest cities with a history spanning more than 3,000 years. For centuries it served as the capital of several Chinese dynasties and remains the political, cultural, and historical center of the country. Today, Beijing combines magnificent imperial palaces, ancient temples, modern business districts, and one of Asia's most advanced transportation systems.",
+            "zh-Hans": "北京是中华人民共和国首都，也是世界上历史最悠久的城市之一，拥有三千多年的历史。数百年来，北京一直是多个朝代的都城，如今仍是中国的政治、文化和历史中心。这里汇集了皇家宫殿、古老寺庙、现代商务区以及亚洲最发达的交通网络之一。"
+        },
+        "contentSecond": {
+            "ru": "Сегодня Пекин ежегодно принимает миллионы туристов, приезжающих увидеть Запретный город, площадь Тяньаньмэнь, Храм Неба, Летний дворец и Великую Китайскую стену. Город также известен традиционной пекинской кухней, музеями мирового уровня, Олимпийским парком и оживлёнными торговыми улицами, где древние традиции гармонично сочетаются с современной жизнью мегаполиса.",
+            "en": "Today, Beijing welcomes millions of visitors each year who come to explore the Forbidden City, Tiananmen Square, the Temple of Heaven, the Summer Palace, and the Great Wall of China. The city is also renowned for its authentic Peking cuisine, world-class museums, the Olympic Park, and lively shopping streets where ancient traditions blend seamlessly with modern urban life.",
+            "zh-Hans": "如今，北京每年吸引数百万游客前来参观故宫、天安门广场、天坛、颐和园以及举世闻名的长城。这里还以正宗北京美食、世界级博物馆、奥林匹克公园以及充满活力的商业街而闻名，传统文化与现代都市生活完美融合。"
+        },
+        "questions": [
+            {
+                "title": {
+                    "ru": "Когда лучше всего посещать Пекин?",
+                    "en": "When Is the Best Time to Visit Beijing?",
+                    "zh-Hans": "什么时候是游览北京的最佳时间？"
+                },
+                "description": {
+                    "ru": "Лучшее время для путешествия — апрель–май и сентябрь–октябрь, когда стоит комфортная температура и ясная погода.",
+                    "en": "The best time to visit is from April to May and September to October, when the weather is mild and pleasant.",
+                    "zh-Hans": "每年4月至5月以及9月至10月是游览北京的最佳季节，气候舒适，天气晴朗。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Сколько дней рекомендуется провести в Пекине?",
+                    "en": "How Many Days Should I Spend in Beijing?",
+                    "zh-Hans": "建议在北京停留几天？"
+                },
+                "description": {
+                    "ru": "Для знакомства с основными достопримечательностями рекомендуется выделить 3–5 дней. Если планируется посещение нескольких участков Великой Китайской стены и музеев, лучше остаться на 5–7 дней.",
+                    "en": "Three to five days are recommended for the city's main attractions. Five to seven days are ideal if you also plan to visit different sections of the Great Wall and museums.",
+                    "zh-Hans": "游览北京主要景点通常需要3至5天，如计划参观多个长城景区和博物馆，建议安排5至7天。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Чем знаменит Пекин?",
+                    "en": "What Is Beijing Famous For?",
+                    "zh-Hans": "北京因什么而闻名？"
+                },
+                "description": {
+                    "ru": "Пекин знаменит Великой Китайской стеной, Запретным городом, площадью Тяньаньмэнь, Храмом Неба, Летним дворцом и богатым историческим наследием.",
+                    "en": "Beijing is famous for the Great Wall of China, the Forbidden City, Tiananmen Square, the Temple of Heaven, the Summer Palace, and its rich imperial heritage.",
+                    "zh-Hans": "北京以长城、故宫、天安门广场、天坛、颐和园以及丰富的皇家历史文化遗产而闻名。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Какой участок Великой Китайской стены лучше посетить?",
+                    "en": "Which Section of the Great Wall Should I Visit?",
+                    "zh-Hans": "长城哪个景区最值得游览？"
+                },
+                "description": {
+                    "ru": "Бадалин — самый популярный и удобный для первого посещения участок. Тем, кто предпочитает менее многолюдные места, подойдут Мутяньюй или Цзиньшаньлин.",
+                    "en": "Badaling is the most popular and accessible section for first-time visitors. Mutianyu and Jinshanling are excellent alternatives for a quieter experience.",
+                    "zh-Hans": "八达岭最适合首次游览；如果希望游客较少，可以选择慕田峪或金山岭长城。"
+                }
+            }
+        ],
+        "facts": [
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Население",
+                    "en": "Population",
+                    "zh-Hans": "人口"
+                },
+                "value": {
+                    "ru": "Более 22 миллионов человек",
+                    "en": "More than 22 million people",
+                    "zh-Hans": "超过2200万人"
+                }
+            },
+            {
+                "icon": "pi pi-sun",
+                "title": {
+                    "ru": "Климат",
+                    "en": "Climate",
+                    "zh-Hans": "气候"
+                },
+                "value": {
+                    "ru": "Умеренно-континентальный",
+                    "en": "Temperate Continental",
+                    "zh-Hans": "温带大陆性气候"
+                }
+            },
+            {
+                "icon": "pi pi-language",
+                "title": {
+                    "ru": "Основной язык",
+                    "en": "Primary Language",
+                    "zh-Hans": "主要语言"
+                },
+                "value": {
+                    "ru": "Китайский (путунхуа)",
+                    "en": "Chinese (Mandarin)",
+                    "zh-Hans": "普通话"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Лучшее время для посещения",
+                    "en": "Best Time to Visit",
+                    "zh-Hans": "最佳旅游时间"
+                },
+                "value": {
+                    "ru": "Апрель — май и сентябрь — октябрь",
+                    "en": "April–May and September–October",
+                    "zh-Hans": "4月至5月、9月至10月"
+                }
+            }
+        ],
+        "locations": [
+            {
+                "name": {
+                    "ru": "Запретный город",
+                    "en": "Forbidden City",
+                    "zh-Hans": "故宫"
+                },
+                "coordinates": [
+                    116.3972,
+                    39.9163
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Площадь Тяньаньмэнь",
+                    "en": "Tiananmen Square",
+                    "zh-Hans": "天安门广场"
+                },
+                "coordinates": [
+                    116.3975,
+                    39.9055
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Храм Неба",
+                    "en": "Temple of Heaven",
+                    "zh-Hans": "天坛"
+                },
+                "coordinates": [
+                    116.4066,
+                    39.8822
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Летний дворец",
+                    "en": "Summer Palace",
+                    "zh-Hans": "颐和园"
+                },
+                "coordinates": [
+                    116.2730,
+                    39.9996
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Великая Китайская стена (Бадалин)",
+                    "en": "Great Wall of China (Badaling)",
+                    "zh-Hans": "八达岭长城"
+                },
+                "coordinates": [
+                    116.0203,
+                    40.3564
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Парк Бэйхай",
+                    "en": "Beihai Park",
+                    "zh-Hans": "北海公园"
+                },
+                "coordinates": [
+                    116.3892,
+                    39.9273
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Храм Юнхэгун",
+                    "en": "Yonghe Temple (Lama Temple)",
+                    "zh-Hans": "雍和宫"
+                },
+                "coordinates": [
+                    116.4173,
+                    39.9488
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Улица Ванфуцзин",
+                    "en": "Wangfujing Street",
+                    "zh-Hans": "王府井大街"
+                },
+                "coordinates": [
+                    116.4172,
+                    39.9148
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Олимпийский парк",
+                    "en": "Olympic Park",
+                    "zh-Hans": "奥林匹克公园"
+                },
+                "coordinates": [
+                    116.3967,
+                    39.9917
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Национальный музей Китая",
+                    "en": "National Museum of China",
+                    "zh-Hans": "中国国家博物馆"
+                },
+                "coordinates": [
+                    116.4074,
+                    39.9049
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "ru": "Пекин",
+                "en": "Beijing",
+                "zh-Hans": "北京"
+            },
+            {
+                "ru": "Великая Китайская стена",
+                "en": "Great Wall of China",
+                "zh-Hans": "长城"
+            },
+            {
+                "ru": "Запретный город",
+                "en": "Forbidden City",
+                "zh-Hans": "故宫"
+            },
+            {
+                "ru": "Императорский Китай",
+                "en": "Imperial China",
+                "zh-Hans": "中国皇朝"
+            },
+            {
+                "ru": "История Китая",
+                "en": "Chinese History",
+                "zh-Hans": "中国历史"
+            },
+            {
+                "ru": "Храм Неба",
+                "en": "Temple of Heaven",
+                "zh-Hans": "天坛"
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "Великая Китайская стена",
+                "en": "Great Wall of China",
+                "zh-Hans": "长城"
+            },
+            {
+                "ru": "Запретный город",
+                "en": "Forbidden City",
+                "zh-Hans": "故宫"
+            },
+            {
+                "ru": "Площадь Тяньаньмэнь",
+                "en": "Tiananmen Square",
+                "zh-Hans": "天安门广场"
+            },
+            {
+                "ru": "Храм Неба",
+                "en": "Temple of Heaven",
+                "zh-Hans": "天坛"
+            },
+            {
+                "ru": "Летний дворец",
+                "en": "Summer Palace",
+                "zh-Hans": "颐和园"
+            },
+            {
+                "ru": "Парк Бэйхай",
+                "en": "Beihai Park",
+                "zh-Hans": "北海公园"
+            },
+            {
+                "ru": "Традиционная пекинская кухня",
+                "en": "Authentic Beijing Cuisine",
+                "zh-Hans": "正宗北京菜"
+            },
+            {
+                "ru": "Столица Китая",
+                "en": "Capital of China",
+                "zh-Hans": "中国首都"
+            }
+        ]
+    },
+    {
+        "id": "harbin",
+        "slug": "harbin",
+        "title": {
+            "ru": "Харбин",
+            "en": "Harbin",
+            "zh-Hans": "哈尔滨"
+        },
+        "description": {
+            "ru": "Крупнейший город северо-восточного Китая, известный своим Международным фестивалем льда и снега, русской архитектурой, зимними развлечениями и уникальной атмосферой.",
+            "en": "The largest city in Northeast China, famous for its International Ice and Snow Festival, Russian architecture, winter attractions, and unique atmosphere.",
+            "zh-Hans": "哈尔滨是中国东北最大的城市，以国际冰雪节、俄罗斯建筑和冬季旅游闻名。"
+        },
+        "titleHeader": {
+            "ru": "Харбин — зимняя столица Китая",
+            "en": "Harbin — China's Winter Capital",
+            "zh-Hans": "哈尔滨——中国冰雪之都"
+        },
+        "destinationHeader": {
+            "ru": "Откройте для себя Харбин — город, где европейская архитектура гармонично сочетается с китайской культурой. Зимой здесь проходит всемирно известный Международный фестиваль льда и снега, а круглый год гостей ждут живописные парки, горячие источники и богатое историческое наследие.",
+            "en": "Discover Harbin, where European architecture meets Chinese culture. Every winter the city hosts the world-famous Ice and Snow Festival, while throughout the year visitors enjoy beautiful parks, hot springs, and rich history.",
+            "zh-Hans": "探索哈尔滨，这座融合欧洲建筑与中国文化的城市。冬季举办世界著名的冰雪节，一年四季都拥有优美的公园、温泉和丰富的历史文化。"
+        },
+        "seo": {
+            "title": {
+                "ru": "Харбин — ледяной фестиваль, русская архитектура и путешествия по Китаю",
+                "en": "Harbin — Ice Festival, Russian Architecture and Travel in China",
+                "zh-Hans": "哈尔滨——冰雪节与中国旅游"
+            },
+            "description": {
+                "ru": "Посетите Харбин — знаменитый Международным фестивалем льда и снега, Софийским собором, Центральной улицей и уникальной атмосферой северного Китая.",
+                "en": "Visit Harbin, famous for the Ice and Snow Festival, Saint Sophia Cathedral, Zhongyang Street, and the unique charm of northern China.",
+                "zh-Hans": "探索哈尔滨，欣赏世界著名冰雪节、圣索菲亚教堂和中央大街。"
+            },
+            "keywords": {
+                "ru": "Харбин, ледяной фестиваль, север Китая, Софийский собор, Центральная улица",
+                "en": "Harbin, Ice Festival, Saint Sophia Cathedral, China",
+                "zh-Hans": "哈尔滨, 冰雪节, 圣索菲亚教堂, 中国旅游"
+            },
+            "type": "website"
+        },
+        "country": {
+            "ru": "Китай",
+            "en": "China",
+            "zh-Hans": "中国"
+        },
+        "city": {
+            "ru": "Харбин",
+            "en": "Harbin",
+            "zh-Hans": "哈尔滨"
+        },
+        "region": {
+            "ru": "Хэйлунцзян",
+            "en": "Heilongjiang",
+            "zh-Hans": "黑龙江省"
+        },
+        "coordinates": [
+            126.6424,
+            45.7560
+        ],
+        "image": "assets/images/destination/350x380.svg",
+        "images": [
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg",
+            "assets/images/destination/350x380.svg"
+        ],
+        "rating": 4.9,
+        "views": 18400,
+        "featured": true,
+        "popular": true,
+        "content": {
+            "ru": "Харбин — столица провинции Хэйлунцзян и крупнейший город северо-восточного Китая. Благодаря своему географическому положению и историческим связям с Россией город приобрёл уникальный архитектурный облик, в котором европейские здания гармонично сочетаются с китайской культурой. Харбин известен суровыми снежными зимами, богатой историей и особой атмосферой, не похожей ни на один другой город Китая.",
+            "en": "Harbin, the capital of Heilongjiang Province, is the largest city in Northeast China. Thanks to its geographic location and historical ties with Russia, the city features a unique architectural style where European buildings blend with Chinese culture. Harbin is renowned for its snowy winters, rich history, and distinctive atmosphere unlike anywhere else in China.",
+            "zh-Hans": "哈尔滨是黑龙江省省会，也是中国东北最大的城市。由于独特的地理位置和与俄罗斯的历史联系，这座城市形成了融合欧洲建筑与中国文化的独特风貌。哈尔滨以漫长寒冷的冬季、丰富的历史和独特的城市氛围而闻名。"
+        },
+        "contentSecond": {
+            "ru": "Сегодня Харбин ежегодно принимает миллионы туристов, приезжающих на Международный фестиваль льда и снега — одно из крупнейших зимних событий в мире. Гости города могут прогуляться по Центральной улице, увидеть Софийский собор, посетить парк «Мир льда и снега», познакомиться с амурскими тиграми, отдохнуть на горячих источниках и насладиться северной кухней Китая.",
+            "en": "Today, Harbin welcomes millions of visitors each year for the International Ice and Snow Festival, one of the world's largest winter events. Visitors can stroll along Zhongyang Street, admire Saint Sophia Cathedral, explore Harbin Ice and Snow World, see Siberian tigers, relax in hot springs, and experience the distinctive cuisine of northern China.",
+            "zh-Hans": "如今，哈尔滨每年都会举办世界著名的哈尔滨国际冰雪节，吸引数百万游客。游客可以漫步中央大街、参观圣索菲亚教堂、游览冰雪大世界、观赏东北虎、体验温泉，并品尝中国北方特色美食。"
+        },
+        "questions": [
+            {
+                "title": {
+                    "ru": "Когда лучше всего посещать Харбин?",
+                    "en": "When Is the Best Time to Visit Harbin?",
+                    "zh-Hans": "什么时候是游览哈尔滨的最佳时间？"
+                },
+                "description": {
+                    "ru": "Лучшее время — с декабря по февраль, когда проходит Международный фестиваль льда и снега. Летом город также популярен благодаря мягкому климату.",
+                    "en": "The best time to visit is from December to February during the International Ice and Snow Festival. Summer is also pleasant thanks to the mild climate.",
+                    "zh-Hans": "12月至2月是游览哈尔滨的最佳时间，可欣赏世界著名的国际冰雪节；夏季气候凉爽，也非常适合旅行。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Сколько дней рекомендуется провести в Харбине?",
+                    "en": "How Many Days Should I Spend in Harbin?",
+                    "zh-Hans": "建议在哈尔滨停留几天？"
+                },
+                "description": {
+                    "ru": "Для знакомства с городом обычно достаточно 2–4 дней. Если планируются поездки на горнолыжные курорты или горячие источники, рекомендуется выделить 5–6 дней.",
+                    "en": "Two to four days are enough to explore the city. If you also plan to visit ski resorts or hot springs, five to six days are recommended.",
+                    "zh-Hans": "游览哈尔滨主要景点通常需要2至4天，如计划前往滑雪场或温泉度假区，建议安排5至6天。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Чем знаменит Харбин?",
+                    "en": "What Is Harbin Famous For?",
+                    "zh-Hans": "哈尔滨因什么而闻名？"
+                },
+                "description": {
+                    "ru": "Харбин известен Международным фестивалем льда и снега, русской архитектурой, Софийским собором, Центральной улицей и крупнейшим парком ледяных скульптур.",
+                    "en": "Harbin is famous for the International Ice and Snow Festival, Russian architecture, Saint Sophia Cathedral, Zhongyang Street, and spectacular ice sculptures.",
+                    "zh-Hans": "哈尔滨以国际冰雪节、俄罗斯风格建筑、圣索菲亚教堂、中央大街以及壮观的冰雕艺术而闻名。"
+                }
+            },
+            {
+                "title": {
+                    "ru": "Стоит ли посещать Харбин летом?",
+                    "en": "Is Harbin Worth Visiting in Summer?",
+                    "zh-Hans": "夏季值得去哈尔滨吗？"
+                },
+                "description": {
+                    "ru": "Да. Летом здесь значительно прохладнее, чем во многих других регионах Китая, поэтому город является популярным направлением для отдыха от жары.",
+                    "en": "Yes. Summers are much cooler than in many other parts of China, making Harbin an excellent escape from the heat.",
+                    "zh-Hans": "值得。哈尔滨夏季气候凉爽，比中国许多城市更加舒适，是著名的避暑胜地。"
+                }
+            }
+        ],
+        "facts": [
+            {
+                "icon": "pi pi-users",
+                "title": {
+                    "ru": "Население",
+                    "en": "Population",
+                    "zh-Hans": "人口"
+                },
+                "value": {
+                    "ru": "Около 10 миллионов человек",
+                    "en": "About 10 million people",
+                    "zh-Hans": "约1000万人"
+                }
+            },
+            {
+                "icon": "pi pi-sun",
+                "title": {
+                    "ru": "Климат",
+                    "en": "Climate",
+                    "zh-Hans": "气候"
+                },
+                "value": {
+                    "ru": "Умеренно-муссонный, холодная снежная зима",
+                    "en": "Temperate Monsoon, Cold Snowy Winters",
+                    "zh-Hans": "温带季风气候，冬季寒冷多雪"
+                }
+            },
+            {
+                "icon": "pi pi-language",
+                "title": {
+                    "ru": "Основной язык",
+                    "en": "Primary Language",
+                    "zh-Hans": "主要语言"
+                },
+                "value": {
+                    "ru": "Китайский (путунхуа)",
+                    "en": "Chinese (Mandarin)",
+                    "zh-Hans": "普通话"
+                }
+            },
+            {
+                "icon": "pi pi-calendar",
+                "title": {
+                    "ru": "Лучшее время для посещения",
+                    "en": "Best Time to Visit",
+                    "zh-Hans": "最佳旅游时间"
+                },
+                "value": {
+                    "ru": "Декабрь — февраль",
+                    "en": "December–February",
+                    "zh-Hans": "12月至2月"
+                }
+            }
+        ],
+        "locations": [
+            {
+                "name": {
+                    "ru": "Парк «Мир льда и снега»",
+                    "en": "Harbin Ice and Snow World",
+                    "zh-Hans": "哈尔滨冰雪大世界"
+                },
+                "coordinates": [
+                    126.6093,
+                    45.8083
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Софийский собор",
+                    "en": "Saint Sophia Cathedral",
+                    "zh-Hans": "圣索菲亚教堂"
+                },
+                "coordinates": [
+                    126.6348,
+                    45.7692
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Центральная улица (Чжунъян Дацзе)",
+                    "en": "Zhongyang Street (Central Street)",
+                    "zh-Hans": "中央大街"
+                },
+                "coordinates": [
+                    126.6269,
+                    45.7748
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Остров Солнца",
+                    "en": "Sun Island",
+                    "zh-Hans": "太阳岛"
+                },
+                "coordinates": [
+                    126.6089,
+                    45.8095
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Парк сибирских тигров",
+                    "en": "Siberian Tiger Park",
+                    "zh-Hans": "东北虎林园"
+                },
+                "coordinates": [
+                    126.6173,
+                    45.8075
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Парк Сталина",
+                    "en": "Stalin Park",
+                    "zh-Hans": "斯大林公园"
+                },
+                "coordinates": [
+                    126.6249,
+                    45.7832
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Телебашня «Дракон»",
+                    "en": "Dragon Tower",
+                    "zh-Hans": "龙塔"
+                },
+                "coordinates": [
+                    126.6697,
+                    45.7442
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Буддийский храм Цзилэ",
+                    "en": "Jile Temple",
+                    "zh-Hans": "极乐寺"
+                },
+                "coordinates": [
+                    126.6572,
+                    45.7757
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Полярный океанариум Harbin Polarland",
+                    "en": "Harbin Polarland",
+                    "zh-Hans": "哈尔滨极地公园"
+                },
+                "coordinates": [
+                    126.6042,
+                    45.8049
+                ]
+            },
+            {
+                "name": {
+                    "ru": "Термальный курорт Yingjie Hot Springs",
+                    "en": "Yingjie Hot Springs Resort",
+                    "zh-Hans": "英杰温泉度假区"
+                },
+                "coordinates": [
+                    127.2150,
+                    45.3660
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "ru": "Харбин",
+                "en": "Harbin",
+                "zh-Hans": "哈尔滨"
+            },
+            {
+                "ru": "Хэйлунцзян",
+                "en": "Heilongjiang",
+                "zh-Hans": "黑龙江"
+            },
+            {
+                "ru": "Ледяной фестиваль",
+                "en": "Ice Festival",
+                "zh-Hans": "冰雪节"
+            },
+            {
+                "ru": "Русская архитектура",
+                "en": "Russian Architecture",
+                "zh-Hans": "俄罗斯建筑"
+            },
+            {
+                "ru": "Зимний туризм",
+                "en": "Winter Tourism",
+                "zh-Hans": "冰雪旅游"
+            },
+            {
+                "ru": "Горячие источники",
+                "en": "Hot Springs",
+                "zh-Hans": "温泉"
+            }
+        ],
+        "highlights": [
+            {
+                "ru": "Международный фестиваль льда и снега",
+                "en": "International Ice and Snow Festival",
+                "zh-Hans": "哈尔滨国际冰雪节"
+            },
+            {
+                "ru": "Софийский собор",
+                "en": "Saint Sophia Cathedral",
+                "zh-Hans": "圣索菲亚教堂"
+            },
+            {
+                "ru": "Центральная улица",
+                "en": "Zhongyang Street",
+                "zh-Hans": "中央大街"
+            },
+            {
+                "ru": "Остров Солнца",
+                "en": "Sun Island",
+                "zh-Hans": "太阳岛"
+            },
+            {
+                "ru": "Парк «Мир льда и снега»",
+                "en": "Harbin Ice and Snow World",
+                "zh-Hans": "哈尔滨冰雪大世界"
+            },
+            {
+                "ru": "Сибирские тигры",
+                "en": "Siberian Tigers",
+                "zh-Hans": "东北虎"
+            },
+            {
+                "ru": "Русская архитектура",
+                "en": "Russian Architecture",
+                "zh-Hans": "俄罗斯建筑"
+            },
+            {
+                "ru": "Горячие источники",
+                "en": "Natural Hot Springs",
+                "zh-Hans": "天然温泉"
+            }
+        ]
+    }
+]

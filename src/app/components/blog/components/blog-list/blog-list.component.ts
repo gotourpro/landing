@@ -18,6 +18,7 @@ import { BlogCategoryService } from "../../services/blog-category.service";
 import { SelectButtonModule } from "primeng/selectbutton";
 import { FormsModule } from "@angular/forms";
 import { SkeletonModule } from "primeng/skeleton";
+import { ImageService } from "../../../../services/image-service";
 
 @Component({
     selector: "app-blog-list",
@@ -39,50 +40,6 @@ import { SkeletonModule } from "primeng/skeleton";
     templateUrl: './blog-list.component.html',
     styleUrls: ['./blog-list.component.scss'],
 })
-// export class BlogListComponent {
-//     public blogs: IBlogPost[] = [];
-//     public page = 1;
-//     public limit = 3;
-//     public hasMore = true;
-//     public loading = false;
-
-//     constructor(
-//         private blogService: BlogService,
-//         public localization: LocalizationService
-//     ) { }
-
-
-
-//     public ngOnInit(): void {
-//         this.loadMore();
-//     }
-
-//     public loadMore(): void {
-
-//         if (!this.hasMore || this.loading) {
-//             return;
-//         }
-
-//         this.loading = true;
-
-//         this.blogService
-//             .getPage(this.page, this.limit)
-//             .subscribe(response => {
-
-//                 this.blogs = [
-//                     ...this.blogs,
-//                     ...response.items
-//                 ];
-
-//                 this.hasMore = response.hasMore;
-//                 this.page++;
-
-//                 this.loading = false;
-//             });
-//     }
-
-// }
-
 
 export class BlogListComponent {
 
@@ -108,6 +65,7 @@ export class BlogListComponent {
         private blogCategoriesService: BlogCategoryService,
         private translate: TranslateService,
         private _cdr: ChangeDetectorRef,
+        public image: ImageService,
         private router: Router
     ) {
         this.selectedCategory =

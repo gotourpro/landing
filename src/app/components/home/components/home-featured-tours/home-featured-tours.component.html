@@ -32,8 +32,14 @@
                 <div class="tours-one__item h-full">
 
                     <img
-                        [src]="tour.image"
+                        [src]="image.getImage(tour.image)"
+                        [srcset]="image.getSrcSet(tour.image)"
+                        sizes="(max-width: 576px) 100vw,
+           (max-width: 992px) 50vw,
+           33vw"
                         [alt]="localization.getText(tour.title)"
+                        loading="lazy"
+                        decoding="async"
                     >
 
                     @if (tour.featured) {
@@ -119,8 +125,14 @@
                 <div class="tours-one__item h-[465px]!">
 
                     <img
-                        [src]="tour.image"
+                        [src]="image.getImage(tour.image)"
+                        [srcset]="image.getSrcSet(tour.image)"
+                        sizes="(max-width: 576px) 100vw,
+           (max-width: 992px) 50vw,
+           33vw"
                         [alt]="localization.getText(tour.title)"
+                        loading="lazy"
+                        decoding="async"
                     >
 
                     @if (tour.featured) {

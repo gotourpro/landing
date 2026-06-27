@@ -4,6 +4,11 @@ dist/
 .tmp/
 .cache/
 out-tsc/
+# Image builder
+/tools/
+
+# Original images (Freepik, Envato, etc.)
+/images/
 
 
 # Node

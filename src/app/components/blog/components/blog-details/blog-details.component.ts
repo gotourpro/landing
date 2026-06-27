@@ -18,6 +18,7 @@ import { AccordionModule } from "primeng/accordion";
 import { SeoService } from "../../../../services/seo.service";
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { ButtonModule } from 'primeng/button';
+import { ImageService } from "../../../../services/image-service";
 @Component({
     selector: "app-blog-details",
     standalone: true,
@@ -47,6 +48,7 @@ export class BlogDetailsComponent {
         private readonly blogTagService: BlogTagService,
         private readonly seo: SeoService,
         public localization: LocalizationService,
+        public image: ImageService,
     ) { }
 
     protected isSection(
@@ -161,7 +163,10 @@ export class BlogDetailsComponent {
                     )
                     .join(', '),
 
-            image: this.post.hero.image,
+            image: this.image.getImage(
+                this.post.hero.image,
+                1600
+            ),
             url: window.location.href,
             type: 'article',
             author: this.post.author,

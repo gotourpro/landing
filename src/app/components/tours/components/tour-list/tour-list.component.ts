@@ -18,6 +18,7 @@ import { SelectButtonModule } from "primeng/selectbutton";
 import { FormsModule } from "@angular/forms";
 import { SkeletonModule } from 'primeng/skeleton';
 import { LayoutService } from "../../../../services/layout.service";
+import { ImageService } from "../../../../services/image-service";
 @Component({
     selector: "app-tour-list",
     standalone: true,
@@ -63,7 +64,8 @@ export class TourListComponent {
         private tourCategoriesService: TourCategoryService,
         private translate: TranslateService,
         private _cdr: ChangeDetectorRef,
-        private router: Router
+        private router: Router,
+        public image: ImageService,
     ) {
         this.selectedCategory =
             this.route.snapshot.paramMap.get('slug') ?? 'all';
@@ -190,12 +192,14 @@ export class TourListComponent {
         ]);
     }
 
+    public openGallery(item: ITour): void {
 
-    public openGallery(item: any): void {
+        const images = (
+            item.images?.length
+                ? item.images
+                : [item.image]
+        ).map(image => this.image.getImage(image, 1600));
 
-        const images = item.images?.length
-            ? item.images
-            : [item.image];
         this.galleria.open(images);
     }
 }

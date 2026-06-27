@@ -12,6 +12,7 @@ import { LocalizationService } from "../../../../services/localization.service";
 import { TranslateModule } from "@ngx-translate/core";
 import { IDestination } from "../../../destinations/interfaces/destination.interface";
 import { RouterLink } from "@angular/router";
+import { ImageService } from "../../../../services/image-service";
 
 @Component({
     selector: "app-home-destinations",
@@ -34,7 +35,8 @@ export class HomeDestinationsComponent {
 
     constructor(
         private destinationsService: DestinationsService,
-        public localization: LocalizationService
+        public localization: LocalizationService,
+        public image: ImageService,
     ) { }
 
     public destinationItems: IDestination[] = [];
@@ -59,7 +61,7 @@ export class HomeDestinationsComponent {
             spacing: '24px'
         }
     };
-    
+
     public ngOnInit(): void {
         this.destinationsService
             .getPopular()

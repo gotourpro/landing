@@ -12,8 +12,7 @@ import { MenuComponent } from '../../../menu/components/menu.component';
 import { FooterComponent } from '../../../footer/footer.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { LocalizationService } from '../../../../services/localization.service';
-import { UICarousel } from '../../../UI/carousel';
-import { UICarouselItem } from '../../../UI/carousel-item';
+import { ImageService } from '../../../../services/image-service';
 @Component({
     selector: 'app-destination-list',
     standalone: true,
@@ -44,7 +43,8 @@ export class DestinationListComponent {
 
     constructor(
         private destinationsService: DestinationsService,
-        public localization: LocalizationService
+        public localization: LocalizationService,
+        public image: ImageService,
     ) { }
     public ngOnInit(): void {
         this.loadMore();
@@ -76,9 +76,11 @@ export class DestinationListComponent {
 
     public openGallery(item: IDestination): void {
 
-        const images = item.images?.length
-            ? item.images
-            : [item.image];
+        const images = (
+            item.images?.length
+                ? item.images
+                : [item.image]
+        ).map(image => this.image.getImage(image, 1600));
 
         this.galleria.open(images);
     }

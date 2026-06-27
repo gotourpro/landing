@@ -256,14 +256,14 @@
                 }
             }
         ],
-        "image": "assets/images/destination/312x380.svg",
+        "image": "tours/dali/9",
         "images": [
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg"
+            "tours/dali/11",
+            "tours/dali/12",
+            "tours/dali/9",
+            "tours/dali/5",
+            "tours/dali/6",
+            "tours/dali/1"
         ],
         "durationDays": 12,
         "durationNights": 11,
@@ -922,14 +922,14 @@
             109.5119,
             18.2528
         ],
-        "image": "assets/images/destination/312x380.svg",
+        "image": "tours/sanya/17",
         "images": [
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg"
+            "tours/sanya/16",
+            "tours/sanya/14",
+            "tours/sanya/13",
+            "tours/sanya/12",
+            "tours/sanya/10",
+            "tours/sanya/9"
         ],
         "isDurationFrom": true,
         "durationDays": 12,
@@ -1106,7 +1106,7 @@
                 },
                 "description": {
                     "ru": "Да. Программа лечения и экскурсионная часть подбираются индивидуально с учетом состояния здоровья, сезона, региона проведения тура и личных предпочтений участника.",
-                    "en": "Yes. Both the wellness treatments and sightseeing itinerary are individually tailored according to your health condition, the season, the destination, and your personal preferences.",
+                    "en": "Yes. Both the wellness treatments and sightseeing itinerary are individually tailored according to your health condition, the season, the tours, and your personal preferences.",
                     "zh-Hans": "可以。康养治疗和观光行程都会根据游客的健康状况、季节、目的地以及个人喜好进行个性化调整。"
                 }
             },
@@ -1242,14 +1242,14 @@
             104.0665,
             30.5728
         ],
-        "image": "assets/images/destination/312x380.svg",
+        "image": "tours/chengdu/10",
         "images": [
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg"
+            "tours/chengdu/13",
+            "tours/chengdu/1",
+            "tours/chengdu/10",
+            "tours/chengdu/6",
+            "tours/chengdu/3",
+            "tours/chengdu/13"
         ],
         "isDurationFrom": true,
         "durationDays": 12,
@@ -1562,14 +1562,14 @@
             114.0579,
             22.5431
         ],
-        "image": "assets/images/destination/312x380.svg",
+        "image": "tours/shenzhen/1",
         "images": [
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg"
+            "tours/shenzhen/2",
+            "tours/shenzhen/10",
+            "tours/shenzhen/15",
+            "tours/shenzhen/12",
+            "tours/shenzhen/11",
+            "tours/shenzhen/6"
         ],
         "isDurationFrom": true,
         "durationDays": 12,
@@ -1772,7 +1772,7 @@
                 },
                 "description": {
                     "ru": "Благодаря мягкому субтропическому климату Шэньчжэнь подходит для оздоровительных программ практически круглый год. Экскурсионная программа подбирается индивидуально с учетом сезона.",
-                    "en": "Thanks to its mild subtropical climate, Shenzhen is an excellent destination for wellness programs throughout the year. Excursion itineraries are tailored according to the season.",
+                    "en": "Thanks to its mild subtropical climate, Shenzhen is an excellent tours for wellness programs throughout the year. Excursion itineraries are tailored according to the season.",
                     "zh-Hans": "深圳属亚热带气候，全年都适合康养度假。观光行程会根据季节进行个性化安排。"
                 }
             }
@@ -1882,14 +1882,14 @@
             113.2644,
             23.1291
         ],
-        "image": "assets/images/destination/312x380.svg",
+        "image": "tours/guangzhou/1",
         "images": [
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg"
+            "tours/guangzhou/8",
+            "tours/guangzhou/10",
+            "tours/guangzhou/2",
+            "tours/guangzhou/3",
+            "tours/guangzhou/7",
+            "tours/guangzhou/5"
         ],
         "isDurationFrom": true,
         "durationDays": 12,
@@ -2092,7 +2092,7 @@
                 },
                 "description": {
                     "ru": "Гуанчжоу подходит для посещения практически круглый год благодаря теплому субтропическому климату. Экскурсионная программа формируется с учетом сезона и ваших интересов.",
-                    "en": "Thanks to its warm subtropical climate, Guangzhou is an excellent destination throughout the year. Sightseeing itineraries are tailored according to the season and your interests.",
+                    "en": "Thanks to its warm subtropical climate, Guangzhou is an excellent tours throughout the year. Sightseeing itineraries are tailored according to the season and your interests.",
                     "zh-Hans": "广州属温暖的亚热带气候，几乎全年都适合前往。观光行程会根据季节和您的兴趣进行个性化安排。"
                 }
             }
@@ -2202,14 +2202,14 @@
             116.4074,
             39.9042
         ],
-        "image": "assets/images/destination/312x380.svg",
+        "image": "tours/beijing/8",
         "images": [
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg"
+            "tours/beijing/8",
+            "tours/beijing/10",
+            "tours/beijing/15",
+            "tours/beijing/16",
+            "tours/beijing/13",
+            "tours/beijing/2"
         ],
         "isDurationFrom": true,
         "durationDays": 12,
@@ -2522,14 +2522,14 @@
             126.6424,
             45.7560
         ],
-        "image": "assets/images/destination/312x380.svg",
+        "image": "tours/harbin/1",
         "images": [
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg",
-            "assets/images/destination/312x380.svg"
+            "tours/harbin/10",
+            "tours/harbin/2",
+            "tours/harbin/13",
+            "tours/harbin/14",
+            "tours/harbin/11",
+            "tours/harbin/19"
         ],
         "isDurationFrom": true,
         "durationDays": 12,
@@ -2732,7 +2732,7 @@
                 },
                 "description": {
                     "ru": "Харбин интересен в любое время года. Зимой гостей привлекает знаменитый фестиваль льда и снега, а в теплый сезон — парки, природные достопримечательности и горячие источники. Экскурсионная программа подбирается индивидуально с учетом сезона.",
-                    "en": "Harbin is an attractive destination year-round. Winter is famous for its International Ice and Snow Festival, while the warmer months offer beautiful parks, natural attractions, and hot springs. The sightseeing program is customized according to the season.",
+                    "en": "Harbin is an attractive tours year-round. Winter is famous for its International Ice and Snow Festival, while the warmer months offer beautiful parks, natural attractions, and hot springs. The sightseeing program is customized according to the season.",
                     "zh-Hans": "哈尔滨四季皆宜。冬季可欣赏世界著名的冰雪节，夏季和秋季则适合游览公园、自然景观及温泉。观光行程将根据季节进行个性化安排。"
                 }
             }

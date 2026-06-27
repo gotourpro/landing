@@ -14,6 +14,7 @@ import { GalleriaComponent } from "../../../galleria/galleria.component";
 import { UICarouselItem } from "../../../UI/carousel-item";
 import { UICarousel } from "../../../UI/carousel";
 import { TextAnimationDirective } from "../../../../directives/text-animation/text-animation.directive";
+import { ImageService } from "../../../../services/image-service";
 @Component({
     selector: "app-home-featured-tours",
     standalone: true,
@@ -49,7 +50,8 @@ export class HomeFeaturedToursComponent {
 
     constructor(
         private toursService: ToursService,
-        public localization: LocalizationService
+        public localization: LocalizationService,
+        public image: ImageService,
     ) { }
 
     public breakpoints = {
@@ -82,9 +84,11 @@ export class HomeFeaturedToursComponent {
         tour: ITour
     ): void {
 
-        const images = tour.images?.length
-            ? tour.images
-            : [tour.image];
+        const images = (
+            tour.images?.length
+                ? tour.images
+                : [tour.image]
+        ).map(image => this.image.getImage(image, 1600));
 
         this.galleria.open(images);
     }

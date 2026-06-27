@@ -101,8 +101,14 @@
                     >
 
                         <img
-                            [src]="item.image"
+                            [src]="image.getImage(item.image)"
+                            [srcset]="image.getSrcSet(item.image)"
+                            sizes="(max-width: 768px) 100vw,
+           (max-width: 1280px) 50vw,
+           33vw"
                             [alt]="localization.getText(item.title)"
+                            loading="lazy"
+                            decoding="async"
                         >
 
                         @if (item.featured) {

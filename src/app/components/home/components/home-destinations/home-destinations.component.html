@@ -11,8 +11,6 @@
           translate }}</p>
       </div>
 
-
-
       <ui-carousel
         [scaled]="false"
         [hideMask]="true"
@@ -36,8 +34,14 @@
             <div class="destination-two__image h-[380px]">
               <img
                 class="w-full"
-                [src]="item.image"
+                [src]="image.getImage(item.image)"
+                [srcset]="image.getSrcSet(item.image)"
+                sizes="(max-width: 576px) 100vw,
+           (max-width: 992px) 50vw,
+           33vw"
                 [alt]="localization.getText(item.title)"
+                loading="lazy"
+                decoding="async"
               >
             </div>
 

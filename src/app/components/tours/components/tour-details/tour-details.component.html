@@ -65,16 +65,24 @@
 
                     <div class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)] h-[320px]">
 
+
                         <img
-                            [src]="galleryColumns[2].images[0].image"
+                            [src]="image.getImage(galleryColumns[2].images[0].image, 1200)"
+                            [srcset]="image.getSrcSet(galleryColumns[2].images[0].image)"
+                            sizes="(max-width: 768px) 100vw,
+           (max-width: 1280px) 50vw,
+           33vw"
                             alt=""
                             class="w-full h-full object-cover"
+                            loading="lazy"
+                            decoding="async"
                         >
+
 
                         <div class="gallery-one__card__hover">
 
                             <a
-                                (click)="openGallery(galleryColumns[2].images[0].image)"
+                                (click)="openGallery(image.getImage(galleryColumns[2].images[0].image, 1600))"
                                 class="img-popup"
                             >
                                 <i
@@ -101,15 +109,21 @@
                         >
 
                             <img
-                                [src]="item.image"
+                                [src]="image.getImage(item.image, 1200)"
+                                [srcset]="image.getSrcSet(item.image)"
+                                sizes="(max-width: 768px) 100vw,
+           (max-width: 1280px) 50vw,
+           33vw"
                                 alt=""
                                 class="w-full h-full object-cover"
+                                loading="lazy"
+                                decoding="async"
                             >
 
                             <div class="gallery-one__card__hover">
 
                                 <a
-                                    (click)="openGallery(item.image)"
+                                    (click)="openGallery(image.getImage(item.image, 1600))"
                                     class="img-popup"
                                 >
                                     <i
@@ -133,16 +147,24 @@
                             [style.height.px]="galleryColumns[1].images[0].height"
                         >
 
+
+
                             <img
-                                [src]="galleryColumns[1].images[0].image"
+                                [src]="image.getImage(galleryColumns[1].images[0].image, 1200)"
+                                [srcset]="image.getSrcSet(galleryColumns[1].images[0].image)"
+                                sizes="(max-width: 768px) 100vw,
+           (max-width: 1280px) 50vw,
+           33vw"
                                 alt=""
                                 class="w-full h-full object-cover"
+                                loading="lazy"
+                                decoding="async"
                             >
 
                             <div class="gallery-one__card__hover">
 
                                 <a
-                                    (click)="openGallery(galleryColumns[1].images[0].image)"
+                                    (click)="openGallery(image.getImage(galleryColumns[1].images[0].image, 1600))"
                                     class="img-popup"
                                 >
                                     <i
@@ -164,16 +186,23 @@
                             [style.height.px]="galleryColumns[2].images[0].height"
                         >
 
+
                             <img
-                                [src]="galleryColumns[2].images[0].image"
+                                [src]="image.getImage(galleryColumns[2].images[0].image, 1200)"
+                                [srcset]="image.getSrcSet(galleryColumns[2].images[0].image)"
+                                sizes="(max-width: 768px) 100vw,
+           (max-width: 1280px) 50vw,
+           33vw"
                                 alt=""
                                 class="w-full h-full object-cover"
+                                loading="lazy"
+                                decoding="async"
                             >
 
                             <div class="gallery-one__card__hover">
 
                                 <a
-                                    (click)="openGallery(galleryColumns[2].images[0].image)"
+                                    (click)="openGallery(image.getImage(galleryColumns[2].images[0].image, 1600))"
                                     class="img-popup"
                                 >
                                     <i
@@ -202,15 +231,21 @@
                         >
 
                             <img
-                                [src]="item.image"
+                                [src]="image.getImage(item.image, 1200)"
+                                [srcset]="image.getSrcSet(item.image)"
+                                sizes="(max-width: 768px) 100vw,
+           (max-width: 1280px) 50vw,
+           33vw"
                                 alt=""
                                 class="w-full h-full object-cover"
+                                loading="lazy"
+                                decoding="async"
                             >
 
                             <div class="gallery-one__card__hover">
 
                                 <a
-                                    (click)="openGallery(item.image)"
+                                    (click)="openGallery(image.getImage(item.image, 1600))"
                                     class="img-popup"
                                 >
                                     <i
@@ -234,16 +269,24 @@
                             [style.height.px]="galleryColumns[1].images[0].height"
                         >
 
+
+
                             <img
-                                [src]="galleryColumns[1].images[0].image"
+                                [src]="image.getImage(galleryColumns[1].images[0].image, 1200)"
+                                [srcset]="image.getSrcSet(galleryColumns[1].images[0].image)"
+                                sizes="(max-width: 768px) 100vw,
+           (max-width: 1280px) 50vw,
+           33vw"
                                 alt=""
                                 class="w-full h-full object-cover"
+                                loading="lazy"
+                                decoding="async"
                             >
 
                             <div class="gallery-one__card__hover">
 
                                 <a
-                                    (click)="openGallery(galleryColumns[1].images[0].image)"
+                                    (click)="openGallery(image.getImage(galleryColumns[1].images[0].image, 1600))"
                                     class="img-popup"
                                 >
                                     <i
@@ -265,16 +308,25 @@
                             [style.height.px]="galleryColumns[2].images[0].height"
                         >
 
+
+
+
                             <img
-                                [src]="galleryColumns[2].images[0].image"
+                                [src]="image.getImage(galleryColumns[2].images[0].image, 1200)"
+                                [srcset]="image.getSrcSet(galleryColumns[2].images[0].image)"
+                                sizes="(max-width: 768px) 100vw,
+           (max-width: 1280px) 50vw,
+           33vw"
                                 alt=""
                                 class="w-full h-full object-cover"
+                                loading="lazy"
+                                decoding="async"
                             >
 
                             <div class="gallery-one__card__hover">
 
                                 <a
-                                    (click)="openGallery(galleryColumns[2].images[0].image)"
+                                    (click)="openGallery(image.getImage(galleryColumns[2].images[0].image, 1600))"
                                     class="img-popup"
                                 >
                                     <i
@@ -299,15 +351,21 @@
                         >
 
                             <img
-                                [src]="item.image"
+                                [src]="image.getImage(item.image, 1200)"
+                                [srcset]="image.getSrcSet(item.image)"
+                                sizes="(max-width: 768px) 100vw,
+           (max-width: 1280px) 50vw,
+           33vw"
                                 alt=""
                                 class="w-full h-full object-cover"
+                                loading="lazy"
+                                decoding="async"
                             >
 
                             <div class="gallery-one__card__hover">
 
                                 <a
-                                    (click)="openGallery(item.image)"
+                                    (click)="openGallery(image.getImage(item.image, 1600))"
                                     class="img-popup"
                                 >
                                     <i

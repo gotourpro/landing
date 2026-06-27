@@ -18,6 +18,7 @@ import { AccordionModule } from "primeng/accordion";
 import { TranslateModule } from "@ngx-translate/core";
 import { SeoService } from "../../../../services/seo.service";
 import { ITourLocation } from "../../../../interfaces/location.interface";
+import { ImageService } from "../../../../services/image-service";
 @Component({
     selector: "app-tour-details",
     standalone: true,
@@ -78,6 +79,7 @@ export class TourDetailsComponent {
         private _googleMapsLoader: GoogleMapsLoaderService,
         private seoService: SeoService,
         private _cdr: ChangeDetectorRef,
+        public image: ImageService,
     ) { }
 
     public ngOnInit(): void {
@@ -293,14 +295,13 @@ export class TourDetailsComponent {
             return;
         }
 
-        // Один маркер
         if (this.markers.length === 1) {
 
             this.map.setCenter(
                 this.markers[0].position
             );
 
-            this.map.setZoom(12); // например 12-14
+            this.map.setZoom(12);
 
             return;
         }
@@ -401,14 +402,20 @@ export class TourDetailsComponent {
     }
 
     public get galleryImages(): string[] {
+
         if (!this.tour) {
             return [];
         }
 
-        return this.tour.images?.length
+        const images = this.tour.images?.length
             ? this.tour.images
             : [this.tour.image];
+
+        return images.map(image =>
+            this.image.getImage(image, 1600)
+        );
     }
+
     public trackBy(index: number, m: any): string {
         return m.label;
     }

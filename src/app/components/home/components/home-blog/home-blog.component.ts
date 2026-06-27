@@ -1,7 +1,6 @@
 import { Component, computed, inject } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { AnimatedContainer } from "../../../animatedcontainer";
-import { CirclePattern } from "../../../circlepattern";
 import { LayoutService } from "../../../../services/layout.service";
 import { TextAnimationDirective } from "../../../../directives/text-animation/text-animation.directive";
 import { ImageAnimationDirective } from "../../../../directives/image-animation/image-animation.directive";
@@ -13,6 +12,7 @@ import { LocalizationService } from "../../../../services/localization.service";
 import { IBlogPost } from "../../../blog/interfaces/blog-post.interface";
 import { TranslateModule } from '@ngx-translate/core';
 import { RouterLink } from "@angular/router";
+import { ImageService } from "../../../../services/image-service";
 @Component({
     selector: "app-home-blog",
     standalone: true,
@@ -24,7 +24,8 @@ export class HomeBlogComponent {
 
     constructor(
         private blogService: BlogService,
-        public localization: LocalizationService
+        public localization: LocalizationService,
+        public image: ImageService,
     ) { }
 
     public blogItems: IBlogPost[] = [];

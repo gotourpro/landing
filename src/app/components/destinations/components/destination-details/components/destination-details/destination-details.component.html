@@ -61,15 +61,19 @@
                     <div class="gallery-one__card shadow-[0_4px_20px_rgba(0,0,0,0.04)] h-[320px]">
 
                         <img
-                            [src]="galleryColumns[2].images[0].image"
+                            [src]="image.getImage(galleryColumns[2].images[0].image, 1600)"
+                            [srcset]="image.getSrcSet(galleryColumns[2].images[0].image)"
+                            sizes="100vw"
                             alt=""
                             class="w-full h-full object-cover"
+                            loading="lazy"
+                            decoding="async"
                         >
 
                         <div class="gallery-one__card__hover">
 
                             <a
-                                (click)="openGallery(galleryColumns[2].images[0].image)"
+                                (click)="openGallery(image.getImage(galleryColumns[2].images[0].image, 1600))"
                                 class="img-popup"
                             >
                                 <i
@@ -96,9 +100,13 @@
                         >
 
                             <img
-                                [src]="item.image"
+                                [src]="image.getImage(item.image, 1200)"
+                                [srcset]="image.getSrcSet(item.image)"
+                                sizes="(max-width: 768px) 100vw, 50vw"
                                 alt=""
                                 class="w-full h-full object-cover"
+                                loading="lazy"
+                                decoding="async"
                             >
 
 
@@ -117,15 +125,19 @@
                         >
 
                             <img
-                                [src]="galleryColumns[1].images[0].image"
+                                [src]="image.getImage(galleryColumns[1].images[0].image, 1600)"
+                                [srcset]="image.getSrcSet(galleryColumns[1].images[0].image)"
+                                sizes="100vw"
                                 alt=""
                                 class="w-full h-full object-cover"
+                                loading="lazy"
+                                decoding="async"
                             >
 
                             <div class="gallery-one__card__hover">
 
                                 <a
-                                    (click)="openGallery(galleryColumns[1].images[0].image)"
+                                    (click)="openGallery(image.getImage(galleryColumns[1].images[0].image, 1600))"
                                     class="img-popup"
                                 >
                                     <i
@@ -148,15 +160,19 @@
                         >
 
                             <img
-                                [src]="galleryColumns[2].images[0].image"
+                                [src]="image.getImage(galleryColumns[2].images[0].image, 1600)"
+                                [srcset]="image.getSrcSet(galleryColumns[2].images[0].image)"
+                                sizes="100vw"
                                 alt=""
                                 class="w-full h-full object-cover"
+                                loading="lazy"
+                                decoding="async"
                             >
 
                             <div class="gallery-one__card__hover">
 
                                 <a
-                                    (click)="openGallery(galleryColumns[2].images[0].image)"
+                                    (click)="openGallery(image.getImage(galleryColumns[2].images[0].image, 1600))"
                                     class="img-popup"
                                 >
                                     <i
@@ -185,15 +201,19 @@
                         >
 
                             <img
-                                [src]="item.image"
+                                [src]="image.getImage(item.image, 1200)"
+                                [srcset]="image.getSrcSet(item.image)"
+                                sizes="(max-width: 768px) 100vw, 50vw"
                                 alt=""
                                 class="w-full h-full object-cover"
+                                loading="lazy"
+                                decoding="async"
                             >
 
                             <div class="gallery-one__card__hover">
 
                                 <a
-                                    (click)="openGallery(item.image)"
+                                    (click)="openGallery(image.getImage(item.image, 1600))"
                                     class="img-popup"
                                 >
                                     <i
@@ -218,15 +238,19 @@
                         >
 
                             <img
-                                [src]="galleryColumns[1].images[0].image"
+                                [src]="image.getImage(galleryColumns[1].images[0].image, 1600)"
+                                [srcset]="image.getSrcSet(galleryColumns[1].images[0].image)"
+                                sizes="100vw"
                                 alt=""
                                 class="w-full h-full object-cover"
+                                loading="lazy"
+                                decoding="async"
                             >
 
                             <div class="gallery-one__card__hover">
 
                                 <a
-                                    (click)="openGallery(galleryColumns[1].images[0].image)"
+                                    (click)="openGallery(image.getImage(galleryColumns[1].images[0].image, 1600))"
                                     class="img-popup"
                                 >
                                     <i
@@ -249,15 +273,19 @@
                         >
 
                             <img
-                                [src]="galleryColumns[2].images[0].image"
+                                [src]="image.getImage(galleryColumns[2].images[0].image, 1600)"
+                                [srcset]="image.getSrcSet(galleryColumns[2].images[0].image)"
+                                sizes="100vw"
                                 alt=""
                                 class="w-full h-full object-cover"
+                                loading="lazy"
+                                decoding="async"
                             >
 
                             <div class="gallery-one__card__hover">
 
                                 <a
-                                    (click)="openGallery(galleryColumns[2].images[0].image)"
+                                    (click)="openGallery(image.getImage(galleryColumns[2].images[0].image, 1600))"
                                     class="img-popup"
                                 >
                                     <i
@@ -282,15 +310,19 @@
                         >
 
                             <img
-                                [src]="item.image"
+                                [src]="image.getImage(item.image, 1200)"
+                                [srcset]="image.getSrcSet(item.image)"
+                                sizes="(max-width: 768px) 100vw, 50vw"
                                 alt=""
                                 class="w-full h-full object-cover"
+                                loading="lazy"
+                                decoding="async"
                             >
 
                             <div class="gallery-one__card__hover">
 
                                 <a
-                                    (click)="openGallery(item.image)"
+                                    (click)="openGallery(image.getImage(item.image, 1600))"
                                     class="img-popup"
                                 >
                                     <i
@@ -557,8 +589,14 @@
                                     <div class="tours-one__item h-[400px]!">
 
                                         <img
-                                            [src]="tour.image"
+                                            [src]="image.getImage(tour.image)"
+                                            [srcset]="image.getSrcSet(tour.image)"
+                                            sizes="(max-width: 576px) 100vw,
+           (max-width: 992px) 50vw,
+           33vw"
                                             [alt]="localization.getText(tour.title)"
+                                            loading="lazy"
+                                            decoding="async"
                                         >
 
                                         @if (tour.featured) {

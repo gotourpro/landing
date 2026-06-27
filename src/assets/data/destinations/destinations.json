@@ -59,14 +59,14 @@
             100.1634,
             25.6947
         ],
-        "image": "assets/images/destination/350x380.svg",
+        "image": "destination/dali/1",
         "images": [
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg"
+            "destination/dali/2",
+            "destination/dali/3",
+            "destination/dali/4",
+            "destination/dali/8",
+            "destination/dali/6",
+            "destination/dali/7"
         ],
         "rating": 4.9,
         "views": 12500,
@@ -378,14 +378,14 @@
             109.5119,
             18.2528
         ],
-        "image": "assets/images/destination/350x380.svg",
+        "image": "destination/sanya/1",
         "images": [
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg"
+            "destination/sanya/1",
+            "destination/sanya/2",
+            "destination/sanya/3",
+            "destination/sanya/4",
+            "destination/sanya/5",
+            "destination/sanya/6"
         ],
         "rating": 4.9,
         "views": 12500,
@@ -752,14 +752,14 @@
             104.0665,
             30.5728
         ],
-        "image": "assets/images/destination/350x380.svg",
+        "image": "destination/chengdu/1",
         "images": [
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg"
+            "destination/chengdu/1",
+            "destination/chengdu/2",
+            "destination/chengdu/3",
+            "destination/chengdu/4",
+            "destination/chengdu/5",
+            "destination/chengdu/6"
         ],
         "rating": 4.9,
         "views": 18400,
@@ -1126,14 +1126,14 @@
             114.0579,
             22.5431
         ],
-        "image": "assets/images/destination/350x380.svg",
+        "image": "destination/shenzhen/1",
         "images": [
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg"
+            "destination/shenzhen/1",
+            "destination/shenzhen/2",
+            "destination/shenzhen/3",
+            "destination/shenzhen/1",
+            "destination/shenzhen/1",
+            "destination/shenzhen/1"
         ],
         "rating": 4.9,
         "views": 18400,
@@ -1442,14 +1442,14 @@
             113.2644,
             23.1291
         ],
-        "image": "assets/images/destination/350x380.svg",
+        "image": "destination/guangzhou/1",
         "images": [
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg"
+            "destination/guangzhou/2",
+            "destination/guangzhou/3",
+            "destination/guangzhou/4",
+            "destination/guangzhou/5",
+            "destination/guangzhou/6",
+            "destination/guangzhou/7"
         ],
         "rating": 4.9,
         "views": 18400,
@@ -1816,14 +1816,14 @@
             116.4074,
             39.9042
         ],
-        "image": "assets/images/destination/350x380.svg",
+        "image": "destination/beijing/9",
         "images": [
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg"
+            "destination/beijing/1",
+            "destination/beijing/2",
+            "destination/beijing/3",
+            "destination/beijing/4",
+            "destination/beijing/5",
+            "destination/beijing/6"
         ],
         "rating": 4.9,
         "views": 18400,
@@ -2190,14 +2190,14 @@
             126.6424,
             45.7560
         ],
-        "image": "assets/images/destination/350x380.svg",
+        "image": "destination/harbin/1",
         "images": [
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg",
-            "assets/images/destination/350x380.svg"
+            "destination/harbin/1",
+            "destination/harbin/2",
+            "destination/harbin/3",
+            "destination/harbin/4",
+            "destination/harbin/10",
+            "destination/harbin/14"
         ],
         "rating": 4.9,
         "views": 18400,

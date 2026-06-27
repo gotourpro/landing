@@ -15,8 +15,14 @@
                         <div class="blog-details__thumb">
 
                             <img
-                                [src]="post.hero.image"
+                                class="w-full h-[420px]! md:h-[420px]! lg:h-[420px]! object-cover"
+                                [src]="image.getImage(post.hero.image, 1600)"
+                                [srcset]="image.getSrcSet(post.hero.image)"
+                                sizes="100vw"
                                 [alt]="post.hero.alt ? localization.getText(post.hero.alt) : ''"
+                                loading="eager"
+                                fetchpriority="high"
+                                decoding="async"
                             >
 
                             @if (post.publishedAt) {
@@ -80,8 +86,12 @@
                                 <figure class="blog-section__image">
 
                                     <img
-                                        [src]="image.src"
+                                        [src]="this.image.getImage(image.src, 1200)"
+                                        [srcset]="this.image.getSrcSet(image.src)"
+                                        sizes="(max-width: 768px) 100vw, 1200px"
                                         [alt]="image.alt ? localization.getText(image.alt) : ''"
+                                        loading="lazy"
+                                        decoding="async"
                                     >
 
                                     @if (image.caption) {
