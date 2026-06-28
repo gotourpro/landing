@@ -41,7 +41,7 @@ export class LocalizationService {
     ) {
 
         this.translate.addLangs(this.languages.map(l => l.code));
-        const saved = localStorage.getItem('app_language') || 'en';
+        const saved = localStorage.getItem('app_language') || 'ru';
         this.setLanguage(saved);
         this.translate.onLangChange.subscribe(({ lang }) => {
             this.applyPrimeLocale(lang);
