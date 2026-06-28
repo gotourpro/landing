@@ -5,7 +5,7 @@
             "id": "acceptance",
             "title": "1. 条款接受",
             "content": [
-                "使用 GoTour 网站即表示用户同意本使用条款。",
+                "使用 GoTiva 网站即表示用户同意本使用条款。",
                 "如果用户不同意本条款中的任何内容，应立即停止使用本网站。",
                 "继续使用本网站即表示接受所有现行条款和规则。"
             ]
@@ -14,7 +14,7 @@
             "id": "services",
             "title": "2. 服务说明",
             "content": [
-                "GoTour 提供有关旅游目的地、旅游产品、观光活动及相关服务的信息。",
+                "GoTiva 提供有关旅游目的地、旅游产品、观光活动及相关服务的信息。",
                 "网站上的信息仅供参考，可能会在不事先通知的情况下进行修改。",
                 "部分服务可能由第三方合作伙伴和供应商提供。"
             ]
@@ -83,7 +83,7 @@
             "id": "contact",
             "title": "10. 联系信息",
             "content": [
-                "如对网站的使用有任何疑问，用户可通过电子邮件联系：[info@gotour.pro](mailto:info@gotour.pro)。",
+                "如对网站的使用有任何疑问，用户可通过电子邮件联系：[info@gotiva.pro](mailto:info@gotiva.pro)。",
                 "最新版《使用条款》可在以下地址查看：https://gotour.pro/terms-and-conditions。"
             ]
         }

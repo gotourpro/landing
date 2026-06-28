@@ -31,7 +31,7 @@ export class ContactService {
                 email: payload.email,
                 message: payload.message,
 
-                _subject: 'GoTour Contact Request',
+                _subject: 'GoTiva Contact Request',
                 _template: 'table',
                 _captcha: false
             },

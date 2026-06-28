@@ -62,7 +62,7 @@ export class MenubarMobileComponent {
         },
         {
             icon: 'pi pi-envelope',
-            url: 'mailto:info@gotour.pro?subject=GoTour%20Support'
+            url: 'mailto:info@gotiva.pro?subject=GoTiva%20Support'
         },
     ];
 

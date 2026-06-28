@@ -10,8 +10,8 @@
             "contact": "Contact"
         },
         "homeHero": {
-            "subtitle": "Welcome to GoTour!",
-            "subtitlePrefix": "Welcome to GoTour!",
+            "subtitle": "Welcome to GoTiva!",
+            "subtitlePrefix": "Welcome to GoTiva!",
             "title": "The Real China Starts Here!",
             "description": "Discover handcrafted journeys through the breathtaking landscapes of Yunnan, Sichuan, and the Tibetan Plateau, carefully designed for comfort, authenticity, and unforgettable experiences.",
             "contactUs": "Contact Us",
@@ -92,11 +92,11 @@
             "button": "Back to Home"
         },
         "about": {
-            "title": "Why Choose GoTour",
+            "title": "Why Choose GoTiva",
             "description": "We specialize in unforgettable journeys across China, helping travelers discover iconic landmarks, rich culture, authentic cuisine, and unique local experiences.",
             "travellers": "Individual Travellers",
             "whyChooseUs": {
-                "title": "Why Choose GoTour",
+                "title": "Why Choose GoTiva",
                 "description": "Discover China with confidence. We create carefully planned tours, provide local expertise, and support you every step of your journey."
             },
             "gallery": {
@@ -502,7 +502,7 @@
         },
         "home": {
             "meta": {
-                "title": "GoTour | Travel, Wellness & Educational Tours in China",
+                "title": "GoTiva | Travel, Wellness & Educational Tours in China",
                 "description": "Discover China with educational, wellness and cultural tours. Airport transfers, hotel assistance and unforgettable experiences."
             }
         }

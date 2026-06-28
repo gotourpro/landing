@@ -53,7 +53,7 @@ export class FooterComponent implements OnInit {
         },
         {
             icon: 'pi pi-envelope',
-            href: 'mailto:info@gotour.pro?subject=GoTour%20Support'
+            href: 'mailto:info@gotiva.pro?subject=GoTiva%20Support'
         }
     ];
 

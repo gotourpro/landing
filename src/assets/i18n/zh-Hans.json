@@ -10,8 +10,8 @@
             "contact": "联系我们"
         },
         "homeHero": {
-            "subtitle": "欢迎来到 GoTour！",
-            "subtitlePrefix": "欢迎来到 GoTour!",
+            "subtitle": "欢迎来到 GoTiva！",
+            "subtitlePrefix": "欢迎来到 GoTiva!",
             "title": "真正的中国，从这里开始！",
             "description": "探索云南、四川和青藏高原最壮丽的风景线路，体验精心策划、舒适而难忘的中国之旅。",
             "contactUs": "联系我们",
@@ -92,11 +92,11 @@
             "button": "返回首页"
         },
         "about": {
-            "title": "为什么选择 GoTour",
+            "title": "为什么选择 GoTiva",
             "description": "我们专注于中国旅游，为游客提供探索著名景点、丰富文化、地道美食和独特旅行体验的机会。",
             "travellers": "游客",
             "whyChooseUs": {
-                "title": "为什么选择 GoTour",
+                "title": "为什么选择 GoTiva",
                 "description": "安心探索中国。我们精心设计旅行线路，提供本地专业服务，并在整个旅程中为您提供支持。"
             },
             "gallery": {
@@ -501,7 +501,7 @@
         },
         "home": {
             "meta": {
-                "title": "GoTour | 中国旅游、养生与研学之旅",
+                "title": "GoTiva | 中国旅游、养生与研学之旅",
                 "description": "探索中国教育、养生与文化之旅，享受机场接送、酒店协助和难忘体验。"
             }
         }
