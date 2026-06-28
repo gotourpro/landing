@@ -19,7 +19,7 @@
         [options]="{
         align: 'start',
         loop: true,
-        containScroll: 'trimSnaps'
+        containScroll: false,
       }"
         [size]="'33.333%'"
         height="auto"
@@ -36,9 +36,7 @@
                 class="w-full"
                 [src]="image.getImage(item.image)"
                 [srcset]="image.getSrcSet(item.image)"
-                sizes="(max-width: 576px) 100vw,
-           (max-width: 992px) 50vw,
-           33vw"
+                sizes="(max-width: 576px) 100vw,(max-width: 992px) 50vw,33vw"
                 [alt]="localization.getText(item.title)"
                 loading="lazy"
                 decoding="async"
