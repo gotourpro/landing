@@ -3328,6 +3328,7 @@ h6 {
   }
 }
 
+
 .page-header__bg {
   position: absolute;
   left: 0;
@@ -3338,7 +3339,7 @@ h6 {
   background-size: cover;
   background-repeat: repeat-x;
   animation: cloudMove 60s linear 0s infinite;
-  background-image: url(assets/images/shapes/page-header-bg-shape.png);
+  // background-image: url(assets/images/shapes/page-header-bg-shape.png);
 
   @media (max-width: 767px) {
     height: 95px;
