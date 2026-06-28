@@ -31,11 +31,8 @@ export class FooterComponent implements OnInit {
         new Date().getFullYear();
 
     public aboutText = '';
-
     public usefulLinks: FooterLink[] = [];
-
     public serviceLinks: FooterLink[] = [];
-
     public legalLinks: FooterLink[] = [];
 
     public socials: FooterSocial[] = [
