@@ -38,8 +38,9 @@
                 [srcset]="image.getSrcSet(item.image)"
                 sizes="(max-width: 576px) 100vw,(max-width: 992px) 50vw,33vw"
                 [alt]="localization.getText(item.title)"
-                loading="{{ index < 2 ? 'eager' : 'lazy' }}"
-                decoding="async"
+                loading="eager"
+                fetchpriority="high"
+                decoding="sync"
               >
             </div>
 
