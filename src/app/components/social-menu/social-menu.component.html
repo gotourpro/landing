@@ -6,7 +6,79 @@
     hideIcon="pi pi-times text-2xl!"
     [className]="className"
 >
+
+
     <ng-template
+        #item
+        let-item
+        let-toggleCallback="toggleCallback"
+    >
+
+        <a
+            *ngIf="item.routerLink"
+            [routerLink]="item.routerLink"
+            (click)="toggleCallback($event, item)"
+            class="
+            w-12 h-12
+            rounded-full
+            shadow-lg
+            bg-(--p-card-background)
+            flex items-center justify-center
+        "
+        >
+
+            @if (item.svgIcon) {
+
+            <ng-container *ngComponentOutlet="item.svgIcon"></ng-container>
+
+            } @else {
+
+            <i
+                class="text-2xl"
+                [class]="item.icon"
+            ></i>
+
+            }
+
+        </a>
+
+        <a
+            *ngIf="!item.routerLink"
+            [href]="item.url"
+            [target]="item.target"
+            (click)="toggleCallback($event, item)"
+            class="
+            w-14 h-14
+            rounded-full
+            shadow-[0_8px_24px_rgba(0,0,0,0.12)]
+            bg-white
+            text-primary
+            dark:text-primary!
+            flex items-center justify-center
+            transition-all duration-300
+            hover:-translate-y-1
+            hover:shadow-[0_12px_32px_rgba(0,0,0,0.18)]
+        "
+        >
+
+            @if (item.svgIcon) {
+
+            <ng-container *ngComponentOutlet="item.svgIcon"></ng-container>
+
+            } @else {
+
+            <i
+                class="text-2xl"
+                [class]="item.icon"
+            ></i>
+
+            }
+
+        </a>
+
+    </ng-template>
+
+    <!-- <ng-template
         #item
         let-item
         let-toggleCallback="toggleCallback"
@@ -47,5 +119,5 @@
         >
             <i [ngClass]="[ item.icon, 'text-2xl' ]"></i>
         </a>
-    </ng-template>
+    </ng-template> -->
 </p-speeddial>

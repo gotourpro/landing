@@ -8,6 +8,7 @@ import { ParallaxDirective } from "../../../../directives/parallax.directive";
 import { ButtonModule } from 'primeng/button';
 import { TranslateModule } from '@ngx-translate/core';
 import { RouterLink } from "@angular/router";
+import { ImageService } from "../../../../services/image-service";
 
 @Component({
     selector: "app-home-hero",
@@ -17,8 +18,12 @@ import { RouterLink } from "@angular/router";
     imports: [AnimatedContainer, TranslateModule, ParallaxDirective, ButtonModule, TextAnimationDirective, ImageAnimationDirective, CommonModule, RouterLink],
 })
 export class HomeHeroComponent {
+
+    constructor(
+        public image: ImageService,
+    ) { }
+
     layoutService = inject(LayoutService);
     isDarkTheme = computed(() => this.layoutService?.isDarkTheme());
-    isWide = computed(() => this.layoutService.isWide());
 
 }

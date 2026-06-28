@@ -1,12 +1,13 @@
 import { Component, Input } from '@angular/core';
 import { RippleModule } from 'primeng/ripple';
 import { ButtonModule } from 'primeng/button';
-import { ListboxModule } from 'primeng/listbox';
 import { PopoverModule } from 'primeng/popover';
 import { CommonModule } from '@angular/common';
 import { SpeedDial } from 'primeng/speeddial';
-import { MenuItem } from 'primeng/api';
 import { RouterModule } from '@angular/router';
+import { ISocialMenuItem } from './interfaces/social-menu.interface';
+import { MaxIcon } from '../icon/max/max.component';
+import { NgComponentOutlet } from '@angular/common';
 
 @Component({
     selector: 'app-social-menu',
@@ -18,6 +19,8 @@ import { RouterModule } from '@angular/router';
         ButtonModule,
         PopoverModule,
         SpeedDial,
+        MaxIcon,
+        NgComponentOutlet
     ],
     templateUrl: './social-menu.component.html',
     styleUrls: ['./social-menu.component.scss'],
@@ -28,7 +31,7 @@ export class SocialMenuComponent {
     @Input() buttonClassName = 'shadow-[0px_1px_4px_rgba(0,0,0,0.1),0px_2px_12px_rgba(0,0,0,0.2)]';
 
 
-    public items: MenuItem[] | null;
+    public items: ISocialMenuItem[] | null;
 
     constructor() {
         this.items = [
@@ -51,6 +54,10 @@ export class SocialMenuComponent {
             {
                 icon: 'pi pi-envelope',
                 url: 'mailto:info@gotiva.pro?subject=GoTiva%20Support'
+            },
+            {
+                svgIcon: MaxIcon,
+                url: 'https://max.ru/u/f9LHodD0cOIpi9sOoKSDHwEI5a3d3cVfupMmR9TXyKWqToj2FId28YjuYEM'
             },
         ];
     }

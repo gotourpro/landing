@@ -16,11 +16,11 @@ export const ABOUT_TEAM_ITEMS: ITeamMember[] = [
         socials: [
             {
                 icon: 'pi pi-telegram',
-                url: '#'
+                url: 'https://t.me/Olo_Boro'
             },
             {
                 icon: 'pi pi-whatsapp',
-                url: '#'
+                url: 'https://wa.me/79629366377?text=Hello'
             }
         ]
     },
@@ -37,14 +37,7 @@ export const ABOUT_TEAM_ITEMS: ITeamMember[] = [
         },
         image: 'team/2',
         socials: [
-            {
-                icon: 'pi pi-telegram',
-                url: '#'
-            },
-            {
-                icon: 'pi pi-whatsapp',
-                url: '#'
-            }
+
         ]
     },
     {
@@ -60,14 +53,7 @@ export const ABOUT_TEAM_ITEMS: ITeamMember[] = [
         },
         image: 'team/3',
         socials: [
-            {
-                icon: 'pi pi-telegram',
-                url: '#'
-            },
-            {
-                icon: 'pi pi-whatsapp',
-                url: '#'
-            }
+
         ]
     },
 ];
