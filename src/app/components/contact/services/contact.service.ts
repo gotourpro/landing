@@ -14,7 +14,7 @@ export class ContactService {
      * email зарегистрированный в FormSubmit
      */
     private readonly formSubmitUrl =
-        'https://formsubmit.co/ajax/0304b8621c86bbc84bdc89165ef9562c';
+        'https://formsubmit.co/ajax/683271139b5b85d710db6ff2ad2c22d6';
 
     constructor(
         private readonly http: HttpClient
