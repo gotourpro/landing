@@ -158,7 +158,7 @@
                   @if (item.publishedAt) {
                   <li>
                     <i class="pi pi-calendar mr-2"></i>
-                    {{ item.publishedAt | date:'dd MMM yyyy' }}
+                    {{ item.publishedAt | date:'dd MMM yyyy':'':localization.getCurrentLocale() }}
                   </li>
                   }
 
