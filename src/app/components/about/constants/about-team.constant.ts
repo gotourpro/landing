@@ -12,7 +12,7 @@ export const ABOUT_TEAM_ITEMS: ITeamMember[] = [
             ru: 'Туристический агент',
             'zh-Hans': '旅游顾问'
         },
-        image: 'assets/images/blog/424x292.svg',
+        image: 'team/1',
         socials: [
             {
                 icon: 'pi pi-telegram',
@@ -35,7 +35,7 @@ export const ABOUT_TEAM_ITEMS: ITeamMember[] = [
             ru: 'Доктор традиционной китайской медицины',
             'zh-Hans': '中医医生'
         },
-        image: 'assets/images/blog/424x292.svg',
+        image: 'team/2',
         socials: [
             {
                 icon: 'pi pi-telegram',
@@ -58,7 +58,7 @@ export const ABOUT_TEAM_ITEMS: ITeamMember[] = [
             ru: 'Доктор традиционной китайской медицины',
             'zh-Hans': '中医医生'
         },
-        image: 'assets/images/blog/424x292.svg',
+        image: 'team/3',
         socials: [
             {
                 icon: 'pi pi-telegram',

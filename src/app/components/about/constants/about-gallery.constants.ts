@@ -10,7 +10,7 @@ export const ABOUT_GALLERY_COLUMNS: IAboutGalleryColumn[] = [
         type: 'large',
         items: [
             {
-                image: 'assets/images/gallery/gallery-1-1.jpg'
+                image: 'tours/dali/11'
             }
         ]
     },
@@ -18,10 +18,10 @@ export const ABOUT_GALLERY_COLUMNS: IAboutGalleryColumn[] = [
         type: 'small',
         items: [
             {
-                image: 'assets/images/gallery/gallery-1-2.jpg'
+                image: 'tours/dali/3'
             },
             {
-                image: 'assets/images/gallery/gallery-1-6.jpg'
+                image: 'tours/sanya/16'
             }
         ]
     },
@@ -29,7 +29,7 @@ export const ABOUT_GALLERY_COLUMNS: IAboutGalleryColumn[] = [
         type: 'large',
         items: [
             {
-                image: 'assets/images/gallery/gallery-1-3.jpg'
+                image: 'tours/sanya/12'
             }
         ]
     },
@@ -37,10 +37,10 @@ export const ABOUT_GALLERY_COLUMNS: IAboutGalleryColumn[] = [
         type: 'small',
         items: [
             {
-                image: 'assets/images/gallery/gallery-1-4.jpg'
+                image: 'tours/chengdu/13'
             },
             {
-                image: 'assets/images/gallery/gallery-1-7.jpg'
+                image: 'tours/shenzhen/10'
             }
         ]
     },
@@ -48,7 +48,7 @@ export const ABOUT_GALLERY_COLUMNS: IAboutGalleryColumn[] = [
         type: 'large',
         items: [
             {
-                image: 'assets/images/gallery/gallery-1-5.jpg'
+                image: 'tours/beijing/8'
             }
         ]
     }

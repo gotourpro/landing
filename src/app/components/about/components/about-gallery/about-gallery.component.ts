@@ -9,6 +9,7 @@ import { ABOUT_GALLERY_COLUMNS } from "../../constants/about-gallery.constants";
 import { LocalizationService } from "../../../../services/localization.service";
 import { TranslateModule } from "@ngx-translate/core";
 import { GalleriaComponent } from "../../../galleria/galleria.component";
+import { ImageService } from "../../../../services/image-service";
 @Component({
   selector: "app-about-gallery",
   standalone: true,
@@ -19,7 +20,8 @@ import { GalleriaComponent } from "../../../galleria/galleria.component";
 export class AboutGalleryComponent {
 
   constructor(
-    public localization: LocalizationService
+    public localization: LocalizationService,
+    public image: ImageService,
   ) { }
 
   @ViewChild('gallery')
@@ -51,10 +53,15 @@ export class AboutGalleryComponent {
   public openGallery(item: any): void {
 
     const images = this.galleryColumns.flatMap(
-      column => column.items.map(i => i.image)
+      column =>
+        column.items.map(i =>
+          this.image.getImage(i.image, 1600)
+        )
     );
 
-    const index = images.indexOf(item.image);
+    const index = this.galleryColumns
+      .flatMap(column => column.items)
+      .findIndex(i => i.image === item.image);
 
     this.galleria.open(images, index);
   }

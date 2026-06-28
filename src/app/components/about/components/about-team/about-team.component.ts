@@ -10,6 +10,7 @@ import { LocalizationService } from '../../../../services/localization.service';
 import { ABOUT_TEAM_ITEMS } from "../../constants/about-team.constant";
 import { UICarousel } from "../../../UI/carousel";
 import { UICarouselItem } from "../../../UI/carousel-item";
+import { ImageService } from "../../../../services/image-service";
 @Component({
     selector: "app-about-team",
     standalone: true,
@@ -27,7 +28,8 @@ import { UICarouselItem } from "../../../UI/carousel-item";
 export class AboutTeamComponent {
 
     constructor(
-        public localization: LocalizationService
+        public localization: LocalizationService,
+        public image: ImageService,
     ) { }
 
     public layoutService = inject(LayoutService);

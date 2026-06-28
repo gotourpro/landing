@@ -42,7 +42,16 @@
 
                         <div class="team-two__item__image h-full">
 
-                            <img [src]="item.image">
+                            <img
+                                [src]="image.getImage(item.image)"
+                                [srcset]="image.getSrcSet(item.image)"
+                                sizes="(max-width: 576px) 100vw,
+           (max-width: 992px) 50vw,
+           33vw"
+                                [alt]="localization.getText(item.name)"
+                                loading="lazy"
+                                decoding="async"
+                            />
 
                             <div class="team-two__item__icon">
 
