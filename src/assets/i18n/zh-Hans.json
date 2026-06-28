@@ -141,7 +141,8 @@
             "loadMore": "加载更多文章",
             "noBlogsFound": "未找到相关文章",
             "tryAnotherCategory": "请尝试选择其他分类",
-            "allCategories": "全部"
+            "allCategories": "全部",
+            "minutesShort": "分钟"
         },
         "tour": {
             "title": "中国旅游线路",

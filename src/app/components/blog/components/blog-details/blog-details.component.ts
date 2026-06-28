@@ -19,6 +19,7 @@ import { SeoService } from "../../../../services/seo.service";
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { ButtonModule } from 'primeng/button';
 import { ImageService } from "../../../../services/image-service";
+import { TranslateModule } from "@ngx-translate/core";
 @Component({
     selector: "app-blog-details",
     standalone: true,
@@ -29,7 +30,7 @@ import { ImageService } from "../../../../services/image-service";
         FooterComponent,
         TagModule,
         AccordionModule,
-        ButtonModule
+        ButtonModule, TranslateModule
     ],
     templateUrl: './blog-details.component.html',
     styleUrl: './blog-details.component.scss',

@@ -141,7 +141,8 @@
             "loadMore": "Load More Blogs",
             "noBlogsFound": "No blogs found",
             "tryAnotherCategory": "Try selecting another category",
-            "allCategories": "All"
+            "allCategories": "All",
+            "minutesShort": "min"
         },
         "tour": {
             "title": "China Tours",

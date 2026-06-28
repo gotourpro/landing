@@ -9,12 +9,12 @@ import { TranslateModule } from '@ngx-translate/core';
     standalone: true,
     templateUrl: './news.component.html',
     changeDetection: ChangeDetectionStrategy.OnPush,
-    imports: [CommonModule, FormsModule,TranslateModule]
+    imports: [CommonModule, FormsModule, TranslateModule]
 })
 export class NewsComponent {
-    storageKey: string = 'gotour';
-
-    announcement: any;
+    public storageKey: string = 'gotiva';
+    public readonly enabled = false;
+    public announcement: any;
 
     constructor(
         private configService: LayoutService,
@@ -27,7 +27,7 @@ export class NewsComponent {
             "linkText": "Learn More",
             "linkHref": "['/theming']"
         };
-        
+
         afterNextRender(() => {
             const itemString = localStorage.getItem(this.storageKey);
 
@@ -41,7 +41,7 @@ export class NewsComponent {
                     this.configService.newsActive.set(false);
                 }
             } else {
-                this.configService.newsActive.set(true);
+                this.configService.newsActive.set(false);
                 this.announcement = news;
             }
             this.cd.markForCheck();

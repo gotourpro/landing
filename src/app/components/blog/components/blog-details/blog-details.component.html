@@ -11,7 +11,7 @@
                 <div class="flex justify-center">
                     <div class="w-full">
 
-                        <!-- Hero -->
+
                         <div class="blog-details__thumb">
 
                             <img
@@ -27,14 +27,16 @@
 
                             @if (post.publishedAt) {
                             <div class="blog-details__date">
-                                {{ post.publishedAt | date:'dd' }}
-                                <span>{{ post.publishedAt | date:'MMM' }}</span>
+                                {{ post.publishedAt | date:'dd':'':localization.getCurrentLocale() }}
+                                <span>
+                                    {{ post.publishedAt | date:'MMM':'':localization.getCurrentLocale() }}
+                                </span>
                             </div>
                             }
 
                         </div>
 
-                        <!-- Meta -->
+
                         <ul class="blog-details__meta">
 
                             @if (post.author) {
@@ -54,13 +56,13 @@
                             @if (post.readingTime) {
                             <li class="dark:text-surface-0!">
                                 <i class="pi pi-clock"></i>
-                                {{ post.readingTime }} min
+                                {{ post.readingTime }} {{ 'components.blog.minutesShort' | translate }}
                             </li>
                             }
 
                         </ul>
 
-                        <!-- Title -->
+
                         <h3 class="blog-details__title dark:text-surface-0!">
                             {{ localization.getText(post.title) }}
                         </h3>
@@ -116,7 +118,7 @@
 
                             }
 
-                            <!-- Quote после первого текстового блока -->
+
                             @if ($index === 0 && firstQuote) {
 
                             <blockquote class="blog-details__blockquote">
@@ -160,7 +162,7 @@
                         </div>
 
 
-                        <!-- FAQ -->
+
 
                         @if (getFaqBlock(); as faq) {
 
@@ -219,7 +221,7 @@
 
                         }
 
-                        <!-- Tags -->
+
                         <div class="blog-details__post-meta">
 
                             <div class="blog-details__tags">

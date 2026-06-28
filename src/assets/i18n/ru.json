@@ -167,7 +167,8 @@
             "loadMore": "Показать ещё статьи",
             "noBlogsFound": "Статьи не найдены",
             "tryAnotherCategory": "Попробуйте выбрать другую категорию",
-            "allCategories": "Все"
+            "allCategories": "Все",
+            "minutesShort": "мин"
         },
         "tour": {
             "title": "Туры по Китаю",

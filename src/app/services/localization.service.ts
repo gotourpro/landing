@@ -48,6 +48,11 @@ export class LocalizationService {
         });
     }
 
+
+    public getCurrentLocale(): string {
+        return this.translate.currentLang || 'en';
+    }
+
     public setLanguage(code: string) {
         if (!LOCALES[code]) code = 'en';
         this.translate.setDefaultLang(code);

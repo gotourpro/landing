@@ -6,7 +6,9 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { HTTP_INTERCEPTORS, HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { JwtModule } from "@auth0/angular-jwt";
 import { JWT_NAME } from './constants/jwt-name.constant';
-import localeEnGb from '@angular/common/locales/en-GB';
+import localeRu from '@angular/common/locales/ru';
+import localeEn from '@angular/common/locales/en';
+import localeZhHans from '@angular/common/locales/zh';
 import { registerLocaleData } from '@angular/common';
 import { MessageService } from 'primeng/api';
 import { ToastModule } from 'primeng/toast';
@@ -35,7 +37,9 @@ export function tokenGetter() {
   return sessionStorage.getItem(JWT_NAME);
 }
 
-registerLocaleData(localeEnGb);
+registerLocaleData(localeRu);
+registerLocaleData(localeEn);
+registerLocaleData(localeZhHans);
 
 export const appConfig: ApplicationConfig = {
   providers: [
