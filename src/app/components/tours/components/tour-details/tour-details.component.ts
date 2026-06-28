@@ -28,7 +28,6 @@ import { ImageService } from "../../../../services/image-service";
         CommonModule,
         AnimatedContainer,
         MenuComponent,
-        HeaderComponent,
         FooterComponent,
         GoogleMapsModule,
         MapAdvancedMarker,

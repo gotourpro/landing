@@ -15,7 +15,6 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { twMerge } from 'tailwind-merge';
 import { MenubarMobileComponent } from '../../menubar-mobile/menubar-mobile.component';
 import { LanguageControlComponent } from '../../language-control/language-control.component';
-import { KeepOpenMegaMenuDirective } from '../directives/keep-menu.directive';
 import { MegaMenuMaskDirective } from '../directives/mask-menu.directive';
 import { ConfiguratorComponent } from '../../configurator/configurator.component';
 import { DialogDrawerService } from '../../dialog-panel/dialog-panel.service';
@@ -37,7 +36,6 @@ import { MenuService } from '../services/menu.service';
         AvatarModule,
         MenubarMobileComponent,
         LanguageControlComponent,
-        KeepOpenMegaMenuDirective,
         MegaMenuMaskDirective,
         TranslateModule,
         RouterLink,
