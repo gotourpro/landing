@@ -62,7 +62,7 @@ export class LocalizationService {
     }
 
     private applyPrimeLocale(code: string) {
-        const cfg = LOCALES[code] || LOCALES['en'];
+        const cfg = LOCALES[code] || LOCALES['ru'];
         this.primeng.setTranslation({ ...cfg, dateFormat: 'dd-mm-yy' });
 
     }

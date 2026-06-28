@@ -37,7 +37,7 @@ export class LanguageControlComponent {
     constructor(
         private localization: LocalizationService,
     ) {
-        const savedLang = localStorage.getItem('app_language') || 'en';
+        const savedLang = localStorage.getItem('app_language') || 'ru';
         this.selected = this.languages.find((l: any) => l.code === savedLang) || this.languages[0];
     }
 
