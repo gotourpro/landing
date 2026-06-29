@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "name": "Emily Johnson",
+        "designation": "Traveler from Canada",
+        "content": "Our journey through Yunnan was perfectly organized. Every destination felt unique, authentic, and unforgettable.",
+        "featured": true
+    },
+    {
+        "id": "2",
+        "name": "Michael Chen",
+        "designation": "Photographer",
+        "content": "Amazing landscapes, excellent guides, and seamless planning. The entire trip exceeded our expectations.",
+        "featured": true
+    },
+    {
+        "id": "3",
+        "name": "Sophie Martin",
+        "designation": "Travel Blogger",
+        "content": "One of the best travel experiences in China. Comfortable service and wonderful cultural discoveries.",
+        "featured": true
+    }
+]

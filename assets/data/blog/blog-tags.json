@@ -1,0 +1,26 @@
+[
+    {
+        "slug": "wellness",
+        "title": {
+            "ru": "Оздоровление",
+            "en": "Wellness",
+            "zh-Hans": "康养"
+        }
+    },
+    {
+        "slug": "spa",
+        "title": {
+            "ru": "SPA",
+            "en": "SPA",
+            "zh-Hans": "水疗"
+        }
+    },
+    {
+        "slug": "dali",
+        "title": {
+            "ru": "Дали",
+            "en": "Dali",
+            "zh-Hans": "大理"
+        }
+    }
+]

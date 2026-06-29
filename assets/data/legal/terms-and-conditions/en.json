@@ -1,0 +1,91 @@
+{
+    "lastUpdated": "2026-06-19",
+    "sections": [
+        {
+            "id": "acceptance",
+            "title": "1. Acceptance of Terms",
+            "content": [
+                "By using the GoTiva website, the User confirms their agreement with these Terms and Conditions.",
+                "If the User does not agree with any provision of these Terms, they must discontinue using the website.",
+                "Continued use of the website constitutes acceptance of all applicable terms and rules."
+            ]
+        },
+        {
+            "id": "services",
+            "title": "2. Description of Services",
+            "content": [
+                "GoTiva provides information about travel destinations, tours, excursions, and related services.",
+                "Information published on the website is provided for informational purposes only and may be changed without prior notice.",
+                "Certain services may be provided by third-party partners and suppliers."
+            ]
+        },
+        {
+            "id": "booking",
+            "title": "3. Bookings and Requests",
+            "content": [
+                "Users may submit tour booking requests through forms available on the website.",
+                "Submitting a request does not guarantee confirmation of a booking.",
+                "A booking is considered confirmed only after the User receives an appropriate confirmation notice from the company."
+            ]
+        },
+        {
+            "id": "payments",
+            "title": "4. Payment for Services",
+            "content": [
+                "Prices for tours and services are displayed on the website or provided by a company representative.",
+                "Payments shall be made using the methods available at the time of placing an order.",
+                "The company reserves the right to modify service prices prior to booking confirmation."
+            ]
+        },
+        {
+            "id": "user-obligations",
+            "title": "5. User Obligations",
+            "content": [
+                "The User agrees to provide accurate and up-to-date information when submitting forms on the website.",
+                "The User shall not use the website for any unlawful activities.",
+                "The User is responsible for safeguarding their personal information and account-related data."
+            ]
+        },
+        {
+            "id": "intellectual-property",
+            "title": "6. Intellectual Property",
+            "content": [
+                "All website content, including texts, images, logos, and design elements, constitutes intellectual property.",
+                "Copying, distributing, or otherwise using website materials without the prior written permission of the rights holder is prohibited."
+            ]
+        },
+        {
+            "id": "liability",
+            "title": "7. Limitation of Liability",
+            "content": [
+                "The company shall not be liable for any losses arising from the use of or inability to use the website.",
+                "The company does not guarantee uninterrupted operation of the website or the absence of technical errors.",
+                "The company shall not be responsible for the actions of third parties or external services."
+            ]
+        },
+        {
+            "id": "third-party-links",
+            "title": "8. Links to Third-Party Resources",
+            "content": [
+                "The website may contain links to third-party websites.",
+                "The company does not control the content of such websites and is not responsible for the information published on them."
+            ]
+        },
+        {
+            "id": "changes",
+            "title": "9. Amendments to the Terms",
+            "content": [
+                "The company reserves the right to modify these Terms and Conditions at any time.",
+                "The current version of this document is published on the website and becomes effective upon publication."
+            ]
+        },
+        {
+            "id": "contact",
+            "title": "10. Contact Information",
+            "content": [
+                "For any questions regarding the use of the website, Users may contact us via email at [info@gotiva.pro](mailto:info@gotiva.pro).",
+                "The current version of the Terms and Conditions is available at: https://gotiva.pro/terms-and-conditions."
+            ]
+        }
+    ]
+}

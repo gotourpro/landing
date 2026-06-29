@@ -1,0 +1,510 @@
+{
+    "common": {},
+    "components": {
+        "topMenu": {
+            "destination": "目的地",
+            "tour": "旅游行程",
+            "about": "关于我们",
+            "blog": "博客",
+            "faq": "常见问题",
+            "contact": "联系我们"
+        },
+        "homeHero": {
+            "subtitle": "欢迎来到 GoTiva！",
+            "subtitlePrefix": "欢迎来到 GoTiva!",
+            "title": "真正的中国，从这里开始！",
+            "description": "探索大理古城、清澈如镜的洱海以及雄伟壮丽的苍山，开启一段精心设计的旅行，在舒适从容中感受真正的中国。",
+            "contactUs": "联系我们",
+            "highlight": "洱海",
+            "learnMore": "了解更多"
+        },
+        "homeDestinations": {
+            "tagline": "目的地",
+            "title": "热门目的地",
+            "description": "探索古城风貌、壮丽景观与难忘的文化体验。"
+        },
+        "homeWhyChoose": {
+            "tagline": "为什么选择我们",
+            "title": "为您和家人打造完美的旅行体验",
+            "description": "我们提供精心设计的中国深度旅行，结合个性化服务、本地专家团队和周到的行程安排。",
+            "customTours": {
+                "title": "定制行程",
+                "description": "根据您的兴趣、时间安排和旅行风格量身打造专属旅程。"
+            },
+            "expertGuides": {
+                "title": "本地专家",
+                "description": "与经验丰富的导游同行，深入了解当地文化、历史和鲜为人知的美景。"
+            },
+            "seamlessPlanning": {
+                "title": "轻松出行",
+                "description": "我们负责交通、住宿和行程安排，让您专注于享受旅途。"
+            }
+        },
+        "homeHowToWork": {
+            "tagline": "如何开始",
+            "title": "一步一步开启旅程",
+            "description": "只需几个简单步骤，即可开启探索中国壮丽风景与独特文化的难忘旅程。",
+            "steps": {
+                "selectDestination": {
+                    "title": "选择目的地",
+                    "text": "浏览我们的线路，选择您想探索的中国地区。"
+                },
+                "makeAppointment": {
+                    "title": "提交咨询",
+                    "text": "通过您方便的方式联系我们，我们将帮助您规划理想行程。"
+                },
+                "enjoyTour": {
+                    "title": "享受旅程",
+                    "text": "与经验丰富的当地向导一起，享受精心安排的精彩旅行。"
+                }
+            }
+        },
+        "homeFeaturedTours": {
+            "tagline": "精选线路",
+            "title": "最受欢迎的旅行路线",
+            "description": "探索中国最受欢迎的旅行线路，体验壮丽风景、丰富文化与难忘旅程。",
+            "featured": "推荐"
+        },
+        "homeOrganizers": {
+            "tagline": "合作伙伴",
+            "title": "携手打造独特旅行体验",
+            "description": "我们与值得信赖的本地合作伙伴共同设计真实而难忘的旅行路线，为您带来舒适且丰富的中国探索之旅。",
+            "note": "* 每个行程都会根据季节、所选地区及您的个人需求进行个性化定制。"
+        },
+        "homeBlog": {
+            "tagline": "博客文章",
+            "title": "最新文章",
+            "description": "探索旅行建议、目的地指南和文化见闻，为您的下一次中国之旅寻找灵感。"
+        },
+        "homeCta": {
+            "tagline": "机场接机服务",
+            "title": "舒适开启您的旅程",
+            "description": "提供机场接机、行李协助及舒适酒店接送服务，全天候为您服务。",
+            "badgeTitle": "24/7",
+            "badgeText": "机场接送",
+            "badgeLine1": "机场",
+            "badgeLine2": "接送",
+            "learnMore": "了解更多"
+        },
+        "notFound": {
+            "title": "哎呀！页面未找到",
+            "subtitle": "您访问的页面不存在或已被移动。",
+            "button": "返回首页"
+        },
+        "about": {
+            "title": "为什么选择 GoTiva",
+            "description": "我们专注于中国旅游，为游客提供探索著名景点、丰富文化、地道美食和独特旅行体验的机会。",
+            "travellers": "游客",
+            "whyChooseUs": {
+                "title": "为什么选择 GoTiva",
+                "description": "安心探索中国。我们精心设计旅行线路，提供本地专业服务，并在整个旅程中为您提供支持。"
+            },
+            "gallery": {
+                "tagline": "我们的相册",
+                "title": "旅途精彩瞬间",
+                "description": "探索我们中国之旅中的精彩时刻、壮丽风景和难忘体验。"
+            },
+            "stats": {
+                "travelers": "满意游客",
+                "destinations": "热门目的地",
+                "tours": "精选线路",
+                "rating": "平均评分",
+                "reviews": "真实评论"
+            },
+            "team": {
+                "tagline": "我们的团队",
+                "title": "认识我们的旅行专家",
+                "description": "我们的专业团队帮助游客探索中国，从选择合适的旅行线路到旅途中的全程支持。"
+            },
+            "advantages": {
+                "experiences": {
+                    "title": "独特旅行体验",
+                    "text": "探索中国著名景点、隐藏宝藏以及丰富多彩的本地文化。"
+                },
+                "guides": {
+                    "title": "本地专业团队",
+                    "text": "经验丰富的导游和精心规划的行程，为您带来难忘的旅行体验。"
+                },
+                "booking": {
+                    "title": "轻松预订",
+                    "text": "透明价格，无隐藏费用，快速安全地完成预订。"
+                },
+                "support": {
+                    "title": "全程支持",
+                    "text": "从出发前到旅程结束，我们的团队始终为您提供帮助。"
+                }
+            }
+        },
+        "blog": {
+            "title": "中国旅游博客",
+            "description": "关于中国旅行的实用指南、旅游建议、文化介绍和精彩文章。",
+            "loadMore": "加载更多文章",
+            "noBlogsFound": "未找到相关文章",
+            "tryAnotherCategory": "请尝试选择其他分类",
+            "allCategories": "全部",
+            "minutesShort": "分钟"
+        },
+        "tour": {
+            "title": "中国旅游线路",
+            "description": "探索精心挑选的中国旅游线路，感受著名景点、丰富文化和难忘的旅行体验。",
+            "loadMore": "加载更多线路",
+            "noToursFound": "未找到旅游产品",
+            "tryAnotherCategory": "请尝试选择其他分类",
+            "allTours": "所有旅游线路",
+            "overview": "概览",
+            "includedExcluded": "包含 / 不包含",
+            "included": "包含",
+            "excluded": "不包含",
+            "dailySchedule": "每日安排",
+            "topHighlights": "行程亮点",
+            "features": "特色项目",
+            "locations": "游览地点",
+            "treatments": "康养计划",
+            "itinerary": "行程安排",
+            "questions": "关于本次旅行的常见问题",
+            "watchVideo": "观看视频",
+            "seeMap": "查看地图",
+            "tourGuaranteed": "保证成团",
+            "daysNights": "{{days}}天 / {{nights}}晚",
+            "day": "第",
+            "excursions": "游览项目",
+            "days": "{{days}} 天",
+            "fromDays": "不少于 {{days}} 天"
+        },
+        "homeIndividualTours": {
+            "tagline": "定制旅游",
+            "title": "定制中国专属之旅",
+            "description": "根据您的兴趣、预算和旅行目标，量身定制专属行程。",
+            "destinations": {
+                "yunnan": "云南",
+                "beijing": "北京",
+                "shanghai": "上海",
+                "chengdu": "成都",
+                "harbin": "哈尔滨",
+                "shenzhen": "深圳",
+                "hainan": "海南",
+                "dali": "大理",
+                "sanya": "三亚",
+                "guangzhou": "广州"
+            },
+            "stats": {
+                "experience": "团队经验",
+                "tours": "旅游线路",
+                "travelers": "满意游客",
+                "destinations": "旅游目的地",
+                "completedTours": "已完成行程"
+            }
+        },
+        "destination": {
+            "title": "中国旅游目的地",
+            "description": "探索中国最迷人的旅游目的地，从历史古迹和现代都市到壮丽的自然景观。",
+            "loadMore": "加载更多目的地",
+            "topHighlights": "行程亮点",
+            "questions": "关于此目的地的常见问题",
+            "seeMap": "查看地图",
+            "overview": "概览",
+            "locations": "游览地点",
+            "tours": "此目的地相关行程"
+        },
+        "contact": {
+            "title": "联系我们",
+            "description": "如果您对中国旅游有任何疑问，我们很乐意为您提供帮助。",
+            "fullName": "姓名",
+            "enterName": "请输入姓名",
+            "email": "电子邮箱",
+            "enterEmail": "请输入电子邮箱",
+            "message": "留言",
+            "writeMessage": "请输入您的留言",
+            "sendMessage": "发送消息",
+            "successMessage": "您的消息已成功发送，我们将尽快与您联系。",
+            "errorMessage": "消息发送失败，请稍后再试。",
+            "validation": {
+                "required": "此字段是必需的",
+                "invalidEmail": "请输入有效的电子邮箱地址",
+                "minlength": "字段长度至少为 {{length}} 个字符"
+            }
+        },
+        "footer": {
+            "about": "探索精彩中国，体验精心设计的旅行线路、独特的文化之旅，以及前往中国著名目的地的难忘旅程。",
+            "usefulLinks": "常用链接",
+            "services": "我们的服务",
+            "legal": "法律信息",
+            "cookiePolicy": "Cookie 政策",
+            "disclaimer": "免责声明",
+            "destination": "目的地",
+            "blog": "博客",
+            "faq": "常见问题",
+            "contact": "联系我们",
+            "aboutUs": "关于我们",
+            "partnership": "合作伙伴",
+            "educationalTours": "教育研学之旅",
+            "tourPackages": "旅游套餐",
+            "womenBeautyTours": "女性美容与养生之旅",
+            "menWellnessTours": "男性健康与养生之旅",
+            "airportTransfer": "接送与陪同服务",
+            "privacyPolicy": "隐私政策",
+            "termsConditions": "条款与条件",
+            "copyright": "版权所有 ©",
+            "rightsReserved": "版权所有。"
+        },
+        "faq": {
+            "title": "常见问题",
+            "description": "我们随时为您提供帮助。在这里，您可以找到有关中国旅游线路和旅行服务的常见问题解答。"
+        },
+        "news": {
+            "underDevelopment": "网站正在开发中。"
+        },
+        "privacyPolicy": {
+            "title": "隐私政策",
+            "description": "了解我们如何收集、使用和保护您的个人信息。",
+            "lastUpdated": "最后更新"
+        },
+        "termsAndConditions": {
+            "title": "使用条款",
+            "description": "请阅读有关使用我们的网站、服务及旅游预订平台的条款和条件。",
+            "lastUpdated": "最后更新"
+        },
+        "disclaimer": {
+            "title": "免责声明",
+            "description": "有关使用本网站及责任限制的重要信息。",
+            "lastUpdated": "最后更新"
+        },
+        "cookiePolicy": {
+            "title": "Cookie 使用政策",
+            "description": "了解我们如何使用 Cookie 和类似技术来改善您在网站上的体验。",
+            "lastUpdated": "最后更新"
+        },
+        "maps": {},
+        "toast": {
+            "notfound": {
+                "nodata": {
+                    "summary": "No data available for display",
+                    "detail": "Please select a different time period."
+                }
+            }
+        }
+    },
+    "page": {
+        "policy": {
+            "meta": {
+                "title": "Privacy Policy",
+                "description": "This Privacy Policy describes how AVİTO TURİZM TİCARET LİMİTED ŞİRKETİ (hereinafter referred to as the “Company” or “We”) collects, uses, processes, and protects the personal data of users who book transfer services via the website, messengers, phone, or other channels."
+            },
+            "sections": [
+                {
+                    "title": "General Provisions",
+                    "clauses": [
+                        "This Policy applies to all data received from individuals (hereinafter referred to as “Users”) when booking transfer services.",
+                        "Data is processed in accordance with the Turkish Personal Data Protection Law (KVKK) and other applicable regulations.",
+                        "By placing a booking, the User confirms agreement with this Privacy Policy."
+                    ]
+                },
+                {
+                    "title": "Data Controller",
+                    "clauses": [
+                        "The data controller is:",
+                        "AVİTO TURİZM TİCARET LİMİTED ŞİRKETİ",
+                        "Reg. No: 208525-5",
+                        "License No: 12520",
+                        "Address: YENİŞEHİR MAH. ANKARA CAD. NO:405 İÇ KAPI NO:60, PENDİK, ISTANBUL",
+                        "Phone: +90 532 428 00 20",
+                        "Email: info@avitovip.com"
+                    ]
+                },
+                {
+                    "title": "Personal Data We Collect",
+                    "description": "We may collect the following categories of data:",
+                    "items": [
+                        "Full name of the client",
+                        "Contact details: phone number, email",
+                        "Full names of all passengers",
+                        "Trip details: date, time, route, flight number",
+                        "Any other information voluntarily provided during booking"
+                    ],
+                    "note": "Important: We do not collect or store bank card details — all payments are handled securely by third-party payment providers."
+                },
+                {
+                    "title": "Purpose of Data Processing",
+                    "description": "Personal data is processed exclusively for the following purposes:",
+                    "items": [
+                        "processing and fulfilling transfer bookings",
+                        "providing customer support",
+                        "sending confirmations, notifications, and follow-up messages",
+                        "compliance with legal requirements (e.g. tax and accounting)",
+                        "improving service quality",
+                        "collecting optional customer feedback"
+                    ]
+                },
+                {
+                    "title": "Legal Basis for Processing",
+                    "description": "Data processing is based on:",
+                    "items": [
+                        "the User’s consent",
+                        "necessity to perform a contract (transfer booking)",
+                        "Company’s legitimate interests (e.g. fraud prevention, service quality)",
+                        "legal obligations (e.g. accounting, record keeping)"
+                    ]
+                },
+                {
+                    "title": "Data Storage and Transfers",
+                    "clauses": [
+                        "All personal data is stored securely and accessed only by authorized personnel.",
+                        {
+                            "title": "Data may be shared with:",
+                            "items": [
+                                "drivers and partners involved in delivering the transfer service",
+                                "payment providers (for processing payments)",
+                                "government authorities — only as legally required"
+                            ]
+                        },
+                        "We do not share personal data with third parties for marketing without explicit consent."
+                    ]
+                },
+                {
+                    "title": "Data Retention",
+                    "description": "Personal data is retained for as long as necessary for the purposes described:",
+                    "clauses": [
+                        "typically up to 3 years after trip completion",
+                        "longer if required for accounting/tax purposes",
+                        "feedback data is stored until review is complete",
+                        "After these periods, data is securely deleted or anonymized."
+                    ]
+                },
+                {
+                    "title": "User Rights",
+                    "description": "Users have the right to:",
+                    "items": [
+                        "request information about their personal data",
+                        "request correction or deletion",
+                        "withdraw consent to processing",
+                        "restrict processing",
+                        "file a complaint with a supervisory authority"
+                    ],
+                    "note": "To exercise these rights, contact us via: info@avitovip.com"
+                },
+                {
+                    "title": "Data Security",
+                    "description": "We implement administrative, technical, and physical measures to protect personal data from:",
+                    "items": [
+                        "loss",
+                        "unauthorized access",
+                        "alteration or destruction",
+                        "unlawful disclosure"
+                    ],
+                    "note": "All information is transmitted using secure channels and modern encryption protocols."
+                },
+                {
+                    "title": "Cookies and Analytics",
+                    "clauses": [
+                        "The website may use cookies and analytics tools (e.g., Google Analytics) to collect anonymized statistics and improve service quality. Users may disable cookies in their browser settings."
+                    ]
+                },
+                {
+                    "title": "Policy Updates",
+                    "clauses": [
+                        "We reserve the right to update this Policy. The latest version will always be available at: https://avitovip.com",
+                        "Last updated: April 10, 2025"
+                    ]
+                }
+            ]
+        },
+        "terms": {
+            "meta": {
+                "title": "Offer for the Provision of Transfer Booking Services",
+                "subtitle": "",
+                "description": "This document is a public offer by AVİTO TURİZM TİCARET LİMİTED ŞİRKETİ, registration number 208525-5, located at YENİŞEHİR MAH. ANKARA CAD. NO:405 İÇ KAPI NO:60 PENDİK, ISTANBUL, Turkey, holding tourism license No. 12520, hereinafter referred to as the “Provider”, addressed to any individual or legal entity (hereinafter referred to as the “Client”) under the following terms and conditions:"
+            },
+            "sections": [
+                {
+                    "title": "Definitions",
+                    "clauses": [
+                        "<strong>Provider</strong> – AVİTO TURİZM TİCARET LİMİTED ŞİRKETİ, a company registered in Turkey and providing private transfer services under license No. 12520.",
+                        "<strong>Client</strong> – an individual or legal entity submitting a request and paying for transfer services.",
+                        "<strong>Service</strong> – the organization and provision of transportation of passengers and their luggage along a specified route and schedule.",
+                        "<strong>Booking Request</strong> – a service order made by the Client through the website, email, WhatsApp, or phone. Submission of a request implies acceptance of this Agreement.",
+                        "<strong>Voucher</strong> – a document (digital or otherwise) confirming the transfer details and payment or payment terms.",
+                        "<strong>Promo Code</strong> – a code provided by the <strong>Provider</strong> that may be entered during booking for a discount or benefit."
+                    ]
+                },
+                {
+                    "title": "Subject of the Agreement",
+                    "clauses": [
+                        "The <strong>Provider</strong> undertakes to provide the <strong>Client</strong> with private transfer services, and the Client agrees to accept and pay for the Services as per this Agreement.",
+                        "The Service includes the transportation of the <strong>Client</strong> or designated passengers and their luggage from a departure to a destination point at a pre-agreed time using a vehicle of suitable class and capacity.",
+                        "Booking may be made through the Provider’s website, email (e.g., info@avitovip.com), messengers, or phone."
+                    ]
+                },
+                {
+                    "title": "Terms of Service",
+                    "clauses": [
+                        "The <strong>Client</strong> must provide accurate and complete booking details, including: departure/destination, date and time, flight number (if applicable), number of passengers, and their names.",
+                        "Contact details (name, phone number, email) must be correct and up to date for communication and updates.",
+                        "The <strong>Provider</strong> will supply a safe, clean, and operational vehicle with a professional driver in line with the confirmed booking.",
+                        "The <strong>Client</strong> and passengers must arrive on time at the agreed pickup point. Delays caused by the Client may shorten the transfer time or lead to cancellation without compensation.",
+                        "Changes to the order (route, time, number of passengers) must be promptly communicated. The <strong>Provider</strong> will try to accommodate changes but cannot guarantee them after confirmation.",
+                        "Waiting time: Waiting time varies by location. In major airports like IST/SAW, waiting may be extended without extra charges depending on the flight. Elsewhere, free waiting may be limited (e.g., 15–60 minutes). Beyond that, additional fees may apply.",
+                        "Minors: Children under 14 must be accompanied by an adult. The <strong>Client</strong> must notify the <strong>Provider</strong> in advance and may request a child safety seat."
+                    ]
+                },
+                {
+                    "title": "Payment Terms",
+                    "clauses": [
+                        "Pricing is based on route, vehicle class, and other order parameters. The confirmed price remains fixed unless the Client changes the order.",
+                        "Payment: The <strong>Client</strong> pays either online in advance or, where permitted, in cash to the driver. Available payment methods are listed on the Provider's website or offered via support.",
+                        "Online Payment: Payments are processed by a third-party payment gateway via secure SSL and 3-D Secure technologies. The Provider does not collect or store card data. Payment is considered complete upon confirmation from the payment processor."
+                    ]
+                },
+                {
+                    "title": "Price and Payment Procedure",
+                    "clauses": [
+                        "<strong>Provider</strong>'s Liability: The <strong>Provider</strong> is liable for proper delivery of Services unless prevented by force majeure (natural disasters, government restrictions, transport issues, etc.).",
+                        "<strong>Client</strong>'s Liability: The <strong>Client</strong> is responsible for providing accurate data and complying with all terms. The Client covers any damages to the vehicle or other property caused by passengers.",
+                        "The <strong>Provider</strong> is not liable for delays or missed services caused by incorrect client information or force majeure.",
+                        "In case of delays caused by the <strong>Client</strong> (e.g., customs, luggage), the <strong>Provider</strong> may reduce service time or treat it as completed after the free waiting period."
+                    ]
+                },
+                {
+                    "title": "Privacy and Data",
+                    "clauses": [
+                        "The <strong>Provider</strong> collects personal data (names, contacts, travel details) solely to fulfill the booking. Data may be shared with drivers, partners, or payment processors as needed.",
+                        "By booking, the <strong>Client</strong> consents to data processing as per the Provider’s Privacy Policy. Consent may be withdrawn in writing.",
+                        "Data is protected using reasonable technical and organizational security measures."
+                    ]
+                },
+                {
+                    "title": "Cancellation Policy",
+                    "clauses": [
+                        "The <strong>Client</strong> may cancel the booking at least 24 hours before the scheduled pickup to receive a full refund. Later cancellations are non-refundable.",
+                        "Refunds are processed to the original payment method within 5–30 working days, depending on the payment processor and banks involved.",
+                        "The <strong>Provider</strong> may cancel a booking due to force majeure, technical issues, or legal restrictions, in which case a full refund is offered."
+                    ]
+                },
+                {
+                    "title": "Promo Codes",
+                    "clauses": [
+                        "Promo codes may be applied during booking for discounts or benefits, if still valid.",
+                        "Codes are usually valid for a limited time and may be used once unless otherwise stated. They cannot be exchanged for cash or combined unless specified.",
+                        "The <strong>Provider</strong> may change or cancel promo codes at any time."
+                    ]
+                },
+                {
+                    "title": "Final Provisions",
+                    "clauses": [
+                        "This Agreement is a public offer. Booking a transfer and/or making a payment constitutes full acceptance.",
+                        "This Agreement is governed by the laws of the Republic of Turkey.",
+                        "Disputes shall be resolved amicably or, if necessary, in a competent court at the Provider’s place of registration.",
+                        "If any provision is held invalid, the remainder shall remain in force.",
+                        "In case of discrepancies between this English version and the original Turkish version, the Turkish version shall prevail.",
+                        "Acceptance of terms and conditions: By placing an order (Application) for transfer, the Customer confirms that he has read the terms and conditions of this Agreement, understands them and accepts them in full. The Customer also confirms that he/she has the necessary legal capacity to conclude this Agreement. Receipt by the Contractor of the Application from the Customer means the acceptance by the Customer of this offer and conclusion of the Agreement on the stated conditions."
+                    ]
+                }
+            ]
+        },
+        "home": {
+            "meta": {
+                "title": "GoTiva | 中国旅游、养生与研学之旅",
+                "description": "探索中国教育、养生与文化之旅，享受机场接送、酒店协助和难忘体验。"
+            }
+        }
+    }
+}

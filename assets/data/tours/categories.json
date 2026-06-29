@@ -1,0 +1,47 @@
+[
+    {
+        "slug": "educational",
+        "title": {
+            "en": "Educational Tours",
+            "ru": "Образовательные туры",
+            "zh-Hans": "教育研学之旅"
+        },
+        "shortTitle": {
+            "en": "Education",
+            "ru": "Образование",
+            "zh-Hans": "教育游学"
+        },
+        "description": {
+            "en": "Discover China through educational and cultural programs.",
+            "ru": "Познакомьтесь с Китаем через образовательные и культурные программы.",
+            "zh-Hans": "通过教育与文化项目深入了解中国。"
+        },
+        "image": "assets/images/categories/educational.jpg"
+    },
+    {
+        "slug": "women-beauty",
+        "title": {
+            "en": "Women's Beauty Tours",
+            "ru": "Туры красоты для женщин",
+            "zh-Hans": "女性美容与养生之旅"
+        },
+        "shortTitle": {
+            "en": "For Women",
+            "ru": "Для женщин",
+            "zh-Hans": "女性专属"
+        }
+    },
+    {
+        "slug": "men-wellness",
+        "title": {
+            "en": "Men's Wellness Tours",
+            "ru": "Оздоровительные туры для мужчин",
+            "zh-Hans": "男性健康与养生之旅"
+        },
+        "shortTitle": {
+            "en": "For Men",
+            "ru": "Для мужчин",
+            "zh-Hans": "男性养生"
+        }
+    }
+]
